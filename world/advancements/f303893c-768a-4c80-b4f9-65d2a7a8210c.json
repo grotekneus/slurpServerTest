@@ -1191,6 +1191,7 @@
       "minecraft:skeleton": "2024-02-29 10:24:01 +0100",
       "minecraft:piglin": "2024-03-02 15:44:48 +0100",
       "minecraft:zombified_piglin": "2024-03-02 18:54:23 +0100",
+      "minecraft:magma_cube": "2024-03-02 19:56:42 +0100",
       "minecraft:witch": "2024-02-29 11:04:55 +0100",
       "minecraft:spider": "2024-02-29 10:29:51 +0100",
       "minecraft:zombie": "2024-02-29 10:26:13 +0100",
@@ -2145,21 +2146,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_bed": {
+  "minecraft:adventure/avoid_vibration": {
     "criteria": {
-      "has_gray_wool": "2024-03-02 18:18:08 +0100"
-    },
-    "done": true
-  },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2024-03-02 18:36:10 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bookshelf": {
-    "criteria": {
-      "has_book": "2024-03-02 18:15:32 +0100"
+      "avoid_vibration": "2024-03-02 18:04:29 +0100"
     },
     "done": true
   },
@@ -2175,27 +2164,9 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_blaze_rod": {
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template": {
     "criteria": {
-      "blaze_rod": "2024-03-02 18:34:14 +0100"
-    },
-    "done": true
-  },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_leggings": "2024-03-02 18:16:39 +0100"
-    },
-    "done": true
-  },
-  "minecraft:adventure/avoid_vibration": {
-    "criteria": {
-      "avoid_vibration": "2024-03-02 18:04:29 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/lectern": {
-    "criteria": {
-      "has_book": "2024-03-02 18:15:32 +0100"
+      "has_ward_armor_trim_smithing_template": "2024-03-02 18:12:45 +0100"
     },
     "done": true
   },
@@ -2205,15 +2176,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/blaze_powder": {
+  "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
-      "has_blaze_rod": "2024-03-02 18:34:14 +0100"
+      "has_book": "2024-03-02 18:15:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2024-03-02 18:15:32 +0100"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/chiseled_bookshelf": {
     "criteria": {
       "has_book": "2024-03-02 18:15:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2024-03-02 18:15:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2024-03-02 18:16:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2024-03-02 18:18:08 +0100"
     },
     "done": true
   },
@@ -2229,21 +2224,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/writable_book": {
+  "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
-      "has_book": "2024-03-02 18:15:32 +0100"
+      "blaze_rod": "2024-03-02 18:34:14 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/misc/ward_armor_trim_smithing_template": {
+  "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
-      "has_ward_armor_trim_smithing_template": "2024-03-02 18:12:45 +0100"
+      "has_blaze_rod": "2024-03-02 18:34:14 +0100"
     },
     "done": true
   },
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_blaze_rod": "2024-03-02 18:34:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-03-02 18:36:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2024-03-02 19:56:58 +0100"
     },
     "done": true
   },

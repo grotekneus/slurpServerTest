@@ -1,0 +1,37 @@
+#Default config for Sleeper
+
+#Main settings
+UseAnimation: true
+SkipPercentage: 25
+SkipSpeed: 100
+
+#Other settings
+BroadcastSleepInfo: false
+
+#Voting system, a night is skipped based on yes votes minus no votes
+VoteSkip: false
+YesMultiplier: 1
+NoMultiplier: 1
+SkipVotePercent: 50
+BlockBedsAfterVoting: false
+BossbarVoteCount: true
+SendVotesOnStart: true
+StartWithoutSleep: false
+
+#Messages
+SleepInfo: "&aSleep > &7%percent% (%count%) out of a minimum of 25% sleeping."
+NightSkip: "&aSleep > &7At least 25% of online users sleeping (%count%), skipping the night."
+Ignored: "&cSleep > &7You are still being ignored for sleep calculations!"
+VoteTitle: "&aSleep > &7Vote below on skipping the night:"
+VoteYes: "&a&lYes"
+VoteNo: "&c&lNo"
+VotedYes: "&aYou voted to skip the night."
+VotedNo: "&aYou voted not to skip the night."
+NoVote: "&cYour world isn't voting on a night skip."
+AlreadyYes: "&cYou have already voted yes."
+AlreadyNo: "&cYou have already voted no."
+VoteNotEnabled: "&cVoting is not enabled."
+SleepHelpList: "&cInvalid command, valid subcommands are: "
+NoPermission: "&cYou don't have permission for that."
+ListVotes: "&7Votes: &aYes: &7%yes% &cNo: &7%no%"
+SkipByVote: "&aSleep > &7The vote has decided to skip the night!"
