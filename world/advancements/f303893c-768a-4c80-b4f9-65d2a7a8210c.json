@@ -1213,6 +1213,7 @@
       "minecraft:zombie": "2024-02-29 10:26:13 +0100",
       "minecraft:creeper": "2024-02-29 10:27:16 +0100",
       "minecraft:wither": "2024-03-03 19:42:27 +0100",
+      "minecraft:zombie_villager": "2024-03-03 22:29:58 +0100",
       "minecraft:slime": "2024-02-29 10:56:24 +0100"
     },
     "done": false
@@ -2598,6 +2599,12 @@
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2024-03-03 20:12:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2024-03-03 22:44:31 +0100"
     },
     "done": true
   },
