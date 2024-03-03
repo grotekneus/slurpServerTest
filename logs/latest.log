@@ -1,16 +1,16 @@
-[11:10:26] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:10:28] [ServerMain/INFO]: Loaded 7 recipes
-[11:10:29] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[11:10:29] [Server thread/INFO]: Loading properties
-[11:10:29] [Server thread/INFO]: This server is running CraftBukkit version 4054-Spigot-e9ec548-619936d (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
-[11:10:29] [Server thread/INFO]: Debug logging is disabled
-[11:10:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:10:29] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:10:29] [Server thread/INFO]: Default game type: SURVIVAL
-[11:10:29] [Server thread/INFO]: Generating keypair
-[11:10:29] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:10:29] [Server thread/INFO]: Using default channel type
-[11:10:29] [Server thread/ERROR]: Could not load 'plugins\ImageFrame-1.7.7.0.jar' in folder 'plugins'
+[11:25:09] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:25:10] [ServerMain/INFO]: Loaded 7 recipes
+[11:25:12] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[11:25:12] [Server thread/INFO]: Loading properties
+[11:25:12] [Server thread/INFO]: This server is running CraftBukkit version 4054-Spigot-e9ec548-619936d (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
+[11:25:12] [Server thread/INFO]: Debug logging is disabled
+[11:25:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:25:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:25:12] [Server thread/INFO]: Default game type: SURVIVAL
+[11:25:12] [Server thread/INFO]: Generating keypair
+[11:25:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:25:12] [Server thread/INFO]: Using default channel type
+[11:25:12] [Server thread/ERROR]: Could not load 'plugins\ImageFrame-1.7.7.0.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: Unknown dependency ProtocolLib. Please download and install ProtocolLib to run this plugin.
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:269) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:430) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
@@ -18,158 +18,160 @@ org.bukkit.plugin.UnknownDependencyException: Unknown dependency ProtocolLib. Pl
 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1000) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[11:10:30] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+68-993d7ed
-[11:10:30] [Server thread/INFO]: [Sleeper] Loading Sleeper v1.5.1
-[11:10:30] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
-[11:10:30] [Server thread/INFO]: Preparing level "world"
-[11:10:30] [Server thread/INFO]: -------- World Settings For [world] --------
-[11:10:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:10:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:10:30] [Server thread/INFO]: Simulation Distance: 10
-[11:10:30] [Server thread/INFO]: View Distance: 15
-[11:10:30] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:10:30] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:10:30] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:10:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:10:30] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:10:30] [Server thread/INFO]: Mob Spawn Range: 6
-[11:10:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[11:10:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[11:10:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[11:10:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:10:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:10:30] [Server thread/INFO]: Max TNT Explosions: 100
-[11:10:30] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[11:10:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:10:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:10:30] [Server thread/INFO]: Simulation Distance: 10
-[11:10:30] [Server thread/INFO]: View Distance: 15
-[11:10:30] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:10:30] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:10:30] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:10:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:10:30] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:10:30] [Server thread/INFO]: Mob Spawn Range: 6
-[11:10:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[11:10:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[11:10:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[11:10:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[11:10:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:10:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:10:30] [Server thread/INFO]: Max TNT Explosions: 100
-[11:10:31] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[11:10:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:10:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:10:31] [Server thread/INFO]: Simulation Distance: 10
-[11:10:31] [Server thread/INFO]: View Distance: 15
-[11:10:31] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:10:31] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:10:31] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:10:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:10:31] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:10:31] [Server thread/INFO]: Mob Spawn Range: 6
-[11:10:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[11:10:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[11:10:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[11:10:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[11:10:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:10:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:10:31] [Server thread/INFO]: Max TNT Explosions: 100
-[11:10:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:10:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[11:10:33] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[11:10:33] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[11:10:33] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[11:10:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[11:10:33] [Worker-Main-3/INFO]: Preparing spawn area: 6%
-[11:10:34] [Server thread/INFO]: Time elapsed: 2946 ms
-[11:10:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:10:36] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[11:10:36] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[11:10:36] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[11:10:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:10:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:10:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:10:37] [Server thread/INFO]: Time elapsed: 2912 ms
-[11:10:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:10:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:10:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:10:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:10:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:10:39] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[11:10:39] [Worker-Main-5/INFO]: Preparing spawn area: 14%
-[11:10:39] [Server thread/INFO]: Time elapsed: 2754 ms
-[11:10:39] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+68-993d7ed
-[11:10:40] [Server thread/INFO]: Je gebruikt een server met beperkte API-functionaliteit. EssentialsX werkt nog steeds, maar sommige functies zijn mogelijk uitgeschakeld.
-[11:10:40] [Server thread/WARN]: Verkeerde versie! Update EssentialsChat naar dezelfde versie.
-[11:10:40] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[11:10:40] [Server thread/INFO]: No kits found to migrate.
-[11:10:40] [Server thread/WARN]: File plugins\Essentials\items.json has been modified by user and file version differs, please update the file manually.
-[11:10:40] [Server thread/INFO]: Loaded 39094 items from items.json.
-[11:10:40] [Server thread/INFO]: Using locale nl_BE
-[11:10:40] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[11:10:40] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[11:10:40] [Server thread/INFO]: Using config file enhanced permissions.
-[11:10:40] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
-[11:10:40] [Server thread/INFO]: [Sleeper] Enabling Sleeper v1.5.1
-[11:10:40] [Server thread/INFO]: [Sleeper] Sleeper Version 1.5.1 Has Been Enabled!
-[11:10:40] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
-[11:10:40] [Server thread/ERROR]: Error occurred while enabling EssentialsChat v2.17.0.0 (Is it up to date?)
+[11:25:12] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+68-993d7ed
+[11:25:12] [Server thread/INFO]: [Sleeper] Loading Sleeper v1.5.1
+[11:25:12] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
+[11:25:12] [Server thread/INFO]: Preparing level "world"
+[11:25:12] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:25:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:25:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:25:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:25:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:25:12] [Server thread/INFO]: View Distance: 15
+[11:25:12] [Server thread/INFO]: Simulation Distance: 10
+[11:25:12] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:25:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:25:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:25:12] [Server thread/INFO]: Mob Spawn Range: 6
+[11:25:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[11:25:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[11:25:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[11:25:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:25:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[11:25:13] [Server thread/INFO]: Max TNT Explosions: 100
+[11:25:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:25:13] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:25:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:25:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:25:13] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:25:13] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:25:13] [Server thread/INFO]: View Distance: 15
+[11:25:13] [Server thread/INFO]: Simulation Distance: 10
+[11:25:13] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:25:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:25:13] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:25:13] [Server thread/INFO]: Mob Spawn Range: 6
+[11:25:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[11:25:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[11:25:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[11:25:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:25:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[11:25:13] [Server thread/INFO]: Max TNT Explosions: 100
+[11:25:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:25:14] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:25:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:25:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:25:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:25:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:25:14] [Server thread/INFO]: View Distance: 15
+[11:25:14] [Server thread/INFO]: Simulation Distance: 10
+[11:25:14] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[11:25:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:25:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:25:14] [Server thread/INFO]: Mob Spawn Range: 6
+[11:25:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: Potato Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[11:25:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[11:25:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[11:25:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[11:25:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[11:25:14] [Server thread/INFO]: Max TNT Explosions: 100
+[11:25:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:25:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:25:16] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[11:25:16] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:25:16] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:25:16] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:25:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:25:16] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[11:25:17] [Worker-Main-3/INFO]: Preparing spawn area: 8%
+[11:25:17] [Server thread/INFO]: Time elapsed: 3218 ms
+[11:25:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:25:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:25:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:25:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:25:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:25:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:25:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:25:20] [Worker-Main-1/INFO]: Preparing spawn area: 87%
+[11:25:20] [Server thread/INFO]: Time elapsed: 3040 ms
+[11:25:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:25:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:25:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[11:25:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:25:22] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:25:22] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[11:25:22] [Worker-Main-4/INFO]: Preparing spawn area: 31%
+[11:25:23] [Server thread/INFO]: Time elapsed: 2750 ms
+[11:25:23] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+68-993d7ed
+[11:25:23] [Server thread/INFO]: Je gebruikt een server met beperkte API-functionaliteit. EssentialsX werkt nog steeds, maar sommige functies zijn mogelijk uitgeschakeld.
+[11:25:23] [Server thread/WARN]: Verkeerde versie! Update EssentialsChat naar dezelfde versie.
+[11:25:23] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[11:25:23] [Server thread/INFO]: No kits found to migrate.
+[11:25:23] [Server thread/WARN]: File plugins\Essentials\items.json has been modified by user and file version differs, please update the file manually.
+[11:25:23] [Server thread/INFO]: Loaded 39094 items from items.json.
+[11:25:23] [Server thread/INFO]: Using locale nl_BE
+[11:25:23] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[11:25:24] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[11:25:24] [Server thread/INFO]: Using config file enhanced permissions.
+[11:25:24] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[11:25:24] [Server thread/INFO]: [Sleeper] Enabling Sleeper v1.5.1
+[11:25:24] [Server thread/INFO]: [Sleeper] Sleeper Version 1.5.1 Has Been Enabled!
+[11:25:24] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
+[11:25:24] [Server thread/ERROR]: Error occurred while enabling EssentialsChat v2.17.0.0 (Is it up to date?)
 java.lang.NoSuchMethodError: 'java.lang.String com.earth2me.essentials.I18n.tl(java.lang.String, java.lang.Object[])'
 	at com.earth2me.essentials.chat.EssentialsChat.onEnable(EssentialsChat.java:26) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
@@ -183,21 +185,1073 @@ java.lang.NoSuchMethodError: 'java.lang.String com.earth2me.essentials.I18n.tl(j
 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1000) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[11:10:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:10:40] [Server thread/INFO]: Done (10.709s)! For help, type "help"
-[11:10:40] [Craft Scheduler Thread - 0/INFO]: §6Versie-informatie ophalen...
-[11:11:04] [Server thread/INFO]: Stopping the server
-[11:11:04] [Server thread/INFO]: Stopping server
-[11:11:04] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
-[11:11:04] [Server thread/INFO]: [Sleeper] Disabling Sleeper v1.5.1
-[11:11:04] [Server thread/INFO]: [Sleeper] Sleeper Has Been Disabled!
-[11:11:04] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+68-993d7ed
-[11:11:04] [Server thread/INFO]: Saving players
-[11:11:04] [Server thread/INFO]: Saving worlds
-[11:11:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:11:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[11:11:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[11:11:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:11:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:11:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:11:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:25:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:25:24] [Server thread/INFO]: Done (11.107s)! For help, type "help"
+[11:25:24] [Craft Scheduler Thread - 0/INFO]: §6Versie-informatie ophalen...
+[11:25:56] [User Authenticator #1/INFO]: UUID of player JMBoy is eb6f06a3-c143-4f22-ac6b-f7afc112344b
+[11:25:57] [Server thread/INFO]: JMBoy[/127.0.0.1:63463] logged in with entity id 154 at ([world]-5274.307030215896, 112.0, 2727.5417783585035)
+[11:25:58] [Server thread/INFO]: JMBoy has blessed you with his presence
+[11:27:04] [User Authenticator #2/INFO]: UUID of player transferreSP is f303893c-768a-4c80-b4f9-65d2a7a8210c
+[11:27:05] [Server thread/INFO]: transferreSP[/81.165.4.250:50506] logged in with entity id 558 at ([world]-5403.955529605264, 95.03881520987476, 2294.9699879717436)
+[11:27:05] [Server thread/INFO]: transferreSP has blessed you with his presence
+[11:28:12] [Server thread/INFO]: transferreSP was shot by Skeleton
+[11:28:27] [Server thread/INFO]: transferreSP issued server command: /home
+[11:40:14] [Server thread/INFO]: JMBoy has made the advancement [We Need to Go Deeper]
+[11:41:23] [Server thread/INFO]: JMBoy issued server command: /sethome
+[11:41:30] [Server thread/INFO]: JMBoy issued server command: /sethome
+[11:41:45] [Server thread/INFO]: JMBoy issued server command: /home
+[11:42:13] [Server thread/INFO]: JMBoy issued server command: /sethome 2
+[11:42:27] [Server thread/INFO]: JMBoy issued server command: /sethome nether
+[11:42:33] [Server thread/INFO]: JMBoy issued server command: /home
+[11:42:44] [Server thread/INFO]: JMBoy issued server command: /home
+[11:42:46] [Server thread/INFO]: JMBoy issued server command: /home home
+[11:43:06] [Server thread/INFO]: transferreSP issued server command: /sethome b
+[11:46:24] [User Authenticator #3/INFO]: UUID of player JGamesSP is d5995e78-c7cb-4d2e-aa81-a8899bd47ad5
+[11:46:24] [Server thread/INFO]: JGamesSP[/81.83.212.137:51340] logged in with entity id 10215 at ([world]-1452.0682823711159, 71.0, 908.2731748850783)
+[11:46:24] [Server thread/INFO]: ~schattie has blessed you with his presence
+[11:47:13] [Server thread/INFO]: JGamesSP issued server command: /home
+[11:47:17] [Server thread/INFO]: JGamesSP issued server command: /home bed
+[11:47:17] [Server thread/WARN]: JGamesSP moved too quickly! 5.199999988079071,1.5,-58.79550001192092
+[11:48:21] [Server thread/INFO]: JMBoy has made the advancement [Oh Shiny]
+[11:48:22] [Server thread/INFO]: JGamesSP issued server command: /home bed
+[11:48:43] [Server thread/INFO]: JMBoy has made the advancement [Who is Cutting Onions?]
+[11:51:16] [Server thread/INFO]: transferreSP issued server command: /home
+[11:51:45] [Server thread/INFO]: transferreSP lost connection: Disconnected
+[11:51:45] [Server thread/INFO]: transferreSP left the game
+[12:03:52] [Server thread/INFO]: JMBoy has made the advancement [Those Were the Days]
+[12:06:06] [Server thread/INFO]: JMBoy has made the advancement [Take Aim]
+[12:10:38] [Server thread/INFO]: JMBoy has made the advancement [War Pigs]
+[12:11:24] [User Authenticator #4/INFO]: UUID of player transferreSP is f303893c-768a-4c80-b4f9-65d2a7a8210c
+[12:11:24] [Server thread/INFO]: transferreSP[/81.165.4.250:60190] logged in with entity id 19684 at ([world]-5423.022502150153, 88.0, 2312.692645227098)
+[12:11:25] [Server thread/INFO]: transferreSP has blessed you with his presence
+[12:12:57] [Server thread/INFO]: transferreSP issued server command: /sethome
+[12:17:48] [Server thread/INFO]: JGamesSP was shot by Skeleton
+[12:17:49] [Server thread/INFO]: transferreSP has made the advancement [Those Were the Days]
+[12:19:12] [Server thread/INFO]: transferreSP was slain by Piglin Brute
+[12:19:16] [Server thread/INFO]: transferreSP issued server command: /back
+[12:21:46] [Server thread/INFO]: JGamesSP issued server command: /home
+[12:21:48] [Server thread/INFO]: JGamesSP issued server command: /home bed
+[12:21:51] [Server thread/INFO]: JGamesSP issued server command: /back
+[12:22:06] [Server thread/INFO]: JGamesSP issued server command: /op transferreSP
+[12:22:06] [Server thread/INFO]: [JGamesSP: Made transferreSP a server operator]
+[12:22:10] [Server thread/INFO]: transferreSP issued server command: /back
+[12:22:16] [Server thread/INFO]: transferreSP was slain by Piglin Brute
+[12:22:19] [Server thread/INFO]: transferreSP issued server command: /back
+[12:22:21] [Server thread/INFO]: transferreSP was slain by Piglin Brute
+[12:22:24] [Server thread/INFO]: transferreSP issued server command: /back
+[12:22:26] [Server thread/INFO]: transferreSP was slain by Piglin Brute
+[12:22:28] [Server thread/INFO]: transferreSP issued server command: /back
+[12:22:31] [Server thread/INFO]: transferreSP was slain by Piglin Brute
+[12:22:33] [Server thread/INFO]: transferreSP issued server command: /back
+[12:22:57] [Server thread/INFO]: transferreSP was slain by Piglin
+[12:23:00] [Server thread/INFO]: transferreSP issued server command: /back
+[12:23:08] [Server thread/INFO]: transferreSP was slain by Piglin Brute
+[12:23:10] [Server thread/INFO]: transferreSP issued server command: /back
+[12:23:39] [Server thread/INFO]: transferreSP has made the advancement [War Pigs]
+[12:23:53] [Server thread/INFO]: transferreSP has made the advancement [Ol' Betsy]
+[12:23:56] [Server thread/INFO]: transferreSP has made the advancement [Take Aim]
+[12:24:50] [Server thread/INFO]: transferreSP was slain by Piglin
+[12:24:53] [Server thread/INFO]: transferreSP issued server command: /back
+[12:28:30] [Server thread/INFO]: transferreSP issued server command: /home
+[12:28:33] [Server thread/INFO]: transferreSP issued server command: /delhome
+[12:28:37] [Server thread/INFO]: transferreSP issued server command: /delhome home
+[12:28:38] [Server thread/INFO]: transferreSP issued server command: /home
+[12:30:05] [Server thread/INFO]: JGamesSP was shot by Skeleton
+[12:30:15] [Server thread/INFO]: JGamesSP was slain by Zombie
+[12:31:08] [Server thread/INFO]: JGamesSP was slain by Zombie
+[12:32:09] [Server thread/INFO]: JGamesSP was slain by Zombie
+[12:33:44] [Server thread/INFO]: transferreSP issued server command: /tpa JMBoy
+[12:34:18] [Server thread/INFO]: JMBoy issued server command: /tpaccept
+[12:34:36] [Server thread/INFO]: transferreSP issued server command: /homes
+[12:34:40] [Server thread/INFO]: transferreSP issued server command: /home home
+[12:34:42] [Server thread/INFO]: transferreSP issued server command: /home bed
+[12:34:45] [Server thread/INFO]: transferreSP issued server command: /home home
+[12:34:58] [Server thread/INFO]: transferreSP issued server command: /sethome a
+[12:35:15] [Server thread/INFO]: Villager EntityVillager['Villager'/39700, l='ServerLevel[world]', x=-4896.91, y=94.00, z=3130.78] died, message: 'Villager was slain by Zombie'
+[12:37:50] [Server thread/INFO]: JMBoy issued server command: /home nether
+[12:37:50] [Server thread/WARN]: JMBoy moved too quickly! 129.81417533148954,65.0,-277.1518180432664
+[12:37:50] [Server thread/WARN]: JMBoy moved too quickly! 129.81417533148954,65.0,-277.1518180432664
+[12:37:50] [Server thread/WARN]: JMBoy moved too quickly! 129.81417533148954,65.0,-277.1518180432664
+[12:37:50] [Server thread/WARN]: JMBoy moved too quickly! 129.81417533148954,65.0,-277.1518180432664
+[12:37:50] [Server thread/WARN]: JMBoy moved too quickly! 129.81417533148954,65.0,-277.1518180432664
+[12:39:00] [Server thread/INFO]: transferreSP issued server command: /sethome b
+[12:39:02] [Server thread/INFO]: transferreSP issued server command: /home b
+[12:39:03] [Server thread/INFO]: transferreSP issued server command: /home a
+[12:39:04] [Server thread/INFO]: transferreSP issued server command: /home b
+[12:39:59] [Server thread/INFO]: JMBoy lost connection: Disconnected
+[12:39:59] [Server thread/INFO]: JMBoy left the game
+[12:44:04] [Server thread/INFO]: transferreSP issued server command: /sethome blaze
+[12:48:47] [User Authenticator #5/INFO]: UUID of player TomosChlausorius is 873bc772-4a98-4d04-9c9c-9f1e6c18ea3a
+[12:48:47] [Server thread/INFO]: TomosChlausorius[/141.135.186.1:50780] logged in with entity id 46788 at ([world]-5274.1084192903345, 111.0625, 2724.875029883788)
+[12:48:48] [Server thread/INFO]: TomosChlausorius has blessed you with his presence
+[12:57:31] [Server thread/INFO]: TomosChlausorius issued server command: /sethome
+[12:57:57] [Server thread/INFO]: transferreSP issued server command: /tpa TomosChlausorius
+[12:58:17] [Server thread/INFO]: TomosChlausorius issued server command: /sethome
+[12:58:38] [Server thread/INFO]: transferreSP issued server command: /op TomosChlausorius
+[12:58:38] [Server thread/INFO]: [transferreSP: Made TomosChlausorius a server operator]
+[12:58:42] [Server thread/INFO]: TomosChlausorius issued server command: /sethome
+[12:58:59] [Server thread/INFO]: TomosChlausorius issued server command: /sethome Roos
+[12:59:13] [Server thread/INFO]: TomosChlausorius issued server command: /sethome Roos
+[13:00:06] [User Authenticator #6/INFO]: UUID of player kleinekneus is d369188e-acdb-4f5c-92cb-6012e961125a
+[13:00:07] [Server thread/INFO]: kleinekneus[/84.195.146.229:53598] logged in with entity id 51797 at ([world]-6792.323569765192, 76.0, 2687.386790174394)
+[13:00:08] [Server thread/INFO]: kleinekneus has blessed you with his presence
+[13:04:08] [Server thread/INFO]: transferreSP issued server command: /home a
+[13:04:11] [Server thread/INFO]: transferreSP issued server command: /home b
+[13:04:11] [Server thread/WARN]: transferreSP moved too quickly! -558.9129854177445,-22.0,-797.6112927662525
+[13:05:25] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[13:07:02] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
+[13:08:17] [Server thread/INFO]: transferreSP issued server command: /home
+[13:08:19] [Server thread/INFO]: transferreSP issued server command: /home a
+[13:08:21] [Server thread/INFO]: transferreSP issued server command: /home b
+[13:08:42] [Server thread/INFO]: kleinekneus issued server command: /sethome 1
+[13:09:03] [Server thread/INFO]: kleinekneus issued server command: /tpa TomosChlausorius
+[13:09:12] [Server thread/INFO]: TomosChlausorius issued server command: /tpaccept
+[13:09:23] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[13:10:02] [Server thread/INFO]: kleinekneus issued server command: /tpa home
+[13:10:08] [Server thread/INFO]: kleinekneus issued server command: /home 1
+[13:12:44] [Server thread/INFO]: transferreSP issued server command: /home b
+[13:12:51] [Server thread/INFO]: TomosChlausorius has made the advancement [Bee Our Guest]
+[13:18:38] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[13:21:49] [User Authenticator #7/INFO]: UUID of player JMBoy is eb6f06a3-c143-4f22-ac6b-f7afc112344b
+[13:21:49] [Server thread/INFO]: JMBoy[/127.0.0.1:57404] logged in with entity id 73942 at ([world]-5275.0659898889135, 111.5625, 2723.295269934694)
+[13:21:50] [Server thread/INFO]: JMBoy has blessed you with his presence
+[13:21:53] [Server thread/INFO]: JGamesSP issued server command: /home
+[13:21:55] [Server thread/INFO]: JGamesSP issued server command: /home bed
+[13:22:08] [Server thread/INFO]: JMBoy issued server command: /fly
+[13:23:00] [Server thread/INFO]: transferreSP issued server command: /home b
+[13:24:23] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[13:30:13] [Server thread/INFO]: kleinekneus issued server command: /home 1
+[13:30:56] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[13:33:16] [Server thread/INFO]: JMBoy has made the advancement [Sneak 100]
+[13:33:21] [Server thread/INFO]: transferreSP withered away
+[13:33:26] [Server thread/INFO]: transferreSP issued server command: /back
+[13:33:37] [Server thread/INFO]: TomosChlausorius has made the advancement [Sneak 100]
+[13:34:00] [Server thread/INFO]: transferreSP has made the advancement [Spooky Scary Skeleton]
+[13:35:27] [Server thread/INFO]: TomosChlausorius has made the advancement [Not Today, Thank You]
+[13:36:46] [Server thread/INFO]: JMBoy has made the advancement [Into Fire]
+[13:37:46] [Server thread/INFO]: JGamesSP issued server command: /whisper transferreSP kan man ook gwn ni naar de end gaan?
+[13:38:43] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
+[13:38:43] [Server thread/WARN]: TomosChlausorius moved too quickly! 62.19999998807907,151.0,-201.80000001192093
+[13:39:41] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[13:39:46] [Server thread/INFO]: transferreSP issued server command: /r slechte prioriteite
+[13:40:07] [Async Chat Thread - #7/INFO]: <~schattie> wa is er nu leuk aan zo hard rushe, man is gistere om half 10 begonne
+[13:40:12] [Server thread/INFO]: transferreSP was slain by Wither Skeleton
+[13:40:15] [Server thread/INFO]: transferreSP issued server command: /back
+[13:41:22] [User Authenticator #8/INFO]: UUID of player Rein3003 is ea126310-b17f-4e89-b90a-85866c79e0de
+[13:41:22] [Server thread/INFO]: Rein3003[/84.195.206.199:56254] logged in with entity id 91501 at ([world]-5272.84567716032, 113.0, 2727.295888106933)
+[13:41:23] [Server thread/INFO]: Rein3003 has blessed you with his presence
+[13:42:57] [Server thread/INFO]: transferreSP was slain by Wither Skeleton
+[13:43:00] [Server thread/INFO]: transferreSP issued server command: /back
+[13:43:57] [Server thread/INFO]: transferreSP was slain by Wither Skeleton
+[13:44:00] [Server thread/INFO]: transferreSP issued server command: /back
+[13:45:00] [Server thread/INFO]: Rein3003 was shot by Skeleton
+[13:45:03] [Server thread/INFO]: Rein3003 issued server command: /back
+[13:46:18] [Server thread/INFO]: transferreSP issued server command: /home
+[13:46:20] [Server thread/INFO]: transferreSP issued server command: /home b
+[13:46:59] [Server thread/INFO]: transferreSP issued server command: /tpa kleinekneus
+[13:47:06] [Server thread/INFO]: kleinekneus issued server command: /tpaccept
+[13:47:48] [Server thread/INFO]: transferreSP issued server command: /home b
+[13:50:03] [Server thread/INFO]: transferreSP issued server command: /home b
+[13:50:22] [Server thread/INFO]: transferreSP issued server command: /home a
+[13:51:16] [Server thread/INFO]: transferreSP issued server command: /delhome b
+[13:51:17] [Server thread/INFO]: transferreSP issued server command: /sethome b
+[13:51:25] [Server thread/INFO]: transferreSP issued server command: /home a
+[13:51:29] [Server thread/INFO]: transferreSP issued server command: /home b
+[13:51:39] [Server thread/INFO]: transferreSP issued server command: /home b
+[13:51:41] [Server thread/INFO]: transferreSP issued server command: /home a
+[13:51:52] [Server thread/INFO]: transferreSP issued server command: /tpa TomosChlausorius
+[13:52:16] [Server thread/INFO]: JMBoy has completed the challenge [Return to Sender]
+[13:56:25] [Server thread/INFO]: transferreSP issued server command: /home b
+[13:56:27] [Server thread/INFO]: transferreSP issued server command: /back
+[13:56:31] [Server thread/INFO]: transferreSP issued server command: /home a
+[13:56:33] [Server thread/INFO]: transferreSP issued server command: /back
+[13:56:35] [Server thread/INFO]: transferreSP issued server command: /delhome a
+[13:56:39] [Server thread/INFO]: transferreSP issued server command: /sethome a
+[13:57:12] [Server thread/INFO]: transferreSP issued server command: /home b
+[13:57:35] [Server thread/INFO]: JMBoy lost connection: Disconnected
+[13:57:35] [Server thread/INFO]: JMBoy left the game
+[13:57:38] [Server thread/INFO]: TomosChlausorius lost connection: Disconnected
+[13:57:38] [Server thread/INFO]: TomosChlausorius left the game
+[13:58:59] [User Authenticator #9/INFO]: UUID of player TomosChlausorius is 873bc772-4a98-4d04-9c9c-9f1e6c18ea3a
+[13:58:59] [Server thread/INFO]: TomosChlausorius[/141.135.186.1:52607] logged in with entity id 117201 at ([world_nether]-611.4480639463759, 58.0, 100.94806680223485)
+[13:58:59] [Server thread/INFO]: TomosChlausorius has blessed you with his presence
+[13:59:32] [Server thread/INFO]: TomosChlausorius issued server command: /fly
+[13:59:35] [Server thread/INFO]: JGamesSP issued server command: /ops
+[13:59:42] [User Authenticator #10/INFO]: UUID of player StupidChair121 is 7c677ab5-549c-4034-b4af-79f15a2badd8
+[13:59:42] [Server thread/INFO]: Created a User for StupidChair121 (7c677ab5-549c-4034-b4af-79f15a2badd8) for non Bukkit type: org.bukkit.craftbukkit.v1_20_R3.entity.CraftPlayer
+[13:59:42] [Server thread/INFO]: StupidChair121[/84.194.57.89:51229] logged in with entity id 118078 at ([world]-2969.5, 146.0, 267.5)
+[13:59:42] [Server thread/INFO]: StupidChair121 has blessed you with his presence
+[13:59:59] [Server thread/INFO]: JGamesSP issued server command: /whisper transferreSP wie is er allemaal op ondertusse dan?!
+[14:00:16] [Server thread/INFO]: transferreSP issued server command: /r pex ik en tom heb ik geopped zoda die meer dan 1 home kon zette
+[14:00:20] [Async Chat Thread - #10/INFO]: <Rein3003> -5330 107 2711
+[14:00:24] [Server thread/INFO]: transferreSP issued server command: /r ma hoe doet ge die rank zever
+[14:00:40] [Async Chat Thread - #9/INFO]: <~schattie> in de config files van essentials
+[14:00:57] [Async Chat Thread - #10/INFO]: <Rein3003> BANAAN
+[14:01:01] [Server thread/INFO]: StupidChair121 has made the advancement [We Need to Go Deeper]
+[14:01:08] [Server thread/INFO]: JGamesSP issued server command: /whisper transferreSP ja zo ma dan moe die de server afsluite en een van ons die opstarte
+[14:01:22] [Server thread/INFO]: transferreSP issued server command: /r moet toch een command voor zijn
+[14:01:26] [Server thread/INFO]: StupidChair121 issued server command: /tpa TomosChlausorius
+[14:01:27] [Server thread/INFO]: transferreSP issued server command: /r da iedereen vip rank krijgt fzo
+[14:01:37] [Server thread/INFO]: Rein3003 has made the advancement [Sweet Dreams]
+[14:01:45] [Server thread/INFO]: JGamesSP issued server command: /whisper transferreSP kzal is zien
+[14:03:28] [Server thread/INFO]: kleinekneus lost connection: Disconnected
+[14:03:28] [Server thread/INFO]: kleinekneus left the game
+[14:04:21] [User Authenticator #11/INFO]: UUID of player kleinekneus is d369188e-acdb-4f5c-92cb-6012e961125a
+[14:04:22] [Server thread/INFO]: kleinekneus[/84.195.146.229:57722] logged in with entity id 123959 at ([world]-7160.699999988079, 107.0, 2944.4629320316203)
+[14:04:22] [Server thread/INFO]: kleinekneus has blessed you with his presence
+[14:04:48] [Server thread/INFO]: kleinekneus lost connection: Disconnected
+[14:04:48] [Server thread/INFO]: kleinekneus left the game
+[14:06:32] [User Authenticator #12/INFO]: UUID of player kleinekneus is d369188e-acdb-4f5c-92cb-6012e961125a
+[14:06:33] [Server thread/INFO]: kleinekneus[/84.195.146.229:58025] logged in with entity id 126395 at ([world]-7160.699999988079, 107.0, 2944.4629320316203)
+[14:06:33] [Server thread/INFO]: kleinekneus has blessed you with his presence
+[14:07:50] [Server thread/INFO]: TomosChlausorius withered away while fighting Wither Skeleton
+[14:07:57] [Server thread/INFO]: TomosChlausorius issued server command: /back
+[14:09:24] [Server thread/INFO]: transferreSP issued server command: /home b
+[14:09:25] [Server thread/INFO]: transferreSP issued server command: /home a
+[14:09:36] [Server thread/INFO]: transferreSP issued server command: /back
+[14:10:01] [Server thread/INFO]: StupidChair121 has made the advancement [Stone Age]
+[14:10:06] [Server thread/INFO]: Villager EntityVillager['Cartographer'/125711, l='ServerLevel[world]', x=-3716.58, y=63.00, z=13.28] died, message: 'Cartographer was slain by Zombie'
+[14:10:45] [Server thread/INFO]: StupidChair121 has made the advancement [Acquire Hardware]
+[14:13:01] [Server thread/INFO]: StupidChair121 has made the advancement [Getting an Upgrade]
+[14:13:27] [Server thread/INFO]: StupidChair121 has made the advancement [Sweet Dreams]
+[14:14:48] [Server thread/INFO]: StupidChair121 has made the advancement [Monster Hunter]
+[14:14:54] [Server thread/INFO]: JGamesSP was slain by Zombie
+[14:15:03] [Server thread/INFO]: JGamesSP issued server command: /time set day
+[14:15:42] [Server thread/INFO]: transferreSP issued server command: /home b
+[14:15:46] [Server thread/INFO]: transferreSP issued server command: /home a
+[14:16:52] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[14:17:09] [Server thread/INFO]: JGamesSP issued server command: /depth
+[14:17:22] [Server thread/INFO]: kleinekneus issued server command: /depth
+[14:17:23] [Server thread/INFO]: transferreSP issued server command: /depth
+[14:20:09] [Server thread/INFO]: StupidChair121 has made the advancement [Ice Bucket Challenge]
+[14:24:25] [Server thread/INFO]: transferreSP withered away
+[14:24:28] [Server thread/INFO]: transferreSP issued server command: /back
+[14:25:00] [Server thread/INFO]: kleinekneus issued server command: /home
+[14:28:22] [Server thread/INFO]: transferreSP was burned to a crisp while fighting Blaze
+[14:28:26] [Server thread/INFO]: transferreSP issued server command: /back
+[14:30:31] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[14:31:16] [Server thread/INFO]: TomosChlausorius lost connection: Disconnected
+[14:31:16] [Server thread/INFO]: TomosChlausorius left the game
+[14:31:36] [User Authenticator #13/INFO]: UUID of player TomosChlausorius is 873bc772-4a98-4d04-9c9c-9f1e6c18ea3a
+[14:31:36] [Server thread/INFO]: TomosChlausorius[/141.135.186.1:53529] logged in with entity id 161224 at ([world_nether]-618.3000000119209, 57.0, 50.25182522739737)
+[14:31:36] [Server thread/INFO]: TomosChlausorius has blessed you with his presence
+[14:32:56] [Server thread/INFO]: TomosChlausorius was slain by Wither Skeleton
+[14:33:00] [Server thread/INFO]: TomosChlausorius issued server command: /back
+[14:33:13] [Server thread/INFO]: transferreSP issued server command: /home a
+[14:33:25] [Server thread/INFO]: transferreSP issued server command: /back
+[14:33:46] [Server thread/INFO]: transferreSP withered away while fighting Blaze
+[14:33:48] [Server thread/INFO]: transferreSP issued server command: /back
+[14:34:50] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[14:36:12] [Server thread/INFO]: TomosChlausorius was burned to a crisp while fighting Blaze
+[14:36:17] [Server thread/INFO]: TomosChlausorius issued server command: /back
+[14:36:31] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
+[14:37:17] [Server thread/INFO]: StupidChair121 has made the advancement [Diamonds!]
+[14:38:02] [Server thread/INFO]: StupidChair121 has made the advancement [Isn't It Iron Pick]
+[14:39:21] [Server thread/INFO]: TomosChlausorius issued server command: /tpa Rein3003
+[14:39:22] [Server thread/INFO]: StupidChair121 has made the advancement [Hidden in the Depths]
+[14:39:26] [Server thread/INFO]: Rein3003 issued server command: /tpaccept
+[14:39:37] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
+[14:41:15] [Server thread/INFO]: TomosChlausorius was shot by Skeleton
+[14:41:21] [Server thread/INFO]: TomosChlausorius issued server command: /back
+[14:41:44] [Server thread/INFO]: kleinekneus issued server command: /home
+[14:42:27] [Server thread/INFO]: transferreSP issued server command: /home a
+[14:43:05] [Server thread/INFO]: transferreSP issued server command: /back
+[14:43:34] [Server thread/INFO]: TomosChlausorius lost connection: Disconnected
+[14:43:34] [Server thread/INFO]: TomosChlausorius left the game
+[14:43:38] [Server thread/INFO]: transferreSP was burned to a crisp while fighting Blaze
+[14:43:41] [Server thread/INFO]: transferreSP issued server command: /back
+[14:44:13] [User Authenticator #14/INFO]: UUID of player TomosChlausorius is 873bc772-4a98-4d04-9c9c-9f1e6c18ea3a
+[14:44:13] [Server thread/INFO]: TomosChlausorius[/141.135.186.1:53888] logged in with entity id 176229 at ([world]-5276.8307330029875, 112.875, 2725.394058002559)
+[14:44:13] [Server thread/INFO]: TomosChlausorius has blessed you with his presence
+[14:44:17] [Server thread/INFO]: TomosChlausorius issued server command: /tpa Rein3003
+[14:44:24] [Server thread/INFO]: Rein3003 issued server command: /tpaccept
+[14:44:33] [Server thread/INFO]: transferreSP was doomed to fall
+[14:44:37] [Server thread/INFO]: transferreSP issued server command: /back
+[14:44:39] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[14:44:43] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
+[14:45:36] [Server thread/INFO]: transferreSP was burned to a crisp while fighting Blaze
+[14:45:39] [Server thread/INFO]: transferreSP issued server command: /back
+[14:45:51] [Server thread/INFO]: transferreSP was fireballed by Blaze
+[14:45:53] [Server thread/INFO]: transferreSP issued server command: /back
+[14:46:36] [Server thread/INFO]: transferreSP was burned to a crisp while fighting Blaze
+[14:46:39] [Server thread/INFO]: TomosChlausorius lost connection: Disconnected
+[14:46:39] [Server thread/INFO]: TomosChlausorius left the game
+[14:46:42] [Server thread/INFO]: transferreSP issued server command: /back
+[14:46:53] [Server thread/INFO]: transferreSP was slain by Blaze
+[14:46:56] [Server thread/INFO]: transferreSP issued server command: /back
+[14:47:01] [Server thread/INFO]: transferreSP was slain by Wither Skeleton
+[14:47:04] [Server thread/INFO]: transferreSP issued server command: /back
+[14:47:10] [Server thread/INFO]: transferreSP was slain by Wither Skeleton
+[14:47:12] [Server thread/INFO]: transferreSP issued server command: /back
+[14:48:03] [Server thread/INFO]: transferreSP issued server command: /home a
+[14:48:30] [Server thread/INFO]: transferreSP issued server command: /back
+[14:50:06] [Server thread/INFO]: transferreSP issued server command: /msg JGamesSP lowkey
+[14:50:11] [Server thread/INFO]: transferreSP issued server command: /msg JGamesSP skulls zijn onvindbaar
+[14:50:32] [Server thread/INFO]: transferreSP issued server command: /home a
+[14:50:40] [Server thread/INFO]: transferreSP issued server command: /back
+[14:51:32] [Server thread/INFO]: transferreSP was burned to a crisp while fighting Blaze
+[14:51:34] [Server thread/INFO]: transferreSP issued server command: /back
+[14:53:29] [Server thread/INFO]: transferreSP withered away while fighting Wither Skeleton
+[14:53:32] [Server thread/INFO]: transferreSP issued server command: /back
+[14:56:57] [Server thread/INFO]: transferreSP was burned to a crisp while fighting Wither Skeleton
+[14:57:00] [Server thread/INFO]: transferreSP issued server command: /back
+[14:57:16] [Server thread/INFO]: kleinekneus lost connection: Disconnected
+[14:57:16] [Server thread/INFO]: kleinekneus left the game
+[14:57:20] [Server thread/INFO]: transferreSP issued server command: / home
+[14:57:20] [Server thread/INFO]: transferreSP issued server command: /home
+[14:57:21] [Server thread/INFO]: transferreSP tried to swim in lava to escape Magma Cube
+[14:58:00] [Server thread/INFO]: transferreSP issued server command: /delhome a
+[14:58:02] [Server thread/INFO]: transferreSP issued server command: /sethome home
+[14:58:06] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[14:58:25] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[14:58:39] [Server thread/INFO]: transferreSP was slain by Wither Skeleton
+[14:58:43] [Server thread/INFO]: transferreSP issued server command: /back
+[14:58:51] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[14:58:57] [Server thread/INFO]: transferreSP issued server command: /home home
+[15:00:00] [Server thread/INFO]: transferreSP issued server command: /tpa StupidChair121
+[15:01:50] [Server thread/INFO]: JGamesSP issued server command: /invsee StupidChair121
+[15:02:08] [Server thread/INFO]: transferreSP issued server command: /invsee StupidChair121
+[15:02:24] [Server thread/INFO]: transferreSP issued server command: /gamemode spectator
+[15:02:26] [Server thread/INFO]: transferreSP issued server command: /tp StupidChair121
+[15:02:41] [Server thread/INFO]: JGamesSP issued server command: /whisper transferreSP gaat in spectator XD
+[15:02:41] [Server thread/INFO]: transferreSP issued server command: /gamemode survival
+[15:02:53] [Server thread/INFO]: transferreSP issued server command: /r heeft het ni in zn inventory
+[15:03:00] [Server thread/INFO]: transferreSP issued server command: /fly
+[15:03:07] [Server thread/INFO]: JGamesSP issued server command: /r transferreSP ja mmmh en in zn cheste
+[15:03:14] [Server thread/INFO]: transferreSP issued server command: /fly
+[15:03:19] [Server thread/INFO]: JGamesSP issued server command: /gamemode spectator
+[15:03:29] [Server thread/INFO]: JGamesSP issued server command: /gamemode spectator
+[15:03:32] [Server thread/INFO]: JGamesSP issued server command: /gamemode survival
+[15:03:37] [Server thread/INFO]: JGamesSP issued server command: /gamemode spectator
+[15:03:40] [Server thread/INFO]: JGamesSP issued server command: /tp StupidChair121
+[15:04:26] [Server thread/INFO]: JGamesSP issued server command: /whisper transferreSP kheb ook uitstaan da als ge bv /gamemode fz doet da de andere ops da ni zien
+[15:04:30] [Server thread/INFO]: transferreSP issued server command: /echest StupidChair121
+[15:04:31] [Server thread/INFO]: JGamesSP issued server command: /echest StupidChair121
+[15:04:38] [Server thread/INFO]: JGamesSP issued server command: /invsee StupidChair121
+[15:04:45] [Server thread/INFO]: transferreSP issued server command: /r k kheb mn shit
+[15:04:53] [Server thread/INFO]: transferreSP issued server command: /home home
+[15:04:59] [Server thread/INFO]: transferreSP issued server command: /echest
+[15:05:07] [Server thread/INFO]: Rein3003 was blown up by Creeper
+[15:05:10] [Server thread/INFO]: Rein3003 issued server command: /tpaccept
+[15:05:13] [Server thread/INFO]: transferreSP issued server command: /echest StupidChair121
+[15:05:13] [Server thread/INFO]: Rein3003 issued server command: /back
+[15:05:23] [Server thread/INFO]: JGamesSP issued server command: /r waar wast?
+[15:05:23] [Server thread/INFO]: transferreSP issued server command: /invsee StupidChair121
+[15:05:28] [Server thread/INFO]: transferreSP issued server command: /r in zn echest idd
+[15:05:36] [Server thread/INFO]: JGamesSP issued server command: /r smh
+[15:05:55] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[15:06:06] [Server thread/INFO]: transferreSP issued server command: /afk
+[15:06:17] [Server thread/INFO]: Rein3003 issued server command: /afk
+[15:06:20] [Server thread/INFO]: JGamesSP issued server command: /warps
+[15:06:27] [Server thread/INFO]: JGamesSP issued server command: /home
+[15:06:29] [Server thread/INFO]: JGamesSP issued server command: /home bed
+[15:06:37] [Server thread/INFO]: JGamesSP issued server command: /gamemode survival
+[15:06:52] [Server thread/INFO]: JGamesSP issued server command: /online
+[15:06:59] [Server thread/INFO]: StupidChair121 issued server command: /waro
+[15:07:01] [Server thread/INFO]: StupidChair121 issued server command: /warp
+[15:07:35] [Server thread/INFO]: transferreSP issued server command: /home b
+[15:07:37] [Server thread/INFO]: transferreSP issued server command: /home a
+[15:07:39] [Server thread/INFO]: transferreSP issued server command: /home
+[15:07:41] [Server thread/INFO]: transferreSP issued server command: /home home
+[15:07:41] [Server thread/WARN]: transferreSP moved too quickly! -695.0,5.0,-813.0
+[15:07:58] [Server thread/INFO]: transferreSP issued server command: /r ik weet wel ni of die nog meer genakt heeft
+[15:08:16] [Server thread/INFO]: transferreSP issued server command: /echest
+[15:08:24] [Server thread/INFO]: transferreSP issued server command: /invsee StupidChair121
+[15:08:25] [Server thread/INFO]: JGamesSP issued server command: /whisper transferreSP ja ge kunt zien wa die heeft he, alles behalve nrm chest kunt ge zien me commands
+[15:08:34] [Server thread/INFO]: transferreSP issued server command: /r ja idd
+[15:08:45] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[15:09:12] [Server thread/INFO]: JGamesSP issued server command: /whisper transferreSP kom hier wone, das een stuk verder weg van nege
+[15:09:31] [Server thread/INFO]: transferreSP issued server command: /r lowkey though?
+[15:09:34] [Server thread/INFO]: transferreSP issued server command: /tpa JGamesSP
+[15:09:37] [Server thread/INFO]: JGamesSP issued server command: /tpa transferreSP
+[15:09:41] [Server thread/INFO]: JGamesSP issued server command: /r oop
+[15:09:43] [Server thread/INFO]: JGamesSP issued server command: /tpyes
+[15:10:07] [Server thread/INFO]: JGamesSP issued server command: /r of hier in de buurt in het algemeen
+[15:11:06] [Server thread/INFO]: transferreSP issued server command: /r mhm ma ik had wel net een mooi plekje gekozen eig
+[15:11:13] [Server thread/INFO]: JGamesSP issued server command: /r laat zien
+[15:11:15] [Server thread/INFO]: JGamesSP issued server command: /tpa transferreSP
+[15:11:17] [Server thread/INFO]: transferreSP issued server command: /home b
+[15:11:26] [Server thread/INFO]: JGamesSP issued server command: /tpacancel
+[15:11:30] [Server thread/INFO]: JGamesSP issued server command: /tpa transferreSP
+[15:11:34] [Server thread/INFO]: transferreSP issued server command: /tpaccept
+[15:11:51] [Server thread/INFO]: JGamesSP issued server command: /r dees is wel echt fkn nicee me die sneeuw ook
+[15:11:59] [Server thread/INFO]: transferreSP issued server command: /r ja en dan aan beide kante me die blossom
+[15:12:10] [Server thread/INFO]: JGamesSP issued server command: /r en hoever is dit van nege
+[15:12:30] [Server thread/INFO]: transferreSP issued server command: /r ni ver genoeg
+[15:13:36] [Server thread/INFO]: transferreSP issued server command: /r daar die boime
+[15:13:44] [Server thread/INFO]: JGamesSP issued server command: /r mmh ja das ni heel ver
+[15:14:04] [Server thread/INFO]: JGamesSP issued server command: /r wete die waar gij zit exact
+[15:14:09] [Server thread/INFO]: transferreSP issued server command: /r kom slurpers
+[15:14:44] [Server thread/INFO]: transferreSP issued server command: /home b
+[15:14:46] [Server thread/INFO]: transferreSP issued server command: /home
+[15:14:48] [Server thread/INFO]: transferreSP issued server command: /home home
+[15:14:49] [Server thread/INFO]: JGamesSP issued server command: /tp transferreSP
+[15:14:49] [Server thread/WARN]: JGamesSP moved too quickly! -342.2908057398645,-28.0,-667.662761404265
+[15:14:50] [Server thread/INFO]: transferreSP issued server command: /tpaccept
+[15:15:36] [Server thread/INFO]: transferreSP issued server command: /echest
+[15:15:43] [Server thread/INFO]: transferreSP issued server command: /echest
+[15:15:49] [Server thread/INFO]: transferreSP issued server command: /echest
+[15:15:57] [Server thread/INFO]: transferreSP issued server command: /echest
+[15:16:00] [Server thread/INFO]: transferreSP issued server command: /echest
+[15:16:02] [Server thread/INFO]: JGamesSP issued server command: /echest
+[15:16:04] [Server thread/INFO]: transferreSP issued server command: /echest
+[15:16:16] [Server thread/INFO]: transferreSP issued server command: /echest
+[15:16:19] [Server thread/INFO]: JGamesSP issued server command: /home
+[15:16:23] [Server thread/INFO]: JGamesSP issued server command: /home home
+[15:16:34] [Server thread/INFO]: transferreSP issued server command: /echest
+[15:19:10] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[15:20:17] [Server thread/INFO]: StupidChair121 lost connection: Disconnected
+[15:20:17] [Server thread/INFO]: StupidChair121 left the game
+[15:23:30] [User Authenticator #15/INFO]: UUID of player TomosChlausorius is 873bc772-4a98-4d04-9c9c-9f1e6c18ea3a
+[15:23:30] [Server thread/INFO]: TomosChlausorius[/141.135.186.1:55026] logged in with entity id 209325 at ([world]-5274.988799592269, 111.5625, 2723.071319931404)
+[15:23:30] [Server thread/INFO]: TomosChlausorius has blessed you with his presence
+[15:23:35] [Async Chat Thread - #16/INFO]: <transferreSP> hey jan
+[15:23:42] [Server thread/INFO]: TomosChlausorius issued server command: /fly
+[15:23:53] [Async Chat Thread - #15/INFO]: <TomosChlausorius> dag ferre
+[15:24:03] [Server thread/INFO]: transferreSP issued server command: /echest
+[15:27:56] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
+[15:29:29] [Server thread/INFO]: Rein3003 has made the advancement [Enchanter]
+[15:36:12] [Server thread/INFO]: Rein3003 has made the advancement [What a Deal!]
+[15:37:07] [Server thread/INFO]: transferreSP issued server command: /home
+[15:37:09] [Server thread/INFO]: transferreSP issued server command: /home home
+[15:37:16] [Server thread/INFO]: transferreSP issued server command: /delhome home
+[15:37:17] [Server thread/INFO]: transferreSP issued server command: /sethome
+[15:37:19] [Server thread/INFO]: transferreSP issued server command: /home
+[15:37:20] [Server thread/INFO]: transferreSP issued server command: /home
+[15:37:22] [Server thread/INFO]: transferreSP issued server command: /home home
+[15:37:36] [Server thread/INFO]: transferreSP issued server command: /ECHEST
+[15:37:41] [Server thread/INFO]: transferreSP issued server command: /echest
+[15:38:34] [Server thread/INFO]: transferreSP issued server command: /home b
+[15:40:27] [Server thread/INFO]: transferreSP issued server command: /home home
+[15:40:35] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[15:45:43] [Server thread/INFO]: transferreSP issued server command: /home
+[15:45:44] [Server thread/INFO]: transferreSP issued server command: /home home
+[15:45:56] [Server thread/INFO]: transferreSP issued server command: /echest
+[15:46:02] [Server thread/INFO]: transferreSP issued server command: /echest
+[15:46:33] [Server thread/INFO]: transferreSP issued server command: /msg JGamesSP WAAROM KUNT GE FORTUNE KRIJGEN OP EEN AXE
+[15:46:39] [Server thread/INFO]: transferreSP issued server command: /msg JGamesSP WA IS HET NUT
+[15:46:43] [Server thread/INFO]: Villager EntityVillager['Villager'/211158, l='ServerLevel[world]', x=-1456.70, y=62.00, z=943.30] died, message: 'Villager suffocated in a wall'
+[15:51:49] [Server thread/INFO]: transferreSP issued server command: /home a
+[15:51:51] [Server thread/INFO]: transferreSP issued server command: /home home
+[15:52:49] [Server thread/INFO]: transferreSP issued server command: /home b
+[15:56:02] [Server thread/INFO]: transferreSP issued server command: /home home
+[15:56:14] [Server thread/INFO]: transferreSP issued server command: /echest
+[15:56:16] [Server thread/INFO]: transferreSP issued server command: /back
+[15:56:22] [Server thread/INFO]: transferreSP issued server command: /home b
+[15:56:25] [Server thread/INFO]: Rein3003 issued server command: /afk
+[15:56:31] [Server thread/INFO]: transferreSP issued server command: /me ook
+[15:56:37] [Async Chat Thread - #18/INFO]: <transferreSP> ah ik ben rood
+[15:56:41] [Async Chat Thread - #17/INFO]: <transferreSP> waarom ben ik rood
+[15:56:44] [Async Chat Thread - #18/INFO]: <Rein3003> wrm zijt gij rood?
+[15:56:56] [Async Chat Thread - #17/INFO]: <Rein3003> wrs omdat ge op hebd
+[15:56:56] [Server thread/INFO]: JGamesSP issued server command: /me slaapt
+[15:57:39] [Server thread/INFO]: Rein3003 issued server command: /sethome
+[15:58:33] [Server thread/INFO]: transferreSP issued server command: /HOME HOME
+[15:58:34] [Server thread/INFO]: transferreSP issued server command: /home home
+[15:58:34] [Server thread/WARN]: transferreSP moved too quickly! -588.2153835858762,-29.0,-791.0600731123009
+[15:59:11] [Server thread/INFO]: transferreSP issued server command: /BACK
+[15:59:12] [Server thread/INFO]: transferreSP issued server command: /back
+[15:59:54] [Server thread/INFO]: Rein3003 lost connection: Disconnected
+[15:59:54] [Server thread/INFO]: Rein3003 left the game
+[16:00:28] [Server thread/INFO]: transferreSP issued server command: /home
+[16:00:30] [Server thread/INFO]: transferreSP issued server command: /home home
+[16:00:43] [Server thread/INFO]: TomosChlausorius issued server command: /sethome Nether Mine
+[16:00:51] [Server thread/INFO]: TomosChlausorius issued server command: /sethome NetherMine
+[16:00:56] [Server thread/INFO]: transferreSP issued server command: /echest
+[16:01:38] [Async Chat Thread - #20/INFO]: <TomosChlausorius> ey ferre
+[16:01:41] [Async Chat Thread - #19/INFO]: <TomosChlausorius> geen call
+[16:01:42] [Async Chat Thread - #20/INFO]: <transferreSP> ey
+[16:01:43] [Async Chat Thread - #19/INFO]: <transferreSP> ?
+[16:01:56] [Async Chat Thread - #20/INFO]: <transferreSP> geen call
+[16:01:57] [Async Chat Thread - #19/INFO]: <transferreSP> wut
+[16:02:09] [Async Chat Thread - #20/INFO]: <transferreSP> ah nee
+[16:02:20] [Async Chat Thread - #19/INFO]: <TomosChlausorius> kom call
+[16:02:29] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[16:02:30] [Async Chat Thread - #19/INFO]: <transferreSP> hzo
+[16:02:35] [Async Chat Thread - #20/INFO]: <TomosChlausorius> gezellig
+[16:02:37] [Async Chat Thread - #19/INFO]: <transferreSP> ik zit me jules in private
+[16:02:56] [Async Chat Thread - #20/INFO]: <transferreSP> dus is gucci
+[16:03:20] [Server thread/INFO]: Villager EntityVillager['Villager'/204219, l='ServerLevel[world]', x=-1415.22, y=63.00, z=978.48] died, message: 'Villager was slain by Zombie'
+[16:04:07] [Async Chat Thread - #22/INFO]: <TomosChlausorius> jan is net terug
+[16:04:15] [Async Chat Thread - #21/INFO]: <transferreSP> jaaaan
+[16:06:08] [Server thread/INFO]: transferreSP issued server command: /back
+[16:06:48] [Server thread/INFO]: transferreSP has made the advancement [Best Friends Forever]
+[16:06:50] [Server thread/INFO]: transferreSP issued server command: /echest
+[16:09:02] [Server thread/INFO]: transferreSP issued server command: /back
+[16:09:07] [Server thread/INFO]: transferreSP issued server command: /home b
+[16:09:46] [User Authenticator #16/INFO]: UUID of player JMBoy is eb6f06a3-c143-4f22-ac6b-f7afc112344b
+[16:09:46] [Server thread/INFO]: JMBoy[/127.0.0.1:56243] logged in with entity id 243074 at ([world_nether]-469.5098692409194, 40.0, 706.0168820534934)
+[16:09:47] [Server thread/INFO]: JMBoy has blessed you with his presence
+[16:09:52] [Async Chat Thread - #24/INFO]: <transferreSP> yoooeww
+[16:10:10] [Async Chat Thread - #23/INFO]: <JMBoy> kom call
+[16:10:14] [Async Chat Thread - #23/INFO]: <JMBoy> -_-
+[16:10:20] [User Authenticator #17/INFO]: UUID of player kleinekneus is d369188e-acdb-4f5c-92cb-6012e961125a
+[16:10:21] [Server thread/INFO]: kleinekneus[/84.195.146.229:49349] logged in with entity id 243586 at ([world]-6735.397529715705, 75.0, 2685.147248850511)
+[16:10:21] [Server thread/INFO]: kleinekneus has blessed you with his presence
+[16:10:27] [Server thread/INFO]: kleinekneus lost connection: Disconnected
+[16:10:27] [Server thread/INFO]: kleinekneus left the game
+[16:10:28] [Server thread/INFO]: JGamesSP issued server command: /tp transferreSP
+[16:11:05] [User Authenticator #18/INFO]: UUID of player kleinekneus is d369188e-acdb-4f5c-92cb-6012e961125a
+[16:11:06] [Server thread/INFO]: kleinekneus[/84.195.146.229:49488] logged in with entity id 244256 at ([world]-6735.397529715705, 75.0, 2685.147248850511)
+[16:11:06] [Server thread/INFO]: kleinekneus has blessed you with his presence
+[16:11:23] [Server thread/INFO]: JGamesSP issued server command: /back
+[16:11:37] [Server thread/INFO]: transferreSP issued server command: /echest
+[16:11:39] [Server thread/INFO]: transferreSP issued server command: /home home
+[16:11:49] [Server thread/INFO]: transferreSP issued server command: /echest
+[16:12:24] [Server thread/INFO]: transferreSP issued server command: /ECHES
+[16:12:25] [Server thread/INFO]: transferreSP issued server command: /echest
+[16:13:03] [Server thread/INFO]: transferreSP issued server command: /back
+[16:15:32] [Server thread/INFO]: transferreSP issued server command: /back
+[16:15:33] [Server thread/INFO]: JGamesSP issued server command: /home spruce
+[16:15:36] [Server thread/INFO]: transferreSP issued server command: /back
+[16:15:38] [Server thread/INFO]: transferreSP issued server command: /home b
+[16:16:04] [Server thread/INFO]: JMBoy issued server command: /home nether
+[16:16:46] [Server thread/INFO]: transferreSP issued server command: /home home
+[16:16:51] [Server thread/INFO]: transferreSP issued server command: /eches
+[16:16:53] [Server thread/INFO]: transferreSP issued server command: /echest
+[16:17:46] [Server thread/INFO]: transferreSP issued server command: /tpa kleinekneus
+[16:17:55] [Server thread/INFO]: kleinekneus issued server command: /tpaccept
+[16:18:07] [Server thread/INFO]: transferreSP issued server command: /back
+[16:18:13] [Server thread/INFO]: transferreSP issued server command: /echest
+[16:18:21] [Server thread/INFO]: transferreSP issued server command: /back
+[16:18:23] [Server thread/INFO]: transferreSP issued server command: /back
+[16:18:29] [Server thread/INFO]: transferreSP issued server command: /home kleinekneus:
+[16:18:34] [Server thread/INFO]: transferreSP issued server command: /home blaez
+[16:18:35] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[16:18:41] [Server thread/INFO]: JMBoy has made the advancement [Enchanter]
+[16:19:24] [Server thread/INFO]: JGamesSP issued server command: /whisper transferreSP ik ben loyalty vergete zette op mijn axe
+[16:19:42] [Server thread/INFO]: JGamesSP issued server command: /whisper transferreSP pudum tsss
+[16:20:06] [Server thread/INFO]: JGamesSP issued server command: /home
+[16:20:10] [Server thread/INFO]: JGamesSP issued server command: /home bed
+[16:21:16] [Server thread/INFO]: TomosChlausorius lost connection: Disconnected
+[16:21:16] [Server thread/INFO]: TomosChlausorius left the game
+[16:22:55] [User Authenticator #19/INFO]: UUID of player TomosChlausorius is 873bc772-4a98-4d04-9c9c-9f1e6c18ea3a
+[16:22:55] [Server thread/INFO]: TomosChlausorius[/141.135.186.1:56656] logged in with entity id 259886 at ([world_nether]-913.3000000119209, 14.27890056838539, 160.4359944794144)
+[16:22:55] [Server thread/INFO]: TomosChlausorius has blessed you with his presence
+[16:22:56] [Server thread/INFO]: JMBoy issued server command: /tp TomosChlausorius JMBoy
+[16:22:56] [Server thread/INFO]: transferreSP issued server command: /tp TomosChlausorius transferreSP
+[16:23:24] [Server thread/INFO]: TomosChlausorius issued server command: /home nethermine
+[16:25:15] [Server thread/INFO]: transferreSP was fireballed by Blaze
+[16:25:19] [Server thread/INFO]: transferreSP issued server command: /back
+[16:27:56] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
+[16:30:46] [Server thread/INFO]: transferreSP issued server command: /echest
+[16:31:23] [Server thread/INFO]: JGamesSP issued server command: /whisper transferreSP "spijtig" XD
+[16:31:27] [Server thread/INFO]: TomosChlausorius has made the advancement [Who is Cutting Onions?]
+[16:34:43] [Server thread/INFO]: transferreSP issued server command: /ECHEST
+[16:34:46] [Server thread/INFO]: transferreSP issued server command: /echest
+[16:35:29] [Server thread/INFO]: TomosChlausorius issued server command: /tpa JMBoy
+[16:35:46] [Server thread/INFO]: JMBoy issued server command: /tpaccept
+[16:36:53] [Server thread/INFO]: Villager EntityVillager['Villager'/257394, l='ServerLevel[world]', x=-1456.30, y=63.05, z=943.50] died, message: 'Villager suffocated in a wall'
+[16:38:20] [Server thread/INFO]: JGamesSP was blown up by Creeper
+[16:39:09] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
+[16:44:08] [Server thread/INFO]: transferreSP issued server command: /home home
+[16:46:20] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[16:50:20] [Server thread/INFO]: kleinekneus issued server command: /home
+[16:52:06] [Server thread/INFO]: TomosChlausorius issued server command: /home nethermine
+[16:53:54] [Server thread/INFO]: TomosChlausorius has made the advancement [Hidden in the Depths]
+[16:54:03] [Server thread/INFO]: Villager EntityVillager['Villager'/280590, l='ServerLevel[world]', x=-1456.66, y=62.00, z=943.38] died, message: 'Villager suffocated in a wall'
+[16:54:23] [Server thread/INFO]: JGamesSP issued server command: /whisper transferreSP en u put al klaar
+[16:58:50] [Server thread/INFO]: kleinekneus issued server command: /home
+[16:59:22] [Server thread/INFO]: Villager EntityVillager['Villager'/281761, l='ServerLevel[world]', x=-1456.67, y=62.00, z=943.30] died, message: 'Villager suffocated in a wall'
+[16:59:22] [Server thread/INFO]: kleinekneus lost connection: Disconnected
+[16:59:22] [Server thread/INFO]: kleinekneus left the game
+[17:03:11] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[17:05:17] [Server thread/INFO]: JMBoy issued server command: /home home
+[17:05:43] [Server thread/INFO]: transferreSP issued server command: /home home
+[17:05:53] [Server thread/INFO]: transferreSP issued server command: /echest
+[17:06:08] [Server thread/INFO]: transferreSP issued server command: /ECHEST
+[17:06:09] [Server thread/INFO]: transferreSP issued server command: /echest
+[17:06:18] [Server thread/INFO]: transferreSP issued server command: /echest
+[17:07:07] [Server thread/INFO]: transferreSP issued server command: /home b
+[17:08:28] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
+[17:09:00] [Server thread/INFO]: TomosChlausorius has made the advancement [Enchanter]
+[17:09:10] [Server thread/INFO]: JGamesSP was blown up by Creeper
+[17:09:14] [Server thread/INFO]: JGamesSP issued server command: /home
+[17:09:17] [Server thread/INFO]: JGamesSP issued server command: /home home
+[17:11:30] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[17:11:33] [Server thread/WARN]: JMBoy moved too quickly! -7.1791914497616744,-1.9247991098810502,-9.483099801996559
+[17:11:33] [Server thread/WARN]: JMBoy moved too quickly! -7.1703683041168915,-1.623264386218267,-9.281530395821846
+[17:12:17] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
+[17:12:35] [Server thread/INFO]: JGamesSP issued server command: /whisper transferreSP wa zijn die nu weer van zin
+[17:12:41] [Server thread/INFO]: JGamesSP issued server command: /whisper transferreSP enderdragon?
+[17:12:52] [Server thread/INFO]: transferreSP issued server command: /r idk
+[17:15:12] [Server thread/INFO]: transferreSP issued server command: /r fucking
+[17:15:14] [Server thread/INFO]: transferreSP issued server command: /r witherskeletons
+[17:15:37] [Server thread/INFO]: JGamesSP issued server command: /whisper transferreSP geen fkn idee
+[17:16:01] [Server thread/INFO]: transferreSP issued server command: /r hoe gaat het huis
+[17:16:06] [Server thread/INFO]: JGamesSP issued server command: /tphere transferreSP
+[17:16:19] [Server thread/INFO]: transferreSP issued server command: /r netjes netjes
+[17:16:25] [Server thread/INFO]: Villager EntityVillager['Villager'/312352, l='ServerLevel[world]', x=-1456.70, y=62.00, z=943.30] died, message: 'Villager suffocated in a wall'
+[17:16:43] [Server thread/INFO]: transferreSP issued server command: /r ik maak een blue ice nether highway hiernaartoe eenmaal da ik aan mijn put begin
+[17:16:45] [Server thread/INFO]: transferreSP issued server command: /back
+[17:16:50] [Server thread/INFO]: JGamesSP issued server command: /r ik weet alleen ni wa ik me die achterkant moe doen
+[17:17:08] [Server thread/INFO]: transferreSP issued server command: /home home
+[17:17:13] [Server thread/INFO]: transferreSP issued server command: /echest
+[17:17:30] [Server thread/INFO]: transferreSP issued server command: /echest
+[17:17:43] [Server thread/INFO]: transferreSP issued server command: /echest
+[17:17:44] [Server thread/INFO]: TomosChlausorius lost connection: Disconnected
+[17:17:44] [Server thread/INFO]: TomosChlausorius left the game
+[17:18:57] [Server thread/INFO]: transferreSP issued server command: /tp JGamesSP
+[17:20:10] [Server thread/INFO]: transferreSP issued server command: /home
+[17:20:13] [Server thread/INFO]: transferreSP issued server command: /home home
+[17:20:23] [Server thread/INFO]: transferreSP issued server command: /echest
+[17:20:42] [Server thread/INFO]: transferreSP issued server command: /back
+[17:20:42] [Server thread/WARN]: transferreSP moved too quickly! 3959.5742839809163,-25.0,-1402.8211263028015
+[17:21:19] [Server thread/INFO]: transferreSP issued server command: /echest
+[17:22:59] [Server thread/INFO]: transferreSP lost connection: Disconnected
+[17:22:59] [Server thread/INFO]: transferreSP left the game
+[17:27:23] [Server thread/INFO]: Villager EntityVillager['Villager'/312361, l='ServerLevel[world]', x=-1455.93, y=63.00, z=943.30] died, message: 'Villager suffocated in a wall'
+[17:36:25] [Server thread/INFO]: JMBoy issued server command: /home nether
+[17:37:33] [Server thread/INFO]: JGamesSP was shot by Skeleton
+[17:56:39] [Server thread/INFO]: JGamesSP issued server command: /home
+[17:56:43] [Server thread/INFO]: JGamesSP issued server command: /home bed
+[17:57:06] [User Authenticator #20/INFO]: UUID of player transferreSP is f303893c-768a-4c80-b4f9-65d2a7a8210c
+[17:57:06] [Server thread/INFO]: transferreSP[/81.165.4.250:57585] logged in with entity id 353994 at ([world]-1453.689274881663, 67.0, 913.4135902865022)
+[17:57:06] [Server thread/INFO]: transferreSP has blessed you with his presence
+[17:57:31] [Server thread/INFO]: JGamesSP issued server command: /gamerule mobGriefing false
+[17:57:31] [Server thread/INFO]: [JGamesSP: Gamerule mobGriefing is now set to: false]
+[17:57:34] [Server thread/INFO]: transferreSP was shot by Skeleton
+[17:57:39] [Server thread/INFO]: transferreSP issued server command: /back
+[17:57:42] [Server thread/INFO]: JGamesSP lost connection: Disconnected
+[17:57:42] [Server thread/INFO]: JGamesSP left the game
+[18:05:31] [Server thread/INFO]: JMBoy has made the advancement [Suit Up]
+[18:10:52] [Server thread/INFO]: Villager EntityVillager['Villager'/353324, l='ServerLevel[world]', x=-1455.93, y=63.00, z=943.30] died, message: 'Villager suffocated in a wall'
+[18:15:18] [Server thread/INFO]: Villager EntityVillager['Librarian'/353326, l='ServerLevel[world]', x=-1442.49, y=72.00, z=906.70] died, message: 'Librarian was slain by transferreSP'
+[18:16:43] [Server thread/INFO]: transferreSP issued server command: /home b
+[18:16:52] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[18:17:13] [Server thread/INFO]: transferreSP issued server command: /tpa JMBoy
+[18:17:52] [Server thread/INFO]: transferreSP issued server command: /homes
+[18:17:54] [Server thread/INFO]: transferreSP issued server command: /home home
+[18:18:01] [Server thread/INFO]: transferreSP issued server command: /back
+[18:18:23] [User Authenticator #21/INFO]: UUID of player JGamesSP is d5995e78-c7cb-4d2e-aa81-a8899bd47ad5
+[18:18:23] [Server thread/INFO]: JGamesSP[/81.83.212.137:63227] logged in with entity id 370746 at ([world]-1444.910282738708, 84.0, 926.3687379008742)
+[18:18:24] [Server thread/INFO]: ~schattie has blessed you with his presence
+[18:18:47] [Server thread/INFO]: JMBoy has made the advancement [The Parrots and the Bats]
+[18:19:09] [Server thread/INFO]: transferreSP issued server command: /home home
+[18:19:42] [Server thread/INFO]: transferreSP issued server command: /tpa JMBoy
+[18:19:50] [Server thread/INFO]: JMBoy issued server command: /tpaccept
+[18:19:50] [Server thread/WARN]: transferreSP moved too quickly! 4605.755860528086,-35.0,2923.133670975485
+[18:19:59] [Server thread/INFO]: transferreSP issued server command: /echest
+[18:20:22] [Server thread/INFO]: JGamesSP issued server command: /home
+[18:20:25] [Server thread/INFO]: JGamesSP issued server command: /home bed
+[18:22:40] [Server thread/INFO]: transferreSP issued server command: /back
+[18:23:02] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[18:24:07] [Server thread/INFO]: Villager EntityVillager['Villager'/372514, l='ServerLevel[world]', x=-1454.51, y=73.19, z=919.26] died, message: 'Villager suffocated in a wall'
+[18:26:53] [Server thread/INFO]: transferreSP withered away while fighting Wither Skeleton
+[18:26:57] [Server thread/INFO]: transferreSP issued server command: /back
+[18:27:46] [Server thread/INFO]: transferreSP withered away
+[18:27:50] [Server thread/INFO]: transferreSP issued server command: /back
+[18:28:27] [Server thread/INFO]: transferreSP burned to death
+[18:28:30] [Server thread/WARN]: JMBoy moved too quickly! -1.9173054559328193,-1.4199999868869781,11.235561188441352
+[18:28:30] [Server thread/INFO]: transferreSP issued server command: /back
+[18:29:00] [Server thread/INFO]: transferreSP issued server command: /back
+[18:29:10] [Server thread/INFO]: transferreSP issued server command: /back
+[18:34:13] [Server thread/INFO]: transferreSP issued server command: /tpa JGamesSP
+[18:34:16] [Server thread/INFO]: JGamesSP issued server command: /tpyes
+[18:34:24] [Server thread/INFO]: transferreSP issued server command: /echest
+[18:34:36] [Server thread/INFO]: transferreSP issued server command: /home home
+[18:35:00] [Server thread/INFO]: transferreSP issued server command: /home home
+[18:35:01] [Server thread/INFO]: transferreSP issued server command: /echest
+[18:35:15] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[18:36:44] [Server thread/INFO]: transferreSP issued server command: /home home
+[18:36:56] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[18:37:06] [Server thread/INFO]: transferreSP issued server command: /echest
+[18:37:22] [Server thread/INFO]: transferreSP issued server command: /echest
+[18:39:21] [Server thread/INFO]: transferreSP was slain by Wither Skeleton
+[18:39:27] [Server thread/INFO]: transferreSP issued server command: /back
+[18:40:40] [Server thread/INFO]: JGamesSP issued server command: /home
+[18:40:42] [Server thread/INFO]: JGamesSP issued server command: /home bed
+[18:47:16] [Server thread/INFO]: transferreSP issued server command: /home HOME
+[18:48:24] [Server thread/INFO]: transferreSP issued server command: /home b
+[18:50:26] [Server thread/INFO]: transferreSP issued server command: /tp JGamesSP
+[18:50:41] [Server thread/INFO]: transferreSP issued server command: /back
+[18:50:54] [Server thread/INFO]: transferreSP issued server command: /back
+[18:51:29] [Server thread/INFO]: transferreSP lost connection: Disconnected
+[18:51:29] [Server thread/INFO]: transferreSP left the game
+[18:51:29] [Server thread/INFO]: JGamesSP has made the advancement [What a Deal!]
+[18:55:46] [Server thread/INFO]: JMBoy lost connection: Disconnected
+[18:55:46] [Server thread/INFO]: JMBoy left the game
+[19:13:42] [Server thread/INFO]: JGamesSP issued server command: /home
+[19:13:46] [Server thread/INFO]: JGamesSP issued server command: /home bed
+[19:26:58] [User Authenticator #22/INFO]: UUID of player transferreSP is f303893c-768a-4c80-b4f9-65d2a7a8210c
+[19:26:58] [Server thread/INFO]: transferreSP[/84.195.146.229:50234] logged in with entity id 419421 at ([world]-1448.7707005417562, 76.0, 909.1131842414319)
+[19:26:58] [Server thread/INFO]: transferreSP has blessed you with his presence
+[19:27:08] [Server thread/INFO]: transferreSP issued server command: /home home
+[19:28:01] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[19:34:10] [Server thread/INFO]: JGamesSP issued server command: /give transferreSP wither_skeleton_skull 2
+[19:34:48] [Server thread/INFO]: transferreSP issued server command: /echest
+[19:34:57] [Server thread/INFO]: transferreSP issued server command: /home blaze
+[19:34:57] [Server thread/WARN]: transferreSP moved too quickly! -40.57264894277148,-7.0,26.23450751793274
+[19:35:00] [Server thread/INFO]: transferreSP issued server command: /home home
+[19:35:05] [Server thread/INFO]: transferreSP issued server command: /echest
+[19:36:12] [Server thread/INFO]: transferreSP issued server command: /home home
+[19:36:30] [Server thread/INFO]: transferreSP issued server command: /back
+[19:38:15] [Server thread/INFO]: transferreSP issued server command: /home home
+[19:38:18] [Server thread/INFO]: transferreSP issued server command: /home b
+[19:39:07] [Server thread/INFO]: JGamesSP issued server command: /tpa transferreSP
+[19:39:12] [Server thread/INFO]: transferreSP issued server command: /tpaccept
+[19:39:52] [Server thread/INFO]: transferreSP issued server command: /echest
+[19:39:58] [Server thread/INFO]: transferreSP issued server command: /home home
+[19:40:21] [Server thread/INFO]: transferreSP issued server command: /back
+[19:40:24] [Server thread/INFO]: transferreSP issued server command: /home hmoe
+[19:40:26] [Server thread/INFO]: transferreSP issued server command: /hom ehome
+[19:40:27] [Server thread/INFO]: transferreSP issued server command: /home home
+[19:40:32] [Server thread/INFO]: transferreSP issued server command: /back
+[19:40:53] [Server thread/INFO]: JGamesSP has made the advancement [Withering Heights]
+[19:40:53] [Server thread/INFO]: transferreSP has made the advancement [Withering Heights]
+[19:41:29] [Server thread/INFO]: transferreSP withered away while fighting Wither
+[19:41:32] [Server thread/INFO]: transferreSP issued server command: /back
+[19:42:01] [Server thread/INFO]: transferreSP was shot by a skull from Wither
+[19:42:04] [Server thread/INFO]: transferreSP issued server command: /back
+[19:42:09] [Server thread/INFO]: JGamesSP withered away while fighting Wither
+[19:42:12] [Server thread/INFO]: JGamesSP issued server command: /back
+[19:42:17] [Server thread/INFO]: transferreSP withered away while fighting Wither
+[19:42:19] [Server thread/INFO]: transferreSP issued server command: /back
+[19:42:19] [Server thread/WARN]: transferreSP moved too quickly! 740.0,-34.0,865.0
+[19:42:55] [Server thread/INFO]: JGamesSP issued server command: /home
+[19:42:56] [Server thread/INFO]: transferreSP issued server command: /echest
+[19:42:58] [Server thread/INFO]: JGamesSP issued server command: /home bed
+[19:43:04] [User Authenticator #23/INFO]: UUID of player TomosChlausorius is 873bc772-4a98-4d04-9c9c-9f1e6c18ea3a
+[19:43:04] [Server thread/INFO]: TomosChlausorius[/141.135.186.1:61973] logged in with entity id 429012 at ([world]-5273.496175147783, 111.0625, 2724.118826916617)
+[19:43:05] [Server thread/INFO]: TomosChlausorius has blessed you with his presence
+[19:43:08] [Server thread/INFO]: transferreSP issued server command: /home home
+[19:45:54] [Server thread/INFO]: transferreSP issued server command: /home b
+[19:46:13] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
+[19:46:51] [Server thread/INFO]: TomosChlausorius issued server command: /home nethermine
+[19:46:58] [User Authenticator #24/INFO]: UUID of player Rein3003 is ea126310-b17f-4e89-b90a-85866c79e0de
+[19:46:58] [Server thread/INFO]: Rein3003[/84.195.206.199:49341] logged in with entity id 432904 at ([world]-5276.48397940132, 111.0, 2727.5677923502017)
+[19:46:59] [Server thread/INFO]: Rein3003 has blessed you with his presence
+[19:48:28] [Server thread/INFO]: transferreSP was shot by Skeleton
+[19:48:31] [Server thread/INFO]: transferreSP issued server command: /back
+[19:48:40] [Server thread/INFO]: transferreSP issued server command: /home home
+[19:48:55] [Server thread/INFO]: transferreSP issued server command: /back
+[19:52:34] [Server thread/INFO]: transferreSP was shot by Skeleton
+[19:52:37] [Server thread/INFO]: transferreSP issued server command: /back
+[19:53:16] [User Authenticator #25/INFO]: UUID of player JMBoy is eb6f06a3-c143-4f22-ac6b-f7afc112344b
+[19:53:16] [Server thread/INFO]: JMBoy[/127.0.0.1:59902] logged in with entity id 439725 at ([world]-1911.2372843366486, 71.0, 7765.447347560728)
+[19:53:17] [Server thread/INFO]: JMBoy has blessed you with his presence
+[19:53:23] [Async Chat Thread - #31/INFO]: <transferreSP> haa den diee
+[19:53:26] [Async Chat Thread - #32/INFO]: <JMBoy> hey
+[19:53:28] [Async Chat Thread - #31/INFO]: <~schattie> ew
+[19:53:34] [Async Chat Thread - #32/INFO]: <JMBoy> maat -_-
+[19:53:39] [Async Chat Thread - #31/INFO]: <~schattie> ?
+[19:53:40] [Server thread/INFO]: Rein3003 was blown up by Creeper
+[19:53:42] [Async Chat Thread - #32/INFO]: <transferreSP> ew iemand die ni in call zit
+[19:53:43] [Server thread/INFO]: Rein3003 issued server command: /sethome
+[19:53:46] [Server thread/INFO]: Rein3003 issued server command: /back
+[19:54:29] [Async Chat Thread - #31/INFO]: <JMBoy> men ouders zijn heftig aan het discusieeren
+[19:54:34] [Async Chat Thread - #31/INFO]: <JMBoy> ik durf nie te joinen
+[19:54:35] [Async Chat Thread - #32/INFO]: <Rein3003> doe mee
+[19:54:35] [Async Chat Thread - #31/INFO]: <transferreSP> aiai
+[19:54:42] [Async Chat Thread - #32/INFO]: <~schattie> pfff
+[19:55:00] [Async Chat Thread - #32/INFO]: <~schattie> discusieer erover da die moete stoppe me discusiere
+[19:55:17] [Async Chat Thread - #32/INFO]: <Rein3003> gwn zeggen ik ga nu disc joinen dus hou u muil
+[19:55:38] [Server thread/INFO]: transferreSP was shot by Skeleton
+[19:55:41] [Async Chat Thread - #31/INFO]: <transferreSP> aiai
+[19:55:43] [Server thread/INFO]: transferreSP issued server command: /back
+[19:57:01] [Server thread/INFO]: transferreSP was burned to a crisp while fighting Zombie
+[19:57:04] [Server thread/INFO]: transferreSP issued server command: /back
+[19:57:12] [Server thread/INFO]: transferreSP issued server command: /home home
+[19:57:12] [Server thread/WARN]: transferreSP moved too quickly! -557.1574656787652,82.0,-902.9430712280032
+[19:57:19] [Server thread/INFO]: Rein3003 issued server command: /home
+[19:57:23] [Server thread/INFO]: transferreSP issued server command: /back
+[19:57:48] [Server thread/INFO]: transferreSP was slain by Zombie
+[19:57:50] [Server thread/INFO]: transferreSP issued server command: /back
+[19:57:56] [Server thread/INFO]: transferreSP was slain by Zombie
+[19:57:58] [Server thread/INFO]: transferreSP issued server command: /back
+[19:58:04] [Server thread/INFO]: transferreSP was slain by Zombie
+[19:58:06] [Server thread/INFO]: transferreSP issued server command: /back
+[19:59:51] [Server thread/INFO]: JGamesSP was shot by Skeleton
+[20:00:55] [Server thread/INFO]: transferreSP was shot by Skeleton
+[20:00:58] [Server thread/INFO]: transferreSP issued server command: /back
+[20:01:03] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
+[20:01:13] [Server thread/INFO]: transferreSP burned to death
+[20:01:16] [Server thread/INFO]: transferreSP issued server command: /back
+[20:05:17] [Server thread/INFO]: transferreSP was shot by Skeleton
+[20:05:20] [Server thread/INFO]: transferreSP issued server command: /back
+[20:05:25] [Server thread/INFO]: Rein3003 issued server command: /tpa transferreSP
+[20:05:27] [Server thread/INFO]: transferreSP was shot by Skeleton
+[20:05:29] [Server thread/INFO]: transferreSP issued server command: /back
+[20:05:33] [Server thread/INFO]: Rein3003 issued server command: /tpa transferreSP
+[20:05:38] [Server thread/INFO]: transferreSP issued server command: /tpaccept
+[20:05:45] [Server thread/INFO]: TomosChlausorius issued server command: /home nethermine
+[20:05:48] [Server thread/INFO]: JGamesSP was blown up by Creeper
+[20:07:25] [Server thread/INFO]: transferreSP was blown up by Creeper
+[20:07:27] [Server thread/INFO]: transferreSP issued server command: /tpaccept
+[20:07:28] [Server thread/INFO]: transferreSP issued server command: /back
+[20:07:28] [Server thread/WARN]: transferreSP moved too quickly! 508.0,-81.0,749.0
+[20:08:15] [Server thread/INFO]: TomosChlausorius issued server command: /sethome Mine2
+[20:11:02] [Server thread/INFO]: transferreSP issued server command: /home home
+[20:12:52] [Server thread/INFO]: TomosChlausorius issued server command: /home Mine2
+[20:14:01] [Server thread/INFO]: transferreSP issued server command: /tp JGamesSP
+[20:14:05] [Server thread/INFO]: transferreSP issued server command: /back
+[20:17:29] [Server thread/INFO]: transferreSP issued server command: /echest
+[20:17:50] [Server thread/INFO]: JMBoy issued server command: /reload
+[20:17:50] [Server thread/INFO]: JMBoy: Please note that this command is not supported and may cause issues when using some plugins.
+[20:17:50] [Server thread/INFO]: JMBoy: If you encounter any issues please use the /stop command to restart your server.
+[20:17:50] [Server thread/INFO]: Debug logging is disabled
+[20:17:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:17:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:17:50] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:17:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:17:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:17:50] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:17:50] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:17:50] [Server thread/INFO]: View Distance: 15
+[20:17:50] [Server thread/INFO]: Simulation Distance: 10
+[20:17:50] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:17:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:17:50] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:17:50] [Server thread/INFO]: Mob Spawn Range: 6
+[20:17:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20:17:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[20:17:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:17:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[20:17:50] [Server thread/INFO]: Max TNT Explosions: 100
+[20:17:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:17:50] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:17:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:17:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:17:50] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:17:50] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:17:50] [Server thread/INFO]: View Distance: 15
+[20:17:50] [Server thread/INFO]: Simulation Distance: 10
+[20:17:50] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:17:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:17:50] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:17:50] [Server thread/INFO]: Mob Spawn Range: 6
+[20:17:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20:17:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[20:17:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:17:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[20:17:50] [Server thread/INFO]: Max TNT Explosions: 100
+[20:17:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:17:50] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:17:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:17:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:17:50] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:17:50] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:17:50] [Server thread/INFO]: View Distance: 15
+[20:17:50] [Server thread/INFO]: Simulation Distance: 10
+[20:17:50] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[20:17:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:17:50] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:17:50] [Server thread/INFO]: Mob Spawn Range: 6
+[20:17:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Potato Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[20:17:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[20:17:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[20:17:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[20:17:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[20:17:50] [Server thread/INFO]: Max TNT Explosions: 100
+[20:17:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:17:50] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[20:17:50] [Server thread/INFO]: [Sleeper] Disabling Sleeper v1.5.1
+[20:17:50] [Server thread/INFO]: [Sleeper] Sleeper Has Been Disabled!
+[20:17:50] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+68-993d7ed
+[20:17:50] [Server thread/ERROR]: Er is een grote kans dat je je server herlaadt. Als dat zo is, waarom haat je jezelf? Verwacht geen ondersteuning van het EssentialsX-team als je /reload gebruikt.
+[20:17:50] [Server thread/INFO]: Loaded 7 recipes
+[20:17:51] [Server thread/ERROR]: Could not load 'plugins\ImageFrame-1.7.7.0.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown dependency ProtocolLib. Please download and install ProtocolLib to run this plugin.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:269) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:430) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.reload(CraftServer.java:976) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at org.bukkit.Bukkit.reload(Bukkit.java:864) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:887) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at org.bukkit.craftbukkit.v1_20_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:50) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.a(SourceFile:29) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(SourceFile:13) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.commands.execution.UnboundEntryAction.a(SourceFile:8) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.commands.execution.CommandQueueEntry.a(SourceFile:8) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.commands.execution.ExecutionContext.a(SourceFile:107) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:413) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:335) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:322) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1856) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.network.PlayerConnection.lambda$15(PlayerConnection.java:1818) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:67) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:156) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1191) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.util.thread.IAsyncTaskHandler.x(SourceFile:130) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.bl(MinecraftServer.java:1170) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1163) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.util.thread.IAsyncTaskHandler.bu(SourceFile:115) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.w_(MinecraftServer.java:1146) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1060) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[20:17:51] [Server thread/INFO]: [Tamablefoxes] Loading Tamablefoxes v2.2.11-SNAPSHOT
+[20:17:51] [Server thread/INFO]: [Tamable Foxes] ERROR: This plugin version only supports Spigot 1.14-1.18.1! Not registering entity!
+[20:17:51] [Server thread/INFO]: [Tamable Foxes] You're trying to run MC version 1.20.4 which is not supported!
+[20:17:51] [Server thread/INFO]: [Tamable Foxes] Disabling plugin...
+[20:17:51] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+68-993d7ed
+[20:17:51] [Server thread/INFO]: [Sleeper] Loading Sleeper v1.5.1
+[20:17:51] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
+[20:17:51] [Server thread/INFO]: [Tamablefoxes] Enabling Tamablefoxes v2.2.11-SNAPSHOT
+[20:17:51] [Server thread/INFO]: [Tamable Foxes] This plugin version only supports Spigot 1.14-1.18.1! Disabling plugin!
+[20:17:51] [Server thread/INFO]: [Tamablefoxes] Disabling Tamablefoxes v2.2.11-SNAPSHOT
+[20:17:51] [Server thread/INFO]: [Tamable Foxes] Saving foxes.
+[20:17:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+68-993d7ed
+[20:17:51] [Server thread/INFO]: Je gebruikt een server met beperkte API-functionaliteit. EssentialsX werkt nog steeds, maar sommige functies zijn mogelijk uitgeschakeld.
+[20:17:51] [Server thread/WARN]: Verkeerde versie! Update EssentialsChat naar dezelfde versie.
+[20:17:51] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[20:17:51] [Server thread/INFO]: No kits found to migrate.
+[20:17:52] [Server thread/WARN]: File plugins\Essentials\items.json has been modified by user and file version differs, please update the file manually.
+[20:17:52] [Server thread/INFO]: Loaded 39094 items from items.json.
+[20:17:52] [Server thread/INFO]: Using locale nl_BE
+[20:17:52] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[20:17:52] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[20:17:52] [Server thread/INFO]: Using config file enhanced permissions.
+[20:17:52] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[20:17:52] [Server thread/INFO]: [Sleeper] Enabling Sleeper v1.5.1
+[20:17:52] [Server thread/INFO]: [Sleeper] Sleeper Version 1.5.1 Has Been Enabled!
+[20:17:52] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
+[20:17:52] [Server thread/ERROR]: Error occurred while enabling EssentialsChat v2.17.0.0 (Is it up to date?)
+java.lang.NoSuchMethodError: 'java.lang.String com.earth2me.essentials.I18n.tl(java.lang.String, java.lang.Object[])'
+	at com.earth2me.essentials.chat.EssentialsChat.onEnable(EssentialsChat.java:26) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:541) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:455) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.reload(CraftServer.java:978) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at org.bukkit.Bukkit.reload(Bukkit.java:864) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:887) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at org.bukkit.craftbukkit.v1_20_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:50) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.a(SourceFile:29) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(SourceFile:13) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.commands.execution.UnboundEntryAction.a(SourceFile:8) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.commands.execution.CommandQueueEntry.a(SourceFile:8) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.commands.execution.ExecutionContext.a(SourceFile:107) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:413) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:335) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:322) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1856) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.network.PlayerConnection.lambda$15(PlayerConnection.java:1818) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.util.thread.IAsyncTaskHandler.b(SourceFile:67) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:156) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1191) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.util.thread.IAsyncTaskHandler.x(SourceFile:130) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.bl(MinecraftServer.java:1170) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1163) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.util.thread.IAsyncTaskHandler.bu(SourceFile:115) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.w_(MinecraftServer.java:1146) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1060) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[20:17:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:17:52] [Server thread/INFO]: JMBoy: Reload complete.
+[20:17:52] [Craft Scheduler Thread - 50/INFO]: §6Versie-informatie ophalen...
+[20:17:52] [Thread-285/WARN]: java.lang.IllegalStateException: zip file closed
+[20:17:52] [Thread-285/WARN]: 	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:831)
+[20:17:52] [Thread-285/WARN]: 	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:330)
+[20:17:52] [Thread-285/WARN]: 	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:518)
+[20:17:52] [Thread-285/WARN]: 	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:473)
+[20:17:52] [Thread-285/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:172)
+[20:17:52] [Thread-285/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:587)
+[20:17:52] [Thread-285/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:117)
+[20:17:52] [Thread-285/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:112)
+[20:17:52] [Thread-285/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:574)
+[20:17:52] [Thread-285/WARN]: 	at java.base/java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:872)
+[20:17:52] [Thread-285/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+[20:17:52] [Thread-285/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
+[20:17:52] [Thread-285/WARN]: 	at java.base/java.lang.Class.forName(Class.java:467)
+[20:17:52] [Thread-285/WARN]: 	at net.md_5.bungee.api.chat.TranslatableComponentDeserializer$1.run(TranslatableComponentDeserializer.java:35)
+[20:17:52] [Thread-285/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[20:18:04] [Server thread/INFO]: JMBoy issued server command: /plugins
+[20:18:06] [Server thread/INFO]: JGamesSP issued server command: /plugins
+[20:18:07] [Server thread/INFO]: transferreSP issued server command: /plugins
+[20:19:53] [Server thread/INFO]: Stopping the server
+[20:19:53] [Server thread/INFO]: Stopping server
+[20:19:53] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[20:19:53] [Server thread/INFO]: [Sleeper] Disabling Sleeper v1.5.1
+[20:19:53] [Server thread/INFO]: [Sleeper] Sleeper Has Been Disabled!
+[20:19:53] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+68-993d7ed
+[20:19:53] [Server thread/INFO]: Saving players
+[20:19:53] [Server thread/INFO]: JMBoy lost connection: Server closed
+[20:19:53] [Server thread/INFO]: JMBoy left the game.
+[20:19:53] [Server thread/INFO]: Rein3003 lost connection: Server closed
+[20:19:53] [Server thread/INFO]: Rein3003 left the game.
+[20:19:53] [Server thread/INFO]: TomosChlausorius lost connection: Server closed
+[20:19:53] [Server thread/INFO]: TomosChlausorius left the game.
+[20:19:53] [Server thread/INFO]: JGamesSP lost connection: Server closed
+[20:19:53] [Server thread/INFO]: JGamesSP left the game.
+[20:19:53] [Server thread/INFO]: transferreSP lost connection: Server closed
+[20:19:53] [Server thread/INFO]: transferreSP left the game.
+[20:19:53] [Server thread/INFO]: Saving worlds
+[20:20:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:20:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:20:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:20:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:20:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:20:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:20:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

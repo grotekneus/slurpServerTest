@@ -11,28 +11,45 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1709419099494
+  lastteleport: 1709483785955
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1709424028810
-  login: 1709411503361
+  logout: 1709493593129
+  login: 1709491996927
 money: '0'
 last-account-name: JMBoy
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5274.307030215896
-  y: 112.0
-  z: 2727.5417783585035
-  yaw: -135.75418090820312
-  pitch: 25.397422790527344
+  x: -3743.363420575158
+  y: 111.0
+  z: 6845.322025189086
+  yaw: -165.9605712890625
+  pitch: 5.323788642883301
 lastlocation:
-  world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-  world-name: world
-  x: -6712.099408459917
-  y: 72.0
-  z: 2824.5251998303083
-  yaw: -49.14653015136719
-  pitch: 32.198387145996094
+  world: c116a7a4-4cc4-434f-8a30-535ce385984e
+  world-name: world_nether
+  x: -1103.0375039828
+  y: 11.0
+  z: 300.0933240145968
+  yaw: -87.66925048828125
+  pitch: 14.341216087341309
+homes:
+  home:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -5274.345098673546
+    y: 111.0625
+    z: 2725.1399457854363
+    yaw: -118.60032653808594
+    pitch: 54.51064682006836
+  nether:
+    world: c116a7a4-4cc4-434f-8a30-535ce385984e
+    world-name: world_nether
+    x: -668.1812716331114
+    y: 114.0
+    z: 353.69999998807907
+    yaw: 44.86111068725586
+    pitch: 26.398412704467773

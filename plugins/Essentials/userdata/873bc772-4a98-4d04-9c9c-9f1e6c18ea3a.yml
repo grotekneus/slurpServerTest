@@ -11,28 +11,53 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1709413088601
+  lastteleport: 1709493172851
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1709424303006
-  login: 1709411489518
+  logout: 1709493593196
+  login: 1709491384742
 money: '0'
 last-account-name: TomosChlausorius
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5274.1084192903345
-  y: 111.0625
-  z: 2724.875029883788
-  yaw: 79.78021240234375
-  pitch: 26.40003204345703
+  x: -8000.699999988079
+  y: -21.0
+  z: 2881.02858864578
+  yaw: -82.472412109375
+  pitch: 9.300214767456055
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -1587.6736588658796
-  y: 32.12849169803117
-  z: 331.3957268541612
-  yaw: -168.60072326660156
-  pitch: -15.000044822692871
+  x: -7927.300000011921
+  y: 6.0
+  z: 2790.699999988079
+  yaw: -6.4306640625
+  pitch: -2.3996734619140625
+homes:
+  roos:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -5277.683867469991
+    y: 111.0
+    z: 2717.3158825666656
+    yaw: 161.3875732421875
+    pitch: 82.35009002685547
+  nethermine:
+    world: c116a7a4-4cc4-434f-8a30-535ce385984e
+    world-name: world_nether
+    x: -786.1797090411682
+    y: 11.0
+    z: 352.01998621717814
+    yaw: 151.35711669921875
+    pitch: 23.099824905395508
+  mine2:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -7941.989842803904
+    y: 20.0
+    z: 2812.188820868223
+    yaw: -58.19236755371094
+    pitch: 13.94985294342041

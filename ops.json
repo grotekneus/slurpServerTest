@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "f303893c-768a-4c80-b4f9-65d2a7a8210c",
+    "name": "transferreSP",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "d5995e78-c7cb-4d2e-aa81-a8899bd47ad5",
     "name": "JGamesSP",
     "level": 4,
@@ -8,6 +14,12 @@
   {
     "uuid": "eb6f06a3-c143-4f22-ac6b-f7afc112344b",
     "name": "JMBoy",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "873bc772-4a98-4d04-9c9c-9f1e6c18ea3a",
+    "name": "TomosChlausorius",
     "level": 4,
     "bypassesPlayerLimit": false
   }
