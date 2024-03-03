@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 10.147.19.115
+ip-address: 81.83.212.137
 afk: false
 socialspy: false
 npc: false
@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1709404170442
+  lastteleport: 1709417440099
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1709409432529
-  login: 1709403919548
+  logout: 1709418274770
+  login: 1709414175122
   kits:
     pjoes: 1709144115793
     dtools: 1709144154538
@@ -27,19 +27,19 @@ last-account-name: JGamesSP
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -1455.5630165177638
-  y: 63.0
-  z: 886.3000000119209
-  yaw: -2.204902410507202
-  pitch: 31.254621505737305
+  x: -1452.0682823711159
+  y: 71.0
+  z: 908.2731748850783
+  yaw: 13.04119873046875
+  pitch: 27.403589248657227
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5109.705035683059
-  y: 98.5
-  z: 2764.300000011921
-  yaw: -52.021610260009766
-  pitch: 46.567039489746094
+  x: -1455.699999988079
+  y: 63.5
+  z: 943.3000000119209
+  yaw: 172.6248016357422
+  pitch: 39.927513122558594
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -49,4 +49,12 @@ homes:
     z: 890.3122428121874
     yaw: -168.3492431640625
     pitch: 2.942798614501953
+  spruce:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: 521.7725762346238
+    y: 65.0
+    z: -4422.699367017997
+    yaw: -86.2154312133789
+    pitch: 15.19622802734375
 nickname: schattie
