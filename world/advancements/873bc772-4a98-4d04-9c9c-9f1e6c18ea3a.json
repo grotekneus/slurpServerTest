@@ -2747,273 +2747,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-03-04 20:04:53 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_slab": {
-    "criteria": {
-      "has_planks": "2024-03-04 20:28:56 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_button": {
-    "criteria": {
-      "has_planks": "2024-03-04 19:58:39 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_planks": {
-    "criteria": {
-      "has_log": "2024-03-04 20:21:52 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cake": {
-    "criteria": {
-      "has_egg": "2024-03-04 22:33:05 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_door": {
-    "criteria": {
-      "has_planks": "2024-03-04 20:28:56 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_bed": {
-    "criteria": {
-      "has_gray_wool": "2024-03-04 22:37:43 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_smoking": {
-    "criteria": {
-      "has_kelp": "2024-03-04 20:12:48 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_planks": {
-    "criteria": {
-      "has_logs": "2024-03-04 19:58:35 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_smelting": {
-    "criteria": {
-      "has_kelp": "2024-03-04 20:12:48 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_bed": {
-    "criteria": {
-      "has_black_wool": "2024-03-04 20:12:00 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-03-04 20:04:53 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_fence_gate": {
-    "criteria": {
-      "has_planks": "2024-03-04 20:28:56 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bookshelf": {
-    "criteria": {
-      "has_book": "2024-03-04 19:57:47 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_planks": {
-    "criteria": {
-      "has_logs": "2024-03-04 20:25:04 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_pressure_plate": {
-    "criteria": {
-      "has_planks": "2024-03-04 19:58:39 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_trapdoor": {
-    "criteria": {
-      "has_planks": "2024-03-04 20:28:56 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/book": {
     "criteria": {
       "has_paper": "2024-03-04 19:57:37 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dried_kelp_block": {
-    "criteria": {
-      "has_dried_kelp": "2024-03-04 20:32:44 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
-    "criteria": {
-      "has_kelp": "2024-03-04 20:12:48 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2024-03-04 20:45:36 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
-    "criteria": {
-      "has_mossy_cobblestone": "2024-03-04 21:01:09 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_wood": {
-    "criteria": {
-      "has_log": "2024-03-04 20:21:52 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
-    "criteria": {
-      "has_coast_armor_trim_smithing_template": "2024-03-04 22:46:12 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/spruce_sign": {
-    "criteria": {
-      "has_planks": "2024-03-04 19:58:39 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_carpet": {
-    "criteria": {
-      "has_black_wool": "2024-03-04 20:12:00 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/composter": {
-    "criteria": {
-      "has_wood_slab": "2024-03-04 20:04:35 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_trapdoor": {
-    "criteria": {
-      "has_planks": "2024-03-04 19:58:39 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-03-04 20:04:53 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_door": {
-    "criteria": {
-      "has_planks": "2024-03-04 19:58:39 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-03-04 20:04:53 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_fence_gate": {
-    "criteria": {
-      "has_planks": "2024-03-04 19:58:39 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_button": {
-    "criteria": {
-      "has_planks": "2024-03-04 20:28:56 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
-    "criteria": {
-      "has_mossy_cobblestone": "2024-03-04 21:01:09 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-03-04 20:04:53 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
-    "criteria": {
-      "has_mossy_cobblestone": "2024-03-04 21:01:09 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/lectern": {
-    "criteria": {
-      "has_book": "2024-03-04 19:57:47 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2024-03-04 20:48:47 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_wood": {
-    "criteria": {
-      "has_log": "2024-03-04 20:25:04 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
-    "criteria": {
-      "has_book": "2024-03-04 19:57:47 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_wood": {
-    "criteria": {
-      "has_log": "2024-03-04 19:58:35 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-03-04 20:04:53 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_banner": {
-    "criteria": {
-      "has_gray_wool": "2024-03-04 22:37:43 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_banner": {
-    "criteria": {
-      "has_black_wool": "2024-03-04 20:12:00 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_carpet": {
-    "criteria": {
-      "has_gray_wool": "2024-03-04 22:37:43 +0100"
     },
     "done": true
   },
@@ -3023,15 +2759,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+  "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
-      "has_cobbled_deepslate_slab": "2024-03-04 21:18:40 +0100"
+      "has_book": "2024-03-04 19:57:47 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_ingot": {
+  "minecraft:recipes/redstone/lectern": {
     "criteria": {
-      "has_netherite_scrap": "2024-03-04 20:03:06 +0100"
+      "has_book": "2024-03-04 19:57:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2024-03-04 19:57:47 +0100"
     },
     "done": true
   },
@@ -3041,15 +2783,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+  "minecraft:recipes/building_blocks/spruce_planks": {
     "criteria": {
-      "has_smithing_trim_template": "2024-03-04 22:46:12 +0100"
+      "has_logs": "2024-03-04 19:58:35 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+  "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
-      "has_mossy_cobblestone": "2024-03-04 21:01:09 +0100"
+      "has_log": "2024-03-04 19:58:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2024-03-04 19:58:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-03-04 19:58:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2024-03-04 19:58:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-03-04 19:58:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2024-03-04 19:58:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-03-04 19:58:39 +0100"
     },
     "done": true
   },
@@ -3059,9 +2837,159 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/dried_kelp": {
+  "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
-      "has_dried_kelp_block": "2024-03-04 20:33:48 +0100"
+      "has_planks": "2024-03-04 19:58:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2024-03-04 19:58:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2024-03-04 20:03:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2024-03-04 20:04:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-03-04 20:04:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-03-04 20:04:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-03-04 20:04:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-03-04 20:04:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-03-04 20:04:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-03-04 20:04:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-03-04 20:04:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2024-03-04 20:12:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2024-03-04 20:12:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2024-03-04 20:12:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-03-04 20:12:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-03-04 20:12:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-03-04 20:12:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2024-03-04 20:21:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-03-04 20:21:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2024-03-04 20:25:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2024-03-04 20:25:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2024-03-04 20:28:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2024-03-04 20:28:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-03-04 20:28:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-03-04 20:28:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2024-03-04 20:28:56 +0100"
     },
     "done": true
   },
@@ -3077,30 +3005,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/spruce_stairs": {
-    "criteria": {
-      "has_planks": "2024-03-04 19:58:39 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-03-04 20:04:53 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
-    "criteria": {
-      "has_mossy_cobblestone": "2024-03-04 21:01:09 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_slab": {
-    "criteria": {
-      "has_planks": "2024-03-04 19:58:39 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/dark_oak_pressure_plate": {
     "criteria": {
       "has_planks": "2024-03-04 20:28:56 +0100"
@@ -3113,15 +3017,111 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+  "minecraft:recipes/building_blocks/dried_kelp_block": {
     "criteria": {
-      "has_mossy_cobblestone": "2024-03-04 21:01:09 +0100"
+      "has_dried_kelp": "2024-03-04 20:32:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp": {
+    "criteria": {
+      "has_dried_kelp_block": "2024-03-04 20:33:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2024-03-04 20:45:36 +0100"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_bone_meal": "2024-03-04 20:45:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-03-04 20:48:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-03-04 21:01:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-03-04 21:01:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-03-04 21:01:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-03-04 21:01:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-03-04 21:01:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-03-04 21:01:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate_slab": "2024-03-04 21:18:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2024-03-04 22:33:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2024-03-04 22:37:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2024-03-04 22:37:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2024-03-04 22:37:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2024-03-04 22:46:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-03-04 22:46:12 +0100"
     },
     "done": true
   },

@@ -3425,9 +3425,9 @@
     },
     "done": true
   },
-  "minecraft:story/lava_bucket": {
+  "minecraft:recipes/misc/lapis_lazuli": {
     "criteria": {
-      "lava_bucket": "2024-03-05 11:06:41 +0100"
+      "has_lapis_block": "2024-03-05 10:18:44 +0100"
     },
     "done": true
   },
@@ -3437,15 +3437,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/lapis_lazuli": {
-    "criteria": {
-      "has_lapis_block": "2024-03-05 10:18:44 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
     "criteria": {
       "has_copper_ore": "2024-03-05 11:03:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-03-05 11:06:41 +0100"
     },
     "done": true
   },
