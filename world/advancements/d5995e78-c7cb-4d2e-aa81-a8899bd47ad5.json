@@ -16,6 +16,7 @@
       "minecraft:ice_spikes": "2024-03-03 17:51:03 +0100",
       "minecraft:desert": "2024-02-28 16:22:15 +0100",
       "minecraft:frozen_river": "2024-03-03 17:50:58 +0100",
+      "minecraft:ocean": "2024-03-05 20:43:13 +0100",
       "minecraft:cherry_grove": "2024-02-28 16:38:57 +0100",
       "minecraft:birch_forest": "2024-02-28 18:51:50 +0100",
       "minecraft:windswept_hills": "2024-03-04 16:06:54 +0100",
@@ -403,6 +404,7 @@
     "criteria": {
       "minecraft:blaze": "2024-03-02 19:57:37 +0100",
       "minecraft:skeleton": "2024-02-28 19:09:18 +0100",
+      "minecraft:elder_guardian": "2024-03-05 20:44:21 +0100",
       "minecraft:wither_skeleton": "2024-03-03 19:08:27 +0100",
       "minecraft:hoglin": "2024-03-02 15:40:23 +0100",
       "minecraft:cave_spider": "2024-03-02 18:41:42 +0100",
@@ -859,6 +861,7 @@
       "bread": "2024-02-29 18:51:09 +0100",
       "cooked_mutton": "2024-03-04 17:27:59 +0100",
       "cooked_beef": "2024-03-02 15:33:20 +0100",
+      "cod": "2024-03-05 20:56:22 +0100",
       "beef": "2024-02-28 18:56:42 +0100",
       "rabbit_stew": "2024-03-04 21:36:51 +0100",
       "porkchop": "2024-03-02 15:51:42 +0100",
@@ -3446,6 +3449,180 @@
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2024-03-05 11:06:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot": {
+    "criteria": {
+      "has_copper_block": "2024-03-05 21:46:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
+    "criteria": {
+      "armor_trimmed_minecraft:tide_armor_trim_smithing_template_smithing_trim": "2024-03-05 22:59:01 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-03-05 20:44:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2024-03-05 20:44:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-03-05 20:44:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-03-05 20:15:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-03-05 21:46:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2024-03-05 20:44:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2024-03-05 20:44:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2024-03-05 20:44:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-03-05 20:44:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/tide_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-03-05 20:46:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2024-03-05 20:44:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2024-03-05 20:46:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2024-03-05 20:44:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper": {
+    "criteria": {
+      "has_copper_block": "2024-03-05 21:46:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2024-03-05 20:17:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-03-05 20:44:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2024-03-05 20:50:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-03-05 21:46:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2024-03-05 20:44:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2024-03-05 20:44:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-03-05 21:46:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/tide_armor_trim_smithing_template": {
+    "criteria": {
+      "has_tide_armor_trim_smithing_template": "2024-03-05 20:46:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:tide_armor_trim_smithing_template_smithing_trim": "2024-03-05 22:59:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
+    "criteria": {
+      "has_copper_block": "2024-03-05 21:46:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-03-05 20:44:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2024-03-05 20:15:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2024-03-05 22:58:33 +0100"
     },
     "done": true
   },

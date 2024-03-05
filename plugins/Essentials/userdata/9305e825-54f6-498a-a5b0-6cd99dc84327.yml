@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1709580363514
+  lastteleport: 1709669887099
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1709662497833
-  login: 1709662418754
+  logout: 1709670006237
+  login: 1709662644489
 money: '0'
 last-account-name: Lavapro123
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -1454.5
-  y: 63.0
-  z: 887.5
-  yaw: -177.42745971679688
-  pitch: -0.36015012860298157
+  x: -5295.330774717533
+  y: 111.0
+  z: 2740.0700954159174
+  yaw: -17.36920166015625
+  pitch: 49.323707580566406
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -37,11 +37,19 @@ homes:
     z: 892.2176190785734
     yaw: -102.07327270507812
     pitch: -2.2765002250671387
+  dezert:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -4030.699999988079
+    y: 72.0
+    z: -838.2672246192401
+    yaw: 97.05422973632812
+    pitch: 22.501039505004883
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -1456.699999988079
-  y: 63.0
-  z: 886.697200831942
-  yaw: -72.8746337890625
-  pitch: 21.697906494140625
+  x: -1448.58240692685
+  y: 67.0
+  z: 902.6751294283844
+  yaw: -5.44561767578125
+  pitch: -1.4922723770141602

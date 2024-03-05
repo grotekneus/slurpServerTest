@@ -14,10 +14,13 @@
       "minecraft:deep_ocean": "2024-02-28 18:45:22 +0100",
       "minecraft:lush_caves": "2024-03-04 18:52:00 +0100",
       "minecraft:deep_cold_ocean": "2024-02-28 18:45:49 +0100",
+      "minecraft:desert": "2024-03-05 20:13:20 +0100",
       "minecraft:ocean": "2024-02-28 18:44:50 +0100",
       "minecraft:cherry_grove": "2024-02-28 18:33:08 +0100",
       "minecraft:sunflower_plains": "2024-02-29 10:40:22 +0100",
       "minecraft:birch_forest": "2024-02-28 19:13:49 +0100",
+      "minecraft:old_growth_spruce_taiga": "2024-03-05 21:15:11 +0100",
+      "minecraft:windswept_savanna": "2024-03-05 20:46:37 +0100",
       "minecraft:deep_lukewarm_ocean": "2024-02-29 11:59:42 +0100",
       "minecraft:flower_forest": "2024-02-29 10:47:05 +0100",
       "minecraft:savanna_plateau": "2024-02-29 12:40:48 +0100",
@@ -2852,6 +2855,102 @@
   "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
     "criteria": {
       "has_copper_ore": "2024-03-04 22:32:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2024-03-05 20:16:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-05 19:32:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-05 19:32:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-05 19:32:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-05 19:32:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-05 19:32:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2024-03-05 19:45:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2024-03-05 19:45:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-05 19:32:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-05 19:32:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-05 19:32:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2024-03-05 20:16:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2024-03-05 19:32:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-05 19:32:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-05 19:32:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-05 19:32:33 +0100"
     },
     "done": true
   },
