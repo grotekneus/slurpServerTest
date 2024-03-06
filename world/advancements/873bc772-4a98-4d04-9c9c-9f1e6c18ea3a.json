@@ -645,7 +645,9 @@
       "minecraft:vex": "2024-03-05 22:39:40 +0100",
       "minecraft:zombie": "2024-03-02 21:34:58 +0100",
       "minecraft:creeper": "2024-03-03 00:08:08 +0100",
-      "minecraft:evoker": "2024-03-05 22:33:42 +0100"
+      "minecraft:zombie_villager": "2024-03-06 23:13:08 +0100",
+      "minecraft:evoker": "2024-03-05 22:33:42 +0100",
+      "minecraft:slime": "2024-03-06 23:20:48 +0100"
     },
     "done": false
   },
@@ -3480,6 +3482,48 @@
   "minecraft:recipes/misc/beacon": {
     "criteria": {
       "has_nether_star": "2024-03-06 22:17:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2024-03-06 22:48:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2024-03-06 22:54:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-03-06 23:20:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2024-03-06 22:53:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2024-03-06 23:20:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2024-03-06 22:54:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2024-03-06 23:20:49 +0100"
     },
     "done": true
   },

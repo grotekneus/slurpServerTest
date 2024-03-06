@@ -3445,9 +3445,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/emerald": {
+  "minecraft:recipes/misc/raw_iron": {
     "criteria": {
-      "has_emerald_block": "2024-03-06 22:21:06 +0100"
+      "has_raw_iron_block": "2024-03-06 21:23:08 +0100"
     },
     "done": true
   },
@@ -3457,27 +3457,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2024-03-06 21:55:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2024-03-06 22:09:04 +0100"
+    },
+    "done": true
+  },
   "minecraft:nether/get_wither_skull": {
     "criteria": {
       "wither_skull": "2024-03-06 22:10:26 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+  "minecraft:recipes/misc/skull_banner_pattern": {
     "criteria": {
-      "has_iron_block": "2024-03-06 22:20:27 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/raw_iron": {
-    "criteria": {
-      "has_raw_iron_block": "2024-03-06 21:23:08 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_smelting_deepslate_gold_ore": {
-    "criteria": {
-      "has_deepslate_gold_ore": "2024-03-06 21:55:57 +0100"
+      "has_wither_skeleton_skull": "2024-03-06 22:10:26 +0100"
     },
     "done": true
   },
@@ -3493,21 +3493,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2024-03-06 22:20:27 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
       "has_iron_block": "2024-03-06 22:20:27 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/misc/skull_banner_pattern": {
+  "minecraft:recipes/misc/emerald": {
     "criteria": {
-      "has_wither_skeleton_skull": "2024-03-06 22:10:26 +0100"
-    },
-    "done": true
-  },
-  "minecraft:nether/netherite_armor": {
-    "criteria": {
-      "netherite_armor": "2024-03-06 22:09:04 +0100"
+      "has_emerald_block": "2024-03-06 22:21:06 +0100"
     },
     "done": true
   },
