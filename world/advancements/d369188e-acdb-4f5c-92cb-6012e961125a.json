@@ -2203,9 +2203,9 @@
     },
     "done": true
   },
-  "minecraft:nether/brew_potion": {
+  "minecraft:story/shiny_gear": {
     "criteria": {
-      "potion": "2024-03-05 21:02:29 +0100"
+      "diamond_boots": "2024-03-05 20:41:50 +0100"
     },
     "done": true
   },
@@ -2214,12 +2214,6 @@
       "has_planks": "2024-03-05 20:57:41 +0100"
     },
     "done": true
-  },
-  "minecraft:husbandry/bred_all_animals": {
-    "criteria": {
-      "minecraft:bee": "2024-03-05 21:33:59 +0100"
-    },
-    "done": false
   },
   "minecraft:recipes/decorations/jungle_sign": {
     "criteria": {
@@ -2230,12 +2224,6 @@
   "minecraft:recipes/redstone/jungle_door": {
     "criteria": {
       "has_planks": "2024-03-05 20:57:41 +0100"
-    },
-    "done": true
-  },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_boots": "2024-03-05 20:41:50 +0100"
     },
     "done": true
   },
@@ -2269,15 +2257,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-03-05 20:57:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2024-03-05 21:02:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:bee": "2024-03-05 21:33:59 +0100"
+    },
+    "done": false
+  },
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "bred": "2024-03-05 21:33:59 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/jungle_fence_gate": {
+  "minecraft:recipes/decorations/snow": {
     "criteria": {
-      "has_planks": "2024-03-05 20:57:41 +0100"
+      "has_snowball": "2024-03-06 21:45:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2024-03-06 21:45:59 +0100"
     },
     "done": true
   },

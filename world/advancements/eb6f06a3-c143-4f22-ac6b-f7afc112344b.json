@@ -459,13 +459,17 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-03-03 11:58:02 +0100",
+      "apple": "2024-03-06 12:26:12 +0100",
       "bread": "2024-03-02 22:33:50 +0100",
+      "cooked_chicken": "2024-03-06 16:42:32 +0100",
       "rotten_flesh": "2024-03-03 00:47:56 +0100",
       "cooked_mutton": "2024-03-03 00:16:31 +0100",
+      "potato": "2024-03-06 20:24:06 +0100",
       "cooked_cod": "2024-03-02 21:56:25 +0100",
       "cooked_beef": "2024-03-02 21:52:11 +0100",
       "baked_potato": "2024-03-04 22:05:53 +0100",
-      "cooked_salmon": "2024-03-02 21:39:19 +0100"
+      "cooked_salmon": "2024-03-02 21:39:19 +0100",
+      "carrot": "2024-03-06 17:47:49 +0100"
     },
     "done": false
   },
@@ -837,19 +841,27 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2024-03-06 14:13:30 +0100",
       "minecraft:skeleton": "2024-03-02 22:03:22 +0100",
       "minecraft:phantom": "2024-03-03 17:52:19 +0100",
       "minecraft:witch": "2024-03-05 20:15:27 +0100",
+      "minecraft:ravager": "2024-03-06 20:30:16 +0100",
       "minecraft:ghast": "2024-03-03 13:52:16 +0100",
       "minecraft:hoglin": "2024-03-03 11:56:17 +0100",
+      "minecraft:cave_spider": "2024-03-06 21:46:04 +0100",
       "minecraft:piglin": "2024-03-03 11:47:23 +0100",
+      "minecraft:vindicator": "2024-03-06 20:16:10 +0100",
       "minecraft:enderman": "2024-03-03 16:42:16 +0100",
       "minecraft:magma_cube": "2024-03-03 12:18:16 +0100",
       "minecraft:spider": "2024-03-02 22:01:27 +0100",
       "minecraft:piglin_brute": "2024-03-03 12:02:49 +0100",
+      "minecraft:vex": "2024-03-06 20:27:59 +0100",
       "minecraft:zombie": "2024-03-02 21:51:43 +0100",
       "minecraft:creeper": "2024-03-02 22:04:21 +0100",
-      "minecraft:zombie_villager": "2024-03-02 22:01:32 +0100"
+      "minecraft:drowned": "2024-03-06 13:44:29 +0100",
+      "minecraft:wither": "2024-03-06 22:16:53 +0100",
+      "minecraft:zombie_villager": "2024-03-02 22:01:32 +0100",
+      "minecraft:evoker": "2024-03-06 20:26:30 +0100"
     },
     "done": false
   },
@@ -1925,10 +1937,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2024-03-03 11:44:04 +0100",
       "minecraft:nether_wastes": "2024-03-03 11:40:15 +0100",
+      "minecraft:soul_sand_valley": "2024-03-06 12:32:24 +0100",
       "minecraft:warped_forest": "2024-03-03 13:48:25 +0100",
       "minecraft:basalt_deltas": "2024-03-04 19:35:23 +0100"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/redstone/observer": {
     "criteria": {
@@ -3363,6 +3376,138 @@
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_poppy": "2024-03-06 01:37:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2024-03-06 10:32:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone": {
+    "criteria": {
+      "has_polished_blackstone_slab": "2024-03-06 10:41:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2024-03-06 11:53:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2024-03-06 11:53:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz": {
+    "criteria": {
+      "has_nether_quartz_ore": "2024-03-06 12:02:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz_from_blasting": {
+    "criteria": {
+      "has_nether_quartz_ore": "2024-03-06 12:02:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2024-03-06 14:24:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-03-06 18:01:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-03-06 19:22:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2024-03-06 20:31:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2024-03-06 20:37:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2024-03-06 22:21:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2024-03-06 21:55:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-03-06 22:10:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2024-03-06 22:20:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_iron": {
+    "criteria": {
+      "has_raw_iron_block": "2024-03-06 21:23:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2024-03-06 21:55:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2024-03-06 22:15:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2024-03-06 22:16:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2024-03-06 22:20:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2024-03-06 22:10:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2024-03-06 22:09:04 +0100"
     },
     "done": true
   },

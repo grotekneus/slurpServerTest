@@ -1,6 +1,6 @@
 teleportenabled: true
 teleportauto: false
-godmode: true
+godmode: false
 muted: false
 jailed: false
 ip-address: 10.147.19.115
@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1709675969556
+  lastteleport: 1709760266416
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1709676876828
-  login: 1709662656277
+  logout: 1709760361614
+  login: 1709756708442
   kits:
     pjoes: 1709144115793
     dtools: 1709144154538
@@ -27,19 +27,19 @@ last-account-name: JGamesSP
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -1449.5844841094008
-  y: 73.0
-  z: 893.5991694091679
-  yaw: -31.966796875
-  pitch: 20.280805587768555
+  x: -1458.7102810209187
+  y: 69.0
+  z: 871.2742527414066
+  yaw: -111.65472412109375
+  pitch: 19.072635650634766
 lastlocation:
-  world: c116a7a4-4cc4-434f-8a30-535ce385984e
-  world-name: world_nether
-  x: -559.6853553614958
-  y: 54.0
-  z: 156.6775294092828
-  yaw: -125.10858917236328
-  pitch: 1.31130850315094
+  world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+  world-name: world
+  x: -5280.139869442246
+  y: 111.0625
+  z: 2719.65675755851
+  yaw: -52.79341506958008
+  pitch: 24.130165100097656
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -81,4 +81,12 @@ homes:
     z: 414.4701148940406
     yaw: -80.7958984375
     pitch: 45.581703186035156
+  pillager:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -1263.699999988079
+    y: 74.0
+    z: 1880.300000011921
+    yaw: -161.644775390625
+    pitch: 13.772381782531738
 nickname: schattie

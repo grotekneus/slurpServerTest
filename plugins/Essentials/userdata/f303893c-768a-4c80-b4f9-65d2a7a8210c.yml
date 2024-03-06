@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1709675988359
+  lastteleport: 1709757339668
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1709676736472
-  login: 1709662655528
-money: '3593.999'
+  logout: 1709757445908
+  login: 1709749775792
+money: '7697.999'
 last-account-name: transferreSP
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -4741.237981754058
-  y: 83.79673560066871
-  z: 3150.5436477110466
-  yaw: -111.380615234375
-  pitch: -9.74990463256836
+  x: -4712.532755524412
+  y: 94.0
+  z: 3134.546810712068
+  yaw: 179.3426513671875
+  pitch: 15.749887466430664
 lastlocation:
-  world: c116a7a4-4cc4-434f-8a30-535ce385984e
-  world-name: world_nether
-  x: -556.5744223149924
-  y: 54.0
-  z: 156.30000001192093
-  yaw: -160.378662109375
-  pitch: 6.900039196014404
+  world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+  world-name: world
+  x: -5415.5
+  y: 97.0
+  z: 2317.5
+  yaw: -108.60000610351562
+  pitch: 13.050000190734863
 homes:
   blaze:
     world: c116a7a4-4cc4-434f-8a30-535ce385984e
@@ -61,3 +61,12 @@ homes:
     z: 3140.060388143395
     yaw: -114.058349609375
     pitch: 14.700105667114258
+  pillage:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -1240.9965119056567
+    y: 70.0
+    z: 1860.1345742686915
+    yaw: -21.09765625
+    pitch: -7.800018310546875
+nickname: furry
