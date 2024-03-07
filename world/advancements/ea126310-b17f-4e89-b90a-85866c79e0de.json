@@ -344,6 +344,7 @@
       "minecraft:phantom": "2024-03-03 15:04:29 +0100",
       "minecraft:witch": "2024-03-05 19:01:09 +0100",
       "minecraft:wither_skeleton": "2024-03-03 00:53:46 +0100",
+      "minecraft:shulker": "2024-03-07 21:12:42 +0100",
       "minecraft:piglin": "2024-03-03 15:51:23 +0100",
       "minecraft:vindicator": "2024-03-02 23:17:33 +0100",
       "minecraft:enderman": "2024-03-03 19:53:31 +0100",
@@ -364,6 +365,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "chicken": "2024-03-07 21:14:47 +0100",
       "bread": "2024-03-02 21:08:15 +0100",
       "golden_apple": "2024-03-02 23:20:48 +0100",
       "cooked_chicken": "2024-03-04 21:35:22 +0100",
@@ -2986,15 +2988,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2024-03-06 21:21:44 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/lapis_lazuli": {
     "criteria": {
       "has_lapis_block": "2024-03-06 21:23:00 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/misc/paper": {
+  "minecraft:end/find_end_city": {
     "criteria": {
-      "has_reeds": "2024-03-06 21:21:44 +0100"
+      "in_city": "2024-03-07 21:12:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2024-03-07 21:12:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-03-07 21:12:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-03-07 21:14:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-03-07 21:12:15 +0100"
     },
     "done": true
   },

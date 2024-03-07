@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2024-03-05 19:35:55 +0100",
+      "minecraft:old_growth_pine_taiga": "2024-03-07 19:08:33 +0100",
       "minecraft:forest": "2024-03-04 16:11:46 +0100",
       "minecraft:taiga": "2024-03-05 21:15:27 +0100",
       "minecraft:deep_ocean": "2024-03-05 19:36:34 +0100",
@@ -286,7 +287,8 @@
       "cooked_cod": "2024-03-06 15:26:27 +0100",
       "cooked_beef": "2024-03-04 16:07:45 +0100",
       "melon_slice": "2024-03-06 14:52:35 +0100",
-      "cooked_salmon": "2024-03-06 16:31:50 +0100"
+      "cooked_salmon": "2024-03-06 16:31:50 +0100",
+      "pumpkin_pie": "2024-03-07 19:35:12 +0100"
     },
     "done": false
   },
@@ -317,8 +319,10 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2024-03-06 16:40:51 +0100",
+      "minecraft:pillager": "2024-03-07 16:09:55 +0100",
       "minecraft:skeleton": "2024-03-05 19:19:58 +0100",
       "minecraft:piglin": "2024-03-06 17:21:51 +0100",
+      "minecraft:enderman": "2024-03-07 16:38:12 +0100",
       "minecraft:magma_cube": "2024-03-06 16:34:37 +0100",
       "minecraft:spider": "2024-03-04 20:25:51 +0100",
       "minecraft:wither_skeleton": "2024-03-06 16:34:33 +0100",
@@ -963,7 +967,8 @@
     "criteria": {
       "minecraft:crimson_forest": "2024-03-06 16:33:35 +0100",
       "minecraft:nether_wastes": "2024-03-04 18:36:11 +0100",
-      "minecraft:basalt_deltas": "2024-03-04 20:10:13 +0100"
+      "minecraft:basalt_deltas": "2024-03-04 20:10:13 +0100",
+      "minecraft:warped_forest": "2024-03-07 16:35:55 +0100"
     },
     "done": false
   },
@@ -2257,30 +2262,11 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/magma_block": {
-    "criteria": {
-      "has_magma_cream": "2024-03-06 17:22:16 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cracked_nether_bricks": {
     "criteria": {
       "has_nether_bricks": "2024-03-06 16:32:53 +0100"
     },
     "done": true
-  },
-  "minecraft:nether/get_wither_skull": {
-    "criteria": {
-      "wither_skull": "2024-03-06 17:24:10 +0100"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/bred_all_animals": {
-    "criteria": {
-      "minecraft:cow": "2024-03-06 16:58:29 +0100",
-      "minecraft:sheep": "2024-03-06 16:58:44 +0100"
-    },
-    "done": false
   },
   "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
     "criteria": {
@@ -2297,12 +2283,6 @@
   "minecraft:recipes/building_blocks/nether_brick_slab": {
     "criteria": {
       "has_nether_bricks": "2024-03-06 16:32:53 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dispenser": {
-    "criteria": {
-      "has_bow": "2024-03-06 16:41:23 +0100"
     },
     "done": true
   },
@@ -2330,21 +2310,184 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/skull_banner_pattern": {
-    "criteria": {
-      "has_wither_skeleton_skull": "2024-03-06 17:24:10 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/nether_brick_fence": {
     "criteria": {
       "has_nether_bricks": "2024-03-06 16:32:53 +0100"
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-03-06 16:41:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2024-03-06 16:58:29 +0100",
+      "minecraft:sheep": "2024-03-06 16:58:44 +0100"
+    },
+    "done": false
+  },
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "bred": "2024-03-06 16:58:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2024-03-06 17:22:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-03-06 17:24:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2024-03-06 17:24:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-03-07 16:10:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2024-03-07 18:59:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2024-03-07 19:14:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2024-03-07 19:27:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2024-03-07 19:27:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2024-03-07 19:14:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2024-03-07 19:14:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2024-03-07 19:14:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2024-03-07 19:14:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2024-03-07 20:15:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-03-07 20:10:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2024-03-07 20:09:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2024-03-07 18:57:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2024-03-07 19:14:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-03-07 20:09:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2024-03-07 19:14:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2024-03-07 19:14:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2024-03-07 19:14:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2024-03-07 19:14:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2024-03-07 19:14:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2024-03-07 19:27:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-03-07 20:09:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2024-03-07 19:14:06 +0100"
     },
     "done": true
   },

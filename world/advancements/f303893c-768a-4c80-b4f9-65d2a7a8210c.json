@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:cold_ocean": "2024-02-28 18:45:55 +0100",
       "minecraft:snowy_slopes": "2024-03-03 15:39:02 +0100",
+      "minecraft:old_growth_pine_taiga": "2024-03-07 12:37:45 +0100",
       "minecraft:forest": "2024-02-28 16:28:24 +0100",
       "minecraft:taiga": "2024-02-28 18:47:55 +0100",
       "minecraft:deep_ocean": "2024-02-28 18:45:22 +0100",
@@ -19,9 +20,12 @@
       "minecraft:cherry_grove": "2024-02-28 18:33:08 +0100",
       "minecraft:sunflower_plains": "2024-02-29 10:40:22 +0100",
       "minecraft:birch_forest": "2024-02-28 19:13:49 +0100",
+      "minecraft:windswept_hills": "2024-03-07 12:38:01 +0100",
       "minecraft:old_growth_spruce_taiga": "2024-03-05 21:15:11 +0100",
       "minecraft:windswept_savanna": "2024-03-05 20:46:37 +0100",
+      "minecraft:warm_ocean": "2024-03-07 12:29:34 +0100",
       "minecraft:deep_lukewarm_ocean": "2024-02-29 11:59:42 +0100",
+      "minecraft:badlands": "2024-03-07 12:27:14 +0100",
       "minecraft:flower_forest": "2024-02-29 10:47:05 +0100",
       "minecraft:savanna_plateau": "2024-02-29 12:40:48 +0100",
       "minecraft:beach": "2024-02-28 18:47:44 +0100",
@@ -34,6 +38,7 @@
       "minecraft:frozen_peaks": "2024-03-03 15:39:13 +0100",
       "minecraft:old_growth_birch_forest": "2024-02-28 18:57:02 +0100",
       "minecraft:deep_dark": "2024-03-02 18:04:29 +0100",
+      "minecraft:swamp": "2024-03-07 12:38:02 +0100",
       "minecraft:meadow": "2024-02-28 21:26:12 +0100",
       "minecraft:savanna": "2024-02-28 16:38:07 +0100",
       "minecraft:plains": "2024-02-28 16:40:26 +0100"
@@ -1211,9 +1216,12 @@
       "minecraft:zombified_piglin": "2024-03-02 18:54:23 +0100",
       "minecraft:witch": "2024-02-29 11:04:55 +0100",
       "minecraft:wither_skeleton": "2024-03-03 13:24:33 +0100",
+      "minecraft:ghast": "2024-03-07 17:10:31 +0100",
+      "minecraft:ender_dragon": "2024-03-07 18:07:05 +0100",
       "minecraft:hoglin": "2024-03-03 12:25:55 +0100",
       "minecraft:piglin": "2024-03-02 15:44:48 +0100",
       "minecraft:vindicator": "2024-03-06 15:41:23 +0100",
+      "minecraft:enderman": "2024-03-07 18:07:30 +0100",
       "minecraft:magma_cube": "2024-03-02 19:56:42 +0100",
       "minecraft:spider": "2024-02-29 10:29:51 +0100",
       "minecraft:piglin_brute": "2024-03-03 12:23:14 +0100",
@@ -3272,6 +3280,228 @@
   "minecraft:recipes/decorations/light_gray_carpet": {
     "criteria": {
       "has_light_gray_wool": "2024-03-06 19:32:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2024-03-07 12:28:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2024-03-07 12:28:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-03-07 12:28:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-03-07 12:28:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2024-03-07 12:28:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-03-07 12:28:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-03-07 12:28:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2024-03-07 12:28:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-03-07 12:28:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-03-07 12:28:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2024-03-07 12:28:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2024-03-07 12:34:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2024-03-07 12:34:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2024-03-07 12:34:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-03-07 12:34:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2024-03-07 12:34:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-03-07 12:34:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-03-07 12:34:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-03-07 12:34:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-03-07 12:34:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2024-03-07 12:34:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-03-07 12:34:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2024-03-07 13:03:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2024-03-07 13:06:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2024-03-07 13:09:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2024-03-07 15:19:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2024-03-07 18:07:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2024-03-07 17:51:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-03-07 18:02:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2024-03-07 18:02:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-03-07 18:02:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-03-07 18:01:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-03-07 18:02:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-03-07 18:02:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-03-07 18:02:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-03-07 18:02:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2024-03-07 17:51:11 +0100"
     },
     "done": true
   },

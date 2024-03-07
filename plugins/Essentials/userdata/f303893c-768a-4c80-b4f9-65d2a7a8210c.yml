@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1709757339668
+  lastteleport: 1709831756364
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1709757445908
-  login: 1709749775792
+  logout: 1709831990649
+  login: 1709830117043
 money: '7697.999'
 last-account-name: transferreSP
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -4712.532755524412
-  y: 94.0
-  z: 3134.546810712068
-  yaw: 179.3426513671875
-  pitch: 15.749887466430664
+  x: -4732.020390159352
+  y: 59.0
+  z: 3094.5531180438456
+  yaw: -170.60943603515625
+  pitch: 6.3000264167785645
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5415.5
-  y: 97.0
-  z: 2317.5
-  yaw: -108.60000610351562
-  pitch: 13.050000190734863
+  x: -4740.5158243875385
+  y: 49.0
+  z: 3111.107221640159
+  yaw: 179.04132080078125
+  pitch: -60.74993133544922
 homes:
   blaze:
     world: c116a7a4-4cc4-434f-8a30-535ce385984e
@@ -69,4 +69,12 @@ homes:
     z: 1860.1345742686915
     yaw: -21.09765625
     pitch: -7.800018310546875
+  slime:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -1857.8611237753903
+    y: 69.0
+    z: 2095.0171469926267
+    yaw: -86.19674682617188
+    pitch: 19.49998664855957
 nickname: furry
