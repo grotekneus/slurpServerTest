@@ -15,7 +15,9 @@
       "minecraft:deep_ocean": "2024-02-28 18:45:22 +0100",
       "minecraft:lush_caves": "2024-03-04 18:52:00 +0100",
       "minecraft:deep_cold_ocean": "2024-02-28 18:45:49 +0100",
+      "minecraft:frozen_ocean": "2024-03-08 15:15:41 +0100",
       "minecraft:desert": "2024-03-05 20:13:20 +0100",
+      "minecraft:frozen_river": "2024-03-08 15:15:32 +0100",
       "minecraft:ocean": "2024-02-28 18:44:50 +0100",
       "minecraft:cherry_grove": "2024-02-28 18:33:08 +0100",
       "minecraft:sunflower_plains": "2024-02-29 10:40:22 +0100",
@@ -34,11 +36,14 @@
       "minecraft:river": "2024-02-28 16:40:25 +0100",
       "minecraft:lukewarm_ocean": "2024-02-28 16:42:03 +0100",
       "minecraft:stony_shore": "2024-02-28 16:40:43 +0100",
+      "minecraft:snowy_plains": "2024-03-08 15:12:29 +0100",
       "minecraft:dripstone_caves": "2024-02-29 10:25:15 +0100",
+      "minecraft:snowy_taiga": "2024-03-08 15:14:38 +0100",
       "minecraft:frozen_peaks": "2024-03-03 15:39:13 +0100",
       "minecraft:old_growth_birch_forest": "2024-02-28 18:57:02 +0100",
       "minecraft:deep_dark": "2024-03-02 18:04:29 +0100",
       "minecraft:swamp": "2024-03-07 12:38:02 +0100",
+      "minecraft:grove": "2024-03-08 15:14:36 +0100",
       "minecraft:meadow": "2024-02-28 21:26:12 +0100",
       "minecraft:savanna": "2024-02-28 16:38:07 +0100",
       "minecraft:plains": "2024-02-28 16:40:26 +0100"
@@ -3439,15 +3444,33 @@
     },
     "done": true
   },
-  "minecraft:end/kill_dragon": {
-    "criteria": {
-      "killed_dragon": "2024-03-07 18:07:05 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/lapis_lazuli_from_blasting_lapis_ore": {
     "criteria": {
       "has_lapis_ore": "2024-03-07 17:51:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2024-03-07 17:51:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-03-07 18:01:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-03-07 18:02:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-03-07 18:02:11 +0100"
     },
     "done": true
   },
@@ -3469,18 +3492,6 @@
     },
     "done": true
   },
-  "minecraft:story/follow_ender_eye": {
-    "criteria": {
-      "in_stronghold": "2024-03-07 18:01:48 +0100"
-    },
-    "done": true
-  },
-  "minecraft:end/root": {
-    "criteria": {
-      "entered_end": "2024-03-07 18:02:11 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-03-07 18:02:27 +0100"
@@ -3493,15 +3504,63 @@
     },
     "done": true
   },
-  "minecraft:story/enter_the_end": {
+  "minecraft:end/kill_dragon": {
     "criteria": {
-      "entered_end": "2024-03-07 18:02:11 +0100"
+      "killed_dragon": "2024-03-07 18:07:05 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
+  "minecraft:end/elytra": {
     "criteria": {
-      "has_lapis_ore": "2024-03-07 17:51:11 +0100"
+      "elytra": "2024-03-08 12:42:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2024-03-08 14:03:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2024-03-08 14:43:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2024-03-08 15:20:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2024-03-08 15:28:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2024-03-08 15:57:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2024-03-08 15:57:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-03-08 19:24:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2024-03-08 19:24:22 +0100"
     },
     "done": true
   },

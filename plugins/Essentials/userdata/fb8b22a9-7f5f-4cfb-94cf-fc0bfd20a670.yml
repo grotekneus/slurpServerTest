@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1709813521852
+  lastteleport: 1709935879038
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1709813523604
-  login: 1709805294545
+  logout: 1709936865587
+  login: 1709932585963
   kits:
     tools: 1709144377478
 money: '0'
@@ -25,19 +25,19 @@ last-account-name: Art3mis7200
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5455.5
-  y: 79.0
-  z: 2353.5
-  yaw: -161.8109130859375
-  pitch: 29.65121078491211
+  x: -5464.660189777264
+  y: -39.0
+  z: 2358.0297379388294
+  yaw: -98.6884765625
+  pitch: -0.40159690380096436
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5459.2901252741085
-  y: -45.0
-  z: 2355.7324607951905
-  yaw: 89.16802978515625
-  pitch: -16.81894302368164
+  x: -5448.998127558326
+  y: -37.0
+  z: 2372.321280934794
+  yaw: -97.40869140625
+  pitch: 23.11002540588379
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -47,3 +47,11 @@ homes:
     z: 2354.317750735729
     yaw: -161.8109130859375
     pitch: 29.65121078491211
+  schat:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -1467.7923906599806
+    y: 63.0
+    z: 923.2024653316614
+    yaw: 144.16725158691406
+    pitch: 15.469902992248535

@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1709843666025
+  lastteleport: 1709936739573
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1709843803277
-  login: 1709833584048
+  logout: 1709936874418
+  login: 1709926801066
 money: '0'
 last-account-name: TomosChlausorius
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5276.481678186833
-  y: 111.875
-  z: 2724.627260785948
-  yaw: 7.636325359344482
-  pitch: 12.000227928161621
+  x: -5281.699999988079
+  y: 55.00398147539871
+  z: 2749.801270924194
+  yaw: 46.95036315917969
+  pitch: 66.44988250732422
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5289.931394810659
-  y: -5.0
-  z: 2744.295818378683
-  yaw: -66.15228271484375
-  pitch: -21.14990997314453
+  x: -5266.699999988079
+  y: 51.6875
+  z: 2770.53431545737
+  yaw: 83.085205078125
+  pitch: -38.85029983520508
 homes:
   roos:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -125,3 +125,11 @@ homes:
     z: 3883.2883313168104
     yaw: -2.882080078125
     pitch: 30.90021324157715
+  bovengat:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -5297.478435848682
+    y: 95.0
+    z: 2756.1254872817663
+    yaw: -142.349609375
+    pitch: 15.89997673034668

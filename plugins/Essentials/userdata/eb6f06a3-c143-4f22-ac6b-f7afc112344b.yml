@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 127.0.0.1
+ip-address: 10.147.19.129
 afk: false
 socialspy: false
 npc: false
@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1709759968022
+  lastteleport: 1709933192686
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1709761819747
-  login: 1709761705968
+  logout: 1709933857030
+  login: 1709925505937
 money: '0'
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5281.448748329484
-  y: 111.0625
-  z: 2733.16816837767
-  yaw: 166.510986328125
-  pitch: 23.588359832763672
+  x: -5289.014372132888
+  y: 111.0
+  z: 2750.0686820366304
+  yaw: -152.98046875
+  pitch: 0.2821069657802582
 last-account-name: JMBoy
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5081.50897376319
-  y: 95.0
-  z: 2633.5627505354414
-  yaw: 27.856689453125
-  pitch: 20.094802856445312
+  x: -5141.384603185597
+  y: 104.0
+  z: 2680.108320993938
+  yaw: 63.94169998168945
+  pitch: 20.786104202270508
 nickname: Janine
 homes:
   xp:
@@ -54,3 +54,11 @@ homes:
     z: 2726.925664173907
     yaw: -114.52569580078125
     pitch: 65.27359771728516
+  ice:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -6273.726009568512
+    y: 68.0
+    z: 3785.806748062601
+    yaw: 45.74169921875
+    pitch: 16.007583618164062
