@@ -323,7 +323,7 @@ player-commands:
   - world
   - worth
   - xmpp
-  - essentials.sethome.multiple
+  - essentials.sethome.unlimited
   - essentials.worlds.world_nether
   - essentials.worlds.world_end
 
@@ -459,7 +459,7 @@ remove-god-on-disconnect: false
 # After this timeout in seconds, the user will be set as AFK.
 # This feature requires the player to have essentials.afk.auto node.
 # Set to -1 for no timeout.
-auto-afk: -1
+auto-afk: 300
 
 # Auto-AFK Kick
 # After this timeout in seconds, the user will be kicked from the server.
@@ -579,7 +579,7 @@ no-god-in-worlds:
 # This applies to /world, /back, /tp[a|o][here|all], but not warps.
 # Give someone permission to teleport to a world with essentials.worlds.<worldname>
 # This does not affect the /home command, there is a separate toggle below for this.
-world-teleport-permissions: true
+world-teleport-permissions: false
 
 # The number of items given if the quantity parameter is left out in /item or /give.
 # If this number is below 1, the maximum stack size size is given. If over-sized stacks.
@@ -755,7 +755,7 @@ update-bed-at-daytime: true
 # Set to true to enable per-world permissions for using homes to teleport between worlds.
 # This applies to the /home command only.
 # Give someone permission to teleport to a world with essentials.worlds.<worldname>
-world-home-permissions: true
+world-home-permissions: false
 
 # Allow players to have multiple homes.
 # Players need essentials.sethome.multiple before they can have more than 1 home.
@@ -969,7 +969,7 @@ protect:
     fireball-fire: false
     fireball-playerdamage: false
     fireball-itemdamage: false
-    witherskull-explosion: false
+    witherskull-explosion: true
     witherskull-playerdamage: false
     witherskull-itemdamage: false
     wither-spawnexplosion: false
@@ -1149,7 +1149,7 @@ newbies:
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
-  spawnpoint: newbies
+  spawnpoint: none
 
   # Do we want to give users anything on first join? Set to '' to disable
   # This kit will be given regardless of cost and permissions, and will not trigger the kit delay.
