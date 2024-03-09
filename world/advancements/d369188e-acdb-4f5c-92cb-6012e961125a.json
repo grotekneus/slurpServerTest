@@ -1375,6 +1375,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2024-03-09 15:29:48 +0100",
       "minecraft:skeleton": "2024-03-03 14:15:20 +0100",
       "minecraft:zombified_piglin": "2024-03-05 21:35:27 +0100",
       "minecraft:spider": "2024-03-04 21:54:54 +0100",
@@ -2318,6 +2319,30 @@
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2024-03-08 21:31:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-03-09 15:29:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2024-03-09 16:10:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-03-09 18:47:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-03-09 21:58:44 +0100"
     },
     "done": true
   },

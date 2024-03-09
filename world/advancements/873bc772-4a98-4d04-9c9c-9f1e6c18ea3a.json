@@ -27,6 +27,7 @@
       "minecraft:bamboo_jungle": "2024-03-04 22:41:20 +0100",
       "minecraft:windswept_savanna": "2024-03-05 20:46:35 +0100",
       "minecraft:deep_lukewarm_ocean": "2024-03-04 20:16:15 +0100",
+      "minecraft:flower_forest": "2024-03-09 18:18:42 +0100",
       "minecraft:beach": "2024-03-02 23:21:38 +0100",
       "minecraft:dark_forest": "2024-03-02 22:50:29 +0100",
       "minecraft:sparse_jungle": "2024-03-02 21:56:25 +0100",
@@ -3821,15 +3822,81 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2024-03-08 21:17:19 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/pink_stained_glass_pane": {
     "criteria": {
       "has_glass": "2024-03-08 22:31:20 +0100"
     },
     "done": true
   },
-  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
     "criteria": {
-      "kill_mob_near_sculk_catalyst": "2024-03-08 21:17:19 +0100"
+      "has_glass": "2024-03-09 16:36:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2024-03-09 19:12:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2024-03-09 19:16:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2024-03-09 19:16:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_deepslate_iron_ore": {
+    "criteria": {
+      "has_deepslate_iron_ore": "2024-03-09 19:54:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2024-03-09 19:08:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2024-03-09 20:33:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2024-03-09 19:12:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2024-03-09 19:08:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2024-03-09 20:52:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_deepslate_iron_ore": {
+    "criteria": {
+      "has_deepslate_iron_ore": "2024-03-09 19:54:09 +0100"
     },
     "done": true
   },
