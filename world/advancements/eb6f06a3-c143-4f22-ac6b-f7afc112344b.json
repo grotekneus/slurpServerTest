@@ -842,27 +842,30 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-03-06 14:13:30 +0100",
+      "minecraft:blaze": "2024-03-09 12:07:04 +0100",
       "minecraft:skeleton": "2024-03-02 22:03:22 +0100",
-      "minecraft:phantom": "2024-03-03 17:52:19 +0100",
-      "minecraft:witch": "2024-03-05 20:15:27 +0100",
       "minecraft:ravager": "2024-03-06 20:30:16 +0100",
       "minecraft:ghast": "2024-03-03 13:52:16 +0100",
-      "minecraft:ender_dragon": "2024-03-08 19:27:35 +0100",
       "minecraft:hoglin": "2024-03-03 11:56:17 +0100",
-      "minecraft:cave_spider": "2024-03-06 21:46:04 +0100",
-      "minecraft:piglin": "2024-03-03 11:47:23 +0100",
       "minecraft:vindicator": "2024-03-06 20:16:10 +0100",
-      "minecraft:enderman": "2024-03-03 16:42:16 +0100",
       "minecraft:magma_cube": "2024-03-03 12:18:16 +0100",
       "minecraft:spider": "2024-03-02 22:01:27 +0100",
       "minecraft:piglin_brute": "2024-03-03 12:02:49 +0100",
+      "minecraft:creeper": "2024-03-02 22:04:21 +0100",
+      "minecraft:wither": "2024-03-06 22:16:53 +0100",
+      "minecraft:evoker": "2024-03-06 20:26:30 +0100",
+      "minecraft:phantom": "2024-03-03 17:52:19 +0100",
+      "minecraft:zombified_piglin": "2024-03-09 12:10:57 +0100",
+      "minecraft:witch": "2024-03-05 20:15:27 +0100",
+      "minecraft:wither_skeleton": "2024-03-09 12:06:44 +0100",
+      "minecraft:ender_dragon": "2024-03-08 19:27:35 +0100",
+      "minecraft:cave_spider": "2024-03-06 21:46:04 +0100",
+      "minecraft:piglin": "2024-03-03 11:47:23 +0100",
+      "minecraft:enderman": "2024-03-03 16:42:16 +0100",
       "minecraft:vex": "2024-03-06 20:27:59 +0100",
       "minecraft:zombie": "2024-03-02 21:51:43 +0100",
-      "minecraft:creeper": "2024-03-02 22:04:21 +0100",
       "minecraft:drowned": "2024-03-06 13:44:29 +0100",
-      "minecraft:wither": "2024-03-06 22:16:53 +0100",
-      "minecraft:zombie_villager": "2024-03-02 22:01:32 +0100",
-      "minecraft:evoker": "2024-03-06 20:26:30 +0100"
+      "minecraft:zombie_villager": "2024-03-02 22:01:32 +0100"
     },
     "done": false
   },
@@ -3740,9 +3743,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/lime_dye": {
+  "minecraft:recipes/decorations/pink_glazed_terracotta": {
     "criteria": {
-      "has_white_dye": "2024-03-08 21:41:50 +0100"
+      "has_pink_terracotta": "2024-03-08 20:23:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2024-03-08 21:13:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_bed": {
+    "criteria": {
+      "has_pink_wool": "2024-03-08 21:37:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_carpet": {
+    "criteria": {
+      "has_pink_wool": "2024-03-08 21:37:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_banner": {
+    "criteria": {
+      "has_pink_wool": "2024-03-08 21:37:49 +0100"
     },
     "done": true
   },
@@ -3764,21 +3791,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_light_blue_wool": {
-    "criteria": {
-      "has_needed_dye": "2024-03-08 21:41:57 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_blue_carpet": {
     "criteria": {
       "has_needed_dye": "2024-03-08 21:41:38 +0100"
     },
     "done": true
   },
-  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+  "minecraft:recipes/decorations/blue_candle": {
     "criteria": {
-      "kill_mob_near_sculk_catalyst": "2024-03-08 22:10:31 +0100"
+      "has_blue_dye": "2024-03-08 21:41:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_blue_dye": "2024-03-08 21:41:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-03-08 21:41:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2024-03-08 21:41:50 +0100"
     },
     "done": true
   },
@@ -3794,48 +3833,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_candle": {
-    "criteria": {
-      "has_blue_dye": "2024-03-08 21:41:38 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_light_blue_bed": {
-    "criteria": {
-      "has_needed_dye": "2024-03-08 21:41:57 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_blue_dye": "2024-03-08 21:41:38 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_bed": {
-    "criteria": {
-      "has_pink_wool": "2024-03-08 21:37:49 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_glazed_terracotta": {
-    "criteria": {
-      "has_pink_terracotta": "2024-03-08 20:23:27 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_light_blue_carpet": {
-    "criteria": {
-      "has_needed_dye": "2024-03-08 21:41:57 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/glow_item_frame": {
-    "criteria": {
-      "has_item_frame": "2024-03-08 21:13:54 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_white_wool": {
     "criteria": {
       "has_needed_dye": "2024-03-08 21:41:50 +0100"
@@ -3848,27 +3845,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2024-03-08 21:42:41 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_blue_bed": {
-    "criteria": {
-      "has_needed_dye": "2024-03-08 21:41:38 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/gray_dye": {
     "criteria": {
       "has_white_dye": "2024-03-08 21:41:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_light_blue_dye": "2024-03-08 21:41:57 +0100"
     },
     "done": true
   },
@@ -3878,21 +3857,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/pink_carpet": {
-    "criteria": {
-      "has_pink_wool": "2024-03-08 21:37:49 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_white_bed": {
     "criteria": {
       "has_needed_dye": "2024-03-08 21:41:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_banner": {
-    "criteria": {
-      "has_pink_wool": "2024-03-08 21:37:49 +0100"
     },
     "done": true
   },
@@ -3902,9 +3869,69 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dye_light_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-03-08 21:41:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-03-08 21:41:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-03-08 21:41:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_light_blue_dye": "2024-03-08 21:41:57 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_blue_candle": {
     "criteria": {
       "has_light_blue_dye": "2024-03-08 21:41:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2024-03-08 21:42:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2024-03-08 22:10:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2024-03-09 11:43:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2024-03-09 11:43:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2024-03-09 11:43:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2024-03-09 12:06:12 +0100"
     },
     "done": true
   },
