@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 10.147.19.128
+ip-address: 91.181.4.69
 afk: false
 socialspy: false
 npc: false
@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1709935879038
+  lastteleport: 1710105919803
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1709936865587
-  login: 1709932585963
+  logout: 1710106761244
+  login: 1710103718933
   kits:
     tools: 1709144377478
 money: '0'
@@ -25,19 +25,19 @@ last-account-name: Art3mis7200
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5464.660189777264
-  y: -39.0
-  z: 2358.0297379388294
-  yaw: -98.6884765625
-  pitch: -0.40159690380096436
+  x: -5463.300000011921
+  y: -33.0
+  z: 2382.300000011921
+  yaw: 36.09830093383789
+  pitch: 26.64194679260254
 lastlocation:
-  world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-  world-name: world
-  x: -5448.998127558326
-  y: -37.0
-  z: 2372.321280934794
-  yaw: -97.40869140625
-  pitch: 23.11002540588379
+  world: c116a7a4-4cc4-434f-8a30-535ce385984e
+  world-name: world_nether
+  x: -803.8681832112325
+  y: 75.0
+  z: -627.4919836829602
+  yaw: 19.78225326538086
+  pitch: 29.180986404418945
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -55,3 +55,19 @@ homes:
     z: 923.2024653316614
     yaw: 144.16725158691406
     pitch: 15.469902992248535
+  amethyst:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -7129.559399188728
+    y: 31.0
+    z: 2147.6814716682297
+    yaw: 143.48533630371094
+    pitch: 15.272926330566406
+  rottenflesh:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -1607.0008459200023
+    y: 80.0
+    z: -287.5745902126948
+    yaw: -101.05612182617188
+    pitch: 28.49537467956543

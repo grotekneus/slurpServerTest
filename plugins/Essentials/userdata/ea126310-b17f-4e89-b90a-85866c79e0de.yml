@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 10.147.19.125
+ip-address: 84.195.206.199
 afk: false
 socialspy: false
 npc: false
@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1709842824373
+  lastteleport: 1710100644603
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1709843289369
-  login: 1709842195751
+  logout: 1710100817805
+  login: 1710100603777
 money: '0.001'
 last-account-name: Rein3003
 lastlocation:
-  world: f0cd1446-651e-4287-bc0c-efbe4e20d588
-  world-name: world_the_end
-  x: -2581.1609680780284
-  y: 58.0
-  z: 4325.2894280176515
-  yaw: 174.49954223632812
-  pitch: 22.818706512451172
+  world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+  world-name: world
+  x: -5306.639503109376
+  y: -6.0
+  z: 2756.1746188777815
+  yaw: -149.50775146484375
+  pitch: -46.19990539550781
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5282.41217431308
-  y: 103.0
-  z: 2715.497276104549
-  yaw: 49.045867919921875
-  pitch: 24.749860763549805
+  x: -5295.111228787596
+  y: 101.0
+  z: 2752.0519007810317
+  yaw: -78.4736328125
+  pitch: 8.776947975158691
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -61,4 +61,28 @@ homes:
     z: 3141.0888589808537
     yaw: -142.7418212890625
     pitch: 16.49960708618164
+  megge:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -6819.5
+    y: 77.0
+    z: 2699.5
+    yaw: -9.704602241516113
+    pitch: 21.351835250854492
+  spawn:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -2967.4666219979313
+    y: 138.0
+    z: 270.49340172115905
+    yaw: 71.832763671875
+    pitch: 62.64466857910156
+  wardenver:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -7496.02886763997
+    y: -48.0
+    z: 3570.9957229691167
+    yaw: -133.56689453125
+    pitch: 23.682876586914062
 nickname: babijntje

@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 10.147.19.61
+ip-address: 62.194.9.220
 afk: false
 socialspy: false
 npc: false
@@ -11,28 +11,29 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1709934824799
+  lastteleport: 1710109821515
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1709987216347
-  login: 1709981476094
+  logout: 1710110872731
+  login: 1710108037348
 money: '0'
 last-account-name: mawiSP
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
   x: -1450.5
-  y: 72.5625
-  z: 905.5
-  yaw: -141.11549377441406
-  pitch: 20.712020874023438
+  y: 72.0
+  z: 906.5
+  yaw: -180.0
+  pitch: 0.0
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -1448.1804378574539
-  y: 60.0
-  z: 902.1273369224718
-  yaw: -90.0966796875
-  pitch: -2.3303136825561523
+  x: -4042.000159355737
+  y: 105.0
+  z: 3111.319921318744
+  yaw: -76.05105590820312
+  pitch: -74.426025390625
+nickname: Pyromaan
