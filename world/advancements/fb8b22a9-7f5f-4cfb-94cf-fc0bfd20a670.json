@@ -3090,6 +3090,12 @@
     },
     "done": true
   },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2024-03-10 22:19:29 +0100"
+    },
+    "done": true
+  },
   "minecraft:nether/distract_piglin": {
     "criteria": {
       "distract_piglin": "2024-03-10 22:21:44 +0100"
@@ -3099,12 +3105,6 @@
   "minecraft:recipes/building_blocks/nether_bricks": {
     "criteria": {
       "has_nether_brick": "2024-03-10 22:22:25 +0100"
-    },
-    "done": true
-  },
-  "minecraft:nether/find_bastion": {
-    "criteria": {
-      "bastion": "2024-03-10 22:19:29 +0100"
     },
     "done": true
   },
