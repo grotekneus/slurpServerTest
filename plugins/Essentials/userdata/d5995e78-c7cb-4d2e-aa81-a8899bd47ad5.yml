@@ -11,35 +11,35 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710173082654
+  lastteleport: 1710191506024
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710177538492
-  login: 1710177224784
+  logout: 1710192667100
+  login: 1710192659753
   kits:
     pjoes: 1709144115793
     dtools: 1709144154538
     notch: 1709144178314
-money: '5236.0'
+money: '80672.84999999999994'
 last-account-name: JGamesSP
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -1445.072070461994
+  x: -1441.300000011921
   y: 72.0
-  z: 902.0160448790188
-  yaw: 32.156158447265625
-  pitch: 18.818058013916016
+  z: 898.6999999880791
+  yaw: 86.51932525634766
+  pitch: 19.134416580200195
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -6797.675845003182
-  y: 75.0
-  z: 2679.991020948869
-  yaw: -38.907875061035156
-  pitch: 8.900611877441406
+  x: -5504.2420877402565
+  y: 65.0
+  z: 2542.8250007448005
+  yaw: -95.65808868408203
+  pitch: 17.756731033325195
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -81,14 +81,6 @@ homes:
     z: 414.4701148940406
     yaw: -80.7958984375
     pitch: 45.581703186035156
-  pillager:
-    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-    world-name: world
-    x: -1263.699999988079
-    y: 74.0
-    z: 1880.300000011921
-    yaw: -161.644775390625
-    pitch: 13.772381782531738
   ferre:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
     world-name: world

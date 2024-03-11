@@ -10,16 +10,21 @@
       "minecraft:snowy_slopes": "2024-03-08 14:28:56 +0100",
       "minecraft:dark_forest": "2024-03-08 13:56:40 +0100",
       "minecraft:forest": "2024-03-08 14:17:12 +0100",
+      "minecraft:deep_ocean": "2024-03-11 20:23:22 +0100",
       "minecraft:river": "2024-03-08 14:03:13 +0100",
       "minecraft:lush_caves": "2024-03-08 14:02:42 +0100",
       "minecraft:dripstone_caves": "2024-03-08 14:17:46 +0100",
       "minecraft:frozen_peaks": "2024-03-08 14:29:15 +0100",
+      "minecraft:old_growth_birch_forest": "2024-03-11 20:24:15 +0100",
       "minecraft:deep_dark": "2024-03-08 14:41:40 +0100",
+      "minecraft:ocean": "2024-03-11 20:23:11 +0100",
       "minecraft:cherry_grove": "2024-03-08 13:53:43 +0100",
       "minecraft:grove": "2024-03-10 23:47:46 +0100",
       "minecraft:meadow": "2024-03-08 14:19:42 +0100",
       "minecraft:birch_forest": "2024-03-08 14:03:31 +0100",
-      "minecraft:plains": "2024-03-08 14:24:31 +0100"
+      "minecraft:plains": "2024-03-08 14:24:31 +0100",
+      "minecraft:warm_ocean": "2024-03-11 21:49:39 +0100",
+      "minecraft:deep_lukewarm_ocean": "2024-03-11 21:46:45 +0100"
     },
     "done": false
   },
@@ -60,6 +65,7 @@
       "cooked_porkchop": "2024-03-08 13:58:04 +0100",
       "bread": "2024-03-10 21:16:11 +0100",
       "cooked_mutton": "2024-03-10 16:01:46 +0100",
+      "cooked_cod": "2024-03-11 21:36:38 +0100",
       "cooked_beef": "2024-03-10 20:01:28 +0100",
       "melon_slice": "2024-03-08 23:02:19 +0100",
       "carrot": "2024-03-08 13:57:57 +0100"
@@ -934,6 +940,7 @@
     "criteria": {
       "minecraft:skeleton": "2024-03-09 12:58:56 +0100",
       "minecraft:zombified_piglin": "2024-03-08 21:55:04 +0100",
+      "minecraft:spider": "2024-03-11 21:07:10 +0100",
       "minecraft:zombie": "2024-03-08 14:44:11 +0100",
       "minecraft:creeper": "2024-03-10 23:05:06 +0100"
     },
@@ -2208,6 +2215,186 @@
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2024-03-10 23:02:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2024-03-11 20:36:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2024-03-11 20:58:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2024-03-11 21:49:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2024-03-11 21:27:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2024-03-11 20:36:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2024-03-11 20:36:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2024-03-11 20:32:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2024-03-11 20:58:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2024-03-11 20:58:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-03-11 20:58:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2024-03-11 20:36:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2024-03-11 20:53:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2024-03-11 21:27:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2024-03-11 20:58:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2024-03-11 20:36:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2024-03-11 21:27:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-03-11 20:58:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-03-11 20:48:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2024-03-11 21:27:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-03-11 20:58:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-03-11 21:13:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2024-03-11 20:36:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2024-03-11 20:58:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-03-11 20:48:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-03-11 20:48:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2024-03-11 20:23:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2024-03-11 21:03:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2024-03-11 20:58:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2024-03-11 21:13:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2024-03-11 20:32:34 +0100"
     },
     "done": true
   },

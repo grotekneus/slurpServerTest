@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710173078329
+  lastteleport: 1710190251005
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710173135586
-  login: 1710170803750
+  logout: 1710190730601
+  login: 1710186427517
 money: '0'
 last-account-name: kleinekneus
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -6808.595495750235
-  y: 77.0
-  z: 2691.498904040016
-  yaw: -90.67166137695312
-  pitch: 21.0441951751709
+  x: -4935.588900711987
+  y: 83.0
+  z: 2192.755549052629
+  yaw: 1.9769287109375
+  pitch: 10.409904479980469
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -6784.204318052408
-  y: 75.0
-  z: 2677.797087819196
-  yaw: 75.67684936523438
-  pitch: 12.536989212036133
+  x: -6737.145457142853
+  y: 116.0
+  z: 5658.020984051874
+  yaw: -34.45770263671875
+  pitch: 16.904705047607422
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -53,3 +53,4 @@ homes:
     z: 3881.6469247863047
     yaw: 2.493135690689087
     pitch: -4.812596797943115
+nickname: favoriet

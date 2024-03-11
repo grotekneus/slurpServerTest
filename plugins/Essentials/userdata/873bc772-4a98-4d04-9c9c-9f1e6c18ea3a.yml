@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710106922800
+  lastteleport: 1710192448144
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710177538508
-  login: 1710177229388
-money: '2160.2500000000000002'
+  logout: 1710194830785
+  login: 1710192416432
+money: '29477.8599999999971327'
 last-account-name: TomosChlausorius
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5267.779781291242
-  y: 112.0
-  z: 2737.5771793765125
-  yaw: 22.200927734375
-  pitch: 21.45014190673828
+  x: -5253.461437951578
+  y: 113.0
+  z: 2645.032129083433
+  yaw: -1.985107421875
+  pitch: 17.249662399291992
 lastlocation:
-  world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-  world-name: world
-  x: -4718.359959892661
-  y: 81.875
-  z: 3131.409280746747
-  yaw: 94.1416015625
-  pitch: 34.649940490722656
+  world: c116a7a4-4cc4-434f-8a30-535ce385984e
+  world-name: world_nether
+  x: -574.0189520644838
+  y: 39.0
+  z: 48.428377223465546
+  yaw: -11.85675048828125
+  pitch: 33.150394439697266
 homes:
   roos:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
