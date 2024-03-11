@@ -1,7 +1,8 @@
 # DiscordMC by manuelgu
 # https://www.spigotmc.org/resources/17067/
 settings:
-  token: 'NzMyOTUwOTc1MjkxMTk1Mzkz.Gsllwz.iqV7QbcWvMK3NPJyuJSbPD9TcpcgSiMW6i0KS4'
+  token: 'DCbottoken'
+  #will be adding later, but a Bot_token.txt file in folder where this reads it from and gets manually coppied 
   send_game_login: true
   send_game_logout: true
   send_game_chat: true
