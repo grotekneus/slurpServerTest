@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710152922043
+  lastteleport: 1710171398406
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710167553505
-  login: 1710166234946
-money: '165.99000000000001'
+  logout: 1710172147029
+  login: 1710168875826
+money: '553.5699999999999393'
 last-account-name: C2gl
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -3370.4433965806097
-  y: -50.0
-  z: 523.9799160182022
-  yaw: 3.590308904647827
-  pitch: 20.39920997619629
+  x: -3130.5
+  y: 94.0
+  z: 532.5
+  yaw: -0.4500049948692322
+  pitch: 4.350000858306885
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -40,16 +40,24 @@ homes:
   mine:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
     world-name: world
-    x: -3302.300000011921
+    x: -3454.0798148054578
     y: -50.0
-    z: 518.5364294553967
-    yaw: 90.29336547851562
-    pitch: 51.89957046508789
+    z: 518.3000000119209
+    yaw: -77.7149887084961
+    pitch: 3.4492287635803223
+  jbore:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -1112.446781935139
+    y: -59.0
+    z: 886.8687315585682
+    yaw: -66.6029052734375
+    pitch: 6.44953727722168
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -3135.4767793782007
-  y: 94.0
-  z: 533.3976023501832
-  yaw: -61.80006790161133
-  pitch: -9.000004768371582
+  x: -1079.699999988079
+  y: -60.0
+  z: 898.3319393930161
+  yaw: 132.64004516601562
+  pitch: 22.049888610839844

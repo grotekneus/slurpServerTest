@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2024-03-05 19:35:55 +0100",
+      "minecraft:snowy_slopes": "2024-03-11 17:11:49 +0100",
       "minecraft:old_growth_pine_taiga": "2024-03-07 19:08:33 +0100",
       "minecraft:forest": "2024-03-04 16:11:46 +0100",
       "minecraft:taiga": "2024-03-05 21:15:27 +0100",
@@ -35,6 +36,7 @@
       "minecraft:snowy_plains": "2024-03-05 20:59:40 +0100",
       "minecraft:dripstone_caves": "2024-03-04 16:08:38 +0100",
       "minecraft:snowy_taiga": "2024-03-05 20:59:38 +0100",
+      "minecraft:frozen_peaks": "2024-03-11 17:12:09 +0100",
       "minecraft:old_growth_birch_forest": "2024-03-05 19:33:01 +0100",
       "minecraft:deep_dark": "2024-03-05 21:13:40 +0100",
       "minecraft:swamp": "2024-03-04 16:07:26 +0100",
@@ -2492,6 +2494,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-03-10 13:02:37 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_redstone": "2024-03-10 13:05:55 +0100"
@@ -2507,12 +2515,6 @@
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2024-03-10 13:05:55 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/carrot_on_a_stick": {
-    "criteria": {
-      "has_carrot": "2024-03-10 13:02:37 +0100"
     },
     "done": true
   },
@@ -2561,6 +2563,30 @@
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2024-03-10 13:05:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-03-11 17:12:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template": {
+    "criteria": {
+      "has_sentry_armor_trim_smithing_template": "2024-03-11 17:12:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-03-11 17:12:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2024-03-11 17:13:21 +0100"
     },
     "done": true
   },
