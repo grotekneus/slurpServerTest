@@ -262,8 +262,8 @@ pages:
       '61':
         material: SCULK_CATALYST
         buy: 5000
-        sell: 1250
+        sell: -1
       '62':
         material: SCULK_SHRIEKER
         buy: 20000
-        sell: 5000
+        sell: -1
