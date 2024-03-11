@@ -2,7 +2,7 @@
 # https://www.spigotmc.org/resources/17067/
 settings:
   token: 'DCbottoken'
-  #will be adding later, but a Bot_token.txt file in folder where this reads it from and gets manually coppied 
+  #will be adding later, but a Bot_token.txt file in folder where this reads it from and gets manually coppied, please, someone that can actually code, check this, Dctoke,.json and .gitignore
   send_game_login: true
   send_game_logout: true
   send_game_chat: true
