@@ -12,6 +12,7 @@
       "minecraft:old_growth_pine_taiga": "2024-03-03 17:46:12 +0100",
       "minecraft:forest": "2024-02-28 16:10:18 +0100",
       "minecraft:taiga": "2024-03-02 22:47:11 +0100",
+      "minecraft:deep_ocean": "2024-03-11 20:22:35 +0100",
       "minecraft:lush_caves": "2024-02-28 22:01:12 +0100",
       "minecraft:ice_spikes": "2024-03-03 17:51:03 +0100",
       "minecraft:frozen_ocean": "2024-03-07 20:09:24 +0100",
@@ -4591,6 +4592,18 @@
   "minecraft:recipes/building_blocks/polished_deepslate_stairs": {
     "criteria": {
       "has_polished_deepslate": "2024-03-10 20:49:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2024-03-11 21:48:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-03-11 21:48:56 +0100"
     },
     "done": true
   },
