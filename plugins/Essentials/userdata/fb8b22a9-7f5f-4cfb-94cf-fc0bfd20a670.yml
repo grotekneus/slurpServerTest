@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710105919803
+  lastteleport: 1710160706515
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710159519341
-  login: 1710159358357
+  logout: 1710160775684
+  login: 1710160190235
   kits:
     tools: 1709144377478
 money: '0'
@@ -25,19 +25,19 @@ last-account-name: Art3mis7200
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5453.7981474984435
-  y: -52.0
-  z: 2376.309106530848
-  yaw: 6.344207763671875
-  pitch: 79.73468017578125
+  x: -5464.841730611215
+  y: 80.0
+  z: 2407.862637510981
+  yaw: 171.30242919921875
+  pitch: 21.814271926879883
 lastlocation:
   world: c116a7a4-4cc4-434f-8a30-535ce385984e
   world-name: world_nether
-  x: -803.8681832112325
-  y: 75.0
-  z: -627.4919836829602
-  yaw: 19.78225326538086
-  pitch: 29.180986404418945
+  x: -302.5
+  y: 68.0
+  z: 415.5
+  yaw: -161.2518768310547
+  pitch: 15.073339462280273
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -71,11 +71,4 @@ homes:
     z: -287.5745902126948
     yaw: -101.05612182617188
     pitch: 28.49537467956543
-  test:
-    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-    world-name: world
-    x: -5453.1075040300875
-    y: -52.0
-    z: 2367.6719193887106
-    yaw: 126.66285705566406
-    pitch: 19.02558135986328
+nickname: cutie
