@@ -7,6 +7,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:savanna_plateau": "2024-03-12 16:00:35 +0100",
       "minecraft:dark_forest": "2024-03-10 14:46:36 +0100",
       "minecraft:forest": "2024-03-09 15:40:23 +0100",
       "minecraft:taiga": "2024-03-11 16:10:47 +0100",
@@ -19,6 +20,7 @@
       "minecraft:cherry_grove": "2024-03-09 15:30:17 +0100",
       "minecraft:meadow": "2024-03-09 15:36:26 +0100",
       "minecraft:birch_forest": "2024-03-10 14:46:05 +0100",
+      "minecraft:savanna": "2024-03-12 15:59:48 +0100",
       "minecraft:plains": "2024-03-09 15:33:00 +0100"
     },
     "done": false
@@ -1661,6 +1663,18 @@
   "minecraft:adventure/hero_of_the_village": {
     "criteria": {
       "hero_of_the_village": "2024-03-11 16:38:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2024-03-12 15:59:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2024-03-12 15:59:18 +0100"
     },
     "done": true
   },
