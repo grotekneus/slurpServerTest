@@ -19,6 +19,7 @@
       "minecraft:desert": "2024-02-28 16:22:15 +0100",
       "minecraft:frozen_river": "2024-03-03 17:50:58 +0100",
       "minecraft:ocean": "2024-03-05 20:43:13 +0100",
+      "minecraft:jungle": "2024-03-12 10:44:12 +0100",
       "minecraft:cherry_grove": "2024-02-28 16:38:57 +0100",
       "minecraft:sunflower_plains": "2024-03-06 12:45:56 +0100",
       "minecraft:birch_forest": "2024-02-28 18:51:50 +0100",
@@ -4604,6 +4605,42 @@
   "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2024-03-11 21:48:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2024-03-12 10:55:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2024-03-12 10:40:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/turtle_helmet": {
+    "criteria": {
+      "has_scute": "2024-03-12 11:13:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2024-03-12 10:47:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2024-03-12 10:59:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2024-03-12 10:40:04 +0100"
     },
     "done": true
   },

@@ -13,7 +13,7 @@ pages:
       '3':
         material: BELL
         buy: 1000
-        sell: 250
+        sell: 150
       '4':
         material: BRUSH
         buy: 7.88
@@ -130,7 +130,7 @@ pages:
         sell: 0.34
       '29':
         material: SHULKER_SHELL
-        buy: 7
+        buy: 70
         sell: 1.75
       '30':
         material: SNIFFER_EGG
