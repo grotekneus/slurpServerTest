@@ -25,7 +25,7 @@ pages:
       '6':
         material: PACKED_ICE
         buy: 13.5
-        sell: 3.38
+        sell: 1
       '7':
         material: ROOTED_DIRT
         buy: 1
@@ -37,11 +37,11 @@ pages:
       '9':
         material: SNOW_BLOCK
         buy: 12.6
-        sell: 3.15
+        sell: 3
       '10':
         material: SOUL_SAND
         buy: 10
-        sell: 2.5
+        sell: 1
       '11':
         material: TNT
         buy: 106.58
@@ -157,7 +157,7 @@ pages:
       '50':
         material: BASALT
         buy: 40
-        sell: 10
+        sell: 2
       '52':
         material: COBBLESTONE_SLAB
         buy: 0.36
@@ -383,11 +383,11 @@ pages:
       '106':
         material: GRASS_BLOCK
         buy: 8
-        sell: 2
+        sell: 1
       '107':
         material: GRAVEL
         buy: 8
-        sell: 2
+        sell: 1
       '108':
         material: MYCELIUM
         buy: 8
@@ -582,15 +582,15 @@ pages:
       '155':
         material: RED_SAND
         buy: 8
-        sell: 2
+        sell: 1
       '156':
         material: SAND
         buy: 6
-        sell: 1.5
+        sell: 1
       '157':
         material: SANDSTONE
         buy: 12
-        sell: 3
+        sell: 1
       '158':
         material: SANDSTONE_SLAB
         buy: 6.3
@@ -674,7 +674,7 @@ pages:
       '178':
         material: TERRACOTTA
         buy: 22.05
-        sell: 5.52
+        sell: 2
       '179':
         material: TUFF
         buy: 2
@@ -885,67 +885,67 @@ pages:
       '233':
         material: BLACK_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 1.5
       '234':
         material: BLUE_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 1.5
       '235':
         material: BROWN_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 1.5
       '236':
         material: CYAN_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 1.5
       '237':
         material: GRAY_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 1.5
       '238':
         material: GREEN_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 1.5
       '239':
         material: LIGHT_BLUE_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 1.5
       '240':
         material: LIGHT_GRAY_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 1.5
   page6:
     gui-rows: 2
     items:
       '241':
         material: LIME_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 1.5
       '242':
         material: MAGENTA_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 1.5
       '243':
         material: ORANGE_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 1.5
       '244':
         material: PINK_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 1.5
       '245':
         material: PURPLE_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 1.5
       '246':
         material: RED_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 1.5
       '247':
         material: WHITE_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 1.5
       '248':
         material: YELLOW_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 1.5
