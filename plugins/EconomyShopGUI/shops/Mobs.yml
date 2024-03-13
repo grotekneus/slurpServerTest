@@ -29,7 +29,7 @@ pages:
       '7':
         material: FERMENTED_SPIDER_EYE
         buy: 9.57
-        sell: 2.4
+        sell: 2.5
       '8':
         material: GHAST_TEAR
         buy: 40
@@ -37,11 +37,11 @@ pages:
       '9':
         material: GUNPOWDER
         buy: 15.5
-        sell: 3.88
+        sell: 3
       '10':
         material: MAGMA_CREAM
         buy: 8.01
-        sell: 2.01
+        sell: 2
       '11':
         material: NAUTILUS_SHELL
         buy: 180
@@ -61,16 +61,16 @@ pages:
       '15':
         material: ROTTEN_FLESH
         buy: 5
-        sell: 1.25
+        sell: 1
       '16':
         material: SLIME_BALL
         buy: 5
-        sell: 1.25
+        sell: 1
       '17':
         material: SPIDER_EYE
         buy: 7
-        sell: 1.75
+        sell: 1
       '18':
         material: STRING
         buy: 7
-        sell: 1.75
+        sell: 0.001
