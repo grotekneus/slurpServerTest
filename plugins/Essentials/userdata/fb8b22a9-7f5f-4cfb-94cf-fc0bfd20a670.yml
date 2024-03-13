@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 91.181.4.69
+ip-address: 10.147.19.128
 afk: false
 socialspy: false
 npc: false
@@ -11,33 +11,33 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710278729774
+  lastteleport: 1710342795790
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710279054544
-  login: 1710277609928
+  logout: 1710342959408
+  login: 1710338327668
   kits:
     tools: 1709144377478
-money: '6512.9'
+money: '6698.92'
 last-account-name: Art3mis7200
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5507.598547690477
-  y: 66.0
-  z: 2501.964495835653
-  yaw: 169.43170166015625
-  pitch: 43.419090270996094
+  x: -5527.312255594115
+  y: 65.0
+  z: 2541.323152991392
+  yaw: -62.35752487182617
+  pitch: 56.77560043334961
 lastlocation:
-  world: c116a7a4-4cc4-434f-8a30-535ce385984e
-  world-name: world_nether
-  x: -696.380434301223
-  y: 66.0
-  z: 387.8219144092596
-  yaw: 150.65817260742188
-  pitch: 40.991676330566406
+  world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+  world-name: world
+  x: -1447.1683968691596
+  y: 60.0
+  z: 902.8668528262037
+  yaw: 18.48895263671875
+  pitch: 16.045377731323242
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -55,14 +55,6 @@ homes:
     z: 923.2024653316614
     yaw: 144.16725158691406
     pitch: 15.469902992248535
-  amethyst:
-    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-    world-name: world
-    x: -7129.559399188728
-    y: 31.0
-    z: 2147.6814716682297
-    yaw: 143.48533630371094
-    pitch: 15.272926330566406
   rottenflesh:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
     world-name: world
@@ -79,4 +71,12 @@ homes:
     z: 2680.9125694133713
     yaw: 5.3189697265625
     pitch: 14.3895263671875
+  creeper:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -3193.9420182730105
+    y: 190.0
+    z: 1041.8546721467787
+    yaw: 25.232696533203125
+    pitch: 53.185115814208984
 nickname: pastoor
