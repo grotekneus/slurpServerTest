@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 10.147.19.120
+ip-address: 81.164.201.252
 afk: false
 socialspy: false
 npc: false
@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710190251005
+  lastteleport: 1710281122249
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710190730601
-  login: 1710186427517
-money: '0'
+  logout: 1710281766102
+  login: 1710280148247
+money: '49232.0'
 last-account-name: kleinekneus
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -4935.588900711987
-  y: 83.0
-  z: 2192.755549052629
-  yaw: 1.9769287109375
-  pitch: 10.409904479980469
+  x: -6783.508760720522
+  y: 78.0
+  z: 2692.6514512959575
+  yaw: 6.723977088928223
+  pitch: 9.854190826416016
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -6737.145457142853
-  y: 116.0
-  z: 5658.020984051874
-  yaw: -34.45770263671875
-  pitch: 16.904705047607422
+  x: -6782.129142028392
+  y: 119.0
+  z: 2694.050000011921
+  yaw: 173.158447265625
+  pitch: 44.889190673828125
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb

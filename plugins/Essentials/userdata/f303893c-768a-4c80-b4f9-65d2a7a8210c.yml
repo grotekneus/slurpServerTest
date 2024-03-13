@@ -3,39 +3,39 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 10.147.19.124
+ip-address: 84.195.146.229
 afk: false
-socialspy: true
+socialspy: false
 npc: false
 powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710190990290
+  lastteleport: 1710278561320
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710191526746
-  login: 1710180300522
-money: '177709.999000000000376'
+  logout: 1710278776119
+  login: 1710267334099
+money: '173314.309000000000586'
 last-account-name: transferreSP
 logoutlocation:
-  world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-  world-name: world
-  x: -4703.234172699264
-  y: 87.0
-  z: 3133.599643018503
-  yaw: -96.664306640625
-  pitch: 30.149999618530273
+  world: c116a7a4-4cc4-434f-8a30-535ce385984e
+  world-name: world_nether
+  x: -583.5295852048058
+  y: 71.0
+  z: 428.31141597116726
+  yaw: 57.30228042602539
+  pitch: 24.74998664855957
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -1446.7803685692888
-  y: 78.0
-  z: 923.6999999880791
-  yaw: -178.76748657226562
-  pitch: 22.795286178588867
+  x: -5415.5
+  y: 97.875
+  z: 2317.5
+  yaw: -180.0
+  pitch: 0.0
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb

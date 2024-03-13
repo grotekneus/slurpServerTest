@@ -12,11 +12,13 @@
       "minecraft:forest": "2024-03-09 15:40:23 +0100",
       "minecraft:taiga": "2024-03-11 16:10:47 +0100",
       "minecraft:river": "2024-03-09 15:34:52 +0100",
+      "minecraft:stony_shore": "2024-03-12 20:27:51 +0100",
       "minecraft:lush_caves": "2024-03-11 16:38:30 +0100",
       "minecraft:dripstone_caves": "2024-03-10 14:29:26 +0100",
       "minecraft:old_growth_birch_forest": "2024-03-10 18:30:59 +0100",
       "minecraft:desert": "2024-03-11 16:12:55 +0100",
       "minecraft:deep_dark": "2024-03-10 18:27:46 +0100",
+      "minecraft:ocean": "2024-03-12 21:24:15 +0100",
       "minecraft:cherry_grove": "2024-03-09 15:30:17 +0100",
       "minecraft:meadow": "2024-03-09 15:36:26 +0100",
       "minecraft:birch_forest": "2024-03-10 14:46:05 +0100",
@@ -634,7 +636,9 @@
       "minecraft:silverfish": "2024-03-10 14:39:20 +0100",
       "minecraft:witch": "2024-03-11 16:27:03 +0100",
       "minecraft:spider": "2024-03-10 14:25:18 +0100",
-      "minecraft:zombie": "2024-03-10 14:50:06 +0100"
+      "minecraft:zombie": "2024-03-10 14:50:06 +0100",
+      "minecraft:creeper": "2024-03-12 19:49:51 +0100",
+      "minecraft:zombie_villager": "2024-03-12 19:51:09 +0100"
     },
     "done": false
   },
@@ -1025,6 +1029,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-03-11 16:13:20 +0100",
+      "cooked_rabbit": "2024-03-12 19:43:28 +0100",
+      "cooked_chicken": "2024-03-12 19:45:05 +0100",
       "cooked_mutton": "2024-03-10 14:44:11 +0100",
       "cooked_beef": "2024-03-10 14:52:49 +0100"
     },
@@ -1675,6 +1681,192 @@
   "minecraft:recipes/food/pumpkin_pie": {
     "criteria": {
       "has_pumpkin": "2024-03-12 15:59:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2024-03-12 19:24:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2024-03-12 19:24:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2024-03-12 19:24:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2024-03-12 19:25:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2024-03-12 19:25:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2024-03-12 19:25:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2024-03-12 19:32:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2024-03-12 19:32:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-03-12 19:42:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2024-03-12 19:49:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-03-12 19:49:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-03-12 19:57:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2024-03-12 19:57:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2024-03-12 20:18:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2024-03-12 20:20:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2024-03-12 21:37:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2024-03-12 21:37:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2024-03-12 21:37:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2024-03-12 21:37:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-03-12 21:37:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-03-12 21:37:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2024-03-12 21:37:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-03-12 21:37:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-03-12 21:37:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2024-03-12 21:37:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-03-12 21:37:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-03-12 21:37:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2024-03-12 21:37:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2024-03-12 21:53:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-03-12 21:53:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-03-12 21:53:38 +0100"
     },
     "done": true
   },
