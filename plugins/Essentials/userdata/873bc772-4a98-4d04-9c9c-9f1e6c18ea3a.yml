@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 10.147.19.189
+ip-address: 141.135.186.1
 afk: false
 socialspy: false
 npc: false
@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710361750114
+  lastteleport: 1710368033365
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710361953722
-  login: 1710357848242
-money: '392535.8139999999971327'
+  logout: 1710369263511
+  login: 1710362551306
+money: '286456.4039999999971327'
 last-account-name: TomosChlausorius
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5285.20529285403
-  y: 102.0
-  z: 2753.5421779528706
-  yaw: -91.50041198730469
-  pitch: 37.65007019042969
+  x: -5297.083080627552
+  y: 98.0
+  z: 2763.1845250353067
+  yaw: -119.85498046875
+  pitch: 45.1500358581543
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5275.616097129145
-  y: 93.0
-  z: 2756.2296141670663
-  yaw: 158.8316650390625
-  pitch: 6.899842739105225
+  x: -5274.555264733152
+  y: 25.0
+  z: 2758.646044335313
+  yaw: 147.28872680664062
+  pitch: 67.3499526977539
 homes:
   roos:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -128,11 +128,11 @@ homes:
   bovengat:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
     world-name: world
-    x: -5297.478435848682
-    y: 95.0
-    z: 2756.1254872817663
-    yaw: -142.349609375
-    pitch: 15.89997673034668
+    x: -5276.1969255051645
+    y: 90.0
+    z: 2754.8757809638037
+    yaw: -139.51004028320312
+    pitch: 25.500049591064453
   jules:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
     world-name: world

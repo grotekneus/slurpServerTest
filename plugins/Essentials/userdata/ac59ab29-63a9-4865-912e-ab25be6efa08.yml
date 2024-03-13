@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 127.0.0.1
+ip-address: 94.227.126.213
 afk: false
 socialspy: false
 npc: false
@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710343150391
+  lastteleport: 1710370148524
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710346819000
-  login: 1710345665053
-money: '9698.8039999999998563'
+  logout: 1710371211949
+  login: 1710369494009
+money: '15574.9739999999999263'
 last-account-name: C2gl
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -4028.148980482792
-  y: 69.0
-  z: -835.3358226963607
-  yaw: -58.58817672729492
-  pitch: 43.733585357666016
+  x: -5286.585097887323
+  y: -5.0
+  z: 2759.023995420852
+  yaw: 124.38893127441406
+  pitch: 2.719748020172119
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -88,9 +88,9 @@ homes:
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -3167.154249826624
-  y: 70.9375
-  z: -223.84104387485314
-  yaw: 165.30230712890625
-  pitch: 28.341224670410156
+  x: -3204.300000011921
+  y: 68.0
+  z: -238.91134909601092
+  yaw: 163.05821228027344
+  pitch: 17.169221878051758
 nickname: C2gl
