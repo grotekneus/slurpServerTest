@@ -4608,21 +4608,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/terracotta": {
-    "criteria": {
-      "has_clay_block": "2024-03-12 10:55:01 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/snow": {
     "criteria": {
       "has_snowball": "2024-03-12 10:40:04 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/combat/turtle_helmet": {
+  "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
-      "has_scute": "2024-03-12 11:13:58 +0100"
+      "has_snowball": "2024-03-12 10:40:04 +0100"
     },
     "done": true
   },
@@ -4632,15 +4626,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2024-03-12 10:55:01 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/repeater": {
     "criteria": {
       "has_redstone_torch": "2024-03-12 10:59:18 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/snow_block": {
+  "minecraft:recipes/combat/turtle_helmet": {
     "criteria": {
-      "has_snowball": "2024-03-12 10:40:04 +0100"
+      "has_scute": "2024-03-12 11:13:58 +0100"
     },
     "done": true
   },
