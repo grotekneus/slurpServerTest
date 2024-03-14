@@ -747,6 +747,7 @@
       "minecraft:skeleton": "2024-02-28 21:24:50 +0100",
       "minecraft:phantom": "2024-03-10 18:08:30 +0100",
       "minecraft:witch": "2024-03-10 14:44:39 +0100",
+      "minecraft:wither_skeleton": "2024-03-14 14:28:39 +0100",
       "minecraft:husk": "2024-02-28 19:25:22 +0100",
       "minecraft:ghast": "2024-02-29 11:47:04 +0100",
       "minecraft:hoglin": "2024-03-10 22:20:34 +0100",
@@ -3348,9 +3349,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/magenta_glazed_terracotta": {
+  "minecraft:recipes/building_blocks/bricks": {
     "criteria": {
-      "has_magenta_terracotta": "2024-03-13 15:32:39 +0100"
+      "has_brick": "2024-03-13 15:31:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2024-03-13 15:31:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2024-03-13 15:31:33 +0100"
     },
     "done": true
   },
@@ -3366,27 +3379,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bricks": {
-    "criteria": {
-      "has_brick": "2024-03-13 15:31:33 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
     "criteria": {
       "has_tag": "2024-03-13 15:31:47 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/flower_pot": {
+  "minecraft:recipes/decorations/magenta_glazed_terracotta": {
     "criteria": {
-      "has_brick": "2024-03-13 15:31:33 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/decorated_pot_simple": {
-    "criteria": {
-      "has_brick": "2024-03-13 15:31:33 +0100"
+      "has_magenta_terracotta": "2024-03-13 15:32:39 +0100"
     },
     "done": true
   },
