@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 10.147.19.124
+ip-address: 81.165.4.250
 afk: false
 socialspy: false
 npc: false
@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710423452603
+  lastteleport: 1710441291967
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710423496746
-  login: 1710422058120
-money: '173869.600000000001022'
+  logout: 1710441612605
+  login: 1710441280130
+money: '3.065000000001178'
 last-account-name: transferreSP
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -4703.490951699406
-  y: 92.18988120660522
-  z: 3139.5754363243277
-  yaw: -164.90773010253906
-  pitch: 57.29996109008789
+  x: -4741.746924874284
+  y: 31.0
+  z: 3142.2054886126853
+  yaw: -38.307098388671875
+  pitch: 16.20001220703125
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -4666.4528746110245
-  y: 39.0
-  z: 3150.0662076016133
-  yaw: -170.44422912597656
-  pitch: -3.4500222206115723
+  x: -4660.020112967277
+  y: 62.0
+  z: 3109.540125313628
+  yaw: -101.77090454101562
+  pitch: 18.750383377075195
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb

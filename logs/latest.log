@@ -1,485 +1,83 @@
-[13:52:16] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[13:52:16] [ServerMain/WARN]: resource-pack-id missing, using default of 63861cdf-9763-32fb-b8d0-f7389d5f75f9
-[13:52:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:52:19] [ServerMain/INFO]: Loaded 7 recipes
-[13:52:20] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[13:52:20] [Server thread/INFO]: Loading properties
-[13:52:20] [Server thread/INFO]: This server is running CraftBukkit version 4054-Spigot-e9ec548-619936d (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
-[13:52:21] [Server thread/INFO]: Debug logging is disabled
-[13:52:21] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:52:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:52:21] [Server thread/INFO]: Default game type: SURVIVAL
-[13:52:21] [Server thread/INFO]: Generating keypair
-[13:52:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:52:22] [Server thread/INFO]: Using default channel type
-[13:52:22] [Server thread/ERROR]: Could not load 'plugins\ImageFrame-1.7.7.0.jar' in folder 'plugins'
-org.bukkit.plugin.UnknownDependencyException: Unknown dependency ProtocolLib. Please download and install ProtocolLib to run this plugin.
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:269) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:430) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
-	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:219) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1000) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:52:23] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.120
-[13:52:23] [Server thread/INFO]: [Sleeper] Loading Sleeper v1.5.1
-[13:52:23] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[13:52:23] [Server thread/INFO]: [concrete_powder_modifier] Loading concrete_powder_modifier v${version}
-[13:52:23] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+68-993d7ed
-[13:52:23] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
-[13:52:23] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.27.0
-[13:52:23] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.4.4
-[13:52:23] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.120
-[13:52:24] [Server thread/INFO]:         __    
-[13:52:24] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.120
-[13:52:24] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
-[13:52:24] [Server thread/INFO]: 
-[13:52:24] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[13:52:24] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[13:52:25] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[13:52:25] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[13:52:25] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1832ms)
-[13:52:25] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[13:52:25] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.0-dev+68-993d7ed which is not a depend or softdepend of this plugin.
-[13:52:25] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[13:52:25] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[13:52:25] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[13:52:25] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[13:52:25] [Server thread/INFO]: Preparing level "world"
-[13:52:25] [Server thread/INFO]: -------- World Settings For [world] --------
-[13:52:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:52:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:52:25] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:52:25] [Server thread/INFO]: View Distance: 15
-[13:52:25] [Server thread/INFO]: Simulation Distance: 10
-[13:52:25] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:52:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[13:52:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:52:25] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:52:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[13:52:25] [Server thread/INFO]: Mob Spawn Range: 6
-[13:52:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[13:52:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[13:52:25] [Server thread/INFO]: Max TNT Explosions: 100
-[13:52:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[13:52:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:52:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[13:52:26] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[13:52:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:52:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:52:26] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:52:26] [Server thread/INFO]: View Distance: 15
-[13:52:26] [Server thread/INFO]: Simulation Distance: 10
-[13:52:26] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:52:26] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[13:52:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:52:26] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:52:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[13:52:26] [Server thread/INFO]: Mob Spawn Range: 6
-[13:52:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[13:52:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[13:52:26] [Server thread/INFO]: Max TNT Explosions: 100
-[13:52:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[13:52:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:52:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[13:52:28] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[13:52:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:52:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:52:28] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:52:28] [Server thread/INFO]: View Distance: 15
-[13:52:28] [Server thread/INFO]: Simulation Distance: 10
-[13:52:28] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:52:28] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[13:52:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:52:28] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:52:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[13:52:28] [Server thread/INFO]: Mob Spawn Range: 6
-[13:52:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[13:52:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[13:52:28] [Server thread/INFO]: Max TNT Explosions: 100
-[13:52:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[13:52:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:52:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[13:52:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:52:33] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[13:52:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[13:52:33] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[13:52:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:52:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:52:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:52:33] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:52:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:52:33] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[13:52:33] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[13:52:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:52:34] [Worker-Main-5/INFO]: Preparing spawn area: 1%
-[13:52:34] [Worker-Main-7/INFO]: Preparing spawn area: 51%
-[13:52:34] [Server thread/INFO]: Time elapsed: 6352 ms
-[13:52:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:52:38] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:52:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:52:38] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:52:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:52:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:52:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:52:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:52:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:52:39] [Worker-Main-3/INFO]: Preparing spawn area: 3%
-[13:52:39] [Worker-Main-2/INFO]: Preparing spawn area: 86%
-[13:52:39] [Server thread/INFO]: Time elapsed: 4657 ms
-[13:52:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:52:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:52:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:52:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[13:52:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:52:42] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:52:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[13:52:42] [Worker-Main-3/INFO]: Preparing spawn area: 28%
-[13:52:43] [Server thread/INFO]: Time elapsed: 3402 ms
-[13:52:43] [Server thread/INFO]: [Sleeper] Enabling Sleeper v1.5.1
-[13:52:43] [Server thread/INFO]: [Sleeper] Sleeper Version 1.5.1 Has Been Enabled!
-[13:52:43] [Server thread/INFO]: [concrete_powder_modifier] Enabling concrete_powder_modifier v${version}
-[13:52:43] [Server thread/INFO]: Concrete powder modifier starting...
-[13:52:43] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+68-993d7ed
-[13:52:43] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[13:52:43] [Server thread/WARN]: §4Version mismatch! Please update EssentialsChat to the same version.
-[13:52:43] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[13:52:43] [Server thread/INFO]: No kits found to migrate.
-[13:52:43] [Server thread/WARN]: File plugins\Essentials\items.json has been modified by user and file version differs, please update the file manually.
-[13:52:44] [Server thread/INFO]: Loaded 39094 items from items.json.
-[13:52:44] [Server thread/INFO]: Using locale en_GB
-[13:52:44] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[13:52:44] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[13:52:44] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[13:52:44] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
-[13:52:44] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
-[13:52:44] [Server thread/ERROR]: Error occurred while enabling EssentialsChat v2.17.0.0 (Is it up to date?)
-java.lang.NoSuchMethodError: 'java.lang.String com.earth2me.essentials.I18n.tl(java.lang.String, java.lang.Object[])'
-	at com.earth2me.essentials.chat.EssentialsChat.onEnable(EssentialsChat.java:26) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:541) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:455) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:623) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:409) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
-	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1000) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:52:44] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
-[13:52:44] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.4.4
-[13:52:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
-[13:52:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
-[13:52:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
-[13:52:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
-[13:52:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault
-[13:52:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
-[13:52:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.20.4...
-[13:52:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
-[13:52:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[13:52:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[13:52:45] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
-[13:52:45] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
-[13:52:45] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Cannot load item 'page1.items.45' from section Miscellaneous because it is out of range for page size 45
-[13:52:45] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 967ms to complete
-[13:52:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:52:45] [Server thread/INFO]: Done (19.943s)! For help, type "help"
-[13:52:45] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[13:52:45] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
-[13:52:45] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
-[13:52:45] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
-[13:52:46] [pool-12-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
-[13:52:46] [Craft Scheduler Thread - 0/WARN]: §4You're §c5 §4EssentialsX dev build(s) out of date!
-[13:52:46] [Craft Scheduler Thread - 0/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
-[13:52:46] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[13:52:46] [JDA MainWS-WriteThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[13:52:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[13:52:47] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:doet de server aanstaan?(1216754477324046377)
-[13:52:47] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:pings(1216754478376550494)
-[13:52:47] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mc-chat(1216758720558792734)
-[13:52:47] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:eh(1216754658098548857)
-[13:52:47] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:serv-logs(1217438082266304594)
-[13:52:47] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
-[13:52:47] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
-[13:52:47] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
-[13:52:47] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling voice module
-[13:52:48] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
-[13:52:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | bonk] C2gl > et voila
-[13:53:20] [User Authenticator #1/INFO]: UUID of player C2gl is ac59ab29-63a9-4865-912e-ab25be6efa08
-[13:53:27] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:53:27] [Server thread/INFO]: C2gl[/127.0.0.1:60808] logged in with entity id 201 at ([world]-3208.079105977222, 77.0, -234.43855522614254)
-[13:53:28] [Server thread/WARN]: Permissions lag notice with (LuckPermsHandler). Response took 29,702100ms. Summary: Getting prefix for C2gl
-[13:53:28] [Server thread/INFO]: C2gl has blessed you with his presence
-[13:54:35] [Async Chat Thread - #1/INFO]: <C2gl> nu geeft hum een ip op startup
-[13:55:09] [User Authenticator #2/INFO]: UUID of player transferreSP is f303893c-768a-4c80-b4f9-65d2a7a8210c
-[13:55:17] [Server thread/INFO]: transferreSP[/10.147.19.124:64888] logged in with entity id 796 at ([world]-4657.547791759497, 51.0, 3139.6807859815335)
-[13:55:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2585ms or 51 ticks behind
-[13:55:20] [Server thread/INFO]: ~furry has blessed you with his presence
-[13:55:30] [Server thread/INFO]: transferreSP issued server command: /warp exp
-[13:55:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Ferre > HEY
-[13:55:47] [Async Chat Thread - #2/INFO]: <C2gl> hey ferre xd
-[13:56:21] [Server thread/INFO]: transferreSP issued server command: /fly
-[13:57:03] [User Authenticator #3/INFO]: UUID of player JMBoy is eb6f06a3-c143-4f22-ac6b-f7afc112344b
-[13:57:15] [Server thread/INFO]: JMBoy[/10.147.19.129:58877] logged in with entity id 2671 at ([world]-5292.887848020565, -3.9313338466568686, 2761.967613381254)
-[13:57:17] [Server thread/INFO]: transferreSP issued server command: /back
-[13:57:17] [Server thread/INFO]: ~Janine has blessed you with his presence
-[13:57:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2513ms or 50 ticks behind
-[13:57:22] [Async Chat Thread - #3/INFO]: <C2gl> hey pex xd
-[13:57:32] [Async Chat Thread - #4/INFO]: <~Janine> ben ik weer
-[13:57:59] [Server thread/INFO]: JMBoy issued server command: /home home
-[13:58:21] [Server thread/INFO]: transferreSP was shot by Skeleton
-[13:58:24] [Async Chat Thread - #3/INFO]: <C2gl> rip xd
-[13:58:26] [Server thread/INFO]: transferreSP issued server command: /back
-[13:58:30] [Server thread/INFO]: transferreSP issued server command: /tp JMBoy
-[13:58:46] [Server thread/INFO]: transferreSP issued server command: /back
-[13:58:49] [Async Chat Thread - #4/INFO]: <C2gl> btw, ferre? als ik in slurp manager de ram wijzig als de server al zit te draaien ? werk dat ?
-[13:58:49] [Server thread/INFO]: transferreSP issued server command: /sellgui
-[13:58:55] [Server thread/INFO]: Shop >> ~furry sold 1x Andesite(Blocks.page1.items.12), 1x Bone(Mobs.page1.items.4), 637x Stone(Blocks.page4.items.169), 11x Granite(Blocks.page3.items.118), 56x Diorite(Blocks.page2.items.97) for $39.22 with the sell gui.
-[13:59:30] [Async Chat Thread - #3/INFO]: <~furry> nope
-[13:59:40] [Async Chat Thread - #3/INFO]: <C2gl> alright xd
-[13:59:43] [Server thread/INFO]: C2gl issued server command: /tps
-[14:00:12] [Server thread/INFO]: JMBoy issued server command: /home home
-[14:00:18] [Server thread/INFO]: transferreSP was shot by Skeleton
-[14:00:23] [Server thread/INFO]: transferreSP issued server command: /back
-[14:01:03] [Async Chat Thread - #6/INFO]: <C2gl> ik hoop dat de serv niet te hard lagd xd, het draait maar op mijn laptop xd , dus het heeft maar 16Gb ram en een I7 xd
-[14:01:20] [Async Chat Thread - #5/INFO]: <~furry> is dit een humblebrag
-[14:01:22] [Async Chat Thread - #6/INFO]: <~Janine> hoeveel ram hebt ge em gegeven?
-[14:01:26] [Async Chat Thread - #5/INFO]: <C2gl> 4
-[14:01:48] [Async Chat Thread - #6/INFO]: <~furry> ah ow ik dacht da ge die 16 had gegeven ik dacht das kei overkill
-[14:01:48] [Async Chat Thread - #6/INFO]: <C2gl> nee, het is effectief , ik heb gemerkt dat hum wat moeite had wnr ik alleen bij de exp farm was xd
-[14:01:49] [Async Chat Thread - #5/INFO]: <~Janine> zo lang ge geen overwatch aan het spelen zijt zit ge goed
-[14:02:00] [Async Chat Thread - #6/INFO]: <C2gl> top top xdf
-[14:02:11] [Server thread/INFO]: transferreSP issued server command: /sellgui
-[14:02:19] [Server thread/INFO]: Shop >> ~furry sold 26x Andesite(Blocks.page1.items.12), 4x Rotten Flesh(Mobs.page1.items.15), 792x Stone(Blocks.page4.items.169), 42x Granite(Blocks.page3.items.118), 109x Diorite(Blocks.page2.items.97) for $67.54 with the sell gui.
-[14:02:34] [Server thread/INFO]: transferreSP issued server command: /shop
-[14:02:38] [Server thread/INFO]: transferreSP issued server command: /baltop
-[14:02:49] [Server thread/INFO]: transferreSP issued server command: /shop
-[14:05:03] [User Authenticator #4/INFO]: UUID of player Art3mis7200 is fb8b22a9-7f5f-4cfb-94cf-fc0bfd20a670
-[14:05:14] [Server thread/INFO]: Art3mis7200[/10.147.19.128:49378] logged in with entity id 12172 at ([world]-5527.312255594115, 65.0, 2541.323152991392)
-[14:05:14] [Server thread/INFO]: ~pastoor has blessed you with his presence
-[14:05:21] [Async Chat Thread - #7/INFO]: <C2gl> ahou
-[14:05:37] [Server thread/INFO]: transferreSP was shot by Skeleton
-[14:05:40] [Server thread/INFO]: transferreSP issued server command: /back
-[14:06:07] [Server thread/INFO]: transferreSP issued server command: /sellgui
-[14:06:09] [Server thread/INFO]: Art3mis7200 issued server command: /bal
-[14:06:15] [Server thread/INFO]: Shop >> ~furry sold 2x Bone(Mobs.page1.items.4), 570x Stone(Blocks.page4.items.169), 36x Dirt(Blocks.page3.items.105), 256x Diorite(Blocks.page2.items.97) for $98.88 with the sell gui.
-[14:06:17] [Server thread/INFO]: C2gl issued server command: /shop
-[14:06:24] [Server thread/INFO]: Shop >> C2gl bought 33 x Black Dye(Dyes.page1.items.1) for $173.25 with the buy screen.
-[14:06:34] [Server thread/INFO]: Art3mis7200 issued server command: /sell hand
-[14:06:34] [Server thread/INFO]: Shop >> Art3mis7200 sold 64 x White Wool(Blocks.page6.items.247) for $96 with the sell all command.
-[14:07:09] [Server thread/INFO]: Art3mis7200 issued server command: /sellgui
-[14:07:15] [Server thread/INFO]: Shop >> ~pastoor sold 400x White Wool(Blocks.page6.items.247) for $600 with the sell gui.
-[14:07:35] [Server thread/INFO]: Art3mis7200 issued server command: /sellgui
-[14:07:39] [Server thread/INFO]: Shop >> ~pastoor sold 400x White Wool(Blocks.page6.items.247) for $600 with the sell gui.
-[14:07:46] [Server thread/INFO]: Art3mis7200 issued server command: /sellgui
-[14:08:04] [Server thread/INFO]: Art3mis7200 issued server command: /sellguiµ
-[14:08:08] [Server thread/INFO]: Art3mis7200 issued server command: /sellgui
-[14:08:11] [Server thread/INFO]: Shop >> ~pastoor sold 400x White Wool(Blocks.page6.items.247) for $600 with the sell gui.
-[14:08:35] [Server thread/INFO]: Art3mis7200 issued server command: /sellgui
-[14:08:38] [Server thread/INFO]: Shop >> ~pastoor sold 400x White Wool(Blocks.page6.items.247) for $600 with the sell gui.
-[14:08:42] [Server thread/INFO]: Art3mis7200 issued server command: /shop
-[14:08:49] [Server thread/INFO]: Shop >> Art3mis7200 bought 128 x Sea Lantern(Decoration.page2.items.63) for $8,467.20 with the buy stacks screen.
-[14:08:53] [Server thread/INFO]: Art3mis7200 issued server command: /bal
-[14:08:59] [Server thread/INFO]: Art3mis7200 issued server command: /shop
-[14:09:16] [Server thread/INFO]: Shop >> Art3mis7200 bought 192 x Mud(Blocks.page3.items.125) for $612.48 with the buy stacks screen.
-[14:09:48] [Server thread/INFO]: transferreSP issued server command: /home b
-[14:09:58] [Server thread/INFO]: Art3mis7200 issued server command: /sellgui
-[14:10:00] [Server thread/INFO]: Shop >> ~pastoor sold 47x White Wool(Blocks.page6.items.247) for $70.50 with the sell gui.
-[14:10:02] [Server thread/INFO]: transferreSP issued server command: /sellgui
-[14:10:04] [Server thread/INFO]: Art3mis7200 issued server command: /tpa transferreSP
-[14:10:06] [Server thread/INFO]: Shop >> ~furry sold 41x Andesite(Blocks.page1.items.12), 768x Stone(Blocks.page4.items.169), 59x Dirt(Blocks.page3.items.105), 8x Diorite(Blocks.page2.items.97) for $83.79 with the sell gui.
-[14:10:08] [Server thread/INFO]: transferreSP issued server command: /tpaccept
-[14:10:21] [Server thread/INFO]: JMBoy issued server command: /home home
-[14:10:29] [Server thread/INFO]: JMBoy issued server command: /home iron
-[14:10:30] [Server thread/INFO]: Art3mis7200 issued server command: /home home
-[14:10:30] [Server thread/INFO]: transferreSP issued server command: /baltop
-[14:10:32] [Server thread/INFO]: transferreSP issued server command: /shop
-[14:10:42] [Server thread/INFO]: JMBoy issued server command: /home home
-[14:11:31] [Server thread/INFO]: transferreSP lost connection: Disconnected
-[14:11:31] [Server thread/INFO]: transferreSP left the game
-[14:13:03] [Server thread/INFO]: Art3mis7200 issued server command: /sell gui
-[14:13:09] [Server thread/INFO]: Art3mis7200 issued server command: /sellgui
-[14:13:15] [Server thread/INFO]: Shop >> ~pastoor sold 101x Sea Lantern(Decoration.page2.items.63) for $1,670.54 with the sell gui.
-[14:13:23] [Server thread/INFO]: Art3mis7200 issued server command: /shop
-[14:13:35] [Server thread/INFO]: Shop >> Art3mis7200 bought 128 x Mud Bricks(Blocks.page3.items.129) for $1,155.84 with the buy stacks screen.
-[14:14:13] [User Authenticator #5/INFO]: UUID of player transferreSP is f303893c-768a-4c80-b4f9-65d2a7a8210c
-[14:14:18] [Server thread/INFO]: transferreSP[/10.147.19.124:49159] logged in with entity id 26300 at ([world]-4756.258507428112, 31.0, 3144.1528231152283)
-[14:14:19] [Server thread/INFO]: ~furry has blessed you with his presence
-[14:14:22] [Server thread/INFO]: transferreSP issued server command: /shop
-[14:14:56] [Server thread/INFO]: transferreSP issued server command: /shop
-[14:16:01] [Server thread/INFO]: transferreSP issued server command: /baltop
-[14:16:15] [Server thread/INFO]: transferreSP issued server command: /home B
-[14:16:30] [Server thread/INFO]: transferreSP issued server command: /sellgui
-[14:16:33] [Server thread/INFO]: Shop >> ~furry sold 12x Rotten Flesh(Mobs.page1.items.15), 64x Stone(Blocks.page4.items.169) for $14.56 with the sell gui.
-[14:18:18] [Server thread/INFO]: JMBoy issued server command: /warp exp
-[14:18:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2802ms or 56 ticks behind
-[14:20:18] [Server thread/INFO]: JMBoy issued server command: /home home
-[14:20:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2503ms or 50 ticks behind
-[14:20:29] [Server thread/WARN]: Art3mis7200 moved too quickly! 18.15156131832137,-3.056143813666523,5.671372355692029
-[14:20:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3243ms or 64 ticks behind
-[14:20:45] [Server thread/INFO]: C2gl issued server command: /sellgui
-[14:20:51] [Server thread/INFO]: Shop >> C2gl sold 21x Rotten Flesh(Mobs.page1.items.15), 3x Spider Eye(Mobs.page1.items.17), 9x Wheat Seeds(Farming.page1.items.29) for $30.75 with the sell gui.
-[14:21:02] [Server thread/INFO]: transferreSP was shot by Skeleton
-[14:21:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2570ms or 51 ticks behind
-[14:21:07] [Server thread/INFO]: transferreSP issued server command: /back
-[14:21:11] [Server thread/INFO]: C2gl issued server command: /tps
-[14:21:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4421ms or 88 ticks behind
-[14:21:36] [Server thread/INFO]: transferreSP issued server command: /sellgui
-[14:21:42] [Server thread/INFO]: Shop >> ~furry sold 16x Andesite(Blocks.page1.items.12), 896x Stone(Blocks.page4.items.169), 215x Diorite(Blocks.page2.items.97) for $77.42 with the sell gui.
-[14:21:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2513ms or 50 ticks behind
-[14:22:26] [Server thread/INFO]: C2gl issued server command: /tps
-[14:22:31] [Server thread/INFO]: C2gl issued server command: /lag
-[14:23:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4697ms or 93 ticks behind
-[14:23:31] [Server thread/INFO]: C2gl issued server command: /sellgui
-[14:23:33] [Server thread/INFO]: Shop >> C2gl sold 11x String(Mobs.page1.items.18) for $0.01 with the sell gui.
-[14:23:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Ferre > dqsfdqsfdqsfds
-[14:23:51] [Async Chat Thread - #10/INFO]: <C2gl> ?
-[14:23:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2518ms or 50 ticks behind
-[14:23:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Ferre > dqsfdqsf
-[14:24:02] [Async Chat Thread - #9/INFO]: <~Janine> jkjlmlkjlkj
-[14:24:07] [Async Chat Thread - #10/INFO]: <C2gl> alles okay ? xd
-[14:24:08] [Server thread/INFO]: transferreSP issued server command: /sellgui
-[14:24:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Ferre > //wand //cyl air 52 60
-[14:24:29] [Server thread/INFO]: Shop >> ~furry sold 55x Andesite(Blocks.page1.items.12), 574x Stone(Blocks.page4.items.169), 3x Dripstone Block(Blocks.page1.items.2), 1x Dirt(Blocks.page3.items.105), 384x Diorite(Blocks.page2.items.97) for $103.48 with the sell gui.
-[14:24:41] [Server thread/INFO]: C2gl issued server command: /sellgui
-[14:24:45] [Server thread/INFO]: Shop >> C2gl sold 384x Carrot(Farming.page1.items.8) for $480 with the sell gui.
-[14:24:46] [Async Chat Thread - #10/INFO]: <~Janine> ik probeer terug te praten maar dat gaat nie echt precies, hij verstaat het nie
-[14:24:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2519ms or 50 ticks behind
-[14:24:52] [Async Chat Thread - #9/INFO]: <~furry> QDSFDQSF
-[14:25:58] [Server thread/INFO]: C2gl issued server command: /sellgui
-[14:26:03] [Server thread/INFO]: Shop >> C2gl sold 403x Carrot(Farming.page1.items.8), 5x Potato(Farming.page1.items.21) for $508.75 with the sell gui.
-[14:27:46] [Server thread/INFO]: transferreSP issued server command: /sellgui
-[14:27:53] [Server thread/INFO]: Shop >> ~furry sold 64x Andesite(Blocks.page1.items.12), 640x Stone(Blocks.page4.items.169), 2x String(Mobs.page1.items.18), 1x Pointed Dripstone(Decoration.page1.items.5), 1x Gunpowder(Mobs.page1.items.9), 128x Granite(Blocks.page3.items.118), 53x Dirt(Blocks.page3.items.105), 133x Diorite(Blocks.page2.items.97) for $127.10 with the sell gui.
-[14:28:48] [Server thread/INFO]: Art3mis7200 was slain by Wither Skeleton
-[14:28:53] [Server thread/INFO]: Art3mis7200 issued server command: /back
-[14:28:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2909ms or 58 ticks behind
-[14:28:57] [Server thread/INFO]: Art3mis7200 was slain by Wither Skeleton
-[14:29:01] [Server thread/INFO]: Art3mis7200 issued server command: /back
-[14:29:42] [Server thread/INFO]: Art3mis7200 was slain by Wither Skeleton
-[14:29:45] [Server thread/INFO]: Art3mis7200 issued server command: /back
-[14:29:53] [Server thread/INFO]: transferreSP issued server command: /sellgui
-[14:29:58] [Server thread/INFO]: Shop >> ~furry sold 96x Andesite(Blocks.page1.items.12), 454x Stone(Blocks.page4.items.169), 22x Granite(Blocks.page3.items.118), 11x Dirt(Blocks.page3.items.105), 315x Diorite(Blocks.page2.items.97) for $104.35 with the sell gui.
-[14:30:14] [Server thread/INFO]: transferreSP issued server command: /warp exp
-[14:30:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2557ms or 51 ticks behind
-[14:30:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3584ms or 71 ticks behind
-[14:30:40] [Server thread/INFO]: transferreSP issued server command: /BACK
-[14:30:41] [Server thread/INFO]: transferreSP issued server command: /back
-[14:31:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8388ms or 167 ticks behind
-[14:31:07] [Server thread/INFO]: Art3mis7200 issued server command: /home home
-[14:31:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2559ms or 51 ticks behind
-[14:32:10] [Server thread/INFO]: transferreSP issued server command: /back
-[14:32:12] [Server thread/INFO]: transferreSP issued server command: /back
-[14:32:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2515ms or 50 ticks behind
-[14:32:14] [Server thread/INFO]: transferreSP issued server command: /sellgui
-[14:32:20] [Server thread/INFO]: Shop >> ~furry sold 192x Andesite(Blocks.page1.items.12), 579x Stone(Blocks.page4.items.169), 4x String(Mobs.page1.items.18), 4x Granite(Blocks.page3.items.118), 7x Dirt(Blocks.page3.items.105), 75x Diorite(Blocks.page2.items.97), 1x Spider Eye(Mobs.page1.items.17) for $78.19 with the sell gui.
-[14:32:27] [Server thread/INFO]: transferreSP issued server command: /sellgui
-[14:32:30] [Server thread/INFO]: Shop >> ~furry sold 30x Andesite(Blocks.page1.items.12), 64x Stone(Blocks.page4.items.169), 6x Granite(Blocks.page3.items.118), 40x Diorite(Blocks.page2.items.97) for $16.24 with the sell gui.
-[14:35:32] [Async Chat Thread - #12/INFO]: <C2gl> ik ga naar de fitness, kan iemand de host overpakken?
-[14:35:33] [Server thread/INFO]: transferreSP issued server command: /sellgui
-[14:35:38] [Server thread/INFO]: JMBoy issued server command: /tpa transferreSP
-[14:35:39] [Server thread/INFO]: Shop >> ~furry sold 118x Andesite(Blocks.page1.items.12), 704x Stone(Blocks.page4.items.169), 58x Granite(Blocks.page3.items.118), 37x Dirt(Blocks.page3.items.105), 192x Diorite(Blocks.page2.items.97) for $122.15 with the sell gui.
-[14:35:41] [Server thread/INFO]: transferreSP issued server command: /tpaccept
-[14:35:43] [Async Chat Thread - #11/INFO]: <C2gl> of moet ik mijn laptop effe aan laten staan?
-[14:36:01] [Server thread/INFO]: transferreSP was slain by Zombie
-[14:36:04] [Server thread/INFO]: transferreSP issued server command: /back
-[14:36:26] [Server thread/INFO]: transferreSP was slain by Zombie
-[14:36:29] [Server thread/INFO]: transferreSP issued server command: /back
-[14:36:50] [Server thread/INFO]: JMBoy issued server command: /tp transferreSP
-[14:36:51] [Server thread/INFO]: C2gl lost connection: Disconnected
-[14:36:51] [Server thread/INFO]: C2gl left the game
-[14:37:32] [Server thread/INFO]: transferreSP issued server command: /home b
-[14:37:32] [Server thread/WARN]: transferreSP moved too quickly! -41.04712538897547,54.0,-8.566207601613314
-[14:37:36] [Server thread/INFO]: JMBoy issued server command: /tp transferreSP
-[14:37:38] [Server thread/INFO]: Art3mis7200 issued server command: /shop
-[14:37:43] [Server thread/INFO]: Shop >> Art3mis7200 bought 1 x Wheat Seeds(Farming.page1.items.29) for $3 with the buy screen.
-[14:37:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | bonk] C2gl > hello?
-[14:38:01] [Async Chat Thread - #14/INFO]: <~furry> ah
-[14:38:04] [Async Chat Thread - #13/INFO]: <~furry> ja zet ma af
-[14:38:10] [Server thread/INFO]: JMBoy issued server command: /home home
-[14:38:10] [Server thread/WARN]: JMBoy moved too quickly! -575.0314904625584,10.0,-380.5818950786379
-[14:38:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | bonk] C2gl > top thx :)
-[14:38:16] [Server thread/INFO]: Stopping the server
-[14:38:16] [Server thread/INFO]: Stopping server
-[14:38:16] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.4.4
-[14:38:16] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
-[14:38:16] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 472ms
-[14:38:16] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
-[14:38:16] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+68-993d7ed
-[14:38:16] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[14:38:16] [Server thread/INFO]: [concrete_powder_modifier] Disabling concrete_powder_modifier v${version}
-[14:38:16] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[14:38:16] [Server thread/INFO]: [Sleeper] Disabling Sleeper v1.5.1
-[14:38:16] [Server thread/INFO]: [Sleeper] Sleeper Has Been Disabled!
-[14:38:16] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.120
-[14:38:16] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[14:38:16] [Server thread/INFO]: [LuckPerms] Closing storage...
-[14:38:16] [Server thread/INFO]: [LuckPerms] Goodbye!
-[14:38:16] [Server thread/INFO]: Saving players
-[14:38:16] [Server thread/INFO]: JMBoy lost connection: Server closed
-[14:38:16] [Server thread/INFO]: JMBoy left the game.
-[14:38:16] [Server thread/INFO]: Art3mis7200 lost connection: Server closed
-[14:38:16] [Server thread/INFO]: Art3mis7200 left the game.
-[14:38:16] [Server thread/INFO]: transferreSP lost connection: Server closed
-[14:38:16] [Server thread/INFO]: transferreSP left the game.
-[14:38:17] [Server thread/INFO]: Saving worlds
-[14:38:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:38:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[14:38:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[14:38:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:38:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:38:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:38:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:06:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | bonk] C2gl > zit je er nog op pex? xd
+[00:10:39] [Server thread/INFO]: JMBoy issued server command: /gamemode spectator
+[00:11:12] [Server thread/INFO]: JMBoy issued server command: /gamemode creative
+[00:16:32] [User Authenticator #23/INFO]: UUID of player C2gl is ac59ab29-63a9-4865-912e-ab25be6efa08
+[00:16:33] [Server thread/INFO]: C2gl[/94.227.126.213:54031] logged in with entity id 359051 at ([world]-3214.006340211865, 72.0, -233.69999998807907)
+[00:16:33] [Server thread/INFO]: C2gl has blessed you with his presence
+[00:16:53] [Async Chat Thread - #103/INFO]: <C2gl> wrm heb ik fly xd?
+[00:17:11] [Server thread/INFO]: C2gl issued server command: /fly C2gl enable
+[00:17:18] [Server thread/INFO]: C2gl issued server command: /fly C2gl disable
+[00:21:36] [Server thread/INFO]: C2gl issued server command: /sellgui
+[00:21:43] [Server thread/INFO]: Shop >> C2gl sold 420x Carrot(Farming.page1.items.8), 2x Wheat Seeds(Farming.page1.items.29) for $526.50 with the sell gui.
+[00:22:26] [Server thread/INFO]: JMBoy issued server command: /gamemode spectator
+[00:25:50] [Server thread/INFO]: JMBoy issued server command: /gamemode creative
+[00:34:45] [Server thread/INFO]: JMBoy issued server command: /gamemode spectator
+[00:35:04] [Server thread/INFO]: C2gl issued server command: /Sellgui
+[00:35:07] [Server thread/INFO]: C2gl issued server command: /selgui
+[00:35:09] [Server thread/INFO]: C2gl issued server command: /sellgui
+[00:35:22] [Server thread/INFO]: Shop >> C2gl sold 1x Wheat Seeds(Farming.page1.items.29), 2x Netherrack(Blocks.page3.items.131) for $0.85 with the sell gui.
+[00:35:28] [Server thread/INFO]: JMBoy issued server command: /gamemode creative
+[00:36:53] [Server thread/INFO]: C2gl issued server command: /home lava
+[00:37:10] [Server thread/INFO]: C2gl issued server command: /back
+[00:37:59] [Server thread/INFO]: C2gl issued server command: /home lava
+[00:38:27] [Server thread/INFO]: C2gl issued server command: /home home
+[00:38:32] [Server thread/INFO]: C2gl issued server command: /home sav
+[00:38:54] [Server thread/INFO]: C2gl issued server command: /home lava
+[00:39:30] [Server thread/INFO]: C2gl issued server command: /back
+[00:39:37] [Server thread/INFO]: C2gl issued server command: /back
+[00:39:47] [Server thread/INFO]: C2gl issued server command: /back
+[00:40:27] [Server thread/INFO]: C2gl issued server command: /sellall BAKED_POTATO
+[00:40:27] [Server thread/INFO]: Shop >> C2gl sold 1216 x Baked Potato(Food.page1.items.10) for $3,040 with the sell all command.
+[00:40:36] [Server thread/INFO]: C2gl issued server command: /sellgui
+[00:40:40] [Server thread/INFO]: Shop >> C2gl sold 131x Baked Potato(Food.page1.items.10) for $327.50 with the sell gui.
+[00:40:50] [Server thread/INFO]: C2gl issued server command: /balance
+[00:40:53] [Server thread/INFO]: C2gl issued server command: /baltop
+[00:41:22] [Server thread/INFO]: C2gl lost connection: Disconnected
+[00:41:22] [Server thread/INFO]: C2gl left the game
+[01:03:22] [Server thread/INFO]: JMBoy issued server command: /gamemode spectator
+[01:03:37] [Server thread/INFO]: JMBoy issued server command: /gamemode creative
+[01:05:07] [Server thread/INFO]: JMBoy issued server command: /gamemode spectator
+[01:05:40] [Server thread/INFO]: JMBoy issued server command: /gamemode survival
+[01:05:44] [Server thread/INFO]: JMBoy issued server command: /home home
+[01:05:44] [Server thread/WARN]: JMBoy moved too quickly! 12.199999988079071,106.5625,-1.199999988079071
+[01:05:48] [Server thread/INFO]: JMBoy issued server command: /fly
+[01:05:55] [Server thread/INFO]: JMBoy issued server command: /gamemode spectator
+[01:06:17] [Server thread/INFO]: JMBoy issued server command: /gamemode survival
+[01:06:27] [Server thread/INFO]: JMBoy issued server command: /fly
+[01:07:55] [Server thread/INFO]: JMBoy issued server command: /gamemode creative
+[01:09:37] [Server thread/INFO]: JMBoy issued server command: /gamemode survival
+[01:09:48] [Server thread/INFO]: JMBoy issued server command: /fly
+[01:10:21] [Server thread/INFO]: JMBoy issued server command: /home iron
+[01:10:21] [Server thread/WARN]: JMBoy moved too quickly! 1.1521523978954065,-46.0,6.069341560698831
+[01:10:21] [Server thread/WARN]: JMBoy moved too quickly! 1.1521523978954065,-46.0,6.069341560698831
+[01:23:05] [Server thread/INFO]: JMBoy issued server command: /gamemode spectator
+[01:23:22] [Server thread/INFO]: JMBoy issued server command: /gamemode survival
+[01:33:45] [Server thread/INFO]: JMBoy issued server command: /home iron
+[01:33:45] [Server thread/WARN]: JMBoy moved too quickly! 0.9713862319422333,-46.0,5.9450347077918195
+[01:33:53] [Server thread/INFO]: JMBoy lost connection: Disconnected
+[01:33:53] [Server thread/INFO]: JMBoy left the game
+[01:33:59] [Server thread/INFO]: Stopping the server
+[01:33:59] [Server thread/INFO]: Stopping server
+[01:33:59] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.4.4
+[01:33:59] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
+[01:34:00] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown klaar in 360ms
+[01:34:00] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[01:34:00] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+68-993d7ed
+[01:34:00] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[01:34:00] [Server thread/INFO]: [concrete_powder_modifier] Disabling concrete_powder_modifier v${version}
+[01:34:00] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[01:34:00] [Server thread/INFO]: [Sleeper] Disabling Sleeper v1.5.1
+[01:34:00] [Server thread/INFO]: [Sleeper] Sleeper Has Been Disabled!
+[01:34:00] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.120
+[01:34:00] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[01:34:00] [Server thread/INFO]: [LuckPerms] Closing storage...
+[01:34:00] [Server thread/INFO]: [LuckPerms] Goodbye!
+[01:34:00] [Server thread/INFO]: Saving players
+[01:34:00] [Server thread/INFO]: Saving worlds
+[01:34:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:34:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:34:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:34:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:34:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:34:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:34:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

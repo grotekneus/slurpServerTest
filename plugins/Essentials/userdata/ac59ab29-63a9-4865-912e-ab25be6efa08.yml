@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 127.0.0.1
+ip-address: 94.227.126.213
 afk: false
 socialspy: false
 npc: false
@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710417415900
+  lastteleport: 1710459587820
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710423411468
-  login: 1710420807558
-money: '27132.5749999999999263'
+  logout: 1710459682110
+  login: 1710458193281
+money: '34971.4049999999999263'
 last-account-name: C2gl
 lastlocation:
-  world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-  world-name: world
-  x: -1257.3798118112725
-  y: 198.0
-  z: 1843.1102155571734
-  yaw: -165.15216064453125
-  pitch: 17.151966094970703
+  world: c116a7a4-4cc4-434f-8a30-535ce385984e
+  world-name: world_nether
+  x: -411.30000001192093
+  y: 33.0
+  z: -58.823209509451026
+  yaw: 90.95574951171875
+  pitch: 66.89879608154297
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -93,12 +93,36 @@ homes:
     z: -66.69999998807907
     yaw: 16.80714988708496
     pitch: 24.716413497924805
+  trans:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -4706.508615324044
+    y: 93.0
+    z: 3141.294235703754
+    yaw: 130.2796630859375
+    pitch: 39.183921813964844
+  wee:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -4699.829930803009
+    y: 81.0
+    z: 3169.8264687467126
+    yaw: -164.40399169921875
+    pitch: 55.06747055053711
+  we:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -4704.421451187473
+    y: 84.0
+    z: 3091.640807071493
+    yaw: 1.095123291015625
+    pitch: 54.07905578613281
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -3191.846950895729
+  x: -3184.58713550899
   y: 72.0
-  z: -224.03642682440605
-  yaw: -42.70513916015625
-  pitch: 5.305544853210449
+  z: -223.3604071042549
+  yaw: -56.32952117919922
+  pitch: -4.580860614776611
 nickname: C2gl
