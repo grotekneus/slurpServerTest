@@ -1,0 +1,323 @@
+# Language file
+
+ABOUT-LINE: <BLUE>-----------------------------------------------------
+ACROSS-ALL-SERVERS: ' <GREEN>across all servers.'
+ACTIVE: '<LIGHT_PURPLE>Active paths (<GOLD>{0}<LIGHT_PURPLE>): <GOLD>{1}'
+ADVANCEMENT-MULTIPLE-REQUIREMENT: Obtain at least {0} advancements
+ADVANCEMENT-SINGLE-REQUIREMENT: Obtain Advancement '{0}'
+ALREADY-COMPLETED-PATH: but has already completed this path before.
+ALREADY-COMPLETED-REQUIREMENT: <RED>You have already completed this requirement!
+ALREADY-ON-THIS-PATH: <RED>You're already on this path!
+AR: '<GREEN>/ar '
+AND: and
+AND-YOUR-PROGRESS: <RED>and your progress for this path has been reset.
+ANIMALS-BRED-REQUIREMENT: Breed at least {0} animals
+ASSIGNED: <GREEN>Assigned '<GOLD>{1}<GREEN>' to {0}
+AURELIUM-SKILLS-MANA-REQUIREMENT: Have at least {0} mana.
+AURELIUM-SKILLS-SKILL-REQUIREMENT: Reach level {0} in {1}.
+AURELIUM-SKILLS-STAT-REQUIREMENT: Reach level {0} in {1}.
+AURELIUM-SKILLS-XP-REQUIREMENT: Have {0} xp in {1}.
+AUTOMATICALLY-ASSIGNED-PATH: <DARK_GREEN>You have automatically been assigned the
+  path '<GOLD>{0}<DARK_GREEN>'.
+AUTORANK-NUMBER-OF-ACTIVE-PATHS-REQUIREMENT: Have at least {0} active paths.
+AUTORANK-NUMBER-OF-COMPLETED-PATHS-REQUIREMENT: Have at least completed {0} paths.
+AUTORANK-RELOADED: <DARK_AQUA>Autorank's files have been reloaded.
+AUTORANK-SPECIFIC-ACTIVE-PATH-REQUIREMENT: Have '{0}' set as an active path.
+AUTORANK-SPECIFIC-COMPLETED-PATH-REQUIREMENT: Have completed path '{0}'.
+AUTORANK-TIMES-HEADER: <GREEN>----------- [Times of <GOLD>{0}<GREEN>] -----------
+AUTORANK-TIMES-PLAYER-PLAYED: '<GOLD>{0}<BLUE> played:'
+AUTORANK-TIMES-THIS-MONTH: '<YELLOW>This month: <LIGHT_PURPLE>{0}'
+AUTORANK-TIMES-THIS-WEEK: '<RED>This week: <LIGHT_PURPLE>{0}'
+AUTORANK-TIMES-TODAY: '<DARK_AQUA>Today: <LIGHT_PURPLE>{0}'
+AUTORANK-TIMES-TOTAL: '<GREEN>Total: <LIGHT_PURPLE>{0}'
+BENTOBOX-LEVEL-REQUIREMENT: Have at least an island level of {0} on {1}.
+BLOCKS: ' blocks'
+BLOCKS-MOVED-REQUIREMENT: Travel at least {0} {1}
+BRACKET-LEFT: <GRAY>[
+BRACKET-RIGHT: <GRAY>]
+BROKEN-BLOCKS-REQUIREMENT: Break at least {0}
+BUT-YOUR-PROGRESS: <GOLD>but your progress for this path has been stored.
+CAKESLICES-EATEN-REQUIREMENT: Eat at least {0} slices of cake
+CANNOT-CHECK-CONSOLE: <RED>Cannot check for console!
+CHECKED: ' <GREEN>checked!'
+CHOSEN-PATH: <DARK_GREEN>You have chosen <GRAY>'{0}'<DARK_GREEN>.
+COLON: ': '
+COMMAND-NOT-RECOGNISED: <RED>Command not recognised!
+COMMAND-RESULT: 'Perform the following command(s): {0}'
+COMPLETED: '<LIGHT_PURPLE>Completed paths (<GOLD>{0}<LIGHT_PURPLE>): <GOLD>{1}'
+COMPLETED-PATH-NOW: ' and now completed his path.'
+COMPLETED-REQUIREMENT: '<DARK_GREEN>You completed requirement <GOLD>{0}<DARK_GREEN>:
+  <DARK_AQUA>{1}'
+COULD-NOT-ASSIGN: <DARK_RED>Could not assign '<GOLD>{1}<DARK_RED>' to {0}
+COULD-NOT-FIND: <RED>Could not find a migration plugin for the type you specified.
+COULD-NOT-IMPORT: <RED>Could not import any players for {0}! Are you sure you put
+  any files in the imports folder?
+COULD-NOT-SYNC: <GREEN>Could not sync stats. Run command again!
+CURRENT: '<GREEN>Current: <GOLD>{0}'
+DAMAGE-TAKEN-REQUIREMENT: Take at least {0} damage
+DAY-PLURAL: days
+DAY-SINGULAR: day
+DEBUG-FILE: <GREEN>Debug file '{0}' created!
+DEBUG-MODE: '<GOLD>Debug mode of Autorank has been '
+DEPENDENCIES: <RED>Cannot show dependencies as PluginLibrary is not installed
+DEPRECATED-COMMAND: This command is not used anymore and will be deprecated.
+DESCRIPTION: <AQUA>{0}
+DEVELOPED: '<GOLD>Developed by: <GRAY>{0}'
+DID-YOU: '<DARK_AQUA>Did you perhaps mean '
+DISABLED: ' <RED>disabled'
+DOES-NOT-HAVE-ACTIVE: <GOLD>{0} <RED>does not have any active paths.
+DOES-NOT-HAVE-AS-ACTIVE: <GOLD>{0} <DARK_RED>does not have <GOLD>{1} <DARK_RED>as
+  an active path!
+DONE-MARKER: Done
+DO-NOT-MEET-REQUIREMENTS-FOR: '<RED>You do not meet requirements for #<GOLD>{0}<RED>:'
+EFFECT-RESULT: Play '{0}' effect on you.
+ENABLED: ' <GREEN>enabled'
+ESSENTIALS-GEOIP-LOCATION-REQUIREMENT: Be from area {0}
+EXP-RANGE-REQUIREMENT: Have range of level between {0} and {1} in exp
+EXP-REQUIREMENT: Have at least level {0} in exp
+FACTIONS-POWER-REQUIREMENT: Have at least {0} power in your faction
+FIRST-LOGIN-DATE: First Login Date {0}
+FISH-CAUGHT-REQUIREMENT: Catch at least {0} fish
+FOOD-EATEN-REQUIREMENT: Eat at least {0}
+GAMEMODE-REQUIREMENT: Be in gamemode {0}
+GLOBAL: '<LIGHT_PURPLE>Global playtime: <GOLD>{0}'
+GLOBAL-TIME-REQUIREMENT: Play for at least {0} on any of the servers
+GRIEF-PREVENTION-BONUS-BLOCKS-REQUIREMENT: Have at least {0} bonus blocks in GriefPrevention
+GRIEF-PREVENTION-CLAIMED-BLOCKS-REQUIREMENT: Have at least {0} claimed blocks in GriefPrevention
+GRIEF-PREVENTION-CLAIMS-COUNT-REQUIREMENT: Have at least {0} claims in GriefPrevention
+GRIEF-PREVENTION-REMAINING-BLOCKS-REQUIREMENT: Have at least {0} remaining blocks
+  to use in claims in GriefPrevention
+GROUP-REQUIREMENT: Be in group {0}.
+HAS-PLAYED: <GOLD>{0} <GREEN>has played for <GOLD>
+HAS-PLAYED-FOR: <GOLD>{0}<GRAY> has played for {1}.
+HOOKED-PLUGINS: <GRAY>- <GREEN>{0}
+HOOKS: '<GOLD>Autorank Hooks:'
+HOUR-PLURAL: hours
+HOUR-SINGULAR: hour
+ILL-LET: <GOLD>I'll let you know when the leaderboard is updated.
+IMPORTED-DATA: <GREEN>Imported data of {0} players from Minecraft statistics!
+IMPORTED-OPERATION: <RED>Import operation cancelled by user.
+IMPORTING-DATA-ADDING-GLOBAL: Importing data and adding to global database.
+IMPORTING-DATA-ADDING-LOCAL: Importing data and adding to local database.
+IMPORTING-DATA-BOTH: <GOLD>Importing data and overriding both the global and local
+  database.
+IMPORTING-DATA-OVERRIDING-GLOBAL: <GOLD>Importing data and overriding global database.
+IMPORTING-DATA-OVERRIDING-LOCAL: <GOLD>Importing data and overriding local database.
+INFO-HEADER: <DARK_AQUA>---------- [<GOLD>{0}<DARK_AQUA>] ----------
+INVALID-FORMAT: <RED>Invalid format, use {0}.
+INVALID-LEADERBOARD-TYPE: <RED>You have not specified a valid leaderboard type! <YELLOW>Only
+  'total', 'daily', 'weekly' and 'monthly' are allowed.
+INVALID-NUMBER: <RED>{0} is not a valid number!
+INVALID-STORAGE-FILE: <RED>Invalid storage file. You can only backup 'playerdata'
+  or 'storage'.
+IN-BIOME-REQUIREMENT: Be in biome {0}
+IS-EXEMPTED-CHECKING: '<LIGHT_PURPLE>Is exempted from checking: '
+IS-EXEMPTED-LEADERBOARD: '<LIGHT_PURPLE>Is exempted from leaderboard: '
+IS-EXEMPTED-OBTAINING: '<LIGHT_PURPLE>Is exempted from obtaining time: '
+ITEMS-CRAFTED-REQUIREMENT: Craft at least {0} item(s)
+ITEMS-ENCHANTED-REQUIREMENT: Enchant at least {0} items.
+ITEM-CRAFTED-REQUIREMENT: Craft at least {0} {1}.
+ITEM-REQUIREMENT: Obtain {0}
+ITEM-THROWN-REQUIREMENT: Throw at least {0} {1}.
+JOBS-CURRENT-POINTS-REQUIREMENT: Have at least {0} points in Jobs.
+JOBS-EXPERIENCE-REQUIREMENT: Have at least {0} experience in the job '{1}'.
+JOBS-LEVEL-REQUIREMENT: Have at least level {0} in the job '{1}'
+JOBS-TOTAL-POINTS-REQUIREMENT: Have at least {0} points in total in Jobs
+LAST-LOGIN-LOGIN-REQUIREMENT: Been at least {0} minutes since last login.
+LAST-LOGIN-LOGOUT-REQUIREMENT: Been at least {0} minutes since last logout.
+LEADERBOARD: <YELLOW>Leaderboard updated!
+LEADERBOARD-FOOTER: '------------------------------------'
+LEADERBOARD-HEADER-ALL-TIME: '-------- Leaderboard (All time) --------'
+LEADERBOARD-HEADER-DAILY: '-------- Leaderboard (Daily time) --------'
+LEADERBOARD-HEADER-MONTHLY: '-------- Leaderboard (Monthly time) --------'
+LEADERBOARD-HEADER-WEEKLY: '-------- Leaderboard (Weekly time) --------'
+LIST-OF-COMMANDS: <YELLOW>Type /ar help for a list of commands.
+LOCAL: '<LIGHT_PURPLE>Local playtime: <GOLD>{0}'
+LOCATION-REQUIREMENT: Be at {0}
+MCMMO-POWER-LEVEL-REQUIREMENT: Have at least power level {0}
+MCMMO-SKILL-LEVEL-REQUIREMENT: Have at least level {0} in {1}
+MCRPG-POWER-LEVEL-REQUIREMENT: Have at least power level {0}
+MCRPG-SKILL-LEVEL-REQUIREMENT: Have at least level {0} in {1}
+MEETS-ALL-REQUIREMENTS: meets all the requirements for path {0}
+MEETS-ALL-REQUIREMENTS-WITHOUT-RANK-UP: meets all the requirements
+MESSAGE-RESULT: 'Send you the following message: {0}'
+MINUTE-PLURAL: minutes
+MINUTE-SINGULAR: minute
+MONEY-REQUIREMENT: Have at least {0}
+MONEY-RESULT: Reward you with {0}.
+MYSQL-IS-NOT-ENABLED: <RED>MySQL is not enabled!
+NCC-ARE-YOU-SURE-RESET: Are you sure you want to reset the %type% of {0} ? Please
+  confirm or deny.
+NCC-ARE-YOU-SURE-PERFORM: 'Are you sure you want to perform this action? Type '
+NCC-ACTIVE: active paths
+NCC-ACTIVE-PROGRESS: active progress
+NCC-ALL-PROGRESS: all progress
+NCC-COMPLETED: completed paths
+NCC-CONVERSATION-HAS-BEEN: This conversation has been abandoned by you.
+NCC-CONVERSATION-HAS-ENDED: This conversation has ended.
+NCC-CONVERSATION-HAS-ENDED-BECAUSE: This conversation has ended because you didn't
+  reply in time.
+NCC-HAS-ALREADY: '{0} has already completed this requirement'
+NCC-IS-ALREADY: '{0} is already on that path.'
+NCC-IS-NOT: '{0} is not on that path.'
+NCC-OF-WHICH-PLAYER-ACTIVE: Of which player do you want to reset the active paths?
+NCC-OF-WHICH-PLAYER-ACTIVE-PROGRESS: Of which player do you want to reset the active
+  progress?
+NCC-OF-WHICH-PLAYER-ALL-PROGRESS: Of which player do you want to reset the all progress?
+NCC-OF-WHICH-PLAYER-COMPLETED: Of which player do you want to reset the completed
+  paths?
+NCC-THAT-REQUIREMENT: That requirement id does not exist for {0}
+NCC-THE-PATH: The path {0} does not exist!
+NCC-WHAT-DO-YOU: 'What do you want to reset? You can reset '
+NCC-WHAT-PATH: What path does the requirement belong to?
+NCC_WHAT_PATH_ASSIGN: What path do you want to assign to {0}?
+NCC-WHAT-PATH-COMPLETE: What path do you want to complete for {0}?
+NCC_WHAT_PATH_UNASSIGN: What path do you want to unassign from {0}?
+NCC-WHAT-PLAYER: What player do you want to edit?
+NCC-WHAT-REQUIREMENT-ID: What requirement id do you want to complete?
+NCC-WHAT-TYPE: 'What type of edit do you want to make? '
+NCC-YOU-ARE-ALREADY-IN: You are already in a conversation.
+NONE: none
+NO-FURTHER-PATH-FOUND: none (no path found)
+NO-PATHS-TO-CHOOSE: <RED>There are no paths that you can choose.
+NO-PATH-FOUND-WITH-THAT-NAME: <RED>There was no ranking path found with that name.
+NO-PATH-LEFT-TO-CHOOSE: <DARK_GREEN>{0} has played for {1} and currently has no path.
+  There are no paths left to choose.
+NO-PERMISSION: <RED>You need <YELLOW>{0} <RED>for that!
+OR: <GREEN>or
+OPTIONAL-LEFT-BRACKET: <AQUA> (
+OPTIONAL-RIGHT-BRACKET: <AQUA> )
+OPTIONAL-MARKER: Optional
+PARENTHESIS-LEFT: <LIGHT_PURPLE> (
+PARENTHESIS-RIGHT: '<LIGHT_PURPLE>): '
+PARENTHESIS-LEFT-PERCENT: <GOLD> (
+PARENTHESIS-RIGHT-PERCENT: <GOLD>%)
+PARTIAL-COMPLETION-NOT-ENABLED: <RED>You cannot use this command as this server has
+  not enabled partial completion!
+PATH-HAS-BEEN: <GREEN>Path '<GOLD>{1}<GREEN>' has been completed for {0}
+PATH-IS-DEACTIVATED: '<GREEN>Path ''{0}'' is deactivated '
+PATH-IS-NOT-ACTIVE: You are not active on path {0}.
+PATH-NOT-ALLOWED-TO-RETAKE: <RED>You already completed this path before. You are not
+  allowed to retake it!
+PERMISSION-REQUIREMENT: Have permission {0}
+PLACED-BLOCKS-REQUIREMENT: Place at least {0}
+PLACEHOLDERAPI-INTEGER-REQUIREMENT: Have at least {0} {1}
+PLACEHOLDERAPI-STRING-REQUIREMENT: Have at least {0} {1}
+PLANTS-POTTED-REQUIREMENT: Pot at least {0} plants
+PLAYERPOINTS-POINTS-REQUIREMENT: Obtain at least {0} player points.
+PLAYERS-HAVE-BEEN-MIGRATED: '{0} players have been migrated to Autorank.'
+PLAYER-IS-EXCLUDED: <GOLD>{0} <RED>is excluded from ranking!
+PLAYER-IS-INVALID: <GOLD>{0} <RED>has never been logged before.
+PLAYER-KILLS-REQUIREMENT: Kill at least {0} player(s)
+PLAYER-NOT-ONLINE: <GOLD>{0} <RED>is not online!
+PLAYTIME-CHANGED: <GREEN>Changed playtime of {0} to {1}.
+PREREQUISITES: '<GREEN>Prerequisites of path ''<GRAY>{0}<GREEN>'':'
+PROGRESS-OF: '<GRAY>Progress of ''<BLUE>{0}<GRAY>'': '
+PROGRESS-OF-PATHS: <GREEN>----- <GRAY>[Progress of paths for <GOLD>{0}<GRAY>]<GREEN>
+  -----
+PROGRESS-RESET: <YELLOW>Your progress for the path is reset.
+PROGRESS-RESTORED: <YELLOW>Your progress for the path has been restored.
+QUESTION-MARK: <DARK_AQUA>?
+QUESTS-ACTIVE-QUESTS-REQUIREMENT: Have {0} quests active at the same time.
+QUESTS-COMPLETED-QUESTS-REQUIREMENT: Complete at least {0} quests.
+QUESTS-COMPLETE-SPECIFIC-QUEST-REQUIREMENT: Complete the quest '{0}'.
+QUESTS-QUEST-POINTS-REQUIREMENT: Obtain at least {0} quest points.
+RANK-CHANGE-RESULT: Change rank to {0}.
+REMOVED-ALL-ACTIVE: <GREEN>Removed all active paths of <YELLOW>{0}
+REMOVED-ALL-COMPLETED: <GREEN>Removed all completed paths of <YELLOW>{0}
+REQUIREMENT: <GREEN>Requirement '<GOLD>{1}<GREEN>' has been completed for {0}
+REQUIREMENT-DISCRIPTION: <DARK_AQUA>
+REQUIREMENT-MEET: <GREEN>
+REQUIREMENT-NOT-MET: <RED>
+REQUIREMENT-NUMBER: '     <GOLD>'
+REQUIREMENT-PATH: '<GRAY> ------------ '
+REQUIREMENTS: '<GRAY>Requirements:'
+REQUIREMENTS_OF_PATH: '<GREEN>Requirements of path ''<GRAY>{0}<GREEN>'':'
+REQUIREMENT-PROGRESS: '<RED>Progress of requirement #<GOLD>{0}<RED>:'
+RESET-DAILY-TIME: <GOLD>[Autorank] <DARK_PURPLE>A new day has arrived! <YELLOW>All
+  daily times have been reset.
+RESET-MONTHLY-TIME: <GOLD>[Autorank] <DARK_PURPLE>A new month has arrived! <YELLOW>All
+  monthly times have been reset.
+RESET-PROGRESS: <GREEN>Reset progress on all active paths of <YELLOW>{0}
+RESET-PROGRESS-ON-ALL: <GREEN>Reset progress on all paths (active AND completed) of
+  <YELLOW>{0}
+RESET-WEEKLY-TIME: <GOLD>[Autorank] <DARK_PURPLE>A new week has arrived! <YELLOW>All
+  weekly times have been reset.
+RESULTS-DISCRIPTION: <RED>
+RESULTS-OF-PATH: '<GREEN>Results of path ''<GRAY>{0}<GREEN>'':'
+RPGME-COMBAT-LEVEL-REQUIREMENT: Have at least a combat level of {0} in RPGme.
+RPGME-POWER-LEVEL-REQUIREMENT: Have at least a combined level {0} of RPGMe.
+RPGME-SKILL-LEVEL-REQUIREMENT: Have at least level {0} in {1} in RPGme.
+SECOND-PLURAL: seconds
+SECOND-SINGULAR: second
+SPAWN-FIREWORK-RESULT: Spawn firework at {0}.
+SPECIFIC-PATH: <DARK_AQUA>-----------------------
+STORAGE-IMPORTED: <GREEN>New storage has been imported!
+SUCCESSFULLY-COMPLETED-REQUIREMENT: 'You have successfully completed requirement <GOLD>{0}<GREEN>:'
+SUCCESSFULLY-CREATED-PLAYERDATA: <GREEN>Successfully created a backup of playerdata!
+SUCCESSFULLY-CREATED-STORAGE: <GREEN>Successfully created a backup of regular time
+  storage!
+SUCCESSFULLY-UPDATED: <GREEN>Successfully updated {0} items in data.yml from MySQL
+  database records!
+SUCCESSFULLY-UPDATED-MYSQL: <GREEN>Successfully updated MySQL records!
+TELEPORT-RESULT: Get teleported to {0}.
+THERE-ARE-NO-ACTIVE: <RED>There are no active storage providers, so I can't store
+  the imported data!
+THERE-IS-NO-ACTIVE-FLATFILE: <RED>here is no active storage provider that supports
+  flatfile data.
+THERE-IS-NO-PLAYER: <RED>There is no player or path named '<GOLD>{0}<RED>'.
+THESE-ARE: These are suggestions based on your input.
+THE-FOLLOWING-PATHS: '<GREEN>The following paths are possible: <WHITE>'
+THIS-COMMAND: <RED>This command has been deprecated and can therefore not be used
+  anymore.
+THIS-IS-NOT: <RED>This is not a valid type of migration!
+THIS-MIGRATION: <RED>This migration plugin is not ready to be used. Are the plugins
+  that depend on it active?
+THIS-PATH-DOES-NOT: <RED>This path does not allow you to complete requirements one
+  by one. You need to meet all requirements simultaneously.
+TIMES-DIED-REQUIREMENT: Die at least {0} times
+TIMES-SHEARED-REQUIREMENT: Shear at least {0} sheep
+TIMES-TRADED-WITH-VILLAGERS-REQUIREMENT: Trade at least {0} with villagers
+TIME-DAILY-REQUIREMENT: ' Play for at least {0} in a single day.'
+TIME-HAS: <GREEN>Time has succesfully been updated for all entries.
+TIME-MONTHLY-REQUIREMENT: ' Play for at least {0} in a month.'
+TIME-REQUIREMENT: Play for at least {0}
+TIME-WEEKLY-REQUIREMENT: ' Play for at least {0} in a week.'
+TOTAL-MOBS-KILLED-REQUIREMENT: Kill at least {0} {1} {2}
+TOTAL-TIME-REQUIREMENT: Be with this server for at least {0} mobs
+TOWNY-HAS-NATION-REQUIREMENT: Need to be part of a nation.
+TOWNY-HAS-TOWN-REQUIREMENT: Need to be part of a town.
+TOWNY-IS-KING-REQUIREMENT: Need to be king of a nation.
+TOWNY-IS-MAYOR-REQUIREMENT: Need to be mayor of a town.
+TOWNY-NEED-NUMBER-OF-TOWN-BLOCKS: Need to have at least {0} town blocks.
+TO-VIEW-THE-PROGRESS: <GOLD>To view the progress of a specific path, use /ar check
+  <path name>.
+TYPE: <DARK_RED>Type <GOLD>/ar view {0} <DARK_RED>to see a list of prerequisites.
+UHC-STATS-DEATHS-REQUIREMENT: Get at least {0} deaths.
+UHC-STATS-KILLS-REQUIREMENT: Get at least {0} kills.
+UHC-STATS-WINS-REQUIREMENT: Get at least {0} wins.
+UNASSIGNED: <DARK_RED>Unassigned '<GOLD>{1}<DARK_RED>' from {0}
+UNKNOWN-PLAYER: <RED>Player {0} is unknown and couldn't be identified.
+UPDATING: <GREEN>Updating the leaderboard. This could take a while!
+VERSION: '<GOLD>Version: <GRAY>{0}'
+VERTICAL-COMPLETED: <GREEN>|
+VERTICAL-NOT-COMPLETED: <RED>|
+VOTE-REQUIREMENT: Vote at least {0} times
+WORLD-GUARD-REGION-REQUIREMENT: Be in region {0}
+WORLD-REQUIREMENT: Be in {0}
+YOU-ARE-A-ROBOT: <RED>You are a robot, you can't run this command from console, silly..
+YOU-ARE-A-ROBOT-CHOOSE: <RED>You are a robot, you can't choose ranking paths, silly..
+YOU-ARE-A-ROBOT-COMPLETE: <RED>You are a robot, you can't rank up, silly..
+YOU-ARE-A-ROBOT-DEACTIVATE: <RED>You are a robot, you can't deactivate paths, silly..
+YOU-ARE-A-ROBOT-TRACK: <RED>You are a robot, you don't make progress, silly..
+YOU-ARE-ON-COOLDOWN: You are on cooldown for this path!
+YOU-ARE-VIEWING: <DARK_GREEN>You are viewing the path <GOLD>{1}<DARK_GREEN> for {0}.
+YOU-DONT-HAVE: <RED>You don't have any requirements left.
+YOU-DONT-HAVE-ANY: <RED>You don't have any requirements!
+YOU-DO-NOT-HAVE: <GREEN>You do not have to use this command regularly.
+YOU-DO-NOT-MEET: <RED>You do not meet the prerequisites of this path!
+YOU-NEED-TO: <RED>You need to wait <GOLD>
+YOU-PROBARLY: <RED>You probably meant /ar syncstats or /ar sync!
+YOU-SHOULD-SPECIFY: <RED>You should specify a player to check.
+YOU-WANT: <RED>You want to store the imported data to the global database, but no
+  database is active.

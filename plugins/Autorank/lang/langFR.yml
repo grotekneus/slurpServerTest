@@ -1,0 +1,342 @@
+# French Language file
+
+ABOUT-LINE: <BLUE>-----------------------------------------------------
+ACROSS-ALL-SERVERS: ' <GREEN>sur tous les serveurs'
+ACTIVE: '<LIGHT_PURPLE>Chemins actifs (<GOLD>{0}<LIGHT_PURPLE>): <GOLD>{1}'
+ADVANCEMENT-MULTIPLE-REQUIREMENT: Obtenir au moins {0} avancements
+ADVANCEMENT-SINGLE-REQUIREMENT: Obtenir l'avancement '{0}'
+ALREADY-COMPLETED-PATH: mais a déjà terminé ce chemin auparavant.
+ALREADY-COMPLETED-REQUIREMENT: <RED>Vous avez déjà rempli cette exigence!
+ALREADY-ON-THIS-PATH: <RED>Vous êtes déjà sur ce chemin!
+AR: '<GREEN>/ar '
+AND: et
+AND-YOUR-PROGRESS: <RED>et votre progression pour ce chemin a été réinitialisée.
+ANIMALS-BRED-REQUIREMENT: Élevez au moins {0} animaux
+ASSIGNED: <GREEN>Attribué  <GOLD>{1}<GREEN> à {0}
+AURELIUM-SKILLS-MANA-REQUIREMENT: Avoir au moins {0} mana.
+AURELIUM-SKILLS-SKILL-REQUIREMENT: Atteindre le niveau {0} dans {1}.
+AURELIUM-SKILLS-STAT-REQUIREMENT: Atteindre le niveau {0} dans {1}.
+AURELIUM-SKILLS-XP-REQUIREMENT: Avoir {0} xp dans {1}.
+AUTOMATICALLY-ASSIGNED-PATH: <DARK_GREEN>Vous avez été automatiquement attribué le
+  chemin <GOLD>{0}<DARK_GREEN>.
+AUTORANK-NUMBER-OF-ACTIVE-PATHS-REQUIREMENT: Avoir au moins {0} chemins actifs.
+AUTORANK-NUMBER-OF-COMPLETED-PATHS-REQUIREMENT: Avoir au moins {0} chemins complétés.
+AUTORANK-RELOADED: <DARK_AQUA>Les fichiers d'Autorank ont été rechargés.
+AUTORANK-SPECIFIC-ACTIVE-PATH-REQUIREMENT: Avoir {0} défini comme chemin actif.
+AUTORANK-SPECIFIC-COMPLETED-PATH-REQUIREMENT: Avoir terminé le chemin {0}.
+AUTORANK-TIMES-HEADER: <GREEN>----------- [Heures de <GOLD>{0}<GREEN>] -----------
+AUTORANK-TIMES-PLAYER-PLAYED: '<GOLD>{0}<BLUE> joué :'
+AUTORANK-TIMES-THIS-MONTH: '<YELLOW>Ce mois: <LIGHT_PURPLE>{0}'
+AUTORANK-TIMES-THIS-WEEK: '<RED>Cette semaine: <LIGHT_PURPLE>{0}'
+AUTORANK-TIMES-TODAY: '<DARK_AQUA>Aujourd''hui: <LIGHT_PURPLE>{0}'
+AUTORANK-TIMES-TOTAL: '<GREEN>Total: <LIGHT_PURPLE>{0}'
+BENTOBOX-LEVEL-REQUIREMENT: Avoir au moins un niveau d'île de {0} sur {1}.
+BLOCKS: ' blocs'
+BLOCKS-MOVED-REQUIREMENT: Voyager au moins {0} {1}
+BRACKET-LEFT: <GRAY>[
+BRACKET-RIGHT: <GRAY>]
+BROKEN-BLOCKS-REQUIREMENT: Briser au moins {0}
+BUT-YOUR-PROGRESS: <GOLD>Mais votre progression pour ce chemin a été enregistrée.
+CAKESLICES-EATEN-REQUIREMENT: Mangez au moins {0} tranches de gâteau
+CANNOT-CHECK-CONSOLE: <RED>Impossible de vérifier la console!
+CHECKED: ' <GREEN>coché!'
+CHOSEN-PATH: <DARK_GREEN>Vous avez choisi <GRAY>{0}<DARK_GREEN>.
+COLON: ': '
+COMMAND-NOT-RECOGNISED: <RED>Commande non reconnue!
+COMMAND-RESULT: 'Effectuez la ou les commandes suivantes: {0}'
+COMPLETED: '<LIGHT_PURPLE>Chemins terminés (<GOLD>{0}<LIGHT_PURPLE>): <GOLD>{1}'
+COMPLETED-PATH-NOW: ' et a maintenant terminé son chemin.'
+COMPLETED-REQUIREMENT: '<DARK_GREEN>Vous avez rempli l''exigence <GOLD>{0}<DARK_GREEN>:
+  <DARK_AQUA>{1}'
+COULD-NOT-ASSIGN: <DARK_RED>Impossible d'attribuer <GOLD>{1}<DARK_RED> à {0}
+COULD-NOT-FIND: <RED>Impossible de trouver un plug-in de migration pour le type que
+  vous avez spécifié.
+COULD-NOT-IMPORT: <RED>Impossible d'importer des joueurs pour {0}! Es-tu sûr d'avoir
+  mis des fichiers dans le dossier des importations?
+COULD-NOT-SYNC: <GREEN>Impossible de synchroniser les statistiques. Exécutez à nouveau
+  la commande!
+CURRENT: '<GREEN>Actuel: <GOLD>{0} '
+DAMAGE-TAKEN-REQUIREMENT: Subissez au moins {0} dégâts
+DAY-PLURAL: jours
+DAY-SINGULAR: jour
+DEBUG-FILE: <GREEN>Fichier de débogage {0} créé!
+DEBUG-MODE: '<GOLD>Le mode de débogage d''Autorank a été '
+DEPENDENCIES: <RED>Impossible d'afficher les dépendances car PluginLibrary n'est pas
+  installé
+DEPRECATED-COMMAND: Cette commande n'est plus utilisée et sera obsolète.
+DESCRIPTION: <AQUA>{0}
+DEVELOPED: '<GOLD>Développé par: <GRAY>{0}'
+DID-YOU: '<DARK_AQUA>Vouliez-vous peut-être dire '
+DISABLED: ' <RED>désactivé'
+DOES-NOT-HAVE-ACTIVE: <GOLD>{0} <RED>n'a aucun chemin actif.
+DOES-NOT-HAVE-AS-ACTIVE: <GOLD>{0} <DARK_RED>n'a pas <GOLD>{1} <DARK_RED>comme un
+  parcours actif!
+DONE-MARKER: Terminé
+DO-NOT-MEET-REQUIREMENTS-FOR: '<RED>Vous ne remplissez pas les conditions requises
+  pour #<GOLD>{0}<RED>:'
+EFFECT-RESULT: Joue l'effet {0} sur vous.
+ENABLED: ' <GREEN>activé'
+ESSENTIALS-GEOIP-LOCATION-REQUIREMENT: Être de la zone {0}
+EXP-RANGE-REQUIREMENT: Avoir une plage de niveau entre {0} et {1} dans exp
+EXP-REQUIREMENT: Avoir au moins le niveau {0} en expérience
+FACTIONS-POWER-REQUIREMENT: Avoir au moins {0} de puissance dans votre faction
+FIRST-LOGIN-DATE: Date de première connexion {0}
+FISH-CAUGHT-REQUIREMENT: Attraper au moins {0} poissons
+FOOD-EATEN-REQUIREMENT: Mangez au moins {0}
+GAMEMODE-REQUIREMENT: Être en mode de jeu {0}
+GLOBAL: '<LIGHT_PURPLE>Temps de lecture global: <GOLD>{0}'
+GLOBAL-TIME-REQUIREMENT: Jouez pendant au moins {0} sur l'un des serveurs
+GRIEF-PREVENTION-BONUS-BLOCKS-REQUIREMENT: Avoir au moins {0} blocs bonus dans GriefPrevention
+GRIEF-PREVENTION-CLAIMED-BLOCKS-REQUIREMENT: Avoir au moins {0} blocs réclamés dans
+  GriefPrevention
+GRIEF-PREVENTION-CLAIMS-COUNT-REQUIREMENT: Avoir au moins {0} réclamations dans GriefPrevention
+GRIEF-PREVENTION-REMAINING-BLOCKS-REQUIREMENT: Avoir au moins {0} blocages restants
+  à utiliser dans les réclamations dans GriefPrevention
+GROUP-REQUIREMENT: être dans le groupe {0}.
+HAS-PLAYED: <GOLD>{0} <GREEN>a joué pour <GOLD>
+HAS-PLAYED-FOR: <GOLD>{0}<GRAY> a joué pour {1}.
+HOOKED-PLUGINS: <GRAY>- <GREEN>{0}
+HOOKS: '<GOLD>Hooks de classement Autorank:'
+HOUR-PLURAL: heures
+HOUR-SINGULAR: heure
+ILL-LET: <GOLD>Je vous préviendrai lorsque le classement sera mis à jour.
+IMPORTED-DATA: <GREEN>Données importées de {0} joueurs à partir des statistiques de
+  Minecraft!
+IMPORTED-OPERATION: <RED>Importation annulée par l'utilisateur.
+IMPORTING-DATA-ADDING-GLOBAL: Importation de données et ajout à la base de données
+  globale.
+IMPORTING-DATA-ADDING-LOCAL: Importation de données et ajout à la base de données
+  locale.
+IMPORTING-DATA-BOTH: <GOLD><GOLD>Importer des données et remplacer à la fois le global
+  et le local base de données.
+IMPORTING-DATA-OVERRIDING-GLOBAL: Importation de données et remplacement de la base
+  de données globale.
+IMPORTING-DATA-OVERRIDING-LOCAL: <GOLD>Importation de données et remplacement de la
+  base de données locale.
+INFO-HEADER: <DARK_AQUA>---------- [<GOLD>{0}<DARK_AQUA>] ----------
+INVALID-FORMAT: <RED>Format invalide, utilisez {0}.
+INVALID-LEADERBOARD-TYPE: <RED>Vous n'avez pas spécifié de type de classement valide!
+  <YELLOW>Seulement 'total', 'quotidien', 'hebdomadaire' et 'mensuel' sont autorisés.
+INVALID-NUMBER: <RED>{0} n'est pas un nombre valide!
+INVALID-STORAGE-FILE: <RED>Fichier de stockage non valide. Vous ne pouvez sauvegarder
+  que les 'données du joueur' ou 'stockage'.
+IN-BIOME-REQUIREMENT: Être dans le biome {0}
+IS-EXEMPTED-CHECKING: '<LIGHT_PURPLE>Est exempté de vérification: '
+IS-EXEMPTED-LEADERBOARD: '<LIGHT_PURPLE>Est exempté du classement: '
+IS-EXEMPTED-OBTAINING: '<LIGHT_PURPLE>Est exempté de l''obtention du temps: '
+ITEMS-CRAFTED-REQUIREMENT: Fabriquer au moins {0} article(s)
+ITEMS-ENCHANTED-REQUIREMENT: Enchantez au moins {0} objets.
+ITEM-CRAFTED-REQUIREMENT: Fabriquez au moins {0} {1}.
+ITEM-REQUIREMENT: Obtenir {0}
+ITEM-THROWN-REQUIREMENT: Lancez au moins {0} {1}.
+JOBS-CURRENT-POINTS-REQUIREMENT: Avoir au moins {0} points dans les emplois.
+JOBS-EXPERIENCE-REQUIREMENT: Avoir au moins {0} expérience dans le poste {1}.
+JOBS-LEVEL-REQUIREMENT: Avoir au moins le niveau {0} dans le poste {1}
+JOBS-TOTAL-POINTS-REQUIREMENT: Avoir au moins {0} points au total dans les emplois
+LAST-LOGIN-LOGIN-REQUIREMENT: Au moins {0} minutes se sont écoulées depuis la dernière
+  connexion.
+LAST-LOGIN-LOGOUT-REQUIREMENT: Au moins {0} minutes se sont écoulées depuis la dernière
+  déconnexion.
+LEADERBOARD: <YELLOW>Le classement a été mis à jour!
+LEADERBOARD-FOOTER: '------------------------------------'
+LEADERBOARD-HEADER-ALL-TIME: '-------- Leaderboard (All time) --------'
+LEADERBOARD-HEADER-DAILY: '-------- Leaderboard (Heure quotidienne) --------'
+LEADERBOARD-HEADER-MONTHLY: '-------- Leaderboard (Heure mensuelle) --------'
+LEADERBOARD-HEADER-WEEKLY: '-------- Leaderboard (heure hebdomadaire) --------'
+LIST-OF-COMMANDS: <YELLOW>Tapez /ar help pour une liste de commandes.
+LOCAL: '<LIGHT_PURPLE>Temps de lecture local: <GOLD>{0}'
+LOCATION-REQUIREMENT: Être à {0}
+MCMMO-POWER-LEVEL-REQUIREMENT: Avoir au moins le niveau de puissance {0}
+MCMMO-SKILL-LEVEL-REQUIREMENT: Avoir au moins le niveau {0} en {1}
+MCRPG-POWER-LEVEL-REQUIREMENT: Avoir au moins le niveau de puissance {0}
+MCRPG-SKILL-LEVEL-REQUIREMENT: Avoir au moins le niveau {0} en {1}
+MEETS-ALL-REQUIREMENTS: répond à toutes les exigences pour le chemin {0}
+MEETS-ALL-REQUIREMENTS-WITHOUT-RANK-UP: répond à toutes les exigences
+MESSAGE-RESULT: 'Vous envoyer le message suivant: {0}'
+MINUTE-PLURAL: minutes
+MINUTE-SINGULAR: minute
+MONEY-REQUIREMENT: Avoir au moins {0}
+MONEY-RESULT: Récompensez-vous avec {0}.
+MYSQL-IS-NOT-ENABLED: <RED>MySQL n'est pas activé!
+NCC-ARE-YOU-SURE-RESET: Voulez-vous vraiment réinitialiser le %type% de {0}? Veuillez
+  confirmer ou infirmer.
+NCC-ARE-YOU-SURE-PERFORM: 'Êtes-vous sûr de vouloir effectuer cette action? Taper '
+NCC-ACTIVE: chemins actifs
+NCC-ACTIVE-PROGRESS: progrès actif
+NCC-ALL-PROGRESS: tout progrès
+NCC-COMPLETED: chemins terminés
+NCC-CONVERSATION-HAS-BEEN: Cette conversation a été abandonnée par vous.
+NCC-CONVERSATION-HAS-ENDED: Cette conversation est terminée.
+NCC-CONVERSATION-HAS-ENDED-BECAUSE: Cette conversation est terminée car vous n'avez
+  pas répondu à temps.
+NCC-HAS-ALREADY: '{0} a déjà rempli cette exigence'
+NCC-IS-ALREADY: '{0} est déjà sur ce chemin.'
+NCC-IS-NOT: '{0} n''est pas sur cette voie.'
+NCC-OF-WHICH-PLAYER-ACTIVE: De quel joueur voulez-vous réinitialiser les chemins actifs?
+NCC-OF-WHICH-PLAYER-ACTIVE-PROGRESS: De quel joueur voulez-vous réinitialiser la progression
+  active?
+NCC-OF-WHICH-PLAYER-ALL-PROGRESS: De quel joueur voulez-vous réinitialiser tous les
+  progrès?
+NCC-OF-WHICH-PLAYER-COMPLETED: De quel joueur voulez-vous réinitialiser les chemins
+  terminés?
+NCC-THAT-REQUIREMENT: Cet identifiant d'exigence n'existe pas pour {0}
+NCC-THE-PATH: Le chemin {0} n'existe pas!
+NCC-WHAT-DO-YOU: Que voulez-vous réinitialiser? Vous pouvez réinitialiser
+NCC-WHAT-PATH: À quel chemin appartient l'exigence?
+NCC_WHAT_PATH_ASSIGN: À quel chemin voulez-vous attribuer {0}?
+NCC-WHAT-PATH-COMPLETE: Quel chemin voulez-vous compléter pour {0}?
+NCC_WHAT_PATH_UNASSIGN: De quel chemin voulez-vous supprimer l'attribution {0}?
+NCC-WHAT-PLAYER: Quel joueur voulez-vous éditer?
+NCC-WHAT-REQUIREMENT-ID: Quel identifiant d'exigence voulez-vous remplir?
+NCC-WHAT-TYPE: 'Quel type d''édition voulez-vous faire? '
+NCC-YOU-ARE-ALREADY-IN: Vous êtes déjà en conversation.
+NONE: aucun
+NO-FURTHER-PATH-FOUND: aucun (aucun chemin trouvé)
+NO-PATHS-TO-CHOOSE: <RED>Il n'y a aucun chemin que vous pouvez choisir.
+NO-PATH-FOUND-WITH-THAT-NAME: <RED>Aucun chemin de classement n'a été trouvé avec
+  ce nom.
+NO-PATH-LEFT-TO-CHOOSE: <DARK_GREEN>{0} a joué pour {1} et n'a actuellement aucun
+  chemin. Il n'y a plus de chemin à choisir.
+NO-PERMISSION: <RED>Vous avez besoin de ({0}) pour cela!
+OR: <GREEN>ou
+OPTIONAL-LEFT-BRACKET: <AQUA> (
+OPTIONAL-RIGHT-BRACKET: <AQUA> )
+OPTIONAL-MARKER: Facultatif
+PARENTHESIS-LEFT: <LIGHT_PURPLE> (
+PARENTHESIS-RIGHT: '<LIGHT_PURPLE>): '
+PARENTHESIS-LEFT-PERCENT: <GOLD> (
+PARENTHESIS-RIGHT-PERCENT: <GOLD>%)
+PARTIAL-COMPLETION-NOT-ENABLED: <RED>Vous ne pouvez pas utiliser cette commande car
+  ce serveur a pas activé l'achèvement partiel!
+PATH-HAS-BEEN: <GREEN>Le chemin <GOLD>{1}<GREEN> a été complété pour {0}
+PATH-IS-DEACTIVATED: '<GREEN>Le chemin {0} est désactivé '
+PATH-IS-NOT-ACTIVE: Vous n'êtes pas actif sur le chemin {0}.
+PATH-NOT-ALLOWED-TO-RETAKE: <RED>Vous avez déjà terminé ce chemin auparavant. Tu n'es
+  pas permis de le reprendre
+PERMISSION-REQUIREMENT: Avoir l'autorisation  {0}
+PLACED-BLOCKS-REQUIREMENT: Placez au moins {0}
+PLACEHOLDERAPI-INTEGER-REQUIREMENT: Avoir au moins {0} {1}
+PLACEHOLDERAPI-STRING-REQUIREMENT: Avoir au moins {0} {1}
+PLANTS-POTTED-REQUIREMENT: Potez au moins {0} plantes
+PLAYERPOINTS-POINTS-REQUIREMENT: Obtenez au moins {0} points de joueur.
+PLAYERS-HAVE-BEEN-MIGRATED: '{0} joueurs ont été migrés vers Autorank.'
+PLAYER-IS-EXCLUDED: <GOLD>{0} <RED>est exclu du classement!
+PLAYER-IS-INVALID: <GOLD>{0} <RED>n'a jamais été connecté auparavant.
+PLAYER-KILLS-REQUIREMENT: Tuez au moins {0} joueur(s)
+PLAYER-NOT-ONLINE: <GOLD>{0} <RED>n'est pas en ligne!
+PLAYTIME-CHANGED: <GREEN>Temps de lecture modifié de {0} à {1}.
+PREREQUISITES: '<GREEN>Prérequis du chemin ''<GRAY>{0}<GREEN>'':'
+PROGRESS-OF: '<GRAY>Avancement de ''<BLUE>{0}<GRAY>'': '
+PROGRESS-OF-PATHS: <GREEN>----- <GRAY>[Avancement des chemins pour <GOLD>{0}<GRAY>]<GREEN>
+  -----
+PROGRESS-RESET: <YELLOW>Votre progression pour le chemin est réinitialisée.
+PROGRESS-RESTORED: <YELLOW>Votre progression pour le chemin a été restaurée.
+QUESTION-MARK: <DARK_AQUA>?
+QUESTS-ACTIVE-QUESTS-REQUIREMENT: Avoir {0} quêtes actives en même temps.
+QUESTS-COMPLETED-QUESTS-REQUIREMENT: Complétez au moins {0} quêtes.
+QUESTS-COMPLETE-SPECIFIC-QUEST-REQUIREMENT: Terminez la quête '{0}'.
+QUESTS-QUEST-POINTS-REQUIREMENT: Obtenez au moins {0} points de quête.
+RANK-CHANGE-RESULT: Changez le rang en {0}.
+REMOVED-ALL-ACTIVE: <GREEN>Suppression de tous les chemins actifs de <YELLOW>{0}
+REMOVED-ALL-COMPLETED: <GREEN>Suppression de tous les chemins complétés de <YELLOW>{0}
+REQUIREMENT: <GREEN>L'exigence '<GOLD>{1}<GREEN>' a été remplie pour {0}
+REQUIREMENT-DISCRIPTION: <DARK_AQUA>
+REQUIREMENT-MEET: <GREEN>
+REQUIREMENT-NOT-MET: <RED>
+REQUIREMENT-NUMBER: '     <GOLD>'
+REQUIREMENT-PATH: '<GRAY> ------------ '
+REQUIREMENTS: '<GRAY>Exigences:'
+REQUIREMENTS_OF_PATH: '<GREEN>Exigences du chemin ''<GRAY>{0}<GREEN>'':'
+REQUIREMENT-PROGRESS: '<RED>Avancement de l''exigence #<GOLD>{0}<RED>:'
+RESET-DAILY-TIME: <GOLD>[Autorank] <DARK_PURPLE>Un nouveau jour est arrivé! <YELLOW>Tous
+  les heures quotidiennes ont été réinitialisées.
+RESET-MONTHLY-TIME: <GOLD>[Autorank] <DARK_PURPLE>Un nouveau mois est arrivé! <YELLOW>Tous
+  les heures mensuelles ont été réinitialisées.
+RESET-PROGRESS: <GOLD>[Autorank] <DARK_PURPLE>Un nouveau mois est arrivé! <YELLOW>Tous
+  les heures mensuelles ont été réinitialisées.
+RESET-PROGRESS-ON-ALL: <GREEN>Réinitialiser la progression sur tous les chemins (actifs
+  ET terminés) de <YELLOW>{0}
+RESET-WEEKLY-TIME: <GOLD>[Autorank] <DARK_PURPLE>Une nouvelle semaine est arrivée
+  ! <YELLOW>Tous les heures hebdomadaires ont été réinitialisées.
+RESULTS-DISCRIPTION: <RED>
+RESULTS-OF-PATH: '<GREEN>Résultats du chemin ''<GRAY>{0}<GREEN>'':'
+RPGME-COMBAT-LEVEL-REQUIREMENT: Avoir au moins un niveau de combat de {0} dans RPGme.
+RPGME-POWER-LEVEL-REQUIREMENT: Avoir au moins un niveau combiné {0} de RPGMe.
+RPGME-SKILL-LEVEL-REQUIREMENT: Avoir au moins le niveau {0} dans {1} dans RPGme.
+SECOND-PLURAL: secondes
+SECOND-SINGULAR: deuxième
+SPAWN-FIREWORK-RESULT: Faites apparaître un feu d'artifice à {0}.
+SPECIFIC-PATH: <DARK_AQUA>-----------------------
+STORAGE-IMPORTED: <GREEN>Le nouveau stockage a été importé!
+SUCCESSFULLY-COMPLETED-REQUIREMENT: 'Vous avez rempli avec succès l''exigence <GOLD>{0}<GREEN>:'
+SUCCESSFULLY-CREATED-PLAYERDATA: <GREEN>Création réussie d'une sauvegarde des données
+  du joueur!
+SUCCESSFULLY-CREATED-STORAGE: <GREEN>Création réussie d'une sauvegarde de l'heure
+  normale stockage!
+SUCCESSFULLY-UPDATED: <GREEN>Éléments {0} mis à jour avec succès dans data.yml à partir
+  de MySQL enregistrements de la base de données!
+SUCCESSFULLY-UPDATED-MYSQL: <GREEN>Enregistrements MySQL mis à jour avec succès!
+TELEPORT-RESULT: Oyez téléporté à {0}.
+THERE-ARE-NO-ACTIVE: <RED>Il n'y a pas de fournisseurs de stockage actifs, donc je
+  ne peux pas stocker les données importées!
+THERE-IS-NO-ACTIVE-FLATFILE: <RED>il n'y a pas de fournisseur de stockage actif qui
+  prend en charge données de fichier plat.
+THERE-IS-NO-PLAYER: <RED>Il n'y a pas de joueur ou de chemin nommé '<GOLD>{0}<RED>'.
+THESE-ARE: Ce sont des suggestions basées sur votre contribution.
+THE-FOLLOWING-PATHS: '<GREEN>Les chemins suivants sont possibles: <WHITE>'
+THIS-COMMAND: <RED>Cette commande est obsolète et ne peut donc pas être utilisée plus.
+THIS-IS-NOT: <RED>Ce type de migration n'est pas valide!
+THIS-MIGRATION: <RED>Ce plugin de migration n'est pas prêt à être utilisé. Les plugins
+  sont-ils qui en dépendent active?
+THIS-PATH-DOES-NOT: <RED>Ce chemin ne vous permet pas de remplir les exigences une
+  par un. Vous devez répondre à toutes les exigences simultanément.
+TIMES-DIED-REQUIREMENT: Mourir au moins {0} fois
+TIMES-SHEARED-REQUIREMENT: Tondre au moins {0} moutons
+TIMES-TRADED-WITH-VILLAGERS-REQUIREMENT: Échangez au moins {0} avec les villageois
+TIME-DAILY-REQUIREMENT: ' Jouez pendant au moins {0} en une seule journée.'
+TIME-HAS: <GREEN>L'heure a été mise à jour avec succès pour toutes les entrées.
+TIME-MONTHLY-REQUIREMENT: ' Jouez pendant au moins {0} par mois.'
+TIME-REQUIREMENT: Jouez au moins {0}
+TIME-WEEKLY-REQUIREMENT: ' Jouez pendant au moins {0} en une semaine.'
+TOTAL-MOBS-KILLED-REQUIREMENT: Tuez au moins {0} {1} {2}
+TOTAL-TIME-REQUIREMENT: Être avec ce serveur pendant au moins {0} mobs
+TOWNY-HAS-NATION-REQUIREMENT: Besoin de faire partie d'une nation.
+TOWNY-HAS-TOWN-REQUIREMENT: Besoin de faire partie d'une ville.
+TOWNY-IS-KING-REQUIREMENT: Besoin d'être le roi d'une nation
+TOWNY-IS-MAYOR-REQUIREMENT: Besoin d'être maire d'une ville.
+TOWNY-NEED-NUMBER-OF-TOWN-BLOCKS: Besoin d'avoir au moins {0} pâtés de maisons.
+TO-VIEW-THE-PROGRESS: <GOLD>Pour afficher la progression d'un chemin spécifique, utilisez
+  /ar check <nom du chemin>.
+TYPE: <DARK_RED>Taper <GOLD>/ar view {0} <DARK_RED>pour voir la liste des prérequis.
+UHC-STATS-DEATHS-REQUIREMENT: Obtenez au moins {0} des morts.
+UHC-STATS-KILLS-REQUIREMENT: Obtenez au moins {0} tue.
+UHC-STATS-WINS-REQUIREMENT: Obtenez au moins {0} gagne.
+UNASSIGNED: <DARK_RED>Non attribué '<GOLD>{1}<DARK_RED>' de {0}
+UNKNOWN-PLAYER: <RED>Le joueur {0} est inconnu et n'a pas pu être identifié.
+UPDATING: <GREEN>Mise à jour du classement. Ça pourrait prendre un moment!
+VERSION: '<GOLD>Version: <GRAY>{0}'
+VERTICAL-COMPLETED: <GREEN>|
+VERTICAL-NOT-COMPLETED: <RED>|
+VOTE-REQUIREMENT: Votez au moins {0} fois
+WORLD-GUARD-REGION-REQUIREMENT: Être en région {0}
+WORLD-REQUIREMENT: Être en {0}
+YOU-ARE-A-ROBOT: <RED>Vous êtes un robot, vous ne pouvez pas exécuter cette commande
+  depuis la console, idiot...
+YOU-ARE-A-ROBOT-CHOOSE: <RED>Vous êtes un robot, vous ne pouvez pas choisir les chemins
+  de classement, idiot...
+YOU-ARE-A-ROBOT-COMPLETE: <RED>Tu es un robot, tu ne peux pas monter en grade, idiot...
+YOU-ARE-A-ROBOT-DEACTIVATE: <RED>Tu es un robot, tu ne peux pas désactiver les chemins,
+  idiot...
+YOU-ARE-A-ROBOT-TRACK: <RED>Tu es un robot, tu ne progresses pas, idiot..
+YOU-ARE-ON-COOLDOWN: Vous êtes en recharge pour ce chemin!
+YOU-ARE-VIEWING: <DARK_GREEN>Vous visualisez le chemin <GOLD>{1}<DARK_GREEN> pour
+  {0}.
+YOU-DONT-HAVE: <RED>Vous n'avez plus d'exigences.
+YOU-DONT-HAVE-ANY: <RED>>Vous n'avez aucune exigence!
+YOU-DO-NOT-HAVE: <GREEN>Vous n'êtes pas obligé d'utiliser cette commande régulièrement.
+YOU-DO-NOT-MEET: <RED>Vous ne remplissez pas les pré-requis de ce parcours!
+YOU-NEED-TO: <RED>Vous devez attendre <GOLD>
+YOU-PROBARLY: <RED>Vous vouliez probablement dire /ar syncstats ou /ar sync!
+YOU-SHOULD-SPECIFY: <RED>Vous devez spécifier un joueur à vérifier.
+YOU-WANT: <RED>Vous souhaitez stocker les données importées dans la base de données
+  globale, mais pas la base de données est active.
