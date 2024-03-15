@@ -5,13 +5,478 @@ ac59ab29-63a9-4865-912e-ab25be6efa08:
   results not performed:
     completed requirements: {}
   active paths:
+    miner LVL0:
+      started: 1710513950805
+    farmer LVL2:
+      started: 1710514320304
+    mob hunter LVL2:
+      started: 1710515667100
+    builder LVL2:
+      started: 1710516473901
+    member to shut-it-nerd:
+      started: 1710516787281
+    lumberjack LVL0:
+      started: 1710518171246
+    member to VIP:
+      started: 1710518482376
+  completed paths:
+    farmer LVL0:
+      completed: 2
+      completed at: 1710514234665
+    farmer LVL1:
+      completed: 1
+      completed at: 1710513489652
+    mob hunter LVL0:
+      completed: 1
+      completed at: 1710515432545
+    mob hunter LVL1:
+      completed: 1
+      completed at: 1710515445458
+    builder LVL0:
+      completed: 1
+      completed at: 1710516418354
+    builder LVL1:
+      completed: 1
+      completed at: 1710516424764
     default to member:
-      started: 1710505537196
-  completed paths: {}
+      completed: 1
+      completed at: 1710516487282
   progress on paths:
     default to member:
+      completed requirements:
+      - 1
+      - 2
+      - 0
+      completed prerequisites: []
+    farmer LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    farmer LVL1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    miner LVL0:
+      completed requirements: []
+      completed prerequisites: []
+    farmer LVL2:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    mob hunter LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    mob hunter LVL1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    mob hunter LVL2:
+      completed requirements: []
+      completed prerequisites: []
+    builder LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    builder LVL1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    builder LVL2:
+      completed requirements: []
+      completed prerequisites: []
+    member to shut-it-nerd:
+      completed requirements: []
+      completed prerequisites: []
+    lumberjack LVL0:
+      completed requirements: []
+      completed prerequisites: []
+    member to VIP:
       completed requirements: []
       completed prerequisites: []
 f303893c-768a-4c80-b4f9-65d2a7a8210c:
-  active paths: {}
-  completed paths: {}
+  active paths:
+    default to member:
+      started: 1710507364183
+    farmer LVL0:
+      started: 1710512690440
+    lumberjack LVL1:
+      started: 1710519131277
+    lumberjack LVL2:
+      started: 1710519131277
+  completed paths:
+    mob hunter LVL0:
+      completed: 1
+      completed at: 1710515676957
+    mob hunter LVL1:
+      completed: 1
+      completed at: 1710516484445
+    builder LVL0:
+      completed: 1
+      completed at: 1710516484446
+    mob hunter LVL2:
+      completed: 1
+      completed at: 1710516503525
+    builder LVL1:
+      completed: 1
+      completed at: 1710516503526
+    builder LVL2:
+      completed: 1
+      completed at: 1710516503527
+    miner LVL0:
+      completed: 1
+      completed at: 1710519131274
+    lumberjack LVL0:
+      completed: 1
+      completed at: 1710519131275
+    miner LVL1:
+      completed: 1
+      completed at: 1710519216138
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  progress on paths:
+    default to member:
+      completed requirements:
+      - 1
+      - 2
+      completed prerequisites: []
+    farmer LVL0:
+      completed requirements: []
+      completed prerequisites: []
+    miner LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    mob hunter LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    mob hunter LVL1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    builder LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    mob hunter LVL2:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    builder LVL1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    builder LVL2:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    lumberjack LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    miner LVL1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    lumberjack LVL1:
+      completed requirements: []
+      completed prerequisites: []
+    lumberjack LVL2:
+      completed requirements: []
+      completed prerequisites: []
+873bc772-4a98-4d04-9c9c-9f1e6c18ea3a:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths:
+    default to member:
+      started: 1710518421229
+    lumberjack LVL2:
+      started: 1710518421247
+    mob hunter LVL2:
+      started: 1710518754818
+    farmer LVL1:
+      started: 1710519250747
+    miner LVL3:
+      started: 1710519914775
+  completed paths:
+    mob hunter LVL0:
+      completed: 1
+      completed at: 1710518421237
+    builder LVL0:
+      completed: 1
+      completed at: 1710518421242
+    lumberjack LVL0:
+      completed: 1
+      completed at: 1710518421246
+    mob hunter LVL1:
+      completed: 1
+      completed at: 1710518638519
+    builder LVL1:
+      completed: 1
+      completed at: 1710518638520
+    builder LVL2:
+      completed: 1
+      completed at: 1710518638522
+    lumberjack LVL1:
+      completed: 1
+      completed at: 1710518638523
+    miner LVL0:
+      completed: 1
+      completed at: 1710518723631
+    miner LVL1:
+      completed: 1
+      completed at: 1710518754816
+    farmer LVL0:
+      completed: 1
+      completed at: 1710519250746
+    miner LVL2:
+      completed: 1
+      completed at: 1710519914774
+  progress on paths:
+    default to member:
+      completed requirements:
+      - 1
+      - 2
+      completed prerequisites: []
+    farmer LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    miner LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    mob hunter LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    builder LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    lumberjack LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    mob hunter LVL1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    builder LVL1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    builder LVL2:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    lumberjack LVL1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    lumberjack LVL2:
+      completed requirements: []
+      completed prerequisites: []
+    miner LVL1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    mob hunter LVL2:
+      completed requirements: []
+      completed prerequisites: []
+    farmer LVL1:
+      completed requirements: []
+      completed prerequisites: []
+    miner LVL2:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    miner LVL3:
+      completed requirements: []
+      completed prerequisites: []
+eb6f06a3-c143-4f22-ac6b-f7afc112344b:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths:
+    default to member:
+      started: 1710519178300
+    farmer LVL1:
+      started: 1710519178311
+    mob hunter LVL1:
+      started: 1710519178314
+    lumberjack LVL1:
+      started: 1710519178324
+    lumberjack LVL2:
+      started: 1710519178324
+    mob hunter LVL2:
+      started: 1710519216030
+    miner LVL2:
+      started: 1710519919616
+  completed paths:
+    farmer LVL0:
+      completed: 1
+      completed at: 1710519178306
+    miner LVL0:
+      completed: 1
+      completed at: 1710519178312
+    mob hunter LVL0:
+      completed: 1
+      completed at: 1710519178314
+    builder LVL0:
+      completed: 1
+      completed at: 1710519178319
+    lumberjack LVL0:
+      completed: 1
+      completed at: 1710519178323
+    miner LVL1:
+      completed: 1
+      completed at: 1710519216029
+    builder LVL1:
+      completed: 1
+      completed at: 1710519216031
+    builder LVL2:
+      completed: 1
+      completed at: 1710519216034
+  progress on paths:
+    default to member:
+      completed requirements:
+      - 1
+      - 2
+      completed prerequisites: []
+    farmer LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    miner LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    mob hunter LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    builder LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    lumberjack LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    farmer LVL1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    miner LVL1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    mob hunter LVL1:
+      completed requirements: []
+      completed prerequisites: []
+    builder LVL1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    builder LVL2:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    lumberjack LVL1:
+      completed requirements: []
+      completed prerequisites: []
+    lumberjack LVL2:
+      completed requirements: []
+      completed prerequisites: []
+    mob hunter LVL2:
+      completed requirements: []
+      completed prerequisites: []
+    miner LVL2:
+      completed requirements: []
+      completed prerequisites: []
+d369188e-acdb-4f5c-92cb-6012e961125a:
+  exempt leaderboard: false
+  exempted from checking: false
+  exempted from time addition: false
+  results not performed:
+    completed requirements: {}
+  active paths:
+    default to member:
+      started: 1710520676253
+    farmer LVL0:
+      started: 1710520676253
+    miner LVL0:
+      started: 1710520676253
+    mob hunter LVL1:
+      started: 1710520676256
+    lumberjack LVL1:
+      started: 1710520676260
+    lumberjack LVL2:
+      started: 1710520676260
+  completed paths:
+    mob hunter LVL0:
+      completed: 1
+      completed at: 1710520676256
+    builder LVL0:
+      completed: 1
+      completed at: 1710520676257
+    lumberjack LVL0:
+      completed: 1
+      completed at: 1710520676259
+    builder LVL1:
+      completed: 1
+      completed at: 1710520975632
+    builder LVL2:
+      completed: 1
+      completed at: 1710520975633
+  progress on paths:
+    default to member:
+      completed requirements:
+      - 1
+      - 2
+      completed prerequisites: []
+    farmer LVL0:
+      completed requirements: []
+      completed prerequisites: []
+    miner LVL0:
+      completed requirements: []
+      completed prerequisites: []
+    mob hunter LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    builder LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    lumberjack LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    mob hunter LVL1:
+      completed requirements: []
+      completed prerequisites: []
+    builder LVL1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    builder LVL2:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    lumberjack LVL1:
+      completed requirements: []
+      completed prerequisites: []
+    lumberjack LVL2:
+      completed requirements: []
+      completed prerequisites: []

@@ -8,6 +8,10 @@ default to member:
   requirements:
     time:
       value: 2h
+    blocks moved: 
+      value: 10000;0
+    mobs killed:
+      value: 500
   bentobox level:
     value: 10000
   results:
@@ -15,31 +19,455 @@ default to member:
       value: 1000
     command:
       value: lp user &p promote players
+    command:
+      value: discordsrv broadcast &p just got promoted from **efault** to **member**
     message:
       value: Congratulations, you have been promoted to Member!
   options:
-    display name: Member
+    display name: &f '[MEMBER]'
     auto choose: true
     show based on prerequisites: true
 
-
-member to shut-it-nerd:
+member to VIP:
   prerequisites:
     in group:
       value: member
   requirements:
     time:
       value: 24h
-  bentobox level:
-    value: 10000
+  results:
+    money:
+      value: 10000
+    command:
+      value: lp user &p promote players
+    message:
+      value: Congratulations, you have been promoted to VIP!
+  options:
+    display name: &f '[VIP]'
+    auto choose: true
+    show based on prerequisites: true
+
+
+
+#jobs
+  #farmer
+farmer LVL0:
+  requirements:
+    blocks broken:
+      value: WHEAT;500
+  results:
+    money:
+      value: 1000
+    message:
+      value: Congratulations, you are a farmer
+  options:
+    display name: Farmer LVL0
+    auto choose: true
+    show based on prerequisites: true
+
+farmer LVL1:
+  prerequisites:
+    completed paths:
+      value: farmer LVL0
+  requirements:
+    blocks broken 1:
+      value: WHEAT;1000
+    blocks broken 2:
+      value: CARROT;1000
+    blocks broken 3:
+      value: POTATO;1000
+  results:
+    money:
+      value: 7500
+    message:
+      value: Congratulations, you are a level1 farmer!
+  options:
+    display name: Farmer LVL1
+    auto choose: true
+    show based on prerequisites: true
+
+farmer LVL2:
+  prerequisites:
+    completed paths:
+      value: farmer LVL1
+  requirements:
+    blocks broken 1:
+      value: WHEAT;1500
+    blocks broken 2:
+      value: CARROT;1500
+    blocks broken 3:
+      value: POTATO;1500
+    blocks broken 4:
+      value: BEETROOT;1500
+  results:
+    money:
+      value: 10000
+    message:
+      value: Congratulations, you are a level2 farmer!
+  options:
+    display name: Farmer LVL2
+    auto choose: true
+    show based on prerequisites: true
+
+farmer LVL3:
+  prerequisites:
+    completed paths:
+      value: farmer LVL2
+  requirements:
+    blocks broken 1:
+      value: WHEAT;2000
+    blocks broken 2:
+      value: CARROT;2000
+    blocks broken 3:
+      value: POTATO;2000
+    blocks broken 4:
+      value: BEETROOT;2000
+  results:
+    money:
+      value: 10000
+    message:
+      value: Congratulations, you are a level3 farmer!
+  options:
+    display name: Farmer LVL3
+    auto choose: true
+    show based on prerequisites: true
+
+farmer LVL4:
+  prerequisites:
+    completed paths:
+      value: farmer LVL3
+  requirements:
+    blocks broken 1:
+      value: WHEAT;3000
+    blocks broken 2:
+      value: CARROT;3000
+    blocks broken 3:
+      value: POTATO;3000
+    blocks broken 4:
+      value: BEETROOT;3000
+  results:
+    money:
+      value: 10000
+    command:
+      value: give &p diamond 10
+    command:
+      value: give &p netherite_ingot 2
+    message:
+      value: Congratulations, you are a level4 farmer!
+  options:
+    display name: Farmer LVL4
+    auto choose: true
+    show based on prerequisites: true
+
+farmer LVL5:
+  prerequisites:
+    completed paths:
+      value: farmer LVL4
+  requirements:
+    blocks broken 1:
+      value: WHEAT;5000
+    blocks broken 2:
+      value: CARROT;5000
+    blocks broken 3:
+      value: POTATO;5000
+    blocks broken 4:
+      value: BEETROOT;5000
+  results:
+    money:
+      value: 10000
+    command:
+      value: give &p diamond_block 2
+    command:
+      value: give &p netherite_ingot 5
+    command:
+      value: give &p netherite_hoe
+    message:
+      value: Congratulations, you are a level5 farmer!, you have reached the max level, you can now choose an ultimate level with /ar choose farming LVL X
+  options:
+    display name: Farmer LVL5
+    auto choose: true
+    show based on prerequisites: true
+
+
+#miner
+miner LVL0:
+  requirements:
+    blocks broken:
+      value: STONE;10000, COBBLED_DEEPSLATE;10000
   results:
     money:
       value: 1000
     command:
-      value: lp user &p promote players
+      value: give &p diamond 20
     message:
-      value: Congratulations, you have been promoted to shut-it-nerd!
+      value: Congratulations, you are a miner
   options:
-    display name: shut-it-nerd
+    display name: Miner LVL0
     auto choose: true
     show based on prerequisites: true
+
+miner LVL1:
+  prerequisites:
+    completed paths:
+      value: miner LVL0
+  requirements:
+    blocks broken:
+      value: STONE;20000, COBBLED_DEEPSLATE;20000
+  results:
+    money:
+      value: 2000
+    command:
+      value: give &p diamond 5
+    command:
+      value: give &p netherite_ingot 1
+    message:
+      value: Congratulations, you are a lvl1 miner
+  options:
+    display name: miner LVL1
+    auto choose: true
+    show based on prerequisites: true
+
+miner LVL2:
+  prerequisites:
+    completed paths:
+      value: miner LVL1
+  requirements:
+    blocks broken:
+      value: STONE;50000, COBBLED_DEEPSLATE;50000
+  results:
+    money:
+      value: 5000
+    command:
+      value: give &p diamond 7
+    command:
+      value: give &p netherite_ingot 1
+    message:
+      value: Congratulations, you are a lvl2 miner
+  options:
+    display name: miner LVL2
+    auto choose: true
+    show based on prerequisites: true
+
+miner LVL3:
+  prerequisites:
+    completed paths:
+      value: miner LVL2
+  requirements:
+    blocks broken:
+      value: STONE;100000, COBBLED_DEEPSLATE;100000
+  results:
+    money:
+      value: 7500
+    command:
+      value: give &p diamond 9
+    command:
+      value: give &p netherite_ingot 2
+    message:
+      value: Congratulations, you are a lvl3 miner
+  options:
+    display name: miner LVL3
+    auto choose: true
+    show based on prerequisites: true
+
+miner LVL4:
+  prerequisites:
+    completed paths:
+      value: miner LVL3
+  requirements:
+    blocks broken:
+      value: STONE;150000, COBBLED_DEEPSLATE;150000
+  results:
+    money:
+      value: 10000
+    command:
+      value: give &p diamond 10
+    command:
+      value: give &p netherite_ingot 2
+    message:
+      value: Congratulations, you are a lvl4 miner
+  options:
+    display name: miner LVL4
+    auto choose: true
+    show based on prerequisites: true
+
+miner LVL5:
+  prerequisites:
+    completed paths:
+      value: miner LVL4
+  requirements:
+    blocks broken:
+      value: STONE;250000, COBBLED_DEEPSLATE;250000
+  results:
+    money:
+      value: 15000
+    command:
+      value: give &p diamond 12
+    command:
+      value: give &p netherite_ingot 2
+    message:
+      value: Congratulations, you are a lvl5 miner
+  options:
+    display name: miner LVL5
+    auto choose: true
+    show based on prerequisites: true
+
+#mob hunter
+mob hunter LVL0:
+  requirements:
+    mobs killed:
+      value: 100
+  results:
+    money:
+      value: 1000
+    message:
+      value: Congratulations, you are a hunter
+  options:
+    display name: mob hunter LVL0
+    auto choose: true
+    show based on prerequisites: true
+
+mob hunter LVL1:
+  prerequisites:
+    completed paths:
+      value: mob hunter LVL0
+  requirements:
+    mobs killed:
+      value: 500;ZOMBIE, 500;SPIDER, 500;CREEPER, 500;SKELETON
+  results:
+    money:
+      value: 1000
+    command:
+      value: give &p diamond 5
+    message:
+      value: Congratulations, you are a lvl1 hunter
+  options:
+    display name: mob hunter LVL1
+    auto choose: true
+    show based on prerequisites: true
+
+mob hunter LVL2:
+  prerequisites:
+    completed paths:
+      value: mob hunter LVL1
+  requirements:
+    mobs killed:
+      value: 700;ZOMBIE, 700;SPIDER, 700;CREEPER, 700;SKELETON
+  results:
+    money:
+      value: 1000
+    command:
+      value: give &p diamond 5
+    message:
+      value: Congratulations, you are a lvl2 hunter
+  options:
+    display name: mob hunter LVL2
+    auto choose: true
+    show based on prerequisites: true
+
+#builder
+builder LVL0:
+  requirements:
+    blocks placed:
+      value: 500
+  results:
+    money:
+      value: 1000
+    message:
+      value: Congratulations, you are a builder aprentice
+  options:
+    display name: builder LVL0
+    auto choose: true
+    show based on prerequisites: true
+
+builder LVL1:
+  prerequisites:
+    completed paths:
+      value: builder LVL0
+  requirements:
+    blocks placed:
+      value: 3000
+  results:
+    money:
+      value: 1000
+    command:
+      value: give &p diamond 1
+    message:
+      value: Congratulations, you are a lvl1 builder
+  options:
+    display name: builder LVL1
+    auto choose: true
+    show based on prerequisites: true
+
+builder LVL2:
+  prerequisites:
+    completed paths:
+      value: builder LVL0
+  requirements:
+    blocks placed:
+      value: 10000
+  results:
+    money:
+      value: 1000
+    command:
+      value: give &p diamond 3
+    message:
+      value: Congratulations, you are a lvl2 builder
+  options:
+    display name: builder LVL2
+    auto choose: true
+    show based on prerequisites: true
+
+#lumberjack
+lumberjack LVL0:
+  requirements:
+    blocks broken:
+      value: OAK_LOG;500, DARK_OAK_LOG;500, SPRUCE_LOG;500, ACACIA_LOG;500, jungle_log;500, CHERRY_LOG;500, MANGROVE_LOG;500, BIRCH_LOG;500
+  results:
+    money:
+      value: 1000
+    message:
+      value: Congratulations, you are a lumberjack aprentice
+  options:
+    display name: lumberjack LVL0
+    auto choose: true
+    show based on prerequisites: true
+
+lumberjack LVL1:
+  prerequisites:
+    completed paths:
+      value: lumberjack LVL0
+  requirements:
+    blocks broken:
+      value: OAK_LOG;1500, DARK_OAK_LOG;1500, SPRUCE_LOG;1500, ACACIA_LOG;1500, jungle_log;1500, CHERRY_LOG;1500, MANGROVE_LOG;1500, BIRCH_LOG;1500
+  results:
+    money:
+      value: 1000
+    command:
+      value: give &p diamond 1
+    message:
+      value: Congratulations, you are a lvl1 lumberjack
+  options:
+    display name: lumberjack LVL1
+    auto choose: true
+    show based on prerequisites: true
+
+lumberjack LVL2:
+  prerequisites:
+    completed paths:
+      value: lumberjack LVL0
+  requirements:
+    blocks broken:
+      value: OAK_LOG;5500, DARK_OAK_LOG;5500, SPRUCE_LOG;5500, ACACIA_LOG;5500, jungle_log;5500, CHERRY_LOG;5500, MANGROVE_LOG;5500, BIRCH_LOG;5500
+  results:
+    money:
+      value: 1000
+    command:
+      value: give &p diamond 3
+    message:
+      value: Congratulations, you are a lvl2 lumberjack
+  options:
+    display name: lumberjack LVL2
+    auto choose: true
+    show based on prerequisites: true
+
+#suicide fanatic 
