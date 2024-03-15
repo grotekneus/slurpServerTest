@@ -3039,12 +3039,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_poppy": {
-    "criteria": {
-      "has_poppy": "2024-03-15 00:34:26 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_white_bed": {
     "criteria": {
       "has_needed_dye": "2024-03-15 00:29:15 +0100"
@@ -3060,6 +3054,12 @@
   "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_white_dye": "2024-03-15 00:29:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2024-03-15 00:34:26 +0100"
     },
     "done": true
   },
