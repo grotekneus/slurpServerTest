@@ -1,213 +1,213 @@
-[13:48:20] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[13:48:20] [ServerMain/WARN]: resource-pack-id missing, using default of 63861cdf-9763-32fb-b8d0-f7389d5f75f9
-[13:48:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:48:21] [ServerMain/INFO]: Loaded 7 recipes
-[13:48:22] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[13:48:22] [Server thread/INFO]: Loading properties
-[13:48:22] [Server thread/INFO]: This server is running CraftBukkit version 4054-Spigot-e9ec548-619936d (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
-[13:48:23] [Server thread/INFO]: Debug logging is disabled
-[13:48:23] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:48:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:48:23] [Server thread/INFO]: Default game type: SURVIVAL
-[13:48:23] [Server thread/INFO]: Generating keypair
-[13:48:23] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:48:23] [Server thread/INFO]: Using default channel type
-[13:48:23] [Server thread/ERROR]: Could not load 'plugins\ImageFrame-1.7.7.0.jar' in folder 'plugins'
+[18:20:46] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[18:20:46] [ServerMain/WARN]: resource-pack-id missing, using default of 63861cdf-9763-32fb-b8d0-f7389d5f75f9
+[18:20:46] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:20:47] [ServerMain/INFO]: Loaded 7 recipes
+[18:20:49] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[18:20:49] [Server thread/INFO]: Loading properties
+[18:20:49] [Server thread/INFO]: This server is running CraftBukkit version 4054-Spigot-e9ec548-619936d (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
+[18:20:49] [Server thread/INFO]: Debug logging is disabled
+[18:20:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:20:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:20:49] [Server thread/INFO]: Default game type: SURVIVAL
+[18:20:49] [Server thread/INFO]: Generating keypair
+[18:20:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:20:49] [Server thread/INFO]: Using default channel type
+[18:20:50] [Server thread/ERROR]: Could not load 'plugins\ImageFrame-1.7.7.0.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: Unknown dependency ProtocolLib. Please download and install ProtocolLib to run this plugin.
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:269) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:430) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:219) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1000) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:48:23] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[13:48:25] [Server thread/WARN]: Legacy plugin Playtimes v1.6 does not specify an api-version.
-[13:48:25] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.120
-[13:48:26] [Server thread/INFO]: [Sleeper] Loading Sleeper v1.5.1
-[13:48:26] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[13:48:26] [Server thread/INFO]: [Playtimes] Loading Playtimes v1.6
-[13:48:26] [Server thread/INFO]: [concrete_powder_modifier] Loading concrete_powder_modifier v${version}
-[13:48:26] [Server thread/INFO]: [TAB] Loading TAB v4.1.2
-[13:48:26] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+68-993d7ed
-[13:48:26] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
-[13:48:26] [Server thread/INFO]: [Autorank] Loading Autorank v5.2.2
-[13:48:26] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.27.0
-[13:48:26] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.4.4
-[13:48:26] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.120
-[13:48:26] [Server thread/INFO]:         __    
-[13:48:26] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.120
-[13:48:26] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
-[13:48:26] [Server thread/INFO]: 
-[13:48:26] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[13:48:26] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[13:48:27] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[13:48:27] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[13:48:27] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1403ms)
-[13:48:27] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[13:48:27] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.0-dev+68-993d7ed which is not a depend or softdepend of this plugin.
-[13:48:27] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[13:48:27] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[13:48:27] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[13:48:27] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[13:48:27] [Server thread/INFO]: Preparing level "world"
-[13:48:27] [Server thread/INFO]: -------- World Settings For [world] --------
-[13:48:27] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:48:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[13:48:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[13:48:27] [Server thread/INFO]: Mob Spawn Range: 6
-[13:48:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[13:48:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[13:48:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[13:48:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:48:27] [Server thread/INFO]: Max TNT Explosions: 100
-[13:48:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:48:27] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:48:27] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:48:27] [Server thread/INFO]: View Distance: 15
-[13:48:27] [Server thread/INFO]: Simulation Distance: 10
-[13:48:27] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[13:48:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:48:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:48:28] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[13:48:28] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:48:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[13:48:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[13:48:28] [Server thread/INFO]: Mob Spawn Range: 6
-[13:48:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[13:48:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[13:48:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[13:48:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:48:28] [Server thread/INFO]: Max TNT Explosions: 100
-[13:48:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:48:28] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:48:28] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:48:28] [Server thread/INFO]: View Distance: 15
-[13:48:28] [Server thread/INFO]: Simulation Distance: 10
-[13:48:28] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[13:48:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:48:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:48:29] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[13:48:29] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:48:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[13:48:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[13:48:29] [Server thread/INFO]: Mob Spawn Range: 6
-[13:48:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[13:48:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[13:48:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[13:48:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:48:29] [Server thread/INFO]: Max TNT Explosions: 100
-[13:48:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:48:29] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:48:29] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:48:29] [Server thread/INFO]: View Distance: 15
-[13:48:29] [Server thread/INFO]: Simulation Distance: 10
-[13:48:29] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[13:48:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:48:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:48:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:48:33] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[13:48:33] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[13:48:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:48:33] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[13:48:33] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:48:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:48:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:48:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[13:48:33] [Worker-Main-5/INFO]: Preparing spawn area: 13%
-[13:48:34] [Server thread/INFO]: Time elapsed: 4405 ms
-[13:48:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:48:36] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:48:36] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:48:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:48:36] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:48:36] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:48:37] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[13:48:37] [Worker-Main-2/INFO]: Preparing spawn area: 30%
-[13:48:37] [Server thread/INFO]: Time elapsed: 3373 ms
-[13:48:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:48:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:48:39] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[13:48:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:48:39] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:48:39] [Worker-Main-2/INFO]: Preparing spawn area: 13%
-[13:48:40] [Server thread/INFO]: Time elapsed: 2414 ms
-[13:48:40] [Server thread/INFO]: [Sleeper] Enabling Sleeper v1.5.1
-[13:48:40] [Server thread/INFO]: [Sleeper] Sleeper Version 1.5.1 Has Been Enabled!
-[13:48:40] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.6
-[13:48:40] [Server thread/INFO]: [Playtimes] Successfully loaded.
-[13:48:40] [Server thread/INFO]: [concrete_powder_modifier] Enabling concrete_powder_modifier v${version}
-[13:48:40] [Server thread/INFO]: Concrete powder modifier starting...
-[13:48:40] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
-[13:48:40] [Server thread/INFO]: [TAB] [Hint] Refresh interval of %server_unique_joins% is same as default interval, therefore there is no need to override it.
-[13:48:40] [Server thread/INFO]: [TAB] Enabled in 217ms
-[13:48:40] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+68-993d7ed
-[13:48:40] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[13:48:40] [Server thread/WARN]: Â§4Version mismatch! Please update EssentialsChat to the same version.
-[13:48:40] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[13:48:40] [Server thread/INFO]: No kits found to migrate.
-[13:48:41] [Server thread/WARN]: File plugins\Essentials\items.json has been modified by user and file version differs, please update the file manually.
-[13:48:41] [Server thread/INFO]: Loaded 39094 items from items.json.
-[13:48:41] [Server thread/INFO]: Using locale en_GB
-[13:48:41] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[13:48:41] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[13:48:41] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[13:48:41] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
-[13:48:41] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
-[13:48:41] [Server thread/ERROR]: Error occurred while enabling EssentialsChat v2.17.0.0 (Is it up to date?)
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[18:20:50] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[18:20:53] [Server thread/WARN]: Legacy plugin Playtimes v1.6 does not specify an api-version.
+[18:20:53] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.120
+[18:20:54] [Server thread/INFO]: [Sleeper] Loading Sleeper v1.5.1
+[18:20:54] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[18:20:54] [Server thread/INFO]: [Playtimes] Loading Playtimes v1.6
+[18:20:54] [Server thread/INFO]: [concrete_powder_modifier] Loading concrete_powder_modifier v${version}
+[18:20:54] [Server thread/INFO]: [TAB] Loading TAB v4.1.2
+[18:20:54] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+68-993d7ed
+[18:20:54] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
+[18:20:54] [Server thread/INFO]: [Autorank] Loading Autorank v5.2.2
+[18:20:54] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.27.0
+[18:20:54] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.4.4
+[18:20:54] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.120
+[18:20:54] [Server thread/INFO]:         __    
+[18:20:54] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.120
+[18:20:54] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
+[18:20:54] [Server thread/INFO]: 
+[18:20:54] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:20:54] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:20:55] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:20:55] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:20:55] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1189ms)
+[18:20:55] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[18:20:55] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.0-dev+68-993d7ed which is not a depend or softdepend of this plugin.
+[18:20:55] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[18:20:55] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:20:55] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[18:20:55] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[18:20:55] [Server thread/INFO]: Preparing level "world"
+[18:20:55] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:20:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:20:55] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:20:55] [Server thread/INFO]: Mob Spawn Range: 6
+[18:20:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:20:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[18:20:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:20:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[18:20:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:20:55] [Server thread/INFO]: Max TNT Explosions: 100
+[18:20:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:20:55] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:20:55] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:20:55] [Server thread/INFO]: View Distance: 15
+[18:20:55] [Server thread/INFO]: Simulation Distance: 10
+[18:20:55] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:20:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:20:55] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:20:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[18:20:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:20:55] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:20:55] [Server thread/INFO]: Mob Spawn Range: 6
+[18:20:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:20:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[18:20:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:20:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[18:20:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:20:55] [Server thread/INFO]: Max TNT Explosions: 100
+[18:20:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:20:55] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:20:55] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:20:55] [Server thread/INFO]: View Distance: 15
+[18:20:55] [Server thread/INFO]: Simulation Distance: 10
+[18:20:55] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:20:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:20:56] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:20:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[18:20:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:20:56] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:20:56] [Server thread/INFO]: Mob Spawn Range: 6
+[18:20:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:20:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[18:20:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:20:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[18:20:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:20:56] [Server thread/INFO]: Max TNT Explosions: 100
+[18:20:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:20:56] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:20:56] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:20:56] [Server thread/INFO]: View Distance: 15
+[18:20:56] [Server thread/INFO]: Simulation Distance: 10
+[18:20:56] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:20:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:20:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:20:59] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:20:59] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:20:59] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[18:20:59] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:20:59] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:20:59] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:20:59] [Worker-Main-7/INFO]: Preparing spawn area: 15%
+[18:21:00] [Server thread/INFO]: Time elapsed: 3388 ms
+[18:21:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:21:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:21:02] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:21:02] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[18:21:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:21:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:21:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:21:03] [Worker-Main-7/INFO]: Preparing spawn area: 64%
+[18:21:03] [Server thread/INFO]: Time elapsed: 3148 ms
+[18:21:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:21:06] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[18:21:06] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:21:06] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:21:06] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:21:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:21:06] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:21:06] [Worker-Main-3/INFO]: Preparing spawn area: 10%
+[18:21:06] [Server thread/INFO]: Time elapsed: 3290 ms
+[18:21:06] [Server thread/INFO]: [Sleeper] Enabling Sleeper v1.5.1
+[18:21:06] [Server thread/INFO]: [Sleeper] Sleeper Version 1.5.1 Has Been Enabled!
+[18:21:06] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.6
+[18:21:06] [Server thread/INFO]: [Playtimes] Successfully loaded.
+[18:21:06] [Server thread/INFO]: [concrete_powder_modifier] Enabling concrete_powder_modifier v${version}
+[18:21:06] [Server thread/INFO]: Concrete powder modifier starting...
+[18:21:06] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
+[18:21:07] [Server thread/INFO]: [TAB] [Hint] Refresh interval of %server_unique_joins% is same as default interval, therefore there is no need to override it.
+[18:21:07] [Server thread/INFO]: [TAB] Enabled in 189ms
+[18:21:07] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+68-993d7ed
+[18:21:07] [Server thread/INFO]: Je gebruikt een server met beperkte API-functionaliteit. EssentialsX werkt nog steeds, maar sommige functies zijn mogelijk uitgeschakeld.
+[18:21:07] [Server thread/WARN]: Verkeerde versie! Update EssentialsChat naar dezelfde versie.
+[18:21:07] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:21:07] [Server thread/INFO]: No kits found to migrate.
+[18:21:07] [Server thread/WARN]: File plugins\Essentials\items.json has been modified by user and file version differs, please update the file manually.
+[18:21:07] [Server thread/INFO]: Loaded 39094 items from items.json.
+[18:21:07] [Server thread/INFO]: Using locale nl_BE
+[18:21:07] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:21:07] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:21:07] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[18:21:07] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[18:21:07] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
+[18:21:07] [Server thread/ERROR]: Error occurred while enabling EssentialsChat v2.17.0.0 (Is it up to date?)
 java.lang.NoSuchMethodError: 'java.lang.String com.earth2me.essentials.I18n.tl(java.lang.String, java.lang.Object[])'
 	at com.earth2me.essentials.chat.EssentialsChat.onEnable(EssentialsChat.java:26) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
@@ -220,970 +220,225 @@ java.lang.NoSuchMethodError: 'java.lang.String com.earth2me.essentials.I18n.tl(j
 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1000) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[13:48:41] [Server thread/INFO]: [Autorank] Enabling Autorank v5.2.2
-[13:48:41] [Server thread/INFO]: [Autorank] mainclass getHumanPluginName = Autorank v5.2.2
-[13:48:41] [Server thread/INFO]: [Autorank] mainclass getInternalPluginName = Autorank v5.2.2
-[13:48:41] [Server thread/INFO]: [Autorank] mainclass isPluginAvailable = true
-[13:48:41] [Server thread/INFO]: [Autorank] Generated new log file: log-2024-03-15.txt
-[13:48:41] [Server thread/INFO]: [Autorank] The settings.yml is up-to-date
-[13:48:41] [Server thread/INFO]: [Autorank] Generating new PluginLibrary instance
-[13:48:41] [Server thread/INFO]: [PluginLibrary] ***== Loading libraries ==***
-[13:48:41] [Server thread/INFO]: [PluginLibrary] ***== Loaded 3 libraries! ==***
-[13:48:41] [Server thread/INFO]: [PluginLibrary] Loaded libraries: Autorank (by Staartvin), EssentialsX (by drtshock) and Vault (by Kainzo)
-[13:48:41] [Server thread/INFO]: [PluginLibrary] *** Ready for plugins to send/retrieve data. ***
-[13:48:41] [Server thread/INFO]: [Autorank] Interval check every 5 minutes.
-[13:48:41] [Server thread/INFO]: [Autorank] Registered requirement service for adding custom requirements!
-[13:48:41] [Server thread/INFO]: [Autorank] Registered result service for adding custom results!
-[13:48:41] [Server thread/INFO]: [Autorank] Autorank 5.2.2 has been enabled!
-[13:48:41] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
-[13:48:41] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.4.4
-[13:48:41] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
-[13:48:41] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
-[13:48:41] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
-[13:48:41] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
-[13:48:41] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault
-[13:48:41] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
-[13:48:41] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.20.4...
-[13:48:41] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
-[13:48:41] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[13:48:41] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[13:48:41] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
-[13:48:41] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
-[13:48:42] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Cannot load item 'page1.items.45' from section Miscellaneous because it is out of range for page size 45
-[13:48:42] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 536ms to complete
-[13:48:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:48:42] [Server thread/INFO]: Done (14.676s)! For help, type "help"
-[13:48:42] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[13:48:42] [Craft Scheduler Thread - 2/INFO]: [Autorank] Loading UUID storage files...
-[13:48:42] [Craft Scheduler Thread - 1/INFO]: Â§6Fetching version information...
-[13:48:42] [Server thread/INFO]: [Autorank] Registering statistics of vanilla Minecraft!
-[13:48:42] [Server thread/INFO]: [Autorank] Loaded libraries and dependencies
-[13:48:42] [Craft Scheduler Thread - 5/INFO]: [Autorank] Removed 0 old storage entries from database!
-[13:48:42] [Craft Scheduler Thread - 3/INFO]: [Autorank] Primary storage provider of Autorank: FlatFileStorageProvider
-[13:48:42] [Craft Scheduler Thread - 2/INFO]: [Autorank] Loaded UUID storage in 0 seconds.
-[13:48:42] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
-[13:48:42] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
-[13:48:42] [Craft Scheduler Thread - 1/WARN]: Â§4You're Â§c5 Â§4EssentialsX dev build(s) out of date!
-[13:48:42] [Craft Scheduler Thread - 1/WARN]: Â§4Download it here:Â§c https://essentialsx.net/downloads.html
-[13:48:42] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[13:48:42] [Craft Scheduler Thread - 0/INFO]: [Playtimes] [PlayTimes] Plugin is up to date! - 1.6
-[13:48:43] [pool-14-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
-[13:48:43] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[13:48:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[13:48:44] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:doet de server aanstaan?(1216754477324046377)
-[13:48:44] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:pings(1216754478376550494)
-[13:48:44] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mc-chat(1216758720558792734)
-[13:48:44] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:eh(1216754658098548857)
-[13:48:44] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:serv-logs(1217438082266304594)
-[13:48:44] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
-[13:48:44] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
-[13:48:44] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
-[13:48:44] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling voice module
-[13:48:44] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
-[13:56:03] [User Authenticator #1/INFO]: UUID of player transferreSP is f303893c-768a-4c80-b4f9-65d2a7a8210c
-[13:56:04] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:56:04] [Server thread/INFO]: transferreSP[/10.147.19.124:57258] logged in with entity id 222 at ([world]-4666.076666643368, 29.0, 3138.3617862391147)
-[13:56:05] [Server thread/INFO]: ~furry has blessed you with his presence
-[13:56:20] [Server thread/INFO]: transferreSP issued server command: /fly
-[13:56:49] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | bonk] C2gl > hey, just for info, de autorank is nog niet helemaal ingesteld, geeft er niet te veel aandacht aan xd
-[13:56:58] [Async Chat Thread - #0/INFO]: <~furry> oki
-[13:57:22] [Server thread/INFO]: transferreSP issued server command: /home home
-[13:57:58] [Server thread/INFO]: transferreSP lost connection: Disconnected
-[13:57:58] [Server thread/INFO]: transferreSP left the game
-[13:58:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | bonk] C2gl > ping?
-[14:25:05] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Ferre > Jup
-[14:32:57] [User Authenticator #2/INFO]: UUID of player C2gl is ac59ab29-63a9-4865-912e-ab25be6efa08
-[14:33:04] [Server thread/INFO]: C2gl[/127.0.0.1:60591] logged in with entity id 1149 at ([world]-3177.5, 72.0, -220.5)
-[14:33:05] [Server thread/INFO]: C2gl has blessed you with his presence
-[14:33:22] [Server thread/INFO]: C2gl issued server command: /ar leaderboards
-[14:33:34] [Server thread/INFO]: C2gl issued server command: /ar check Member
-[14:33:39] [Server thread/INFO]: C2gl issued server command: /ar check
-[14:33:39] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[14:34:00] [Async Chat Thread - #2/INFO]: <C2gl> home home
-[14:34:31] [Server thread/INFO]: C2gl issued server command: /lp user C2gl showtracks
-[14:34:49] [Server thread/INFO]: C2gl issued server command: /lp editor
-[14:36:04] [Server thread/INFO]: C2gl issued server command: /lp applyedits Nz8PlC8fwg
-[14:36:05] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (moderator)
-[14:36:05] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add group.nolifer true
-[14:36:05] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (moderator)
-[14:36:05] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add displayname.MOD true
-[14:36:05] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (moderator)
-[14:36:05] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add weight.11 true
-[14:36:05] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (moderator)
-[14:36:05] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add prefix.11.&9[MOD] true
-[14:36:05] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [T] (staff)
-[14:36:05] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add moderator
-[14:36:16] [Server thread/INFO]: C2gl issued server command: /lp user C2gl showtracks
-[14:36:31] [Server thread/INFO]: C2gl issued server command: /lp user C2gl parent settrack staff
-[14:36:45] [Server thread/INFO]: C2gl issued server command: /lp user C2gl showtracks
-[14:37:11] [Server thread/INFO]: C2gl issued server command: /lp user C2gl parent settrack staff host
-[14:37:11] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [U] (c2gl)
-[14:37:11] [luckperms-command-executor/INFO]: [LP] LOG > parent settrack staff host
-[14:37:22] [Server thread/INFO]: C2gl issued server command: /lp user C2gl showtracks
-[14:37:34] [Server thread/INFO]: C2gl issued server command: /lp editor
-[14:38:23] [Server thread/INFO]: C2gl issued server command: /lp applyedits pwW14j2diz
-[14:38:23] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (host)
-[14:38:23] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add prefix.0.&4[SERVHost]  true
-[14:38:23] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (host)
-[14:38:23] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove prefix.0.[SERVHost] true
-[14:38:55] [Server thread/INFO]: C2gl issued server command: /lp applyedits Ms2QQo1hKC
-[14:39:02] [Server thread/INFO]: C2gl issued server command: /lp applyedits Ms2QQo1hKC --force
-[14:39:02] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (host)
-[14:39:02] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add prefix.0.&f[&4SERVHost&f]  true
-[14:39:02] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (host)
-[14:39:02] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove prefix.0.&4[SERVHost]  true
-[14:39:49] [Server thread/INFO]: C2gl issued server command: /lp user C2gl parent cleartrack staff
-[14:39:49] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [U] (c2gl)
-[14:39:49] [luckperms-command-executor/INFO]: [LP] LOG > parent cleartrack staff
-[14:40:03] [Server thread/INFO]: C2gl issued server command: /ar track
-[14:40:07] [Server thread/INFO]: C2gl issued server command: /ar check
-[14:40:07] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[14:42:26] [Server thread/INFO]: C2gl issued server command: /ar leaderboard
-[14:42:43] [Server thread/INFO]: C2gl issued server command: /balancetop
-[14:46:47] [Server thread/INFO]: C2gl issued server command: /ar reload
-[14:46:51] [Server thread/INFO]: C2gl issued server command: /ar check
-[14:46:51] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[14:47:19] [Server thread/INFO]: C2gl issued server command: /ar check
-[14:47:19] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[14:47:27] [Server thread/INFO]: C2gl issued server command: /ar check Member
-[14:47:49] [Server thread/INFO]: C2gl issued server command: /ar reload
-[14:47:52] [Server thread/INFO]: C2gl issued server command: /ar check Member
-[14:49:18] [Server thread/INFO]: C2gl issued server command: /sellgui
-[14:49:23] [Server thread/INFO]: Shop >> C2gl sold 389x Beetroot Seeds(Farming.page1.items.5), 218x Beetroot(Farming.page1.items.4) for $509.75 with the sell gui.
-[14:55:12] [Server thread/INFO]: C2gl issued server command: /ar reload
-[14:55:18] [Server thread/INFO]: C2gl issued server command: /ar check
-[14:55:18] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[14:55:42] [Server thread/INFO]: C2gl issued server command: /ar check Member
-[15:03:01] [Server thread/INFO]: C2gl issued server command: /ar reload
-[15:03:29] [Server thread/INFO]: C2gl issued server command: /ar track
-[15:03:37] [Server thread/INFO]: C2gl issued server command: /ar choose
-[15:03:51] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:03:51] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:04:06] [Server thread/INFO]: C2gl issued server command: /ar choose
-[15:04:21] [Server thread/INFO]: C2gl issued server command: /ar editor
-[15:04:49] [Server thread/INFO]: C2gl issued server command: /ar view Farmer LVL1
-[15:07:17] [Server thread/INFO]: C2gl issued server command: /ar reload
-[15:07:23] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:07:23] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:07:34] [Server thread/INFO]: C2gl issued server command: /ar choose Farmer LVL0
-[15:07:41] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:07:41] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:08:16] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:08:16] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:08:37] [Server thread/INFO]: C2gl issued server command: /ar check Member
-[15:10:11] [Server thread/INFO]: C2gl issued server command: /ar reload
-[15:10:14] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:10:14] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:10:21] [Server thread/INFO]: C2gl issued server command: /ar choose Farmer LVL1
-[15:10:33] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:10:33] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:11:46] [Server thread/INFO]: C2gl issued server command: /ar reload
-[15:11:50] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:11:50] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:11:56] [Server thread/INFO]: C2gl issued server command: /ar check Farmer LVL1
-[15:12:32] [Server thread/INFO]: C2gl issued server command: /ar reload
-[15:12:35] [Server thread/INFO]: C2gl issued server command: /ar check Farmer LVL1
-[15:13:44] [Server thread/INFO]: C2gl issued server command: /ar reload
-[15:13:46] [Server thread/INFO]: C2gl issued server command: /ar check Farmer LVL1
-[15:15:15] [Server thread/INFO]: C2gl issued server command: /ar reload
-[15:15:18] [Server thread/INFO]: C2gl issued server command: /ar check Farmer LVL1
-[15:16:37] [Server thread/INFO]: C2gl issued server command: /ar check Farmer LVL1
-[15:16:46] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:16:46] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:19:22] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:19:22] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:19:32] [Server thread/INFO]: C2gl issued server command: /ar check Farmer LVL1
-[15:22:04] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:22:04] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:22:45] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:22:45] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:23:16] [Server thread/INFO]: C2gl issued server command: /ar reload
-[15:23:18] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:23:18] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:24:12] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:24:12] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:24:25] [Server thread/INFO]: C2gl issued server command: /ar check Farmer LVL1
-[15:24:41] [Server thread/INFO]: C2gl issued server command: /sellall CARROT
-[15:24:41] [Server thread/INFO]: Shop >> C2gl sold 908 x Carrot(Farming.page1.items.8) for $1,135 with the sell all command.
-[15:24:46] [User Authenticator #3/INFO]: UUID of player transferreSP is f303893c-768a-4c80-b4f9-65d2a7a8210c
-[15:24:50] [Server thread/INFO]: transferreSP[/10.147.19.124:58443] logged in with entity id 9444 at ([world]-5413.683493394333, 97.0, 2317.7020065526926)
-[15:24:52] [Server thread/INFO]: ~furry has blessed you with his presence
-[15:24:56] [Async Chat Thread - #3/INFO]: <C2gl> ahoi
-[15:24:59] [Async Chat Thread - #4/INFO]: <~furry> AHHHH
-[15:25:00] [Async Chat Thread - #4/INFO]: <~furry> hey
-[15:25:15] [Server thread/INFO]: transferreSP issued server command: /home b
-[15:25:17] [Server thread/INFO]: C2gl issued server command: /ar leaderboard
-[15:25:46] [Server thread/INFO]: transferreSP issued server command: /to
-[15:25:48] [Server thread/INFO]: C2gl issued server command: /ar check Farmer LVL1
-[15:25:48] [Async Chat Thread - #3/INFO]: <~furry> ty
-[15:25:49] [Server thread/INFO]: transferreSP issued server command: /top
-[15:25:52] [Async Chat Thread - #4/INFO]: <C2gl> for what ?
-[15:25:56] [Async Chat Thread - #4/INFO]: <~furry> sleepin
-[15:25:58] [Async Chat Thread - #3/INFO]: <C2gl> yw
-[15:26:56] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:26:56] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:27:07] [Server thread/INFO]: C2gl issued server command: /ar check Farmer LVL1
-[15:28:02] [Async Chat Thread - #6/INFO]: <C2gl> kun je effe /ar check doen?
-[15:28:06] [Server thread/INFO]: transferreSP issued server command: /ar check
-[15:28:06] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:28:13] [Async Chat Thread - #5/INFO]: <~furry> 67 %
-[15:28:15] [Async Chat Thread - #6/INFO]: <~furry> wa is farmer
-[15:28:18] [Async Chat Thread - #5/INFO]: <C2gl> aha noice xd
-[15:28:32] [Server thread/INFO]: C2gl issued server command: /lp user transferreSP showtracks
-[15:28:43] [Async Chat Thread - #5/INFO]: <C2gl> en zie je ook een voor member?
-[15:28:51] [Async Chat Thread - #5/INFO]: <~furry> ja die is 67
-[15:28:56] [Async Chat Thread - #6/INFO]: <~furry> farmer 0 ;(
-[15:28:57] [Async Chat Thread - #5/INFO]: <C2gl> dat zijn jobs om geld te verdoenen
-[15:29:08] [Async Chat Thread - #6/INFO]: <C2gl> doe /ar check farmer lvl0
-[15:29:19] [Server thread/INFO]: transferreSP issued server command: /ar check Farmer LVL0
-[15:29:20] [Server thread/INFO]: C2gl issued server command: /ar info transferreSP
-[15:29:21] [Async Chat Thread - #5/INFO]: <~furry> ah
-[15:29:31] [Async Chat Thread - #6/INFO]: <C2gl> tadaaa xd
-[15:29:31] [Async Chat Thread - #5/INFO]: <~furry> en wa kunt ge doen me geld?
-[15:29:32] [Async Chat Thread - #6/INFO]: <~furry> zonder shp
-[15:29:37] [Async Chat Thread - #5/INFO]: <C2gl> idkf xd
-[15:29:49] [Async Chat Thread - #6/INFO]: <~furry> fair enough
-[15:30:11] [Async Chat Thread - #5/INFO]: <C2gl> ma ik vond het een cool dingetjhe
-[15:30:27] [Async Chat Thread - #5/INFO]: <C2gl> en we kunnen meer als geld geven, we kunnen ook custom items geven enz
-[15:31:20] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:31:20] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:32:26] [Async Chat Thread - #8/INFO]: <C2gl> ma ik dacht bvb om voor miner ores te geven, stell je mijnt 10.000 blocks, dan krijg je 20 diamonds of zo xd
-[15:32:33] [Server thread/INFO]: C2gl issued server command: /sellgui
-[15:32:38] [Server thread/INFO]: Shop >> C2gl sold 1x Beetroot Seeds(Farming.page1.items.5), 1x Gunpowder(Mobs.page1.items.9), 1x Beetroot(Farming.page1.items.4), 1x Rotten Flesh(Mobs.page1.items.15) for $5.75 with the sell gui.
-[15:32:47] [Async Chat Thread - #7/INFO]: <~furry> ah ja
-[15:32:50] [Async Chat Thread - #8/INFO]: <~furry> da mag wel xD
-[15:32:55] [Async Chat Thread - #7/INFO]: <~furry> ik mine wel 10000 blokken
-[15:33:09] [Async Chat Thread - #8/INFO]: <C2gl> top top xd
-[15:38:06] [Server thread/INFO]: C2gl issued server command: /ar reload
-[15:38:09] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:38:09] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:38:09] [Server thread/INFO]: CONSOLE issued server command: /give C2gl diamond 20
-[15:38:09] [Server thread/INFO]: Giving 20 of diamond to C2gl.
-[15:38:24] [Async Chat Thread - #10/INFO]: <C2gl> oh xd, normaal heb je 20 diamond gekregen xd
-[15:38:33] [Async Chat Thread - #9/INFO]: <~furry> wanneer
-[15:38:37] [Async Chat Thread - #10/INFO]: <C2gl> nu net xd
-[15:38:42] [Async Chat Thread - #9/INFO]: <~furry> mhm
-[15:38:53] [Async Chat Thread - #10/INFO]: <~furry> niet gezien
-[15:38:54] [Server thread/INFO]: C2gl issued server command: /ar gcheck transferreSP
-[15:38:58] [Async Chat Thread - #9/INFO]: <~furry> wilt gij mijn pickaxe effe repairen ?
-[15:39:16] [Async Chat Thread - #10/INFO]: <~furry> of zou ik probere
-[15:39:18] [Async Chat Thread - #9/INFO]: <~furry> ik ga probere
-[15:39:21] [Server thread/INFO]: transferreSP issued server command: /warp exp
-[15:39:24] [Server thread/INFO]: C2gl issued server command: /ar info transferreSP
-[15:39:32] [Async Chat Thread - #10/INFO]: <C2gl> ah doe /ar check again xd
-[15:39:37] [Server thread/INFO]: transferreSP issued server command: /ar check
-[15:39:37] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:39:43] [Async Chat Thread - #9/INFO]: <C2gl> sure
-[15:39:48] [Server thread/INFO]: C2gl issued server command: /tpahere transferreSP
-[15:39:57] [Server thread/INFO]: transferreSP issued server command: /home b
-[15:39:59] [Server thread/INFO]: transferreSP issued server command: /tpaccept
-[15:40:08] [Server thread/INFO]: C2gl issued server command: /ar info transferreSP
-[15:40:10] [Async Chat Thread - #10/INFO]: <~furry> da was dus al een slecht idee om da zelf te prober
-[15:40:19] [Async Chat Thread - #9/INFO]: <C2gl> en doe ar check xd
-[15:40:23] [Server thread/INFO]: transferreSP issued server command: /ar check
-[15:40:23] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:40:27] [Async Chat Thread - #10/INFO]: <~furry> ik zit op 71 %
-[15:40:30] [Async Chat Thread - #9/INFO]: <C2gl> ik heb normaal de miner gedaan xd, maar
-[15:40:34] [Async Chat Thread - #10/INFO]: <~furry> ah ik zie die ni
-[15:40:37] [Server thread/INFO]: C2gl issued server command: /ar info transferreSP
-[15:40:48] [Async Chat Thread - #9/INFO]: <C2gl> doe dan ar choose
-[15:40:54] [Server thread/INFO]: C2gl issued server command: /warp exp
-[15:41:22] [Server thread/INFO]: C2gl issued server command: /ar info C2gl
-[15:41:33] [Server thread/INFO]: transferreSP issued server command: /ar choose
-[15:41:37] [Server thread/INFO]: transferreSP issued server command: /ar choose Miner
-[15:41:44] [Async Chat Thread - #10/INFO]: <C2gl> mhhhh
-[15:41:45] [Async Chat Thread - #9/INFO]: <~furry> die geeft mij geen opties bij ar choose
-[15:41:56] [Async Chat Thread - #10/INFO]: <C2gl> okay, i messed up dan xd
-[15:41:57] [Server thread/INFO]: transferreSP issued server command: /ar info
-[15:41:59] [Server thread/INFO]: transferreSP issued server command: /ar info transferreSP
-[15:42:11] [Server thread/INFO]: transferreSP issued server command: /ar archive
-[15:42:12] [Server thread/INFO]: C2gl issued server command: /back
-[15:42:13] [Server thread/INFO]: transferreSP issued server command: /ar archive 2
-[15:42:20] [Async Chat Thread - #9/INFO]: <~furry> ty
-[15:42:21] [Server thread/INFO]: transferreSP issued server command: /home b
-[15:42:22] [Async Chat Thread - #9/INFO]: <C2gl> yw
-[15:42:30] [Server thread/INFO]: transferreSP issued server command: /fly
-[15:42:41] [Server thread/INFO]: transferreSP issued server command: /fly
-[15:42:50] [Server thread/INFO]: C2gl issued server command: /ar reload
-[15:42:54] [Server thread/INFO]: C2gl issued server command: /ar info C2gl
-[15:43:06] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:43:06] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:43:33] [Server thread/INFO]: C2gl issued server command: /ar info C2gl
-[15:43:50] [Server thread/INFO]: C2gl issued server command: /ar choose
-[15:43:58] [Server thread/INFO]: C2gl issued server command: /ar info transferreSP
-[15:44:12] [Server thread/INFO]: C2gl issued server command: /ar complete
-[15:44:38] [Server thread/INFO]: C2gl issued server command: /ar track
-[15:44:42] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:44:42] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:45:12] [Server thread/INFO]: transferreSP issued server command: /sellgui
-[15:45:23] [Server thread/INFO]: Shop >> ~furry sold 41x Dirt(Blocks.page3.items.105), 960x Stone(Blocks.page4.items.169), 2x Wheat Seeds(Farming.page1.items.29), 1x Spider Eye(Mobs.page1.items.17), 6x Rotten Flesh(Mobs.page1.items.15) for $77.65 with the sell gui.
-[15:45:48] [Server thread/INFO]: C2gl issued server command: /ar reload
-[15:45:50] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:45:50] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:46:01] [Server thread/INFO]: C2gl issued server command: /ar info transferreSP
-[15:46:10] [Server thread/INFO]: C2gl issued server command: /ar fcheck transferreSP
-[15:46:13] [Server thread/INFO]: C2gl issued server command: /ar info transferreSP
-[15:46:16] [Async Chat Thread - #12/INFO]: <~furry> ahah
-[15:46:17] [Async Chat Thread - #11/INFO]: <~furry> bingo
-[15:46:24] [Async Chat Thread - #12/INFO]: <C2gl> tada xd, nu heb je miner xd
-[15:47:05] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:47:05] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:47:21] [Server thread/INFO]: C2gl issued server command: /ar info C2gl
-[15:47:43] [Server thread/INFO]: transferreSP was shot by Skeleton
-[15:47:47] [Server thread/INFO]: transferreSP issued server command: /back
-[15:47:57] [Server thread/INFO]: transferreSP was shot by Skeleton
-[15:48:01] [Server thread/INFO]: transferreSP issued server command: /back
-[15:48:04] [Server thread/INFO]: transferreSP was slain by Skeleton
-[15:48:07] [Server thread/INFO]: transferreSP issued server command: /back
-[15:48:10] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:48:10] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:48:30] [Async Chat Thread - #14/INFO]: <~furry> sinds wanneer pakken skeletons zwaarden op
-[15:48:48] [Server thread/INFO]: C2gl issued server command: /ar editor C2gl
-[15:50:00] [Server thread/INFO]: C2gl issued server command: /ar editor C2gl
-[15:50:34] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:50:34] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:50:42] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:50:42] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:50:47] [Server thread/INFO]: C2gl issued server command: /ar info C2gl
-[15:51:25] [Server thread/INFO]: transferreSP issued server command: /fly
-[15:51:58] [Server thread/INFO]: C2gl issued server command: /ar reload
-[15:52:00] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:52:00] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:52:13] [Server thread/INFO]: C2gl issued server command: /ar check Farmer LVL2
-[15:52:38] [Async Chat Thread - #16/INFO]: <C2gl> oh, je ping is nu reasonable xd
-[15:52:47] [Async Chat Thread - #15/INFO]: <~furry> wacht tot ik na die pillager farm ga
-[15:52:51] [Async Chat Thread - #16/INFO]: <C2gl> hahahaha xd
-[15:52:53] [Async Chat Thread - #15/INFO]: <~furry> dan is het stijgende lijn omhoog
-[15:53:05] [Async Chat Thread - #16/INFO]: <C2gl> als je nog is repairing nodig heb xd
-[15:53:08] [Server thread/INFO]: C2gl issued server command: /ar fcheck transferreSP
-[15:53:12] [Server thread/INFO]: C2gl issued server command: /ar info transferreSP
-[15:53:39] [Server thread/INFO]: C2gl issued server command: /ar info transferreSP member
-[15:53:52] [Server thread/INFO]: C2gl issued server command: /ar info C2gl
-[15:54:01] [Server thread/INFO]: C2gl issued server command: /ar check Farmer LVL2
-[15:54:04] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:54:04] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:54:36] [Server thread/INFO]: transferreSP issued server command: /fly
-[15:55:05] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:55:05] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:55:11] [Server thread/INFO]: C2gl issued server command: /ar reload
-[15:55:13] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:55:13] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:55:18] [Server thread/INFO]: C2gl issued server command: /ar check Farmer LVL2
-[15:55:24] [Server thread/INFO]: transferreSP issued server command: /echest
-[15:55:28] [Server thread/INFO]: transferreSP issued server command: /echest
-[15:56:20] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:56:20] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:58:18] [Server thread/INFO]: C2gl issued server command: /sellall BEETROOT
-[15:58:18] [Server thread/INFO]: Shop >> C2gl sold 260 x Beetroot(Farming.page1.items.4) for $260 with the sell all command.
-[15:58:25] [Server thread/INFO]: C2gl issued server command: /sellall BEETROOT_SEEDS
-[15:58:25] [Server thread/INFO]: Shop >> C2gl sold 432 x Beetroot Seeds(Farming.page1.items.5) for $324 with the sell all command.
-[15:58:33] [Server thread/INFO]: C2gl issued server command: /ar check
-[15:58:33] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[15:58:53] [Server thread/INFO]: C2gl issued server command: /discordsrv broadcast test
-[15:59:17] [Server thread/INFO]: C2gl issued server command: /discordsrv bcast test
-[16:00:21] [Server thread/INFO]: C2gl issued server command: /ar reload
-[16:00:24] [Server thread/INFO]: C2gl issued server command: /ar check
-[16:00:24] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[16:00:41] [Server thread/INFO]: C2gl issued server command: /ar check Member
-[16:05:13] [Server thread/INFO]: transferreSP was slain by Zombie
-[16:05:27] [Server thread/INFO]: C2gl issued server command: /sellall WHEAT
-[16:05:27] [Server thread/INFO]: Shop >> C2gl sold 368 x Wheat(Farming.page1.items.28) for $368 with the sell all command.
-[16:05:29] [Server thread/INFO]: C2gl issued server command: /sellall WHEAT_SEEDS
-[16:05:29] [Server thread/INFO]: Shop >> C2gl sold 578 x Wheat Seeds(Farming.page1.items.29) for $433.50 with the sell all command.
-[16:05:32] [Server thread/INFO]: transferreSP issued server command: /back
-[16:05:36] [Server thread/INFO]: transferreSP was slain by Zombie
-[16:05:41] [Server thread/INFO]: transferreSP issued server command: /back
-[16:05:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2637ms or 52 ticks behind
-[16:05:47] [Server thread/INFO]: transferreSP was slain by Zombie
-[16:05:52] [Server thread/INFO]: transferreSP issued server command: /back
-[16:10:17] [Server thread/INFO]: C2gl issued server command: /ar reload
-[16:10:21] [Server thread/INFO]: C2gl issued server command: /ar info C2gl
-[16:10:32] [Server thread/INFO]: C2gl issued server command: /ar check
-[16:10:32] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[16:10:45] [Server thread/INFO]: C2gl issued server command: /ar check
-[16:10:45] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[16:10:45] [Server thread/INFO]: CONSOLE issued server command: /give C2gl diamond 5
-[16:10:45] [Server thread/INFO]: Giving 5 of diamond to C2gl.
-[16:14:03] [Server thread/INFO]: C2gl issued server command: /ar reload
-[16:14:16] [Server thread/INFO]: C2gl issued server command: /ar view mob hunter LVL2
-[16:14:27] [Server thread/INFO]: C2gl issued server command: /ar check
-[16:14:27] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[16:14:36] [Server thread/INFO]: C2gl issued server command: /ar fcheck transferreSP
-[16:14:42] [Server thread/INFO]: C2gl issued server command: /ar info transferreSP
-[16:15:01] [Server thread/INFO]: C2gl issued server command: /ar check
-[16:15:01] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[16:15:32] [Server thread/INFO]: C2gl issued server command: /ar check Miner LVL0
-[16:15:56] [Async Chat Thread - #18/INFO]: <C2gl> tadaa , the mob hunter job is added xd
-[16:16:25] [Server thread/INFO]: C2gl issued server command: /lp editor
-[16:17:44] [Server thread/INFO]: C2gl issued server command: /lp applyedits LWFQVZEqiX
-[16:17:44] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (default)
-[16:17:44] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add autorank.leaderboard true
-[16:17:44] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (default)
-[16:17:44] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add autorank.info.self true
-[16:17:44] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (default)
-[16:17:44] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add autorank.choose true
-[16:17:44] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (default)
-[16:17:44] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add autorank.view true
-[16:17:44] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (default)
-[16:17:44] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add autorank.info true
-[16:18:07] [Server thread/INFO]: C2gl issued server command: /ar check Farmer LVL2 transferre
-[16:18:13] [Server thread/INFO]: C2gl issued server command: /ar info transferreSP
-[16:18:47] [Server thread/INFO]: C2gl issued server command: /ar check Farmer LVL2
-[16:21:05] [Async Chat Thread - #20/INFO]: <~furry> nice
-[16:21:11] [Server thread/INFO]: transferreSP issued server command: /afk
-[16:21:43] [Server thread/INFO]: C2gl issued server command: /ar check
-[16:21:43] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[16:21:52] [Server thread/INFO]: C2gl issued server command: /ar check Farmer LVL2
-[16:22:16] [Server thread/INFO]: C2gl issued server command: /sellall CARROT
-[16:22:16] [Server thread/INFO]: Shop >> C2gl sold 760 x Carrot(Farming.page1.items.8) for $950 with the sell all command.
-[16:23:08] [Server thread/INFO]: C2gl issued server command: /ar check
-[16:23:08] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[16:26:43] [Server thread/INFO]: C2gl issued server command: /ar reload
-[16:26:47] [Server thread/INFO]: C2gl issued server command: /ar leaderboard
-[16:26:58] [Server thread/INFO]: C2gl issued server command: /ar check
-[16:26:58] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[16:27:04] [Server thread/INFO]: C2gl issued server command: /ar check
-[16:27:04] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[16:27:04] [Server thread/INFO]: CONSOLE issued server command: /give C2gl diamond 1
-[16:27:04] [Server thread/INFO]: Giving 1 of diamond to C2gl.
-[16:27:52] [Server thread/INFO]: C2gl issued server command: /ar reload
-[16:27:53] [Server thread/INFO]: C2gl issued server command: /ar check
-[16:27:53] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[16:28:03] [Server thread/INFO]: C2gl issued server command: /ar fcheck transferreSP
-[16:28:04] [Server thread/INFO]: CONSOLE issued server command: /give transferreSP diamond 5
-[16:28:04] [Server thread/INFO]: Giving 5 of diamond to ~furry.
-[16:28:11] [Server thread/INFO]: C2gl issued server command: /ar info transferreSP
-[16:28:23] [Server thread/INFO]: C2gl issued server command: /ar fcheck transferreSP
-[16:28:23] [Server thread/INFO]: CONSOLE issued server command: /give transferreSP diamond 5
-[16:28:23] [Server thread/INFO]: Giving 5 of diamond to ~furry.
-[16:28:23] [Server thread/INFO]: CONSOLE issued server command: /give transferreSP diamond 1
-[16:28:23] [Server thread/INFO]: Giving 1 of diamond to ~furry.
-[16:28:23] [Server thread/INFO]: CONSOLE issued server command: /give transferreSP diamond 3
-[16:28:23] [Server thread/INFO]: Giving 3 of diamond to ~furry.
-[16:28:24] [Server thread/INFO]: C2gl issued server command: /ar fcheck transferreSP
-[16:28:25] [Server thread/INFO]: C2gl issued server command: /ar fcheck transferreSP
-[16:28:28] [Server thread/INFO]: C2gl issued server command: /ar info transferreSP
-[16:28:52] [Server thread/INFO]: C2gl issued server command: /ar check
-[16:28:52] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[16:29:10] [Server thread/INFO]: C2gl issued server command: /lp info
-[16:29:20] [Server thread/INFO]: C2gl issued server command: /lp user C2gl
-[16:29:24] [Server thread/INFO]: C2gl issued server command: /lp user C2gl info
-[16:29:46] [Async Chat Thread - #22/INFO]: <C2gl> :)
-[16:30:18] [Server thread/INFO]: C2gl issued server command: /lp user C2gl showtracks
-[16:30:32] [Server thread/INFO]: C2gl issued server command: /lp user C2gl promote
-[16:30:39] [Server thread/INFO]: C2gl issued server command: /lp user C2gl promote players
-[16:30:39] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [U] (c2gl)
-[16:30:39] [luckperms-command-executor/INFO]: [LP] LOG > promote players
-[16:31:55] [Server thread/INFO]: C2gl issued server command: /lp user C2gl showtracks
-[16:32:08] [Server thread/INFO]: C2gl issued server command: /lp editor
-[16:32:42] [Server thread/INFO]: C2gl issued server command: /lp applyedits Oqq7n9R9Sg
-[16:32:42] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (member)
-[16:32:42] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add prefix.2.&f[&5MEMBER&f]   true
-[16:32:42] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (member)
-[16:32:42] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove prefix.2.&5[MEMBER]  true
-[16:33:00] [Server thread/INFO]: C2gl issued server command: /lp user transferreSP showtracks
-[16:33:15] [Server thread/INFO]: C2gl issued server command: /ar check
-[16:33:15] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[16:33:24] [Server thread/INFO]: C2gl issued server command: /ar check shut-it-nerd
-[16:33:57] [Server thread/INFO]: C2gl issued server command: /ar reload
-[16:34:00] [Server thread/INFO]: C2gl issued server command: /ar check
-[16:34:01] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[16:35:39] [Server thread/INFO]: C2gl issued server command: /ar reload
-[16:35:41] [Server thread/INFO]: C2gl issued server command: /ar check
-[16:35:41] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[16:36:02] [Server thread/INFO]: C2gl issued server command: /ar reload
-[16:36:03] [Server thread/INFO]: C2gl issued server command: /ar reload
-[16:36:05] [Server thread/INFO]: C2gl issued server command: /ar check
-[16:36:05] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[16:36:21] [Server thread/INFO]: C2gl issued server command: /balance
-[16:36:33] [Server thread/INFO]: C2gl lost connection: Disconnected
-[16:36:33] [Server thread/INFO]: C2gl left the game
-[16:36:58] [Server thread/INFO]: transferreSP lost connection: Disconnected
-[16:36:58] [Server thread/INFO]: transferreSP left the game
-[16:49:43] [User Authenticator #4/INFO]: UUID of player C2gl is ac59ab29-63a9-4865-912e-ab25be6efa08
-[16:49:52] [Server thread/INFO]: C2gl[/127.0.0.1:52637] logged in with entity id 35358 at ([world]-3181.561129118363, 72.0, -220.36925379351288)
-[16:49:53] [Server thread/INFO]: [MEMBER]  C2gl has blessed you with his presence
-[16:51:04] [Server thread/INFO]: C2gl issued server command: /sellall OAK_LOG
-[16:51:04] [Server thread/INFO]: Shop >> C2gl sold 1 x Oak Log(Blocks.page5.items.216) for $0.75 with the sell all command.
-[16:51:56] [Server thread/INFO]: C2gl issued server command: /sellall SPRUCE_LOG
-[16:51:56] [Server thread/INFO]: Shop >> C2gl sold 1 x Spruce Log(Blocks.page5.items.221) for $0.75 with the sell all command.
-[16:52:52] [Server thread/INFO]: C2gl issued server command: /sellall DARK_OAK_LOG
-[16:52:52] [Server thread/INFO]: Shop >> C2gl sold 1 x Dark Oak Log(Blocks.page5.items.195) for $0.75 with the sell all command.
-[16:53:18] [Server thread/INFO]: C2gl issued server command: /sellall ACACIA_LOG
-[16:53:18] [Server thread/INFO]: Shop >> C2gl sold 1 x Acacia Log(Blocks.page4.items.180) for $0.75 with the sell all command.
-[16:53:37] [Server thread/INFO]: C2gl issued server command: /sellall jungle_log
-[16:53:37] [Server thread/INFO]: Shop >> C2gl sold 1 x Jungle Log(Blocks.page5.items.200) for $0.75 with the sell all command.
-[16:54:09] [Server thread/INFO]: C2gl issued server command: /sellall CHERRY_LOG
-[16:54:09] [Server thread/INFO]: Shop >> C2gl sold 1 x Cherry Log(Blocks.page5.items.43) for $0.75 with the sell all command.
-[16:54:22] [Server thread/INFO]: C2gl issued server command: /sellall MANGROVE_LOG
-[16:54:22] [Server thread/INFO]: Shop >> C2gl sold 1 x Mangrove Log(Blocks.page5.items.209) for $0.75 with the sell all command.
-[16:54:37] [Server thread/INFO]: C2gl issued server command: /sellall BIRCH_LOG
-[16:54:37] [Server thread/INFO]: Shop >> C2gl sold 1 x Birch Log(Blocks.page4.items.185) for $0.75 with the sell all command.
-[16:56:08] [Server thread/INFO]: C2gl issued server command: /ar reload
-[16:56:11] [Server thread/INFO]: C2gl issued server command: /ar check
-[16:56:11] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[16:56:28] [Server thread/INFO]: C2gl issued server command: /lp editor
-[16:57:45] [Server thread/INFO]: C2gl issued server command: /lp applyedits zUJO9zi47c
-[16:57:45] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (vip)
-[16:57:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add weight.3 true
-[16:57:45] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (vip)
-[16:57:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add displayname.VIP true
-[16:57:45] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (vip)
-[16:57:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add group.member true
-[16:57:45] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (vip)
-[16:57:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add prefix.3.&f[&7VIP&f] true
-[16:57:45] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [T] (players)
-[16:57:45] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add vip
-[17:00:00] [User Authenticator #5/INFO]: UUID of player TomosChlausorius is 873bc772-4a98-4d04-9c9c-9f1e6c18ea3a
-[17:00:21] [Server thread/INFO]: TomosChlausorius[/10.147.19.189:53309] logged in with entity id 36878 at ([world]-5296.134627557699, -3.0, 2762.5767129442925)
-[17:00:22] [Server thread/INFO]: TomosChlausorius has blessed you with his presence
-[17:00:26] [Async Chat Thread - #25/INFO]: <[MEMBER]  C2gl> wb
-[17:00:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2525ms or 50 ticks behind
-[17:00:41] [Async Chat Thread - #24/INFO]: <[MEMBER]  C2gl> er zijn een paar extra commands xd
-[17:00:59] [Async Chat Thread - #24/INFO]: <[MEMBER]  C2gl> ./ar
-[17:01:18] [Server thread/INFO]: C2gl issued server command: /ar reload
-[17:01:22] [Server thread/INFO]: C2gl issued server command: /ar check
-[17:01:22] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:01:25] [Async Chat Thread - #24/INFO]: <TomosChlausorius> kom call misschien dan kunt ge gewoon via daar uitleggen
-[17:01:48] [Async Chat Thread - #26/INFO]: <[MEMBER]  C2gl> give me a sec
-[17:01:52] [Async Chat Thread - #24/INFO]: <TomosChlausorius> oke
-[17:02:30] [Server thread/INFO]: C2gl issued server command: /ar check
-[17:02:30] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:02:43] [Server thread/INFO]: TomosChlausorius issued server command: /ar info
-[17:02:48] [Server thread/INFO]: C2gl issued server command: /ar view mob hunter LVL0
-[17:02:50] [Server thread/INFO]: TomosChlausorius issued server command: /ar info TomosChlausorius
-[17:03:08] [Server thread/INFO]: C2gl issued server command: /deop TomosChlausorius
-[17:03:08] [Server thread/INFO]: [C2gl: Made TomosChlausorius no longer a server operator]
-[17:03:34] [Server thread/INFO]: TomosChlausorius issued server command: /homes
-[17:03:55] [Server thread/INFO]: C2gl issued server command: /ar check
-[17:03:55] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:03:58] [Server thread/INFO]: TomosChlausorius issued server command: /ar check
-[17:03:58] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:03:58] [Server thread/INFO]: CONSOLE issued server command: /give TomosChlausorius diamond 5
-[17:03:58] [Server thread/INFO]: Giving 5 of diamond to TomosChlausorius.
-[17:03:58] [Server thread/INFO]: CONSOLE issued server command: /give TomosChlausorius diamond 1
-[17:03:58] [Server thread/INFO]: Giving 1 of diamond to TomosChlausorius.
-[17:03:58] [Server thread/INFO]: CONSOLE issued server command: /give TomosChlausorius diamond 3
-[17:03:58] [Server thread/INFO]: Giving 3 of diamond to TomosChlausorius.
-[17:03:58] [Server thread/INFO]: CONSOLE issued server command: /give TomosChlausorius diamond 1
-[17:03:58] [Server thread/INFO]: Giving 1 of diamond to TomosChlausorius.
-[17:04:13] [Server thread/INFO]: TomosChlausorius issued server command: /ar check lumberjack LVL2
-[17:04:21] [Server thread/INFO]: C2gl issued server command: /ar check lumberjack LVL0
-[17:04:28] [Server thread/INFO]: TomosChlausorius issued server command: /ar check Farmer LVL0
-[17:04:35] [Server thread/INFO]: TomosChlausorius issued server command: /ar check Miner LVL0
-[17:05:20] [Server thread/INFO]: C2gl issued server command: /ar reload
-[17:05:23] [Server thread/INFO]: CONSOLE issued server command: /give TomosChlausorius diamond 20
-[17:05:23] [Server thread/INFO]: Giving 20 of diamond to TomosChlausorius.
-[17:05:25] [Server thread/INFO]: TomosChlausorius issued server command: /ar check Miner LVL0
-[17:05:30] [Server thread/INFO]: C2gl issued server command: /ar check Miner LVL0
-[17:05:52] [Server thread/INFO]: C2gl issued server command: /ar check
-[17:05:52] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:05:54] [Server thread/INFO]: TomosChlausorius issued server command: /ar check
-[17:05:54] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:05:54] [Server thread/INFO]: CONSOLE issued server command: /give TomosChlausorius netherite_ingot 1
-[17:05:54] [Server thread/INFO]: Giving 1 of netherite ingot to TomosChlausorius.
-[17:05:56] [Server thread/INFO]: TomosChlausorius issued server command: /ar check
-[17:05:56] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:06:01] [Server thread/INFO]: C2gl issued server command: /ar info TomosChlausorius
-[17:06:06] [Server thread/INFO]: TomosChlausorius issued server command: /ar check
-[17:06:06] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:06:11] [Server thread/INFO]: C2gl issued server command: /ar fcheck TomosChlausorius
-[17:06:13] [Server thread/INFO]: C2gl issued server command: /ar fcheck TomosChlausorius
-[17:06:13] [Server thread/INFO]: TomosChlausorius issued server command: /ar check
-[17:06:13] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:06:13] [Server thread/INFO]: C2gl issued server command: /ar fcheck TomosChlausorius
-[17:06:14] [Server thread/INFO]: C2gl issued server command: /ar fcheck TomosChlausorius
-[17:06:14] [Server thread/INFO]: C2gl issued server command: /ar fcheck TomosChlausorius
-[17:06:15] [Server thread/INFO]: C2gl issued server command: /ar fcheck TomosChlausorius
-[17:06:15] [Server thread/INFO]: C2gl issued server command: /ar fcheck TomosChlausorius
-[17:06:15] [Server thread/INFO]: TomosChlausorius issued server command: /ar check
-[17:06:15] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:06:16] [Server thread/INFO]: C2gl issued server command: /ar fcheck TomosChlausorius
-[17:06:16] [Server thread/INFO]: TomosChlausorius issued server command: /ar check
-[17:06:16] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:06:17] [Server thread/INFO]: TomosChlausorius issued server command: /ar check
-[17:06:17] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:06:18] [Server thread/INFO]: TomosChlausorius issued server command: /ar check
-[17:06:18] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:06:19] [Server thread/INFO]: TomosChlausorius issued server command: /ar check
-[17:06:19] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:06:19] [Server thread/INFO]: C2gl issued server command: /ar info TomosChlausorius
-[17:06:20] [Server thread/INFO]: TomosChlausorius issued server command: /ar check
-[17:06:20] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:06:30] [Server thread/INFO]: TomosChlausorius issued server command: /ar check
-[17:06:30] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:06:36] [Server thread/INFO]: TomosChlausorius issued server command: /ar check [MEMBER]
-[17:06:55] [Server thread/INFO]: C2gl issued server command: /ar check
-[17:06:55] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:07:00] [Server thread/INFO]: TomosChlausorius issued server command: /ar check mob hunter LVL2
-[17:07:52] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
-[17:07:55] [Server thread/INFO]: C2gl issued server command: /ar view [VIP]
-[17:08:08] [Server thread/INFO]: TomosChlausorius issued server command: /ar view
-[17:08:20] [Server thread/INFO]: TomosChlausorius issued server command: /ar view builder LVL0
-[17:08:41] [Server thread/INFO]: TomosChlausorius issued server command: /ar view list
-[17:11:10] [Server thread/INFO]: C2gl issued server command: /home sav
-[17:11:15] [Server thread/INFO]: C2gl issued server command: /lp editor
-[17:11:55] [Server thread/INFO]: C2gl issued server command: /lp applyedits yAB5d29LRB
-[17:11:55] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (member)
-[17:11:55] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.tp true
-[17:12:05] [User Authenticator #6/INFO]: UUID of player transferreSP is f303893c-768a-4c80-b4f9-65d2a7a8210c
-[17:12:11] [Server thread/INFO]: transferreSP[/10.147.19.124:60137] logged in with entity id 42280 at ([world]-4687.300000011921, 68.0, 3201.699999988079)
-[17:12:12] [Server thread/INFO]: ~furry has blessed you with his presence
-[17:12:12] [Server thread/INFO]: CONSOLE issued server command: /give transferreSP diamond 20
-[17:12:12] [Server thread/INFO]: Giving 20 of diamond to ~furry.
-[17:12:16] [Server thread/INFO]: C2gl issued server command: /sellall CARROT
-[17:12:16] [Server thread/INFO]: Shop >> C2gl sold 95 x Carrot(Farming.page1.items.8) for $118.75 with the sell all command.
-[17:12:23] [Async Chat Thread - #28/INFO]: <~furry> hallo
-[17:12:28] [Async Chat Thread - #27/INFO]: <TomosChlausorius> hallo
-[17:12:30] [Async Chat Thread - #28/INFO]: <[MEMBER]  C2gl> hey ferre
-[17:12:31] [Async Chat Thread - #27/INFO]: <TomosChlausorius> call?
-[17:12:43] [Async Chat Thread - #28/INFO]: <~furry> onmogelijk
-[17:12:49] [User Authenticator #7/INFO]: UUID of player JMBoy is eb6f06a3-c143-4f22-ac6b-f7afc112344b
-[17:12:58] [Server thread/INFO]: JMBoy[/10.147.19.129:54974] logged in with entity id 42894 at ([world]-5287.38295115447, -5.125, 2756.6936054511484)
-[17:12:58] [Server thread/INFO]: ~Janine has blessed you with his presence
-[17:12:58] [Server thread/INFO]: CONSOLE issued server command: /give JMBoy diamond 20
-[17:12:58] [Server thread/INFO]: Giving 20 of diamond to ~Janine.
-[17:13:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2562ms or 51 ticks behind
-[17:13:12] [Async Chat Thread - #27/INFO]: <~furry> hey janine
-[17:13:19] [Async Chat Thread - #28/INFO]: <~Janine> hey
-[17:13:25] [Server thread/INFO]: C2gl issued server command: /ar check
-[17:13:25] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:13:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2504ms or 50 ticks behind
-[17:13:32] [Async Chat Thread - #27/INFO]: <[MEMBER]  C2gl> ./ar check
-[17:13:34] [Async Chat Thread - #28/INFO]: <~furry> ikb en thuis als antwoord op u vraag
-[17:13:36] [Server thread/INFO]: JMBoy issued server command: /ar check
-[17:13:36] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:13:36] [Server thread/INFO]: CONSOLE issued server command: /give JMBoy netherite_ingot 1
-[17:13:36] [Server thread/INFO]: Giving 1 of netherite ingot to ~Janine.
-[17:13:36] [Server thread/INFO]: CONSOLE issued server command: /give JMBoy diamond 1
-[17:13:36] [Server thread/INFO]: Giving 1 of diamond to ~Janine.
-[17:13:36] [Server thread/INFO]: CONSOLE issued server command: /give JMBoy diamond 3
-[17:13:36] [Server thread/INFO]: Giving 3 of diamond to ~Janine.
-[17:13:36] [Server thread/INFO]: transferreSP issued server command: /ar check
-[17:13:36] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:13:36] [Server thread/INFO]: CONSOLE issued server command: /give transferreSP netherite_ingot 1
-[17:13:36] [Server thread/INFO]: Giving 1 of netherite ingot to ~furry.
-[17:13:41] [Async Chat Thread - #28/INFO]: <~furry> twee lumberjacks?
-[17:13:52] [Server thread/INFO]: C2gl issued server command: /deop JMBoy
-[17:13:52] [Server thread/INFO]: [C2gl: Made JMBoy no longer a server operator]
-[17:13:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2561ms or 51 ticks behind
-[17:13:55] [Server thread/INFO]: transferreSP issued server command: /echest
-[17:13:56] [Async Chat Thread - #27/INFO]: <~Janine> ja precies
-[17:14:00] [Server thread/INFO]: C2gl issued server command: /deop transferreSP
-[17:14:00] [Server thread/INFO]: [C2gl: Made transferreSP no longer a server operator]
-[17:14:09] [Server thread/INFO]: transferreSP issued server command: /home home
-[17:14:10] [Server thread/INFO]: TomosChlausorius issued server command: /ar check Farmer LVL0
-[17:14:14] [Server thread/INFO]: C2gl issued server command: /ar info JMBoy
-[17:14:19] [Server thread/INFO]: transferreSP issued server command: /back
-[17:14:25] [Server thread/INFO]: JMBoy issued server command: /home home
-[17:14:45] [Server thread/INFO]: TomosChlausorius issued server command: /ar check Farmer LVL1
-[17:14:50] [Server thread/INFO]: C2gl issued server command: /ar info TomosChlausorius
-[17:15:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2520ms or 50 ticks behind
-[17:15:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4140ms or 82 ticks behind
-[17:15:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2518ms or 50 ticks behind
-[17:15:56] [Server thread/INFO]: C2gl issued server command: /ar broadcast C2gl test
-[17:16:02] [Async Chat Thread - #30/INFO]: <~furry> test
-[17:16:05] [Server thread/INFO]: transferreSP issued server command: /me test
-[17:16:05] [Server thread/INFO]: Â§ctransferreSP Â§4was denied access to command.
-[17:16:06] [Server thread/INFO]: C2gl issued server command: /ar leaderboard
-[17:16:19] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
-[17:16:26] [Server thread/INFO]: TomosChlausorius issued server command: /ar leaderboard
-[17:16:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2502ms or 50 ticks behind
-[17:16:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2576ms or 51 ticks behind
-[17:17:01] [Server thread/INFO]: transferreSP issued server command: /sellgui
-[17:17:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2984ms or 59 ticks behind
-[17:17:04] [Server thread/INFO]: C2gl issued server command: /ar check
-[17:17:04] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:17:08] [Server thread/INFO]: Shop >> ~furry sold 1165x Stone(Blocks.page4.items.169), 6x Bone(Mobs.page1.items.4), 5x Rotten Flesh(Mobs.page1.items.15) for $60.60 with the sell gui.
-[17:17:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3740ms or 74 ticks behind
-[17:17:38] [Server thread/INFO]: C2gl issued server command: /ar check Farmer LVL2
-[17:17:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3443ms or 68 ticks behind
-[17:17:44] [Server thread/INFO]: C2gl issued server command: /sellall CARROT
-[17:17:44] [Server thread/INFO]: Shop >> C2gl sold 210 x Carrot(Farming.page1.items.8) for $262.50 with the sell all command.
-[17:17:55] [Server thread/INFO]: TomosChlausorius issued server command: /home iron
-[17:18:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2510ms or 50 ticks behind
-[17:18:20] [Server thread/INFO]: JMBoy issued server command: /shop
-[17:18:21] [Server thread/INFO]: C2gl issued server command: /ar check
-[17:18:21] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:18:51] [Server thread/INFO]: C2gl issued server command: /tpa TomosChlausorius
-[17:18:53] [Server thread/INFO]: TomosChlausorius issued server command: /tpaccept
-[17:18:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2515ms or 50 ticks behind
-[17:19:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6989ms or 139 ticks behind
-[17:19:39] [Server thread/INFO]: C2gl issued server command: /back
-[17:19:39] [Server thread/WARN]: C2gl moved too quickly! 2111.40352817425,77.0,-2977.0522325384263
-[17:19:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7896ms or 157 ticks behind
-[17:19:48] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
-[17:19:50] [Server thread/INFO]: transferreSP issued server command: /sellgui
-[17:19:57] [Server thread/INFO]: Shop >> ~furry sold 1152x Stone(Blocks.page4.items.169), 3x String(Mobs.page1.items.18), 3x Spider Eye(Mobs.page1.items.17) for $49.08 with the sell gui.
-[17:20:01] [Server thread/INFO]: transferreSP issued server command: /ar check
-[17:20:01] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:20:16] [Server thread/INFO]: transferreSP issued server command: /ar choose
-[17:20:19] [Async Chat Thread - #32/INFO]: <[MEMBER]  C2gl> hzo twee lumberjacks?
-[17:20:19] [Server thread/INFO]: transferreSP issued server command: /ar choose miner
-[17:20:21] [Async Chat Thread - #31/INFO]: <~furry> idk
-[17:20:23] [Async Chat Thread - #31/INFO]: <~furry> en miner is weg
-[17:20:29] [Server thread/INFO]: C2gl issued server command: /ar info transferreSP
-[17:20:33] [Server thread/INFO]: TomosChlausorius issued server command: /ar check lumberjack LVL2
-[17:20:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2518ms or 50 ticks behind
-[17:21:09] [Server thread/INFO]: TomosChlausorius issued server command: /home iron
-[17:21:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2506ms or 50 ticks behind
-[17:21:13] [Async Chat Thread - #32/INFO]: <[MEMBER]  C2gl> huh, miner heb je blijkbaar al allemaal gedaan (van degene die ik al heb gemaakt xd;, en ja, lumberjack is een bug xd
-[17:22:14] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
-[17:23:02] [Server thread/INFO]: transferreSP lost connection: Disconnected
-[17:23:02] [Server thread/INFO]: transferreSP left the game
-[17:24:25] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
-[17:25:05] [Server thread/INFO]: C2gl issued server command: /ar reload
-[17:25:12] [Server thread/INFO]: C2gl issued server command: /ar check
-[17:25:12] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:25:14] [Server thread/INFO]: JMBoy issued server command: /home home
-[17:25:14] [Server thread/INFO]: TomosChlausorius issued server command: /ar check
-[17:25:14] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:25:14] [Server thread/INFO]: CONSOLE issued server command: /give TomosChlausorius netherite_ingot 1
-[17:25:14] [Server thread/INFO]: Giving 1 of netherite ingot to TomosChlausorius.
-[17:25:16] [Server thread/INFO]: TomosChlausorius issued server command: /ar check
-[17:25:16] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:25:17] [Server thread/INFO]: TomosChlausorius issued server command: /ar check
-[17:25:17] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:25:19] [Server thread/INFO]: TomosChlausorius issued server command: /ar check
-[17:25:19] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:25:19] [Server thread/INFO]: JMBoy issued server command: /ar check
-[17:25:19] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:25:24] [Server thread/INFO]: JMBoy issued server command: /ar check
-[17:25:24] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:25:24] [Server thread/INFO]: JMBoy issued server command: /ar check
-[17:25:24] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:25:25] [Server thread/INFO]: JMBoy issued server command: /ar check
-[17:25:25] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:25:25] [Server thread/INFO]: JMBoy issued server command: /ar check
-[17:25:25] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:25:25] [Server thread/INFO]: JMBoy issued server command: /ar check
-[17:25:25] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:25:26] [Server thread/INFO]: JMBoy issued server command: /ar check
-[17:25:26] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:25:26] [Server thread/INFO]: C2gl issued server command: /ar info TomosChlausorius
-[17:25:39] [Server thread/INFO]: TomosChlausorius issued server command: /ar check miner LVL3
-[17:25:44] [Server thread/INFO]: C2gl issued server command: /ar info JMBoy
-[17:26:23] [Server thread/INFO]: TomosChlausorius was slain by JMBoy
-[17:26:28] [Server thread/INFO]: TomosChlausorius issued server command: /back
-[17:27:03] [Server thread/INFO]: C2gl issued server command: /ar check
-[17:27:03] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:28:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2505ms or 50 ticks behind
-[17:29:44] [Server thread/INFO]: C2gl issued server command: /ar check
-[17:29:44] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:29:53] [Server thread/INFO]: C2gl issued server command: /ar info TomosChlausorius
-[17:30:05] [Server thread/INFO]: JMBoy issued server command: /warp exp
-[17:30:12] [Server thread/INFO]: C2gl issued server command: /ar info TomosChlausorius member
-[17:30:31] [Server thread/INFO]: C2gl issued server command: /ar check builder LVL2
-[17:30:39] [Server thread/INFO]: TomosChlausorius issued server command: /shop
-[17:30:41] [Server thread/INFO]: C2gl issued server command: /ar check builder LVL2
-[17:30:52] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.37) for $882 with the buy screen.
-[17:30:55] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.38) for $441 with the buy screen.
-[17:30:58] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy screen.
-[17:30:58] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy screen.
-[17:30:58] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy screen.
-[17:30:58] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy screen.
-[17:30:58] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy screen.
-[17:30:59] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy screen.
-[17:30:59] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy screen.
-[17:30:59] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy screen.
-[17:30:59] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy screen.
-[17:30:59] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy screen.
-[17:30:59] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy screen.
-[17:31:00] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy screen.
-[17:31:00] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy screen.
-[17:31:00] [Server thread/INFO]: C2gl issued server command: /tpa JMBoy
-[17:31:01] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy stacks screen.
-[17:31:01] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy stacks screen.
-[17:31:01] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy stacks screen.
-[17:31:02] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy stacks screen.
-[17:31:02] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy stacks screen.
-[17:31:02] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy stacks screen.
-[17:31:02] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy stacks screen.
-[17:31:02] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy stacks screen.
-[17:31:03] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy stacks screen.
-[17:31:03] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy stacks screen.
-[17:31:03] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Enchanted Book(Enchanting.page1.items.21) for $160 with the buy stacks screen.
-[17:31:13] [Server thread/INFO]: JMBoy issued server command: /tpaccept
-[17:31:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2537ms or 50 ticks behind
-[17:31:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7020ms or 140 ticks behind
-[17:31:55] [Server thread/INFO]: C2gl issued server command: /home sav
-[17:31:55] [Server thread/WARN]: C2gl moved too quickly! -1919.147090232535,-126.0,-2063.9582013201925
-[17:31:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5281ms or 105 ticks behind
-[17:31:59] [Server thread/INFO]: TomosChlausorius issued server command: /warp exp
-[17:32:29] [Server thread/INFO]: C2gl issued server command: /ar check
-[17:32:29] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:32:32] [Server thread/INFO]: C2gl issued server command: /ar leaderboard
-[17:32:49] [Server thread/INFO]: C2gl issued server command: /ar leaderboards
-[17:32:56] [Server thread/INFO]: C2gl issued server command: /ar leaderboard daily
-[17:33:43] [Server thread/INFO]: JMBoy issued server command: /home home
-[17:33:53] [Server thread/INFO]: C2gl lost connection: Disconnected
-[17:33:53] [Server thread/INFO]: C2gl left the game
-[17:33:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2689ms or 53 ticks behind
-[17:34:45] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
-[17:35:26] [Server thread/INFO]: TomosChlausorius has completed the challenge [Cover Me in Debris]
-[17:37:38] [User Authenticator #8/INFO]: UUID of player kleinekneus is d369188e-acdb-4f5c-92cb-6012e961125a
-[17:37:56] [Server thread/INFO]: kleinekneus[/10.147.19.120:64220] logged in with entity id 63641 at ([world]-6783.1053674291725, 75.0, 2667.2780112425803)
-[17:37:57] [Server thread/INFO]: ~favoriet has blessed you with his presence
-[17:38:20] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | bonk] C2gl > doe ook een paar keer /ar check xd
-[17:38:28] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | bonk] C2gl > dan krijg je cadeaus xd
-[17:39:32] [Server thread/INFO]: kleinekneus issued server command: /HOME HOME
-[17:39:37] [Server thread/INFO]: kleinekneus issued server command: /home home
-[17:40:50] [Server thread/WARN]: JMBoy moved wrongly!
-[17:40:50] [Server thread/WARN]: JMBoy moved wrongly!
-[17:40:50] [Server thread/WARN]: JMBoy moved wrongly!
-[17:42:32] [Server thread/WARN]: TomosChlausorius moved wrongly!
-[17:42:41] [Server thread/INFO]: kleinekneus issued server command: /home home
-[17:42:54] [Server thread/INFO]: CONSOLE issued server command: /lag 
-[17:42:54] [Server thread/INFO]: Uptime: 3 hours 54 minutes 37 seconds
-[17:42:54] [Server thread/INFO]: Current TPS = 20
-[17:42:54] [Server thread/INFO]: Maximum memory: 6.500 MB.
-[17:42:54] [Server thread/INFO]: Allocated memory: 3.336 MB.
-[17:42:54] [Server thread/INFO]: Free memory: 446 MB.
-[17:42:54] [Server thread/INFO]: World "world": 3.048 chunks, 694 entities, 410 tiles.
-[17:42:54] [Server thread/INFO]: Nether "world_nether": 529 chunks, 23 entities, 0 tiles.
-[17:42:54] [Server thread/INFO]: The End "world_the_end": 529 chunks, 70 entities, 25 tiles.
-[17:42:55] [Server thread/INFO]: CONSOLE issued server command: /give kleinekneus diamond 1
-[17:42:55] [Server thread/INFO]: Giving 1 of diamond to ~favoriet.
-[17:42:55] [Server thread/INFO]: CONSOLE issued server command: /give kleinekneus diamond 3
-[17:42:55] [Server thread/INFO]: Giving 3 of diamond to ~favoriet.
-[17:42:59] [Server thread/INFO]: TPS from last 1m, 5m, 15m: *20.0, 19.95, 19.75
-[17:42:59] [Server thread/INFO]: Current Memory Usage: 1387/3336 mb (Max: 6500 mb)
-[17:44:53] [Server thread/INFO]: kleinekneus issued server command: /home home
-[17:47:38] [Server thread/WARN]: TomosChlausorius moved wrongly!
-[17:47:41] [Server thread/WARN]: TomosChlausorius moved wrongly!
-[17:47:43] [Server thread/WARN]: TomosChlausorius moved wrongly!
-[17:47:58] [Server thread/INFO]: kleinekneus issued server command: /home home
-[17:52:58] [Server thread/WARN]: JMBoy moved wrongly!
-[17:55:10] [Server thread/INFO]: kleinekneus issued server command: /home home
-[17:55:26] [Server thread/WARN]: TomosChlausorius moved wrongly!
-[17:55:40] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[17:55:44] [Server thread/INFO]: You are a robot, you can't run this command from console, silly..
-[17:56:12] [Server thread/WARN]: TomosChlausorius moved wrongly!
-[17:56:17] [Server thread/WARN]: TomosChlausorius moved wrongly!
-[17:56:27] [Server thread/WARN]: JMBoy moved wrongly!
-[17:56:57] [Server thread/WARN]: TomosChlausorius moved wrongly!
-[17:56:59] [Server thread/WARN]: TomosChlausorius moved wrongly!
-[17:57:22] [User Authenticator #9/INFO]: UUID of player C2gl is ac59ab29-63a9-4865-912e-ab25be6efa08
-[17:57:32] [Server thread/INFO]: C2gl[/127.0.0.1:56517] logged in with entity id 72749 at ([world]-3183.2480836475993, 72.0, -219.23952043658215)
-[17:57:33] [Server thread/INFO]: [MEMBER]  C2gl has blessed you with his presence
-[17:57:47] [Server thread/INFO]: C2gl issued server command: /discordsrv reload
-[17:57:48] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
-[17:57:50] [Server thread/INFO]: C2gl issued server command: /ar reload
-[17:57:54] [Server thread/INFO]: C2gl issued server command: /ar check
-[17:57:54] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:58:09] [Server thread/INFO]: C2gl issued server command: /ar check
-[17:58:09] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[17:58:42] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
-[17:58:49] [Server thread/INFO]: JMBoy issued server command: /home home
-[17:58:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2503ms or 50 ticks behind
-[17:59:02] [Server thread/INFO]: TomosChlausorius issued server command: /shop
-[17:59:04] [Server thread/INFO]: C2gl issued server command: /discordsrv link
-[17:59:05] [Server thread/INFO]: kleinekneus issued server command: /fly
-[17:59:05] [Server thread/INFO]: Â§ckleinekneus Â§4was denied access to command.
-[17:59:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2508ms or 50 ticks behind
-[17:59:42] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:42] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:42] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:42] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:42] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:44] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:44] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:44] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:44] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:44] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:45] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:45] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:45] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:45] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:45] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:46] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:46] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:46] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:46] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:46] [Server thread/INFO]: Shop >> TomosChlausorius bought 1 x Sponge(Miscellaneous.page1.items.33) for $525 with the buy screen.
-[17:59:58] [Server thread/INFO]: JMBoy issued server command: /home home
-[18:00:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7040ms or 140 ticks behind
-[18:00:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9887ms or 197 ticks behind
-[18:00:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8818ms or 176 ticks behind
-[18:01:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4787ms or 95 ticks behind
-[18:01:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4895ms or 97 ticks behind
-[18:01:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2924ms or 58 ticks behind
-[18:01:59] [Server thread/INFO]: JMBoy issued server command: /tpa kleinekneus
-[18:02:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2736ms or 54 ticks behind
-[18:02:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2529ms or 50 ticks behind
-[18:02:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6391ms or 127 ticks behind
-[18:03:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5984ms or 119 ticks behind
-[18:03:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7394ms or 147 ticks behind
-[18:03:37] [Server thread/INFO]: kleinekneus issued server command: /tpaccept
-[18:03:51] [Server thread/INFO]: C2gl issued server command: /ar check
-[18:03:51] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[18:03:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11088ms or 221 ticks behind
-[18:03:57] [Server thread/INFO]: C2gl issued server command: /ar check Farmer LVL2
-[18:04:01] [Server thread/INFO]: kleinekneus issued server command: /home home
-[18:04:07] [Server thread/INFO]: TomosChlausorius issued server command: /back
-[18:04:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7420ms or 148 ticks behind
-[18:07:51] [Server thread/INFO]: kleinekneus issued server command: /home home
-[18:08:09] [Server thread/INFO]: C2gl issued server command: /sellall CARROT
-[18:08:09] [Server thread/INFO]: Shop >> C2gl sold 389 x Carrot(Farming.page1.items.8) for $486.25 with the sell all command.
-[18:08:12] [Server thread/INFO]: C2gl issued server command: /ar check
-[18:08:12] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[18:08:16] [Server thread/INFO]: kleinekneus issued server command: /home
-[18:08:20] [Server thread/INFO]: kleinekneus issued server command: /home home
-[18:09:04] [Server thread/WARN]: JMBoy moved wrongly!
-[18:09:07] [Server thread/WARN]: JMBoy moved wrongly!
-[18:11:00] [Server thread/INFO]: kleinekneus issued server command: /home home
-[18:11:04] [Server thread/INFO]: C2gl issued server command: /sellall BEETROOT
-[18:11:04] [Server thread/INFO]: Shop >> C2gl sold 273 x Beetroot(Farming.page1.items.4) for $273 with the sell all command.
-[18:11:05] [Server thread/INFO]: kleinekneus issued server command: /home end
-[18:11:08] [Server thread/INFO]: C2gl issued server command: /sellall BEETROOT_SEEDS
-[18:11:08] [Server thread/INFO]: Shop >> C2gl sold 474 x Beetroot Seeds(Farming.page1.items.5) for $355.50 with the sell all command.
-[18:11:11] [Server thread/INFO]: C2gl issued server command: /ar check
-[18:11:11] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
-[18:11:25] [Server thread/INFO]: C2gl lost connection: Disconnected
-[18:11:25] [Server thread/INFO]: C2gl left the game
-[18:11:55] [Server thread/INFO]: kleinekneus issued server command: /home home
-[18:13:25] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | bonk] C2gl > pex ben je er?
-[18:13:30] [Async Chat Thread - #36/INFO]: <~Janine> heh
-[18:13:46] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | bonk] C2gl > ik moet binnekort vertrekken, kun je de serv overnemen ?
-[18:13:58] [Async Chat Thread - #35/INFO]: <~Janine> ja kan ik doen
-[18:14:17] [Server thread/INFO]: TomosChlausorius lost connection: Disconnected
-[18:14:17] [Server thread/INFO]: TomosChlausorius left the game
-[18:14:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | bonk] C2gl > oki, zet iedereen zich safe? dan doe ik hum uit
-[18:14:27] [Async Chat Thread - #36/INFO]: <~Janine> ja kan
-[18:14:29] [Async Chat Thread - #36/INFO]: <~favoriet> jep
-[18:14:34] [Server thread/INFO]: Stopping the server
-[18:14:34] [Server thread/INFO]: Stopping server
-[18:14:34] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.4.4
-[18:14:34] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
-[18:14:35] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 399ms
-[18:14:35] [Server thread/INFO]: [Autorank] Disabling Autorank v5.2.2
-[18:14:35] [Server thread/INFO]: [Autorank] Autorank 5.2.2 has been disabled!
-[18:14:35] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
-[18:14:35] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+68-993d7ed
-[18:14:35] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[18:14:35] [Server thread/INFO]: [TAB] Disabling TAB v4.1.2
-[18:14:35] [Server thread/INFO]: [TAB] Disabled in 6ms
-[18:14:35] [Server thread/INFO]: [concrete_powder_modifier] Disabling concrete_powder_modifier v${version}
-[18:14:35] [Server thread/INFO]: [Playtimes] Disabling Playtimes v1.6
-[18:14:35] [Server thread/INFO]: [Playtimes] PlayTimes shutting down
-[18:14:35] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[18:14:35] [Server thread/INFO]: [Sleeper] Disabling Sleeper v1.5.1
-[18:14:35] [Server thread/INFO]: [Sleeper] Sleeper Has Been Disabled!
-[18:14:35] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.120
-[18:14:35] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[18:14:35] [Server thread/INFO]: [LuckPerms] Closing storage...
-[18:14:35] [Server thread/INFO]: [LuckPerms] Goodbye!
-[18:14:35] [Server thread/INFO]: Saving players
-[18:14:35] [Server thread/INFO]: JMBoy lost connection: Server closed
-[18:14:35] [Server thread/INFO]: JMBoy left the game.
-[18:14:35] [Server thread/INFO]: kleinekneus lost connection: Server closed
-[18:14:35] [Server thread/INFO]: kleinekneus left the game.
-[18:14:35] [Server thread/INFO]: Saving worlds
-[18:14:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:14:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:14:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:14:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:14:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:14:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:14:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[18:21:07] [Server thread/INFO]: [Autorank] Enabling Autorank v5.2.2
+[18:21:07] [Server thread/INFO]: [Autorank] mainclass getHumanPluginName = Autorank v5.2.2
+[18:21:07] [Server thread/INFO]: [Autorank] mainclass getInternalPluginName = Autorank v5.2.2
+[18:21:07] [Server thread/INFO]: [Autorank] mainclass isPluginAvailable = true
+[18:21:07] [Server thread/INFO]: [Autorank] Generated new log file: log-2024-03-15.txt
+[18:21:07] [Server thread/INFO]: [Autorank] The settings.yml is up-to-date
+[18:21:07] [Server thread/INFO]: [Autorank] Generating new PluginLibrary instance
+[18:21:07] [Server thread/INFO]: [PluginLibrary] ***== Loading libraries ==***
+[18:21:07] [Server thread/INFO]: [PluginLibrary] ***== Loaded 3 libraries! ==***
+[18:21:07] [Server thread/INFO]: [PluginLibrary] Loaded libraries: Autorank (by Staartvin), EssentialsX (by drtshock) and Vault (by Kainzo)
+[18:21:07] [Server thread/INFO]: [PluginLibrary] *** Ready for plugins to send/retrieve data. ***
+[18:21:08] [Server thread/INFO]: [Autorank] Interval check every 5 minutes.
+[18:21:08] [Server thread/INFO]: [Autorank] Registered requirement service for adding custom requirements!
+[18:21:08] [Server thread/INFO]: [Autorank] Registered result service for adding custom results!
+[18:21:08] [Server thread/INFO]: [Autorank] Autorank 5.2.2 has been enabled!
+[18:21:08] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
+[18:21:08] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.4.4
+[18:21:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
+[18:21:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[18:21:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[18:21:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[18:21:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault
+[18:21:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[18:21:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.20.4...
+[18:21:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[18:21:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[18:21:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[18:21:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[18:21:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[18:21:08] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Cannot load item 'page1.items.45' from section Miscellaneous because it is out of range for page size 45
+[18:21:08] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 688ms to complete
+[18:21:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:21:08] [Server thread/INFO]: Done (13.509s)! For help, type "help"
+[18:21:08] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[18:21:08] [Craft Scheduler Thread - 2/INFO]: [Autorank] Loading UUID storage files...
+[18:21:08] [Server thread/INFO]: [Autorank] Registering statistics of vanilla Minecraft!
+[18:21:08] [Server thread/INFO]: [Autorank] Loaded libraries and dependencies
+[18:21:08] [Craft Scheduler Thread - 3/INFO]: [Autorank] Primary storage provider of Autorank: FlatFileStorageProvider
+[18:21:09] [Craft Scheduler Thread - 5/INFO]: [Autorank] Removed 0 old storage entries from database!
+[18:21:09] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates ... 
+[18:21:09] [Craft Scheduler Thread - 1/INFO]: §6Versie-informatie ophalen...
+[18:21:09] [Craft Scheduler Thread - 2/INFO]: [Autorank] Loaded UUID storage in 0 seconds.
+[18:21:09] [Craft Scheduler Thread - 0/INFO]: [Playtimes] [PlayTimes] Plugin is up to date! - 1.6
+[18:21:09] [Craft Scheduler Thread - 5/INFO]: [Vault] No new version available
+[18:21:09] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[18:21:09] [Craft Scheduler Thread - 1/WARN]: §4Je bent §c5 §4EssentialsX-devbuild(s) verouderd!
+[18:21:09] [Craft Scheduler Thread - 1/WARN]: §4Download hem hier:§c https://essentialsx.net/downloads.html
+[18:21:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[18:21:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[18:21:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Server gevonden G:doet de server aanstaan?(1216754477324046377)
+[18:21:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:pings(1216754478376550494)
+[18:21:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mc-chat(1216758720558792734)
+[18:21:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:eh(1216754658098548857)
+[18:21:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:serv-logs(1217438082266304594)
+[18:21:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console kanaal ID is ongeldig, de console wordt niet verzonden
+[18:21:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Inschakelen Essentials hook
+[18:21:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Inschakelen LuckPerms hook
+[18:21:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling voice module
+[18:21:10] [pool-14-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
+[18:21:10] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[18:25:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | bonk] C2gl > thx ^^
+[18:48:10] [User Authenticator #1/INFO]: UUID of player kleinekneus is d369188e-acdb-4f5c-92cb-6012e961125a
+[18:48:16] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:48:16] [Server thread/INFO]: kleinekneus[/84.195.146.229:49165] logged in with entity id 240 at ([world]-6820.9766590811005, 82.0, 2689.300000011921)
+[18:48:17] [Server thread/INFO]: ~favoriet has blessed you with his presence
+[18:50:06] [Server thread/INFO]: kleinekneus issued server command: /home home
+[18:50:06] [Server thread/WARN]: kleinekneus moved too quickly! 27.161292103317464,-6.0,-8.132210906882847
+[18:50:57] [Server thread/INFO]: kleinekneus issued server command: /home home
+[18:50:57] [Server thread/WARN]: kleinekneus moved too quickly! 39.02824488956412,14.194939455991737,176.9258102236381
+[18:51:12] [Server thread/INFO]: kleinekneus issued server command: /home end
+[18:51:51] [Server thread/INFO]: kleinekneus issued server command: /home home
+[19:10:50] [Server thread/INFO]: kleinekneus issued server command: /home home
+[19:10:50] [Server thread/WARN]: kleinekneus moved too quickly! 13.200511694899433,-28.0,-13.391265922803541
+[19:25:06] [Server thread/INFO]: kleinekneus lost connection: Disconnected
+[19:25:06] [Server thread/INFO]: kleinekneus left the game
+[19:26:11] [User Authenticator #2/INFO]: UUID of player JMBoy is eb6f06a3-c143-4f22-ac6b-f7afc112344b
+[19:26:19] [Server thread/INFO]: JMBoy[/127.0.0.1:61571] logged in with entity id 6031 at ([world]-6955.512499988079, 40.0, 2097.4872484671523)
+[19:26:20] [Server thread/INFO]: ~Janine has blessed you with his presence
+[19:26:37] [Server thread/WARN]: JMBoy moved wrongly!
+[19:34:08] [Server thread/WARN]: JMBoy moved wrongly!
+[19:40:45] [Server thread/WARN]: JMBoy moved wrongly!
+[19:41:21] [Server thread/WARN]: JMBoy moved wrongly!
+[19:43:22] [Server thread/INFO]: Made JMBoy a server operator
+[19:48:17] [Server thread/INFO]: JMBoy issued server command: /shop
+[19:48:29] [Server thread/INFO]: Shop >> JMBoy bought 1 x Elytra(Miscellaneous.page1.items.8) for $2,415.20 with the buy screen.
+[19:51:59] [Server thread/WARN]: JMBoy moved wrongly!
+[19:52:06] [Server thread/WARN]: JMBoy moved wrongly!
+[19:56:16] [Server thread/WARN]: JMBoy moved wrongly!
+[20:01:52] [Server thread/INFO]: JMBoy issued server command: /give JMBoy milk_bucket
+[20:03:43] [Server thread/WARN]: JMBoy moved wrongly!
+[20:05:56] [User Authenticator #3/INFO]: UUID of player kleinekneus is d369188e-acdb-4f5c-92cb-6012e961125a
+[20:06:03] [Server thread/INFO]: kleinekneus[/84.195.146.229:51710] logged in with entity id 29761 at ([world]-6816.883377958955, 96.5, 2689.7258945790986)
+[20:06:03] [Server thread/INFO]: ~favoriet has blessed you with his presence
+[20:06:51] [User Authenticator #4/INFO]: UUID of player transferreSP is f303893c-768a-4c80-b4f9-65d2a7a8210c
+[20:07:24] [Server thread/INFO]: com.mojang.authlib.GameProfile@40eca102[id=f303893c-768a-4c80-b4f9-65d2a7a8210c,name=transferreSP,properties={textures=[Property[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTcxMDUyOTY3NzI1NywKICAicHJvZmlsZUlkIiA6ICJmMzAzODkzYzc2OGE0YzgwYjRmOTY1ZDJhN2E4MjEwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0cmFuc2ZlcnJlU1AiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWYxYjc0MWVkZjYzZWYzMTI4Nzg4NmJmNzM2YjQ3NGUyZDQ1ZjI3NDNmNmI1ZDk2MTBmMWE1YzZiYTU0N2M3MSIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=, signature=GxyhXZ/CkEPuQH8bY9ursNRXgK0sCMLClGZ4whbYEGMAtVFMjHHl6xNIS/AUWxBbvK+je2hgid22amfJMUhmF7VIVIsUKP3V/n1ZC8rr6fgIsmI4+FcLX4I6zQCRaqODRbXoLaH9j1d+qn0+PISSSvivBRotqc1BWoR6STqIP1EaixMxYN8UwC2VtiHYgIM9vCc4WF1UbLbPNakbDs7K8wLU0gg5oR82DF6DS0x3OTcxT8GFIz+WapL8ISZQJHcJFTtVV1y+n3m2VdsWgVM4Vu92O9rWGCPM2QeQBjRMAQQH+Ihv0IVrVrxyW8aTL9UyLy1al+Jf9vQBr5HlLkPGAy9x8N2Dp4d4S/4FTKN9Bza1wbQ7M+VdKehZmvd9tH32I9jWqrFtJpEG0j5BidcsEC+9WLTEsI/wkSkMGIoeN8YSIRu9pBCteBnW+ykqafAxDZ6YE1CQ0LPltylLBr+gTNNLCnbk0ML8JtpEmK/4QQoK2GGBQ7nxR0z8X4hHK8RzOis7eRdpPbbHQllcwK23CcIs73XL8vf9N1anE+XvlrSfQbA6bhTL09Sp4bFKx9x1dVmNf/agKuPG9jlsxhcWjqVOyC42qrkGKbroHZ3oBmWiho2s6hPgXBcdaTdDYpRHNhqjksaamUOVgtoFrBYZblYmr0D4zrxByp98OInxkGo=]]}] lost connection: Disconnected
+[20:07:30] [Server thread/INFO]: JMBoy issued server command: /home home
+[20:07:35] [User Authenticator #5/INFO]: UUID of player transferreSP is f303893c-768a-4c80-b4f9-65d2a7a8210c
+[20:07:53] [Server thread/INFO]: transferreSP[/81.165.4.250:62425] logged in with entity id 31407 at ([world]-4681.792363389926, 60.0, 3189.8410924315644)
+[20:07:53] [Server thread/INFO]: ~furry has blessed you with his presence
+[20:07:54] [Server thread/INFO]: CONSOLE issued server command: /give transferreSP netherite_ingot 1
+[20:07:54] [Server thread/INFO]:  1 netherite ingot gegeven aan ~furry.
+[20:08:33] [Server thread/INFO]: transferreSP lost connection: Disconnected
+[20:08:33] [Server thread/INFO]: transferreSP left the game
+[20:08:41] [Async Chat Thread - #3/INFO]: <~favoriet> neeeee ferreeee
+[20:08:45] [Async Chat Thread - #4/INFO]: <~favoriet> ik heb stone nodig
+[20:08:46] [User Authenticator #6/INFO]: UUID of player transferreSP is f303893c-768a-4c80-b4f9-65d2a7a8210c
+[20:08:48] [Server thread/INFO]: transferreSP[/81.165.4.250:62439] logged in with entity id 32419 at ([world]-4681.792363389926, 60.0, 3189.8410924315644)
+[20:08:49] [Server thread/INFO]: ~furry has blessed you with his presence
+[20:08:49] [Server thread/INFO]: CONSOLE issued server command: /give transferreSP netherite_ingot 2
+[20:08:49] [Server thread/INFO]:  2 netherite ingot gegeven aan ~furry.
+[20:08:59] [Async Chat Thread - #3/INFO]: <~favoriet> Secondje
+[20:09:04] [Server thread/INFO]: kleinekneus issued server command: /home home
+[20:09:11] [Server thread/INFO]: transferreSP lost connection: Disconnected
+[20:09:11] [Server thread/INFO]: transferreSP left the game
+[20:09:33] [Server thread/INFO]: transferreSP (/81.165.4.250:62450) lost connection: Disconnected
+[20:09:39] [Async Chat Thread - #4/INFO]: <~favoriet> :(
+[20:09:44] [User Authenticator #7/INFO]: UUID of player transferreSP is f303893c-768a-4c80-b4f9-65d2a7a8210c
+[20:10:01] [Server thread/INFO]: transferreSP[/81.165.4.250:62463] logged in with entity id 33202 at ([world]-4681.792363389926, 60.0, 3189.8410924315644)
+[20:10:02] [Server thread/INFO]: ~furry has blessed you with his presence
+[20:10:02] [Server thread/INFO]: CONSOLE issued server command: /give transferreSP netherite_ingot 2
+[20:10:02] [Server thread/INFO]:  2 netherite ingot gegeven aan ~furry.
+[20:10:08] [Server thread/INFO]: kleinekneus issued server command: /tpa trans
+[20:10:51] [Server thread/INFO]: transferreSP lost connection: Timed out
+[20:10:51] [Server thread/INFO]: transferreSP left the game.
+[20:11:11] [Async Chat Thread - #6/INFO]: <~favoriet> gaat goed precies
+[20:12:10] [Server thread/INFO]: kleinekneus issued server command: /home home
+[20:12:49] [Server thread/INFO]: JMBoy issued server command: /tpa kleinekneus
+[20:12:58] [Server thread/INFO]: kleinekneus issued server command: /tpaccept
+[20:12:58] [Server thread/WARN]: JMBoy moved too quickly! -1496.4599052055855,-37.25220334025373,-78.19999998807907
+[20:12:58] [Server thread/WARN]: JMBoy moved too quickly! -1496.4599052055855,-37.25220334025373,-78.19999998807907
+[20:12:58] [Server thread/WARN]: JMBoy moved too quickly! -1496.4599052055855,-37.25220334025373,-78.19999998807907
+[20:12:58] [Server thread/WARN]: JMBoy moved too quickly! -1496.4599052055855,-37.25220334025373,-78.19999998807907
+[20:12:58] [Server thread/WARN]: JMBoy moved too quickly! -1496.4599052055855,-37.25220334025373,-78.19999998807907
+[20:12:58] [Server thread/WARN]: JMBoy moved too quickly! -1496.4599052055855,-37.25220334025373,-78.19999998807907
+[20:15:00] [Server thread/INFO]: JMBoy issued server command: /home transferreSP:home
+[20:15:04] [Server thread/INFO]: JMBoy issued server command: /home transferreSP:bed
+[20:15:08] [Server thread/INFO]: JMBoy issued server command: /home transferreSP:bed
+[20:15:17] [Server thread/INFO]: JMBoy issued server command: /home transferreSP:powder
+[20:15:40] [Server thread/INFO]: JMBoy issued server command: /home transferreSP:b
+[20:16:32] [Server thread/INFO]: kleinekneus issued server command: /home home
+[20:16:32] [Server thread/WARN]: kleinekneus moved too quickly! 21.471064807608855,-21.0,-26.967395600976033
+[20:16:56] [Server thread/INFO]: kleinekneus issued server command: /tpa JMBoy
+[20:17:02] [Server thread/INFO]: JMBoy issued server command: /tpaccept
+[20:17:33] [Server thread/INFO]: JMBoy issued server command: /home home
+[20:18:36] [Server thread/INFO]: kleinekneus issued server command: /sethome ferre
+[20:21:06] [Server thread/INFO]: kleinekneus issued server command: /home home
+[20:21:45] [Server thread/INFO]: JMBoy issued server command: /home home
+[20:22:06] [Server thread/INFO]: JMBoy issued server command: /home bed
+[20:22:06] [Server thread/WARN]: JMBoy moved too quickly! 4.199999988079071,7.0,-36.106634643608686
+[20:34:16] [Server thread/INFO]: JMBoy issued server command: /home home
+[20:34:27] [Server thread/INFO]: JMBoy issued server command: /home bed
+[20:40:03] [Server thread/INFO]: JMBoy issued server command: /sethome watertemple
+[20:40:08] [Server thread/INFO]: JMBoy issued server command: /homes
+[20:40:16] [Server thread/INFO]: JMBoy issued server command: /home home
+[20:40:50] [Server thread/INFO]: JMBoy issued server command: /home watertemple
+[20:46:35] [Server thread/INFO]: JMBoy issued server command: /home home
+[20:47:01] [Server thread/INFO]: JMBoy issued server command: /home watertemple
+[20:56:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | bonk] C2gl > Ow.. typo xd
+[21:13:50] [Server thread/INFO]: kleinekneus issued server command: /home home
+[21:17:26] [Server thread/INFO]: kleinekneus lost connection: Disconnected
+[21:17:26] [Server thread/INFO]: kleinekneus left the game
+[21:19:24] [Server thread/INFO]: JMBoy issued server command: /home home
+[21:19:28] [Server thread/INFO]: JMBoy issued server command: /home bed
+[21:20:05] [Server thread/INFO]: JMBoy lost connection: Disconnected
+[21:20:05] [Server thread/INFO]: JMBoy left the game
+[21:22:28] [User Authenticator #8/INFO]: UUID of player JMBoy is eb6f06a3-c143-4f22-ac6b-f7afc112344b
+[21:22:36] [Server thread/INFO]: JMBoy[/127.0.0.1:50991] logged in with entity id 76938 at ([world]-5285.887499988079, 101.25, 2753.218135481116)
+[21:22:37] [Server thread/INFO]: ~Janine has blessed you with his presence
+[21:27:15] [Server thread/INFO]: JMBoy issued server command: /warp exp
+[21:34:15] [Server thread/INFO]: JMBoy issued server command: /home home
+[21:35:25] [Server thread/INFO]: JMBoy issued server command: /home bed
+[21:35:25] [Server thread/WARN]: JMBoy moved too quickly! 3.800000011920929,7.0,-29.08286389232717
+[21:35:25] [Server thread/WARN]: JMBoy moved too quickly! 3.800000011920929,7.0,-29.08286389232717
+[21:36:18] [Server thread/INFO]: JMBoy issued server command: /warp exp
+[21:36:50] [Server thread/INFO]: JMBoy issued server command: /give JMBoy milk_bucket 1
+[21:37:02] [Server thread/INFO]: JMBoy issued server command: /home home
+[21:38:08] [Server thread/INFO]: JMBoy issued server command: /warp exp
+[21:38:58] [Server thread/INFO]: JMBoy issued server command: /give JMBoy milk_bucket 1
+[21:39:03] [Server thread/INFO]: JMBoy issued server command: /home home
+[21:40:01] [Server thread/INFO]: JMBoy issued server command: /warp exp
+[21:42:20] [Server thread/INFO]: JMBoy issued server command: /homes
+[21:42:23] [Server thread/INFO]: JMBoy issued server command: /home help
+[21:42:39] [Server thread/INFO]: JMBoy issued server command: /sethome dessert
+[21:42:42] [Server thread/INFO]: JMBoy issued server command: /homes
+[21:42:49] [Server thread/INFO]: JMBoy issued server command: /home delete xp
+[21:49:33] [Server thread/INFO]: JMBoy issued server command: /time set day
+[21:59:17] [Server thread/INFO]: JMBoy issued server command: /home home
+[21:59:27] [Server thread/INFO]: JMBoy issued server command: /home watertemple
+[21:59:52] [Server thread/INFO]: JMBoy lost connection: Disconnected
+[21:59:52] [Server thread/INFO]: JMBoy left the game
+[22:00:02] [Server thread/INFO]: Stopping the server
+[22:00:02] [Server thread/INFO]: Stopping server
+[22:00:02] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.4.4
+[22:00:02] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
+[22:00:03] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown klaar in 513ms
+[22:00:03] [Server thread/INFO]: [Autorank] Disabling Autorank v5.2.2
+[22:00:03] [Server thread/INFO]: [Autorank] Autorank 5.2.2 has been disabled!
+[22:00:03] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[22:00:03] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+68-993d7ed
+[22:00:03] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[22:00:03] [Server thread/INFO]: [TAB] Disabling TAB v4.1.2
+[22:00:03] [Server thread/INFO]: [TAB] Disabled in 0ms
+[22:00:03] [Server thread/INFO]: [concrete_powder_modifier] Disabling concrete_powder_modifier v${version}
+[22:00:03] [Server thread/INFO]: [Playtimes] Disabling Playtimes v1.6
+[22:00:03] [Server thread/INFO]: [Playtimes] PlayTimes shutting down
+[22:00:03] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[22:00:03] [Server thread/INFO]: [Sleeper] Disabling Sleeper v1.5.1
+[22:00:03] [Server thread/INFO]: [Sleeper] Sleeper Has Been Disabled!
+[22:00:03] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.120
+[22:00:03] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[22:00:03] [Server thread/INFO]: [LuckPerms] Closing storage...
+[22:00:03] [Server thread/INFO]: [LuckPerms] Goodbye!
+[22:00:03] [Server thread/INFO]: Saving players
+[22:00:03] [Server thread/INFO]: Saving worlds
+[22:00:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:00:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:00:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

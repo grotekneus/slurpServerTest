@@ -104,6 +104,8 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
       started: 1710519131277
     lumberjack LVL2:
       started: 1710519131277
+    miner LVL5:
+      started: 1710529801668
   completed paths:
     mob hunter LVL0:
       completed: 1
@@ -132,6 +134,15 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
     miner LVL1:
       completed: 1
       completed at: 1710519216138
+    miner LVL2:
+      completed: 1
+      completed at: 1710529674140
+    miner LVL3:
+      completed: 1
+      completed at: 1710529728690
+    miner LVL4:
+      completed: 1
+      completed at: 1710529801667
   exempt leaderboard: false
   exempted from checking: false
   exempted from time addition: false
@@ -186,6 +197,21 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
       completed requirements: []
       completed prerequisites: []
     lumberjack LVL2:
+      completed requirements: []
+      completed prerequisites: []
+    miner LVL2:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    miner LVL3:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    miner LVL4:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    miner LVL5:
       completed requirements: []
       completed prerequisites: []
 873bc772-4a98-4d04-9c9c-9f1e6c18ea3a:
@@ -308,8 +334,6 @@ eb6f06a3-c143-4f22-ac6b-f7afc112344b:
   results not performed:
     completed requirements: {}
   active paths:
-    default to member:
-      started: 1710519178300
     farmer LVL1:
       started: 1710519178311
     mob hunter LVL1:
@@ -347,11 +371,15 @@ eb6f06a3-c143-4f22-ac6b-f7afc112344b:
     builder LVL2:
       completed: 1
       completed at: 1710519216034
+    default to member:
+      completed: 1
+      completed at: 1710531079866
   progress on paths:
     default to member:
       completed requirements:
       - 1
       - 2
+      - 0
       completed prerequisites: []
     farmer LVL0:
       completed requirements:
@@ -411,8 +439,6 @@ d369188e-acdb-4f5c-92cb-6012e961125a:
   results not performed:
     completed requirements: {}
   active paths:
-    default to member:
-      started: 1710520676253
     farmer LVL0:
       started: 1710520676253
     miner LVL0:
@@ -439,11 +465,15 @@ d369188e-acdb-4f5c-92cb-6012e961125a:
     builder LVL2:
       completed: 1
       completed at: 1710520975633
+    default to member:
+      completed: 1
+      completed at: 1710532563859
   progress on paths:
     default to member:
       completed requirements:
       - 1
       - 2
+      - 0
       completed prerequisites: []
     farmer LVL0:
       completed requirements: []
