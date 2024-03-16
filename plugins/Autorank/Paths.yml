@@ -273,7 +273,7 @@ miner LVL3:
     money:
       value: 10000
     command:
-      value: give &p diamond 9
+      value: /give @p wooden_pickaxe{RepairCost:999,display:{Name:'[{"text":"wackus bonkus","italic":false}]',Lore:['[{"text":"Monthy pythons very own wackus bonkus","italic":false}]']},Enchantments:[{id:efficiency,lvl:7},{id:fortune,lvl:5}]} 1
     command:
       value: give &p netherite_ingot 2
     message:
@@ -395,6 +395,8 @@ mob hunter LVL2:
       value: 1000
     command:
       value: give &p diamond 5
+    command:
+      value: minecraft:give @p wooden_sword{RepairCost:99999,display:{Name:'[{"text":"YEEEEEETTTT","italic":false}]',Lore:['[{"text":"YEEEEEEEETTTTTTTT!!!!","italic":false}]']},Enchantments:[{id:knockback,lvl:15}]} 1
     message:
       value: Congratulations, you are a lvl2 hunter
   options:
@@ -501,6 +503,8 @@ lumberjack LVL2:
       value: 1000
     command:
       value: give &p diamond 3
+    command:
+      value: minecraft:give @p wooden_axe{RepairCost:9999,display:{Name:'[{"text":"chop chop","italic":false}]',Lore:['[{"text":"get some wood ;)","italic":false}]']},Enchantments:[{id:efficiency,lvl:12},{id:fortune,lvl:12}]} 1
     message:
       value: Congratulations, you are a lvl2 lumberjack
   options:
