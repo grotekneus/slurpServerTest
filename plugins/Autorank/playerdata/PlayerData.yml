@@ -346,6 +346,8 @@ eb6f06a3-c143-4f22-ac6b-f7afc112344b:
       started: 1710519216030
     miner LVL2:
       started: 1710519919616
+    member to VIP:
+      started: 1710583391604
   completed paths:
     farmer LVL0:
       completed: 1
@@ -430,6 +432,9 @@ eb6f06a3-c143-4f22-ac6b-f7afc112344b:
       completed requirements: []
       completed prerequisites: []
     miner LVL2:
+      completed requirements: []
+      completed prerequisites: []
+    member to VIP:
       completed requirements: []
       completed prerequisites: []
 d369188e-acdb-4f5c-92cb-6012e961125a:
