@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 109.133.180.229
+ip-address: 127.0.0.1
 afk: false
 socialspy: false
 npc: false
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710583939071
-  login: 1710582889435
+  logout: 1710584819506
+  login: 1710584790410
 money: '32626.4199999999999263'
 last-account-name: C2gl
 lastlocation:
@@ -120,9 +120,9 @@ homes:
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -3203.2318310887877
-  y: 68.5
-  z: -231.72329819355642
-  yaw: 119.43983459472656
-  pitch: 1.4998517036437988
+  x: -3179.5
+  y: 72.0
+  z: -222.5
+  yaw: -63.435157775878906
+  pitch: 0.0
 nickname: C2gl
