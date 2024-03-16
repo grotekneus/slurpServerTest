@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 81.165.4.250
+ip-address: 10.147.19.124
 afk: false
 socialspy: false
 npc: false
@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710519259226
+  lastteleport: 1710606719373
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710529851697
-  login: 1710529801666
-money: '34371.023000000001239'
+  logout: 1710606728095
+  login: 1710604568729
+money: '3596.615000000001453'
 last-account-name: transferreSP
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -4681.792363389926
+  x: -4741.489910278866
   y: 60.0
-  z: 3189.8410924315644
-  yaw: -156.663818359375
-  pitch: 9.300012588500977
+  z: 3186.1269613422282
+  yaw: 94.2755126953125
+  pitch: -0.29993903636932373
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5412.363306809148
-  y: 97.0
-  z: 2317.614793271431
-  yaw: 93.75006866455078
-  pitch: 21.600004196166992
+  x: -5415.699999988079
+  y: 97.875
+  z: 2318.0416180229163
+  yaw: -88.64999389648438
+  pitch: 4.350000858306885
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -53,14 +53,6 @@ homes:
     z: 3141.6123902532286
     yaw: -120.50800323486328
     pitch: 56.40016555786133
-  pillage:
-    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-    world-name: world
-    x: -1240.9965119056567
-    y: 70.0
-    z: 1860.1345742686915
-    yaw: -21.09765625
-    pitch: -7.800018310546875
   slime:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
     world-name: world
@@ -77,4 +69,12 @@ homes:
     z: 1042.3810073080467
     yaw: -148.2591094970703
     pitch: 32.54972839355469
+  chests:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -4752.300932384947
+    y: 31.0
+    z: 3145.5629988450364
+    yaw: 128.63690185546875
+    pitch: 30.450029373168945
 nickname: furry

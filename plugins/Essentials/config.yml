@@ -767,7 +767,8 @@ world-home-permissions: false
 sethome-multiple:
   default: 5
   member: 10
-  Servhost: 20
+  vip: 15
+  shut-it-nerd: 30
 
 # In this example someone with 'essentials.sethome.multiple' and 'essentials.sethome.multiple.vip' will have 5 homes.
 # Remember, they MUST have both permission nodes in order to be able to set multiple homes.

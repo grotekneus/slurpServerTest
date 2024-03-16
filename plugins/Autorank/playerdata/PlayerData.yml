@@ -7,18 +7,18 @@ ac59ab29-63a9-4865-912e-ab25be6efa08:
   active paths:
     miner LVL0:
       started: 1710513950805
-    farmer LVL2:
-      started: 1710514320304
     mob hunter LVL2:
       started: 1710515667100
     builder LVL2:
       started: 1710516473901
     member to shut-it-nerd:
       started: 1710516787281
-    lumberjack LVL0:
-      started: 1710518171246
+    farmer LVL5:
+      started: 1710585334389
     member to VIP:
-      started: 1710518482376
+      started: 1710585894525
+    lumberjack LVL1:
+      started: 1710589800207
   completed paths:
     farmer LVL0:
       completed: 2
@@ -41,6 +41,21 @@ ac59ab29-63a9-4865-912e-ab25be6efa08:
     default to member:
       completed: 1
       completed at: 1710516487282
+    farmer LVL2:
+      completed: 1
+      completed at: 1710585326562
+    farmer LVL3:
+      completed: 1
+      completed at: 1710585332170
+    farmer LVL4:
+      completed: 1
+      completed at: 1710585334387
+    member to VIP:
+      completed: 2
+      completed at: 1710585863936
+    lumberjack LVL0:
+      completed: 1
+      completed at: 1710589800206
   progress on paths:
     default to member:
       completed requirements:
@@ -62,6 +77,9 @@ ac59ab29-63a9-4865-912e-ab25be6efa08:
     farmer LVL2:
       completed requirements:
       - 0
+      - 2
+      - 1
+      - 3
       completed prerequisites: []
     mob hunter LVL0:
       completed requirements:
@@ -89,23 +107,48 @@ ac59ab29-63a9-4865-912e-ab25be6efa08:
       completed requirements: []
       completed prerequisites: []
     lumberjack LVL0:
-      completed requirements: []
+      completed requirements:
+      - 0
       completed prerequisites: []
     member to VIP:
       completed requirements: []
       completed prerequisites: []
+    farmer LVL3:
+      completed requirements:
+      - 0
+      - 1
+      - 2
+      - 3
+      completed prerequisites: []
+    farmer LVL4:
+      completed requirements:
+      - 0
+      - 1
+      - 2
+      - 3
+      completed prerequisites: []
+    farmer LVL5:
+      completed requirements:
+      - 2
+      completed prerequisites: []
+    lumberjack LVL1:
+      completed requirements: []
+      completed prerequisites: []
+    lumberjack LVL2:
+      completed requirements: []
+      completed prerequisites: []
 f303893c-768a-4c80-b4f9-65d2a7a8210c:
   active paths:
-    default to member:
-      started: 1710507364183
     farmer LVL0:
       started: 1710512690440
     lumberjack LVL1:
       started: 1710519131277
     lumberjack LVL2:
       started: 1710519131277
-    miner LVL5:
-      started: 1710529801668
+    member to VIP:
+      started: 1710597690646
+    miner LVL6:
+      started: 1710605722845
   completed paths:
     mob hunter LVL0:
       completed: 1
@@ -143,6 +186,12 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
     miner LVL4:
       completed: 1
       completed at: 1710529801667
+    miner LVL5:
+      completed: 1
+      completed at: 1710590877426
+    default to member:
+      completed: 1
+      completed at: 1710595077377
   exempt leaderboard: false
   exempted from checking: false
   exempted from time addition: false
@@ -153,6 +202,7 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
       completed requirements:
       - 1
       - 2
+      - 0
       completed prerequisites: []
     farmer LVL0:
       completed requirements: []
@@ -212,6 +262,13 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
       - 0
       completed prerequisites: []
     miner LVL5:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    member to VIP:
+      completed requirements: []
+      completed prerequisites: []
+    miner LVL6:
       completed requirements: []
       completed prerequisites: []
 873bc772-4a98-4d04-9c9c-9f1e6c18ea3a:
@@ -221,8 +278,6 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
   results not performed:
     completed requirements: {}
   active paths:
-    default to member:
-      started: 1710518421229
     lumberjack LVL2:
       started: 1710518421247
     mob hunter LVL2:
@@ -231,6 +286,8 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
       started: 1710519250747
     miner LVL3:
       started: 1710519914775
+    member to VIP:
+      started: 1710600061226
   completed paths:
     mob hunter LVL0:
       completed: 1
@@ -265,11 +322,15 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
     miner LVL2:
       completed: 1
       completed at: 1710519914774
+    default to member:
+      completed: 1
+      completed at: 1710599761227
   progress on paths:
     default to member:
       completed requirements:
       - 1
       - 2
+      - 0
       completed prerequisites: []
     farmer LVL0:
       completed requirements:
@@ -325,6 +386,9 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
       - 0
       completed prerequisites: []
     miner LVL3:
+      completed requirements: []
+      completed prerequisites: []
+    member to VIP:
       completed requirements: []
       completed prerequisites: []
 eb6f06a3-c143-4f22-ac6b-f7afc112344b:
@@ -454,6 +518,8 @@ d369188e-acdb-4f5c-92cb-6012e961125a:
       started: 1710520676260
     lumberjack LVL2:
       started: 1710520676260
+    member to VIP:
+      started: 1710585926454
   completed paths:
     mob hunter LVL0:
       completed: 1
@@ -513,5 +579,8 @@ d369188e-acdb-4f5c-92cb-6012e961125a:
       completed requirements: []
       completed prerequisites: []
     lumberjack LVL2:
+      completed requirements: []
+      completed prerequisites: []
+    member to VIP:
       completed requirements: []
       completed prerequisites: []
