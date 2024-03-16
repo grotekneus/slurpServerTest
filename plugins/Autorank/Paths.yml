@@ -43,22 +43,24 @@ member to VIP:
     auto choose: true
     show based on prerequisites: true
 
-VIP to shut it nerd:
+VIP to VIP+:
   prerequisites:
     in group:
       value: vip
   requirements:
     time:
       value: 24h
+    mobs killed:
+      value: 10;warden
   results:
     money:
       value: 20000
     command:
       value: lp user &p promote players
     message:
-      value: Congratulations, you have been promoted to shut it nerd!
+      value: Congratulations, you have been promoted to VIP+!
   options:
-    display name: &f '[Shut-it-nerd]'
+    display name: &f '[VIP+]'
     auto choose: true
     show based on prerequisites: true
 
@@ -194,9 +196,9 @@ farmer LVL5:
     command:
       value: give &p netherite_ingot 5
     command:
-      value: give &p netherite_hoe
+      value: minecraft:give @p netherite_hoe{display:{Name:'[{"text":"HOLLY SLUT","italic":false}]',Lore:['[{"text":"your personal little pocket slut","italic":false}]']},Enchantments:[{id:efficiency,lvl:10},{id:fortune,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:5}]} 1
     message:
-      value: Congratulations, you are a level5 farmer!, you have reached the max level, you can now choose an ultimate level with /ar choose farming LVL X
+      value: Congratulations, you are a level5 farmer!, you have reached the max level, you can now choose an ultimate level with /ar choose farming LVL X, enjoy your holly slut
   options:
     display name: Farmer LVL5
     auto choose: true
