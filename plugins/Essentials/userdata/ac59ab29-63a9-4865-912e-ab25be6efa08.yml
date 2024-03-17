@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710629290662
+  lastteleport: 1710676050702
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710630780194
-  login: 1710627570272
-money: '90646.9099999999999263'
+  logout: 1710679510878
+  login: 1710679026361
+money: '99169.7699999999999463'
 last-account-name: C2gl
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -1256.5113503850296
-  y: 198.5
-  z: 1845.199999988079
-  yaw: -177.52810668945312
-  pitch: 52.3841667175293
+  x: -4746.077738414495
+  y: 47.0
+  z: 3172.5272304921477
+  yaw: -177.6394500732422
+  pitch: 24.299266815185547
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -61,14 +61,6 @@ homes:
     z: -219.9171700581551
     yaw: 65.076171875
     pitch: 21.453624725341797
-  mine:
-    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-    world-name: world
-    x: -3557.3074156047887
-    y: -50.0
-    z: 589.6999999880791
-    yaw: 161.1409149169922
-    pitch: 29.033397674560547
   domi:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
     world-name: world
@@ -101,14 +93,6 @@ homes:
     z: 3141.294235703754
     yaw: 130.2796630859375
     pitch: 39.183921813964844
-  wee:
-    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-    world-name: world
-    x: -4699.829930803009
-    y: 81.0
-    z: 3169.8264687467126
-    yaw: -164.40399169921875
-    pitch: 55.06747055053711
   we:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
     world-name: world
@@ -117,12 +101,20 @@ homes:
     z: 3091.640807071493
     yaw: 1.095123291015625
     pitch: 54.07905578613281
+  mine:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -3454.652835596795
+    y: -50.0
+    z: 612.2235213141712
+    yaw: 0.24365234375
+    pitch: 25.34952163696289
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -3182.413284147903
-  y: 72.0
-  z: -222.0419493817959
-  yaw: 132.8228759765625
-  pitch: 14.849752426147461
+  x: -3206.5690241717652
+  y: 69.0
+  z: -236.5232005374147
+  yaw: -81.60736083984375
+  pitch: 28.1994571685791
 nickname: C2gl

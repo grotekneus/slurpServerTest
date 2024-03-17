@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710603728258
+  lastteleport: 1710679086544
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710603765733
-  login: 1710601428537
+  logout: 1710679510847
+  login: 1710678532497
 money: '1423.3539999999961317'
 last-account-name: TomosChlausorius
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5375.437221326915
-  y: 40.0
-  z: 1618.21874346361
-  yaw: -177.873046875
-  pitch: -5.4001898765563965
+  x: -5291.578160210825
+  y: -5.0
+  z: 2767.6491078628305
+  yaw: -179.3994140625
+  pitch: 11.699751853942871
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5293.986412534832
-  y: -4.0
-  z: 2761.716469168045
-  yaw: -175.0496826171875
-  pitch: 18.149927139282227
+  x: -5282.413485607944
+  y: 111.0
+  z: 2755.3467330504427
+  yaw: 101.3865966796875
+  pitch: 29.10012435913086
 homes:
   roos:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -53,38 +53,6 @@ homes:
     z: 352.01998621717814
     yaw: 151.35711669921875
     pitch: 23.099824905395508
-  mine2:
-    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-    world-name: world
-    x: -7941.989842803904
-    y: 20.0
-    z: 2812.188820868223
-    yaw: -58.19236755371094
-    pitch: 13.94985294342041
-  zombiespawner:
-    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-    world-name: world
-    x: -7918.300000011921
-    y: -9.0
-    z: 2932.300000011921
-    yaw: 59.57789993286133
-    pitch: 39.149959564208984
-  boom:
-    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-    world-name: world
-    x: -4923.525675953578
-    y: 72.0
-    z: 2145.2642112924673
-    yaw: -136.3513641357422
-    pitch: 19.95026397705078
-  turtle:
-    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-    world-name: world
-    x: -4842.908375141637
-    y: 63.0
-    z: 1296.0321687337603
-    yaw: 32.29814147949219
-    pitch: 23.70008087158203
   skelletonfarm:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
     world-name: world
@@ -93,30 +61,6 @@ homes:
     z: 3043.910265577092
     yaw: 40.0596923828125
     pitch: 34.65008544921875
-  dessert:
-    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-    world-name: world
-    x: -6176.987624212458
-    y: 64.0
-    z: 215.18331706920543
-    yaw: 78.4541015625
-    pitch: 23.400615692138672
-  gekding:
-    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-    world-name: world
-    x: -6165.084716651204
-    y: 70.0
-    z: 1375.6476502948842
-    yaw: 94.0413818359375
-    pitch: 59.55003356933594
-  mending:
-    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-    world-name: world
-    x: -5111.300000011921
-    y: 97.0
-    z: 2764.4080241120405
-    yaw: 16.949462890625
-    pitch: 18.300127029418945
   endportal:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
     world-name: world
@@ -125,30 +69,6 @@ homes:
     z: 3883.2883313168104
     yaw: -2.882080078125
     pitch: 30.90021324157715
-  bovengat:
-    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-    world-name: world
-    x: -5276.1969255051645
-    y: 90.0
-    z: 2754.8757809638037
-    yaw: -139.51004028320312
-    pitch: 25.500049591064453
-  jules:
-    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
-    world-name: world
-    x: -1446.9819820145606
-    y: 72.0
-    z: 906.31466611427
-    yaw: -91.34811401367188
-    pitch: 11.549910545349121
-  shulker:
-    world: f0cd1446-651e-4287-bc0c-efbe4e20d588
-    world-name: world_the_end
-    x: -3478.5764110402547
-    y: 75.0
-    z: 390.5499073079894
-    yaw: -88.64208984375
-    pitch: 78.9001693725586
   iron:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
     world-name: world
@@ -157,3 +77,11 @@ homes:
     z: 2756.5166864084563
     yaw: 109.20023345947266
     pitch: 29.399869918823242
+  onderwatertemple:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -5405.5
+    y: 64.0
+    z: 1630.5
+    yaw: -95.37056732177734
+    pitch: 26.70008087158203

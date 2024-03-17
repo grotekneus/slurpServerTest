@@ -335,7 +335,7 @@ miner LVL6:
       value: miner LVL5
   requirements:
     blocks broken:
-      value: STONE;500000, DEEPSLATE;500000
+      value: STONE;400000, DEEPSLATE;400000
   results:
     money:
       value: 25000
@@ -350,6 +350,24 @@ miner LVL6:
     auto choose: true
     show based on prerequisites: true
 
+miner LVLX:
+  prerequisites:
+    completed paths:
+      value: miner LVL6
+  requirements:
+    blocks broken:
+      value: STONE;500000, DEEPSLATE;500000
+  results:
+    money:
+      value: 25000
+    command:
+      value: minecraft:give @p minecraft:netherite_helmet{display:{Name:'[{"text":"Holly Helmet","italic":false}]',Lore:['[{"text":"Gods gift of protection","italic":false}]']},Enchantments:[{id:"minecraft:aqua_affinity",lvl:1},{id:"minecraft:blast_protection",lvl:6},{id:"minecraft:fire_protection",lvl:6},{id:"minecraft:mending",lvl:1},{id:"minecraft:projectile_protection",lvl:6},{id:"minecraft:protection",lvl:6},{id:"minecraft:respiration",lvl:4},{id:"minecraft:thorns",lvl:5},{id:"minecraft:unbreaking",lvl:3}]} 1
+    message:
+      value: Congratulations, you are a lvl6 miner, enjoy your broken ass helmet
+  options:
+    display name: miner LVL X
+    auto choose: true
+    show based on prerequisites: true
 
 #mob hunter
 mob hunter LVL0:
