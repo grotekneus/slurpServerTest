@@ -1,0 +1,570 @@
+menu:
+  main:
+    name: "Player shops"
+    rows: 5
+    fill:
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        quantity: 1
+    buttons:
+      shops:
+        item:
+          material: CHEST
+          quantity: 1
+          name: "&6&lBrowse shops"
+          lore: 
+            - "&7There are %number% player shops."
+        slot: 11
+      items:
+        item:
+          material: CHEST
+          quantity: 1
+          name: "&6&lBrowse items"
+          lore:
+            - "&7There are %number% items."
+        slot: 13
+      categories:
+        item:
+          material: CHEST
+          quantity: 1
+          name: "&6&lBrowse categories"
+          lore:
+            - "&7There are %number% categories."
+        slot: 15
+      searchShops:
+        item:
+          material: BOOK
+          quantity: 1
+          name: "&6&lSearch shops"
+        slot: 28
+      searchItems:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lSearch items"
+        slot: 30
+      own:
+        item:
+          material: PLAYER_HEAD
+          quantity: 1
+          name: "&6&lYour shop"
+          lore:
+            - "&7You have %number%"
+            - "&7items in your shop."
+        slot: 32
+      unclaimed:
+        item:
+          material: ENDER_CHEST
+          quantity: 1
+          name: "&6&lUnclaimed items"
+          lore:
+            - "&7You have %number%"
+            - "&7unclaimed items."
+        slot: 34
+  shops:
+    name: "All shops"
+    rows: 6
+    fill:
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        quantity: 1
+    buttons:
+      previousPage:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lPrevious page"
+        slot: 45
+      nextPage:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lNext page"
+        slot: 53
+      refresh:
+        item:
+          material: NETHER_STAR
+          quantity: 1
+          name: "&6&lRefresh"
+        slot: 48
+      back:
+        item:
+          material: RED_STAINED_GLASS
+          quantity: 1
+          name: "&6&lReturn to main menu"
+        slot: 50
+    replaceLore: false
+    lore:
+      - "&7Owner: &6%owner%"
+      - "&7Items: &6%items%"
+  items:
+    name: "All items"
+    rows: 6
+    fill:
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        quantity: 1
+    buttons:
+      previousPage:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lPrevious page"
+        slot: 45
+      nextPage:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lNext page"
+        slot: 53
+      refresh:
+        item:
+          material: NETHER_STAR
+          quantity: 1
+          name: "&6&lRefresh"
+        slot: 48
+      order:
+        item:
+          material: CHEST
+          quantity: 1
+          name: "&6&lChange Item Order"
+          lore:
+            - "&7Currently sorted: &f%order%"
+        slot: 49
+      back:
+        item:
+          material: RED_STAINED_GLASS
+          quantity: 1
+          name: "&6&lReturn to main menu"
+        slot: 50
+    replaceLore: false
+    lore:
+      - "&7Seller: &6%owner%"
+      - "&7Price: &6%price%"
+      - "&7Expires in: &6%timeleft%"
+  categories:
+    name: "All categories"
+    rows: 6
+    fill:
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        quantity: 1
+    buttons:
+      previousPage:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lPrevious page"
+        slot: 45
+      nextPage:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lNext page"
+        slot: 53
+      refresh:
+        item:
+          material: NETHER_STAR
+          quantity: 1
+          name: "&6&lRefresh"
+        slot: 48
+      back:
+        item:
+          material: RED_STAINED_GLASS
+          quantity: 1
+          name: "&6&lReturn to main menu"
+        slot: 50
+    replaceLore: false
+    lore:
+      - "&7Items: &6%items%"
+  own:
+    name: "Your items"
+    rows: 6
+    fill:
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        quantity: 1
+    buttons:
+      previousPage:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lPrevious page"
+        slot: 45
+      nextPage:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lNext page"
+        slot: 53
+      refresh:
+        item:
+          material: NETHER_STAR
+          quantity: 1
+          name: "&6&lRefresh"
+        slot: 48
+      order:
+        item:
+          material: CHEST
+          quantity: 1
+          name: "&6&lChange Item Order"
+          lore:
+            - "&7Currently sorted: &f%order%"
+        slot: 49
+      editName:
+        item:
+          material: WRITABLE_BOOK
+          quantity: 1
+          name: "&6&lEdit shop name"
+        slot: 53
+      back:
+        item:
+          material: RED_STAINED_GLASS
+          quantity: 1
+          name: "&6&lReturn to main menu"
+        slot: 50
+    replaceLore: false
+    lore:
+      - "&7Seller: &6%owner%"
+      - "&7Price: &6%price%"
+      - "&7Expires in: &6%timeleft%"
+  shop:
+    name: "%name%"
+    rows: 6
+    fill:
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        quantity: 1
+    buttons:
+      previousPage:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lPrevious page"
+        slot: 45
+      nextPage:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lNext page"
+        slot: 53
+      refresh:
+        item:
+          material: NETHER_STAR
+          quantity: 1
+          name: "&6&lRefresh"
+        slot: 48
+      order:
+        item:
+          material: CHEST
+          quantity: 1
+          name: "&6&lChange Item Order"
+          lore:
+            - "&7Currently sorted: &f%order%"
+        slot: 49
+      back:
+        item:
+          material: RED_STAINED_GLASS
+          quantity: 1
+          name: "&6&lReturn to shops"
+        slot: 50
+    replaceLore: false
+    lore:
+      - "&7Seller: &6%owner%"
+      - "&7Price: &6%price%"
+      - "&7Expires in: &6%timeleft%"
+  category:
+    name: "%name%"
+    rows: 6
+    fill:
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        quantity: 1
+    buttons:
+      previousPage:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lPrevious page"
+        slot: 45
+      nextPage:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lNext page"
+        slot: 53
+      refresh:
+        item:
+          material: NETHER_STAR
+          quantity: 1
+          name: "&6&lRefresh"
+        slot: 48
+      order:
+        item:
+          material: CHEST
+          quantity: 1
+          name: "&6&lChange Item Order"
+          lore:
+            - "&7Currently sorted: &f%order%"
+        slot: 49
+      back:
+        item:
+          material: RED_STAINED_GLASS
+          quantity: 1
+          name: "&6&lReturn to categories"
+        slot: 50
+    replaceLore: false
+    lore:
+      - "&7Seller: &6%owner%"
+      - "&7Price: &6%price%"
+      - "&7Expires in: &6%timeleft%"
+  searchShops:
+    name: "Shop search results"
+    rows: 6
+    fill:
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        quantity: 1
+    buttons:
+      previousPage:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lPrevious page"
+        slot: 45
+      nextPage:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lNext page"
+        slot: 53
+      refresh:
+        item:
+          material: NETHER_STAR
+          quantity: 1
+          name: "&6&lRefresh"
+        slot: 48
+      back:
+        item:
+          material: RED_STAINED_GLASS
+          quantity: 1
+          name: "&6&lReturn to main menu"
+        slot: 50
+    replaceLore: false
+    lore:
+      - "&7Owner: &6%owner%"
+      - "&7Items: &6%items%"
+  searchItems:
+    name: "Item search results"
+    rows: 6
+    fill:
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        quantity: 1
+    buttons:
+      previousPage:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lPrevious page"
+        slot: 45
+      nextPage:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lNext page"
+        slot: 53
+      refresh:
+        item:
+          material: NETHER_STAR
+          quantity: 1
+          name: "&6&lRefresh"
+        slot: 48
+      order:
+        item:
+          material: CHEST
+          quantity: 1
+          name: "&6&lChange Item Order"
+          lore:
+            - "&7Currently sorted: &f%order%"
+        slot: 49
+      back:
+        item:
+          material: RED_STAINED_GLASS
+          quantity: 1
+          name: "&6&lReturn to main menu"
+        slot: 50
+    replaceLore: false
+    lore:
+      - "&7Seller: &6%owner%"
+      - "&7Price: &6%price%"
+      - "&7Expires in: &6%timeleft%"
+  unclaimed:
+    name: "Unclaimed items"
+    rows: 6
+    fill:
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        quantity: 1
+    buttons:
+      previousPage:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lPrevious page"
+        slot: 45
+      nextPage:
+        item:
+          material: PAPER
+          quantity: 1
+          name: "&6&lNext page"
+        slot: 53
+      refresh:
+        item:
+          material: NETHER_STAR
+          quantity: 1
+          name: "&6&lRefresh"
+        slot: 48
+      order:
+        item:
+          material: CHEST
+          quantity: 1
+          name: "&6&lChange Item Order"
+          lore:
+            - "&7Currently sorted: &f%order%"
+        slot: 49
+      back:
+        item:
+          material: RED_STAINED_GLASS
+          quantity: 1
+          name: "&6&lReturn to main menu"
+        slot: 50
+    replaceLore: false
+  buy:
+    name: "Buying %name%"
+    rows: 6
+    itemSlot: 22
+    buttons:
+      less3:
+        item:
+          material: RED_STAINED_GLASS_PANE
+          quantity: 1
+          name: "&c&lRemove 10"
+        value: 10
+        slot: 18
+      less2:
+        item:
+          material: RED_STAINED_GLASS_PANE
+          quantity: 1
+          name: "&c&lRemove 5"
+        value: 5
+        slot: 19
+      less1:
+        item:
+          material: RED_STAINED_GLASS_PANE
+          quantity: 1
+          name: "&c&lRemove 1"
+        value: 1
+        slot: 20
+      more1:
+        item:
+          material: LIME_STAINED_GLASS_PANE
+          quantity: 1
+          name: "&a&lAdd 1"
+        value: 1
+        slot: 24
+      more2:
+        item:
+          material: LIME_STAINED_GLASS_PANE
+          quantity: 1
+          name: "&a&lAdd 5"
+        value: 5
+        slot: 25
+      more3:
+        item:
+          material: LIME_STAINED_GLASS_PANE
+          quantity: 1
+          name: "&a&lAdd 10"
+        value: 10
+        slot: 26
+      confirm:
+        item:
+          material: LIME_STAINED_GLASS
+          quantity: 1
+          name: "&a&lBuy"   
+        slot: 39
+      cancel:
+        item:
+          material: RED_STAINED_GLASS
+          quantity: 1
+          name: "&c&lCancel"  
+        slot: 41
+    replaceLore: false
+    lore:
+      - "&7Seller: &6%owner%"
+      - "&7Original price: &6%price%"
+      - "&7Current price: &6%currentprice%"
+      - "&7Expires in: &6%timeleft%"
+  cancel:
+    name: "Cancelling item lot"
+    rows: 6
+    itemSlot: 22
+    buttons:
+      confirm:
+        item:
+          material: LIME_STAINED_GLASS
+          quantity: 1
+          name: "&a&lCancel lot"
+        slot: 39
+      cancel:
+        item:
+          material: RED_STAINED_GLASS
+          quantity: 1
+          name: "&c&lGo back"
+        slot: 41
+    replaceLore: false
+    lore:
+      - "&7Seller: &6%owner%"
+      - "&7Price: &6%price%"
+      - "&7Expires in: &6%timeleft%"
+
+notifications:
+  error:
+    rows: 6
+    buttons:
+      message:
+        item:
+          material: BARRIER
+          quantity: 1
+        slot: 22
+      confirm:
+        item:
+          material: LIME_STAINED_GLASS
+          quantity: 1
+        slot: 40
+  warning:
+    rows: 6
+    buttons:
+      message:
+        item:
+          material: YELLOW_STAINED_GLASS_PANE
+          quantity: 1
+        slot: 22
+      confirm:
+        item:
+          material: LIME_STAINED_GLASS
+          quantity: 1
+        slot: 40
+  success:
+    rows: 6
+    buttons:
+      message:
+        item:
+          material: LIME_STAINED_GLASS_PANE
+          quantity: 1
+        slot: 22
+      confirm:
+        item:
+          material: LIME_STAINED_GLASS
+          quantity: 1
+        slot: 40
