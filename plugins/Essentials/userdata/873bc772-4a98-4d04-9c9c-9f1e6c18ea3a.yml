@@ -4,7 +4,7 @@ godmode: false
 muted: false
 jailed: false
 ip-address: 10.147.19.189
-afk: false
+afk: true
 socialspy: false
 npc: false
 powertoolsenabled: true
@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710679510847
-  login: 1710678532497
+  logout: 1710681249733
+  login: 1710680696950
 money: '1423.3539999999961317'
 last-account-name: TomosChlausorius
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5291.578160210825
+  x: -5291.759862989509
   y: -5.0
-  z: 2767.6491078628305
-  yaw: -179.3994140625
-  pitch: 11.699751853942871
+  z: 2767.699999988079
+  yaw: 178.64854431152344
+  pitch: 11.999597549438477
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
