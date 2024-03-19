@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 127.0.0.1
+ip-address: 10.147.19.189
 afk: false
 socialspy: false
 npc: false
@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710693064576
+  lastteleport: 1710878225306
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710693106564
-  login: 1710690018271
-money: '1423.3539999999961317'
+  logout: 1710879573402
+  login: 1710875314928
+money: '3423.3539999999961317'
 last-account-name: TomosChlausorius
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5278.250400238619
-  y: 105.0
-  z: 2752.329634026715
-  yaw: 94.0374984741211
-  pitch: 9.600076675415039
+  x: -5291.704711200446
+  y: -5.0
+  z: 2767.699999988079
+  yaw: -172.6497802734375
+  pitch: 1.799972414970398
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5284.40703487893
-  y: -5.0
-  z: 2753.455504803347
-  yaw: 112.95023345947266
-  pitch: 35.099884033203125
+  x: -5292.096788377471
+  y: 101.0
+  z: 2751.378491104368
+  yaw: 94.6378173828125
+  pitch: 15.900131225585938
 homes:
   roos:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb

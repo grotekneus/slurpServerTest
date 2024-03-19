@@ -198,9 +198,9 @@ farmer LVL5:
     command:
       value: give &p netherite_ingot 5
     command:
-      value: minecraft:give @p netherite_hoe{display:{Name:'[{"text":"HOLLY SLUT","italic":false}]',Lore:['[{"text":"your personal little pocket slut","italic":false}]']},Enchantments:[{id:efficiency,lvl:10},{id:fortune,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:5}]} 1
+      value: minecraft:give @p netherite_hoe{display:{Name:'[{"text":"HOLY SLUT","italic":false}]',Lore:['[{"text":"your personal little pocket slut","italic":false}]']},Enchantments:[{id:efficiency,lvl:10},{id:fortune,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:5}]} 1
     message:
-      value: Congratulations, you are a level5 farmer!, you have reached the max level, you can now choose an ultimate level with /ar choose farming LVL X, enjoy your holly slut
+      value: Congratulations, you are a level5 farmer!, you have reached the max level, you can now choose an ultimate level with /ar choose farming LVL X, enjoy your holy slut
   options:
     display name: Farmer LVL5
     auto choose: true
@@ -227,9 +227,9 @@ farmer LVLX:
     command:
       value: give &p netherite_ingot 5
     command:
-      value: minecraft:give @p netherite_boots{display:{Name:'[{"text":"Holly Boots","italic":false}]',Lore:['[{"text":"Godly Holy Boots","italic":false}]']},Enchantments:[{id:depth_strider,lvl:4},{id:feather_falling,lvl:5},{id:fire_protection,lvl:5},{id:mending,lvl:1},{id:projectile_protection,lvl:6},{id:protection,lvl:5},{id:soul_speed,lvl:5},{id:thorns,lvl:4},{id:unbreaking,lvl:3}]} 1
+      value: minecraft:give @p netherite_boots{display:{Name:'[{"text":"Holy Boots","italic":false}]',Lore:['[{"text":"Godly Holy Boots","italic":false}]']},Enchantments:[{id:depth_strider,lvl:4},{id:feather_falling,lvl:5},{id:fire_protection,lvl:5},{id:mending,lvl:1},{id:projectile_protection,lvl:6},{id:protection,lvl:5},{id:soul_speed,lvl:5},{id:thorns,lvl:4},{id:unbreaking,lvl:3}]} 1
     message:
-      value: Congratulations, you are a level5 farmer!, you have reached the max level, you can now choose an ultimate level with /ar choose farming LVL X, enjoy your holly slut
+      value: Congratulations, you are a level5 farmer!, you have reached the max level, you can now choose an ultimate level with /ar choose farming LVL X, enjoy your holy slut
   options:
     display name: Farmer LVLX
     auto choose: true
@@ -254,7 +254,7 @@ miner LVL0:
 miner LVL1:
   prerequisites:
     completed paths:
-      value: miner LVL0
+      value: Miner LVL0
   requirements:
     blocks broken:
       value: STONE;25000, DEEPSLATE;25000
@@ -268,14 +268,14 @@ miner LVL1:
     message:
       value: Congratulations, you are a lvl1 miner
   options:
-    display name: miner LVL1
+    display name: Miner LVL1
     auto choose: true
     show based on prerequisites: true
 
 miner LVL2:
   prerequisites:
     completed paths:
-      value: miner LVL1
+      value: Miner LVL1
   requirements:
     blocks broken:
       value: STONE;50000, DEEPSLATE;50000
@@ -289,17 +289,17 @@ miner LVL2:
     message:
       value: Congratulations, you are a lvl2 miner
   options:
-    display name: miner LVL2
+    display name: Miner LVL2
     auto choose: true
     show based on prerequisites: true
 
 miner LVL3:
   prerequisites:
     completed paths:
-      value: miner LVL2
+      value: Miner LVL2
   requirements:
     blocks broken:
-      value: STONE;100000, DEEPSLATE;100000
+      value: STONE;70000, DEEPSLATE;700000
   results:
     money:
       value: 10000
@@ -310,17 +310,17 @@ miner LVL3:
     message:
       value: Congratulations, you are a lvl3 miner
   options:
-    display name: miner LVL3
+    display name: Miner LVL3
     auto choose: true
     show based on prerequisites: true
 
 miner LVL4:
   prerequisites:
     completed paths:
-      value: miner LVL3
+      value: Miner LVL3
   requirements:
     blocks broken:
-      value: STONE;150000, DEEPSLATE;150000
+      value: STONE;80000, DEEPSLATE;80000
   results:
     money:
       value: 15000
@@ -331,17 +331,17 @@ miner LVL4:
     message:
       value: Congratulations, you are a lvl4 miner
   options:
-    display name: miner LVL4
+    display name: Miner LVL4
     auto choose: true
     show based on prerequisites: true
 
 miner LVL5:
   prerequisites:
     completed paths:
-      value: miner LVL4
+      value: Miner LVL4
   requirements:
     blocks broken:
-      value: STONE;250000, DEEPSLATE;250000
+      value: STONE;100000, DEEPSLATE;100000
   results:
     money:
       value: 25000
@@ -354,17 +354,17 @@ miner LVL5:
     message:
       value: Congratulations, you are a lvl5 miner
   options:
-    display name: miner LVL5
+    display name: Miner LVL5
     auto choose: true
     show based on prerequisites: true
 
 miner LVL6:
   prerequisites:
     completed paths:
-      value: miner LVL5
+      value: Miner LVL5
   requirements:
     blocks broken:
-      value: STONE;400000, DEEPSLATE;400000
+      value: STONE;200000, DEEPSLATE;200000
   results:
     money:
       value: 25000
@@ -375,31 +375,31 @@ miner LVL6:
     message:
       value: Congratulations, you are a lvl6 miner, enjoy your broken ass pickaxe
   options:
-    display name: miner LVL6
+    display name: Miner LVL6
     auto choose: true
     show based on prerequisites: true
 
 miner LVLX:
   prerequisites:
     completed paths:
-      value: miner LVL6
+      value: Miner LVL6
   requirements:
     blocks broken:
-      value: STONE;500000, DEEPSLATE;500000
+      value: STONE;250000, DEEPSLATE;250000
   results:
     money:
       value: 25000
     command:
-      value: minecraft:give @p minecraft:netherite_helmet{display:{Name:'[{"text":"Holly Helmet","italic":false}]',Lore:['[{"text":"Gods gift of protection","italic":false}]']},Enchantments:[{id:"minecraft:aqua_affinity",lvl:1},{id:"minecraft:blast_protection",lvl:6},{id:"minecraft:fire_protection",lvl:6},{id:"minecraft:mending",lvl:1},{id:"minecraft:projectile_protection",lvl:6},{id:"minecraft:protection",lvl:6},{id:"minecraft:respiration",lvl:4},{id:"minecraft:thorns",lvl:5},{id:"minecraft:unbreaking",lvl:3}]} 1
+      value: minecraft:give @p minecraft:netherite_helmet{display:{Name:'[{"text":"Holy Helmet","italic":false}]',Lore:['[{"text":"Gods gift of protection","italic":false}]']},Enchantments:[{id:"minecraft:aqua_affinity",lvl:1},{id:"minecraft:blast_protection",lvl:6},{id:"minecraft:fire_protection",lvl:6},{id:"minecraft:mending",lvl:1},{id:"minecraft:projectile_protection",lvl:6},{id:"minecraft:protection",lvl:6},{id:"minecraft:respiration",lvl:4},{id:"minecraft:thorns",lvl:5},{id:"minecraft:unbreaking",lvl:3}]} 1
     message:
       value: Congratulations, you are a lvl6 miner, enjoy your broken ass helmet
   options:
-    display name: miner LVL X
+    display name: Miner LVL X
     auto choose: true
     show based on prerequisites: true
 
-#mob hunter
-mob hunter LVL0:
+#mobhunter
+mobhunter LVL0:
   requirements:
     mobs killed:
       value: 100
@@ -409,17 +409,17 @@ mob hunter LVL0:
     message:
       value: Congratulations, you are a hunter
   options:
-    display name: mob hunter LVL0
+    display name: Mobhunter LVL0
     auto choose: true
     show based on prerequisites: true
 
-mob hunter LVL1:
+mobhunter LVL1:
   prerequisites:
     completed paths:
-      value: mob hunter LVL0
+      value: mobhunter LVL0
   requirements:
     mobs killed:
-      value: 500;ZOMBIE, 500;SPIDER, 500;CREEPER, 500;SKELETON
+      value: 500;ZOMBIE, 500;SPIDER, 500;CREEPER, 500;SKELETON, 5;warden
   results:
     money:
       value: 1000
@@ -428,17 +428,17 @@ mob hunter LVL1:
     message:
       value: Congratulations, you are a lvl1 hunter
   options:
-    display name: mob hunter LVL1
+    display name: Mobhunter LVL1
     auto choose: true
     show based on prerequisites: true
 
-mob hunter LVL2:
+mobhunter LVL2:
   prerequisites:
     completed paths:
-      value: mob hunter LVL1
+      value: mobhunter LVL1
   requirements:
     mobs killed:
-      value: 700;ZOMBIE, 700;SPIDER, 700;CREEPER, 700;SKELETON
+      value: 700;ZOMBIE, 700;SPIDER, 700;CREEPER, 700;SKELETON, 15;warden
   results:
     money:
       value: 1000
@@ -449,17 +449,17 @@ mob hunter LVL2:
     message:
       value: Congratulations, you are a lvl2 hunter
   options:
-    display name: mob hunter LVL2
+    display name: Mobhunter LVL2
     auto choose: true
     show based on prerequisites: true
 
-mob hunter LVL3:
+Mobhunter LVL3:
   prerequisites:
     completed paths:
-      value: mob hunter LVL2
+      value: Mobhunter LVL2
   requirements:
     mobs killed:
-      value: 900;ZOMBIE, 900;SPIDER, 900;CREEPER, 900;SKELETON
+      value: 900;ZOMBIE, 900;SPIDER, 900;CREEPER, 900;SKELETON, 50;warden
   results:
     money:
       value: 1000
@@ -468,10 +468,70 @@ mob hunter LVL3:
     message:
       value: Congratulations, you are a lvl1 hunter
   options:
-    display name: mob hunter LVL3
+    display name: Mobhunter LVL3
     auto choose: true
     show based on prerequisites: true
 
+Mobhunter LVL4:
+  prerequisites:
+    completed paths:
+      value: Mobhunter LVL3
+  requirements:
+    mobs killed:
+      value: 1200;ZOMBIE, 1200;SPIDER, 1200;CREEPER, 1200;SKELETON, 60;warden
+  results:
+    money:
+      value: 1000
+    command:
+      value: give &p diamond 5
+    message:
+      value: Congratulations, you are a lvl1 hunter
+  options:
+    display name: Mobhunter LVL4
+    auto choose: true
+    show based on prerequisites: true
+
+Mobhunter LVL5:
+  prerequisites:
+    completed paths:
+      value: Mobhunter LVL4
+  requirements:
+    mobs killed:
+      value: 1500;ZOMBIE, 1500;SPIDER, 1500;CREEPER, 1500;SKELETON, 75;warden
+  results:
+    money:
+      value: 1000
+    command:
+      value: give &p diamond 25
+    command:
+      value: minecraft:give @p netherite_sword{display:{Name:'[{"text":"Holy Sword","italic":false}]',Lore:['[{"text":"gods very own sword","italic":false}]']},Enchantments:[{id:bane_of_arthropods,lvl:7},{id:fire_aspect,lvl:2},{id:knockback,lvl:4},{id:looting,lvl:4},{id:mending,lvl:1},{id:sharpness,lvl:9},{id:smite,lvl:9},{id:sweeping,lvl:8},{id:unbreaking,lvl:3}]} 1
+    message:
+      value: Congratulations, you are a lvl5 hunter
+  options:
+    display name: Mobhunter LVL5
+    auto choose: true
+    show based on prerequisites: true
+
+Mobhunter LVLX:
+  prerequisites:
+    completed paths:
+      value: Mobhunter LVL5
+  requirements:
+    mobs killed:
+      value: 1200;ZOMBIE, 1200;SPIDER, 1200;CREEPER, 1200;SKELETON, 70;warden
+  results:
+    money:
+      value: 1000
+    command:
+      value: give &p diamond 50
+    command:
+      value: minecraft:give @p netherite_chestplate{display:{Name:'[{"text":"Holy Chestplate","italic":false}]'},Enchantments:[{id:blast_protection,lvl:5},{id:fire_protection,lvl:4},{id:mending,lvl:1},{id:projectile_protection,lvl:6},{id:protection,lvl:5},{id:thorns,lvl:4},{id:unbreaking,lvl:3}]} 1
+    message:
+      value: Congratulations, you are a lvl1 hunter
+  options:
+    display name: Mobhunter LVLX
+    auto choose: true
+    show based on prerequisites: true
 #builder
 builder LVL0:
   requirements:
@@ -483,7 +543,7 @@ builder LVL0:
     message:
       value: Congratulations, you are a builder aprentice
   options:
-    display name: builder LVL0
+    display name: Builder LVL0
     auto choose: true
     show based on prerequisites: true
 
@@ -502,7 +562,7 @@ builder LVL1:
     message:
       value: Congratulations, you are a lvl1 builder
   options:
-    display name: builder LVL1
+    display name: Builder LVL1
     auto choose: true
     show based on prerequisites: true
 
@@ -521,7 +581,7 @@ builder LVL2:
     message:
       value: Congratulations, you are a lvl2 builder
   options:
-    display name: builder LVL2
+    display name: Builder LVL2
     auto choose: true
     show based on prerequisites: true
 
@@ -536,7 +596,7 @@ lumberjack LVL0:
     message:
       value: Congratulations, you are a lumberjack aprentice
   options:
-    display name: lumberjack LVL0
+    display name: Lumberjack LVL0
     auto choose: true
     show based on prerequisites: true
 
@@ -555,7 +615,7 @@ lumberjack LVL1:
     message:
       value: Congratulations, you are a lvl1 lumberjack
   options:
-    display name: lumberjack LVL1
+    display name: Lumberjack LVL1
     auto choose: true
     show based on prerequisites: true
 
@@ -576,7 +636,7 @@ lumberjack LVL2:
     message:
       value: Congratulations, you are a lvl2 lumberjack
   options:
-    display name: lumberjack LVL2
+    display name: Lumberjack LVL2
     auto choose: true
     show based on prerequisites: true
 
@@ -595,7 +655,7 @@ lumberjack LVL3:
     message:
       value: Congratulations, you are a lvl1 lumberjack
   options:
-    display name: lumberjack LVL3
+    display name: Lumberjack LVL3
     auto choose: true
     show based on prerequisites: true
 #suicide fanatic 

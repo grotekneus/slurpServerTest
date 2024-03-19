@@ -3236,5 +3236,17 @@
     },
     "done": true
   },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2024-03-19 19:46:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2024-03-19 19:59:32 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3700
 }

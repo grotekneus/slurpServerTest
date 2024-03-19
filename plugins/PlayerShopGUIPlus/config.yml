@@ -52,6 +52,8 @@ maxSettings:
 limits:
   #"default" is required
   default: 10
+  member: 20
+  vip: 50
   donator: 50
 
 #Choose how many items player will be able to have unclaimed at the same time, permission format is
