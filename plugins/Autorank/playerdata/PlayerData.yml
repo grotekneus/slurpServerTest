@@ -13,12 +13,12 @@ ac59ab29-63a9-4865-912e-ab25be6efa08:
       started: 1710516473901
     member to shut-it-nerd:
       started: 1710516787281
-    farmer LVL5:
-      started: 1710585334389
     member to VIP:
       started: 1710585894525
     lumberjack LVL1:
       started: 1710589800207
+    farmer LVLX:
+      started: 1710849500283
   completed paths:
     farmer LVL0:
       completed: 2
@@ -56,6 +56,9 @@ ac59ab29-63a9-4865-912e-ab25be6efa08:
     lumberjack LVL0:
       completed: 1
       completed at: 1710589800206
+    farmer LVL5:
+      completed: 1
+      completed at: 1710849500278
   progress on paths:
     default to member:
       completed requirements:
@@ -111,7 +114,8 @@ ac59ab29-63a9-4865-912e-ab25be6efa08:
       - 0
       completed prerequisites: []
     member to VIP:
-      completed requirements: []
+      completed requirements:
+      - 1
       completed prerequisites: []
     farmer LVL3:
       completed requirements:
@@ -131,12 +135,20 @@ ac59ab29-63a9-4865-912e-ab25be6efa08:
       completed requirements:
       - 2
       - 3
+      - 0
+      - 1
       completed prerequisites: []
     lumberjack LVL1:
       completed requirements: []
       completed prerequisites: []
     lumberjack LVL2:
       completed requirements: []
+      completed prerequisites: []
+    farmer LVLX:
+      completed requirements:
+      - 2
+      - 3
+      - 1
       completed prerequisites: []
 f303893c-768a-4c80-b4f9-65d2a7a8210c:
   active paths:

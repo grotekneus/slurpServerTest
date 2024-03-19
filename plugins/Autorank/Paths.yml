@@ -31,6 +31,8 @@ member to VIP:
   requirements:
     time:
       value: 12h
+    completed paths:
+      value: farmer LVL3, lumberjack LVL3
   results:
     money:
       value: 10000
@@ -204,7 +206,34 @@ farmer LVL5:
     auto choose: true
     show based on prerequisites: true
 
-
+farmer LVLX:
+  prerequisites:
+    completed paths:
+      value: farmer LVL5
+  requirements:
+    blocks broken 1:
+      value: WHEAT;5500
+    blocks broken 2:
+      value: cARROTS;5500
+    blocks broken 3:
+      value: POTATOES;5500
+    blocks broken 4:
+      value: BEETROOTs;5500
+  results:
+    money:
+      value: 10000
+    command:
+      value: give &p diamond_block 2
+    command:
+      value: give &p netherite_ingot 5
+    command:
+      value: minecraft:give @p netherite_boots{display:{Name:'[{"text":"Holly Boots","italic":false}]',Lore:['[{"text":"Godly Holy Boots","italic":false}]']},Enchantments:[{id:depth_strider,lvl:4},{id:feather_falling,lvl:5},{id:fire_protection,lvl:5},{id:mending,lvl:1},{id:projectile_protection,lvl:6},{id:protection,lvl:5},{id:soul_speed,lvl:5},{id:thorns,lvl:4},{id:unbreaking,lvl:3}]} 1
+    message:
+      value: Congratulations, you are a level5 farmer!, you have reached the max level, you can now choose an ultimate level with /ar choose farming LVL X, enjoy your holly slut
+  options:
+    display name: Farmer LVLX
+    auto choose: true
+    show based on prerequisites: true
 #miner
 miner LVL0:
   requirements:
@@ -424,6 +453,25 @@ mob hunter LVL2:
     auto choose: true
     show based on prerequisites: true
 
+mob hunter LVL3:
+  prerequisites:
+    completed paths:
+      value: mob hunter LVL2
+  requirements:
+    mobs killed:
+      value: 900;ZOMBIE, 900;SPIDER, 900;CREEPER, 900;SKELETON
+  results:
+    money:
+      value: 1000
+    command:
+      value: give &p diamond 5
+    message:
+      value: Congratulations, you are a lvl1 hunter
+  options:
+    display name: mob hunter LVL3
+    auto choose: true
+    show based on prerequisites: true
+
 #builder
 builder LVL0:
   requirements:
@@ -532,4 +580,22 @@ lumberjack LVL2:
     auto choose: true
     show based on prerequisites: true
 
+lumberjack LVL3:
+  prerequisites:
+    completed paths:
+      value: lumberjack LVL2
+  requirements:
+    blocks broken:
+      value: OAK_LOG;7000, DARK_OAK_LOG;7000, SPRUCE_LOG;7000, ACACIA_LOG;7000, jungle_log;7000, CHERRY_LOG;7000, MANGROVE_LOG;7000, BIRCH_LOG;7000
+  results:
+    money:
+      value: 1000
+    command:
+      value: give &p diamond 1
+    message:
+      value: Congratulations, you are a lvl1 lumberjack
+  options:
+    display name: lumberjack LVL3
+    auto choose: true
+    show based on prerequisites: true
 #suicide fanatic 
