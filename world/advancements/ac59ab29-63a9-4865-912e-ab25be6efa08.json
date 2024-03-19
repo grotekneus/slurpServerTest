@@ -631,17 +631,18 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-03-11 16:11:16 +0100",
-      "minecraft:cave_spider": "2024-03-10 18:18:12 +0100",
       "minecraft:skeleton": "2024-03-10 14:57:32 +0100",
+      "minecraft:witch": "2024-03-11 16:27:03 +0100",
+      "minecraft:cave_spider": "2024-03-10 18:18:12 +0100",
       "minecraft:vindicator": "2024-03-11 16:38:02 +0100",
       "minecraft:silverfish": "2024-03-10 14:39:20 +0100",
       "minecraft:enderman": "2024-03-14 10:53:28 +0100",
       "minecraft:magma_cube": "2024-03-19 11:30:42 +0100",
-      "minecraft:witch": "2024-03-11 16:27:03 +0100",
       "minecraft:spider": "2024-03-10 14:25:18 +0100",
       "minecraft:zombie": "2024-03-10 14:50:06 +0100",
       "minecraft:creeper": "2024-03-12 19:49:51 +0100",
-      "minecraft:zombie_villager": "2024-03-12 19:51:09 +0100"
+      "minecraft:zombie_villager": "2024-03-12 19:51:09 +0100",
+      "minecraft:slime": "2024-03-19 21:55:31 +0100"
     },
     "done": false
   },
@@ -3245,6 +3246,24 @@
   "minecraft:adventure/kill_mob_near_sculk_catalyst": {
     "criteria": {
       "kill_mob_near_sculk_catalyst": "2024-03-19 19:59:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-03-19 21:57:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2024-03-19 21:57:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2024-03-19 21:57:44 +0100"
     },
     "done": true
   },

@@ -4924,5 +4924,17 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-03-19 22:04:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2024-03-19 21:50:22 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3700
 }

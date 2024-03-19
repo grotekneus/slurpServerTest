@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710877879148
+  lastteleport: 1710883602334
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710879933160
-  login: 1710879596561
-money: '145339.8700000000003462'
+  logout: 1710884040088
+  login: 1710881561657
+money: '147339.8700000000003462'
 last-account-name: C2gl
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -1443.7137972847377
-  y: 69.5
-  z: 861.7572372435989
-  yaw: 167.142822265625
-  pitch: 22.04711151123047
+  x: -4682.224026859343
+  y: 22.0
+  z: 3114.300000011921
+  yaw: -168.2958984375
+  pitch: -7.282590866088867
 homes:
   jbore:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -112,9 +112,9 @@ homes:
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -3182.9584239707942
-  y: 72.0
-  z: -220.69607830070336
-  yaw: 73.88497924804688
-  pitch: 26.363994598388672
+  x: -4656.234005782452
+  y: 66.0
+  z: 3156.394097265059
+  yaw: -31.521926879882812
+  pitch: 67.52494812011719
 nickname: C2gl
