@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 127.0.0.1
+ip-address: 10.147.19.124
 afk: false
 socialspy: false
 npc: false
@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710784917570
+  lastteleport: 1710864445093
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710785638734
-  login: 1710784266682
-money: '30465.949000000001493'
+  logout: 1710864595538
+  login: 1710861643371
+money: '30544.609000000001493'
 last-account-name: transferreSP
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -4714.0403322355505
-  y: 18.0
-  z: 3112.11412518805
-  yaw: 58.1279296875
-  pitch: 4.800002574920654
+  x: -4725.148760160238
+  y: 51.0
+  z: 3061.6234998827617
+  yaw: -166.85060119628906
+  pitch: -4.349793434143066
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
@@ -78,3 +78,11 @@ homes:
     yaw: 128.63690185546875
     pitch: 30.450029373168945
 nickname: furry
+mail:
+- legacy: false
+  read: false
+  message: ik zit voor de leut wat in je gat te graven want ik verveel me xd
+  sender-name: C2gl
+  sender-uuid: ac59ab29-63a9-4865-912e-ab25be6efa08
+  timestamp: 1710860104663
+  expire: 0

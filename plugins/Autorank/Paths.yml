@@ -32,7 +32,7 @@ member to VIP:
     time:
       value: 12h
     completed paths:
-      value: farmer LVL3, lumberjack LVL3
+      value: farmer LVL3, lumberjack LVL3, miner LVL3
   results:
     money:
       value: 10000
@@ -238,7 +238,7 @@ farmer LVLX:
 miner LVL0:
   requirements:
     blocks broken:
-      value: STONE;10000, DEEPSLATE;10000
+      value: STONE;1000, DEEPSLATE;10000
   results:
     money:
       value: 1000
