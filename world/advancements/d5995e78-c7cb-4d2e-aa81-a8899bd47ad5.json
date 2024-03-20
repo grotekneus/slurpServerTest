@@ -875,15 +875,16 @@
     "criteria": {
       "cooked_porkchop": "2024-03-04 22:10:23 +0100",
       "mutton": "2024-02-28 18:59:55 +0100",
-      "apple": "2024-03-03 12:30:45 +0100",
       "bread": "2024-02-29 18:51:09 +0100",
-      "cooked_chicken": "2024-03-11 16:23:40 +0100",
+      "rotten_flesh": "2024-03-20 17:51:33 +0100",
       "cooked_mutton": "2024-03-04 17:27:59 +0100",
       "cooked_beef": "2024-03-02 15:33:20 +0100",
-      "cod": "2024-03-05 20:56:22 +0100",
       "beef": "2024-02-28 18:56:42 +0100",
-      "rabbit_stew": "2024-03-04 21:36:51 +0100",
       "porkchop": "2024-03-02 15:51:42 +0100",
+      "apple": "2024-03-03 12:30:45 +0100",
+      "cooked_chicken": "2024-03-11 16:23:40 +0100",
+      "cod": "2024-03-05 20:56:22 +0100",
+      "rabbit_stew": "2024-03-04 21:36:51 +0100",
       "carrot": "2024-03-04 21:13:20 +0100"
     },
     "done": false
@@ -4695,6 +4696,24 @@
   "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
     "criteria": {
       "has_deepslate_tiles": "2024-03-19 20:05:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-03-20 16:54:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-03-20 16:54:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-03-20 16:54:16 +0100"
     },
     "done": true
   },
