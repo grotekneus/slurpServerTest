@@ -201,14 +201,14 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
   active paths:
     farmer LVL0:
       started: 1710512690440
+    member to VIP:
+      started: 1710597690646
     mob hunter LVL3:
       started: 1710860762004
+    Mobhunter LVL3:
+      started: 1710871887938
     lumberjack LVL2:
       started: 1710874972856
-    Mobhunter LVL4:
-      started: 1710948656585
-    VIP to VIP+:
-      started: 1710949306749
   completed paths:
     mob hunter LVL0:
       completed: 1
@@ -270,12 +270,6 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
     miner LVLX:
       completed: 1
       completed at: 1710881736355
-    Mobhunter LVL3:
-      completed: 1
-      completed at: 1710948656545
-    member to VIP:
-      completed: 1
-      completed at: 1710949302788
   exempt leaderboard: false
   exempted from checking: false
   exempted from time addition: false
@@ -353,7 +347,6 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
     member to VIP:
       completed requirements:
       - 1
-      - 0
       completed prerequisites: []
     miner LVL6:
       completed requirements:
@@ -379,15 +372,7 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
       - 0
       completed prerequisites: []
     Mobhunter LVL3:
-      completed requirements:
-      - 0
-      completed prerequisites: []
-    Mobhunter LVL4:
       completed requirements: []
-      completed prerequisites: []
-    VIP to VIP+:
-      completed requirements:
-      - 0
       completed prerequisites: []
 873bc772-4a98-4d04-9c9c-9f1e6c18ea3a:
   exempt leaderboard: false
@@ -753,8 +738,12 @@ d5995e78-c7cb-4d2e-aa81-a8899bd47ad5:
       started: 1710870874511
     mob hunter LVL1:
       started: 1710870874522
+    member to VIP:
+      started: 1710871032188
     lumberjack LVL2:
       started: 1710871032200
+    VIP to VIP+:
+      started: 1710883617907
   completed paths:
     farmer LVL0:
       completed: 1
@@ -804,12 +793,6 @@ d5995e78-c7cb-4d2e-aa81-a8899bd47ad5:
     default to member:
       completed: 1
       completed at: 1710883301424
-    VIP to VIP+:
-      completed: 1
-      completed at: 1710948687468
-    member to VIP:
-      completed: 1
-      completed at: 1710949495761
   progress on paths:
     default to member:
       completed requirements:
@@ -860,9 +843,7 @@ d5995e78-c7cb-4d2e-aa81-a8899bd47ad5:
       - 0
       completed prerequisites: []
     member to VIP:
-      completed requirements:
-      - 0
-      - 1
+      completed requirements: []
       completed prerequisites: []
     lumberjack LVL2:
       completed requirements: []
@@ -898,6 +879,4 @@ d5995e78-c7cb-4d2e-aa81-a8899bd47ad5:
     VIP to VIP+:
       completed requirements:
       - 1
-      - 0
       completed prerequisites: []
-ea126310-b17f-4e89-b90a-85866c79e0de: {}

@@ -32,7 +32,7 @@ member to VIP:
     time:
       value: 12h
     completed paths:
-      value: farmer LVL3, lumberjack LVL3, miner LVL3
+      value: farmer LVL3, lumberjack LVL3, miner LVL3, mobhunter LVL3
   results:
     money:
       value: 10000
@@ -371,7 +371,7 @@ miner LVL6:
     command:
       value: give &p diamond 20
     command:
-      value: minecraft:give @p netherite_pickaxe{Enchantments:[{id:efficiency,lvl:10}]} 1
+      value: mincraft:give @p netherite_pickaxe{display:{Name:'[{"text":"Holy Picaxe","italic":false}]'},Enchantments:[{id:efficiency,lvl:10},{id:fortune,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:3}]} 1
     message:
       value: Congratulations, you are a lvl6 miner, enjoy your broken ass pickaxe
   options:

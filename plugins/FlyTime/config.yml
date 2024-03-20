@@ -1,0 +1,25 @@
+flyTime: 1800
+flyResetTime: 86400
+teleportOnLogout: true
+autoTeleportToGround: true
+lang:
+  noFlyPermissionMessage: '&cYou can''t fly!'
+  noFlyTimePermissionMessage: '&cYou don''t have permission to check others'' fly
+    time!'
+  noResetPermissionMessage: '&cYou don''t have permission to reset fly times!'
+  noReloadPermissionMessage: '&cYou don''t have permission to reload FlyTimes!'
+  timeLeft: '&aYou have %MINUTES% minutes and %SECONDS% seconds of flight remaining.'
+  timeLeftPlayer: '&a%PLAYER% has %MINUTES% minutes and %SECONDS% seconds of flight
+    remaining.'
+  timeLeftWarning: '&cWarning: %SECONDS% of flight remaining'
+  enabled: '&aFlight enabled.'
+  enabledUnlimited: '&aUnlimited flight enabled.'
+  disabled: '&cFlight disabled.'
+  disabledUnlimited: '&cUnlimited flight disabled.'
+  noFlightTime: '&cYou''re out of flight time!'
+  hasNotFlown: '&c%PLAYER% has not flown'
+  usage: '&cUsage: %COMMAND%'
+  flytimereset: '&aReset fly time for %PLAYER%'
+  pluginreload: '&aFlyTime reloaded!'
+  attemptGroundTp: '&aAttempting to teleport you to the ground safely...'
+  groundTpFail: '&cCouldn''t find a safe landing spot!'

@@ -33,14 +33,14 @@ NicknameSynchronizationFormat: "%displayname%"
 # GroupRoleSynchronizationCycleTime: amount of minutes between repeatedly triggering synchronization for all online players
 # GroupRoleSynchronizationCycleCompletely: whether synchronizations running on a timer should synchronize every member in the bots Discord servers
 #
-GroupRoleSynchronizationGroupsAndRolesToSync: {"member": "1219696502562099260", "vip": "1218604415661904012"}
+GroupRoleSynchronizationGroupsAndRolesToSync: {"default": "1219935923932762163", "member": "1219696502562099260", "vip": "1218604415661904012", "vip+"; "1220090223036334151"}
 GroupRoleSynchronizationMinecraftIsAuthoritative: true
-GroupRoleSynchronizationOneWay: false
+GroupRoleSynchronizationOneWay: true
 GroupRoleSynchronizationEnableDenyPermission: false
 GroupRoleSynchronizationPrimaryGroupOnly: false
 GroupRoleSynchronizationOnLink: true
-GroupRoleSynchronizationCycleTime: 5
-GroupRoleSynchronizationCycleCompletely: false
+GroupRoleSynchronizationCycleTime: 3
+GroupRoleSynchronizationCycleCompletely: true
 
 # Ban synchronization
 # When a player gets banned on the server when they have a linked Discord account you can optionally ban them on the Discord server and vice versa
