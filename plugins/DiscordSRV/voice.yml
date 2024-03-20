@@ -6,7 +6,7 @@
 
 # Whether to enable the proximity voice chat feature of DiscordSRV
 # You must restart your server after changing this option
-Voice enabled: true
+Voice enabled: false
 # Amount of ticks between network updates
 Tick speed: 5
 # The main category that the voice module will create/delete/move voice channels in
