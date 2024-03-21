@@ -11,30 +11,30 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710963268533
+  lastteleport: 1710984573502
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710972413759
-  login: 1710972404182
-money: '128934.68000000000004'
+  logout: 1710987734373
+  login: 1710982486731
+money: '129062.24000000000001'
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -4703.332026405479
-  y: 93.0
-  z: 3141.3726551545706
-  yaw: -10.87513542175293
-  pitch: 29.000370025634766
+  x: -3194.300000011921
+  y: 68.0
+  z: -234.69999998807907
+  yaw: 136.82859802246094
+  pitch: 67.55775451660156
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -3193.5127409393194
-  y: 81.0
-  z: -220.37684834603354
-  yaw: 2.591287136077881
-  pitch: 0.0
+  x: -3189.2909088660076
+  y: 72.0
+  z: -197.15369753712955
+  yaw: -150.66098022460938
+  pitch: 36.90944290161133
 last-account-name: C2gl
 homes:
   sav:
@@ -69,3 +69,19 @@ homes:
     z: 910.825561326656
     yaw: 157.777587890625
     pitch: 22.338459014892578
+  mobf:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -3194.1207543140517
+    y: 190.0
+    z: 1041.2234771503274
+    yaw: -82.31539154052734
+    pitch: -3.0625922679901123
+  lava:
+    world: c116a7a4-4cc4-434f-8a30-535ce385984e
+    world-name: world_nether
+    x: -407.30000001192093
+    y: 33.0
+    z: -51.48492555596337
+    yaw: 65.58068084716797
+    pitch: 20.102645874023438
