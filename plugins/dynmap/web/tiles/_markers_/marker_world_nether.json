@@ -1,6 +1,7 @@
 {"sets": {"essentials.homes": {"hide": false,"circles": {}
 ,"areas": {}
-,"label": "Homes","markers": {}
+,"label": "Homes","markers": {"world_nether\/C2gl:lava": {"markup": false,"x": -407.30,"icon": "house","y": 33.00,"dim": "16x16","z": -51.48,"label": "C2gl:lava(home)"}
+}
 ,"lines": {}
 ,"layerprio": 20}
 ,"essentials.warps": {"hide": false,"circles": {}
@@ -15,4 +16,4 @@
 ,"lines": {}
 ,"layerprio": 0}
 }
-,"timestamp": 1710988463903}
+,"timestamp": 1711019677489}
