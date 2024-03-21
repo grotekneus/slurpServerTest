@@ -1,18 +1,13 @@
 {"sets": {"essentials.homes": {"hide": false,"circles": {}
 ,"areas": {}
-,"label": "Homes","markers": {"world_nether\/JGamesSP:blaze": {"markup": false,"x": -559.72,"icon": "house","y": 54.00,"dim": "16x16","z": 156.45,"label": "JGamesSP:blaze(home)"}
-,"world_nether\/JGamesSP:bastion": {"markup": false,"x": -312.47,"icon": "house","y": 72.00,"dim": "16x16","z": 414.47,"label": "JGamesSP:bastion(home)"}
-,"world_nether\/TomosChlausorius:nethermine": {"markup": false,"x": -786.18,"icon": "house","y": 11.00,"dim": "16x16","z": 352.02,"label": "TomosChlausorius:nethermine(home)"}
-,"world_nether\/TomosChlausorius:eten": {"markup": false,"x": -456.63,"icon": "house","y": 218.00,"dim": "16x16","z": 595.67,"label": "TomosChlausorius:eten(home)"}
-,"world_nether\/Lavapro123:wither": {"markup": false,"x": -272.70,"icon": "house","y": 67.00,"dim": "16x16","z": 11.38,"label": "Lavapro123:wither(home)"}
-}
+,"label": "Homes","markers": {}
 ,"lines": {}
-,"layerprio": 10}
+,"layerprio": 20}
 ,"essentials.warps": {"hide": false,"circles": {}
 ,"areas": {}
 ,"label": "Warps","markers": {}
 ,"lines": {}
-,"layerprio": 10}
+,"layerprio": 21}
 ,"markers": {"hide": false,"circles": {}
 ,"areas": {}
 ,"label": "Markers","markers": {"_spawn_world_nether": {"markup": false,"x": 0.00,"icon": "world","y": 66.00,"dim": "16x16","z": 0.00,"label": "Spawn"}
@@ -20,4 +15,4 @@
 ,"lines": {}
 ,"layerprio": 0}
 }
-,"timestamp": 1710978481484}
+,"timestamp": 1710978656388}
