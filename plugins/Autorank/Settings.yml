@@ -84,7 +84,7 @@ broadcast resetting of data files: true
 # When a new day, week or month starts, Autorank will reset the times of all players (except the total time, this is always preserved).
 # If this value is set to true, Autorank will broadcast to all players when their storage gets reset.
 
-use global time in leaderboard: true
+use global time in leaderboard: false
 # By default, Autorank will use the local time of a player when for the leaderboard. When this is set to true,
 # /ar leaderboard will be sorted on the global time of a player (provided that it exists).
 
