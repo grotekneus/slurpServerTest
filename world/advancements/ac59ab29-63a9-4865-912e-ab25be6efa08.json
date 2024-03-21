@@ -3296,6 +3296,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/weathered_cut_copper": {
+    "criteria": {
+      "has_weathered_copper": "2024-03-21 02:30:09 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/packed_ice": {
     "criteria": {
       "has_ice": "2024-03-21 02:53:57 +0100"
@@ -3305,12 +3311,6 @@
   "minecraft:recipes/building_blocks/blue_ice": {
     "criteria": {
       "has_packed_ice": "2024-03-21 02:54:14 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/weathered_cut_copper": {
-    "criteria": {
-      "has_weathered_copper": "2024-03-21 02:30:09 +0100"
     },
     "done": true
   },

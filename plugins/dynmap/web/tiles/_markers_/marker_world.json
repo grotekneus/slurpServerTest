@@ -1,11 +1,6 @@
 {"sets": {"essentials.homes": {"hide": false,"circles": {}
 ,"areas": {}
-,"label": "Homes","markers": {"world\/C2gl:trans": {"markup": false,"x": -4705.95,"icon": "house","y": 93.00,"dim": "16x16","z": 3140.09,"label": "C2gl:trans(home)"}
-,"world\/C2gl:mobf": {"markup": false,"x": -3194.12,"icon": "house","y": 190.00,"dim": "16x16","z": 1041.22,"label": "C2gl:mobf(home)"}
-,"world\/C2gl:jgames": {"markup": false,"x": -1444.49,"icon": "house","y": 91.00,"dim": "16x16","z": 910.83,"label": "C2gl:jgames(home)"}
-,"world\/C2gl:sav": {"markup": false,"x": -3177.50,"icon": "house","y": 72.00,"dim": "16x16","z": -220.50,"label": "C2gl:sav(home)"}
-,"world\/C2gl:t": {"markup": false,"x": -4707.91,"icon": "house","y": 36.00,"dim": "16x16","z": 3197.02,"label": "C2gl:t(home)"}
-}
+,"label": "Homes","markers": {}
 ,"lines": {}
 ,"layerprio": 20}
 ,"essentials.warps": {"hide": false,"circles": {}
@@ -23,4 +18,4 @@
 ,"lines": {}
 ,"layerprio": 0}
 }
-,"timestamp": 1710987623058}
+,"timestamp": 1710988463903}
