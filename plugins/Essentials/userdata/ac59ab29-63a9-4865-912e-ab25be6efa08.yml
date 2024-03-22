@@ -4,37 +4,37 @@ godmode: false
 muted: false
 jailed: false
 ip-address: 127.0.0.1
-afk: false
+afk: true
 socialspy: false
 npc: false
 powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1711028679466
+  lastteleport: 1711114378172
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1711028830494
-  login: 1711026592142
-money: '128562.24000000000001'
+  logout: 1711115634633
+  login: 1711111480932
+money: '154562.24000000000001'
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -3207.2071524486373
-  y: 62.0
-  z: -192.86821298206976
-  yaw: -172.88014221191406
-  pitch: -8.272043228149414
+  x: -3181.7489941574718
+  y: 72.0
+  z: -223.84518576579592
+  yaw: 122.65829467773438
+  pitch: 43.17108917236328
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -3210.909368507202
-  y: 65.875
-  z: -195.3009095712323
-  yaw: -69.20355224609375
-  pitch: 0.0
+  x: 42490.58038940345
+  y: 221.0
+  z: 7159.470827253351
+  yaw: 32.95500564575195
+  pitch: 34.96506118774414
 last-account-name: C2gl
 homes:
   sav:
@@ -85,3 +85,35 @@ homes:
     z: -51.48492555596337
     yaw: 65.58068084716797
     pitch: 20.102645874023438
+  grrrrr:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -4638.300000011921
+    y: 79.0
+    z: 3148.699999988079
+    yaw: 102.29214477539062
+    pitch: 20.432016372680664
+  meg:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -6788.4492130668405
+    y: 75.0
+    z: 2668.423714640743
+    yaw: 14.110488891601562
+    pitch: -3.246124744415283
+  wither:
+    world: c116a7a4-4cc4-434f-8a30-535ce385984e
+    world-name: world_nether
+    x: 5309.880835486448
+    y: 213.0
+    z: 898.241850974578
+    yaw: -144.31336975097656
+    pitch: -4.644549369812012
+  afkw:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: 42490.58038940345
+    y: 221.0
+    z: 7159.470827253351
+    yaw: 48.11430358886719
+    pitch: 36.58006286621094

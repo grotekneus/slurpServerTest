@@ -85,18 +85,19 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "apple": "2024-03-02 22:17:26 +0100",
+      "cooked_porkchop": "2024-03-21 21:06:05 +0100",
       "chicken": "2024-03-02 21:07:59 +0100",
       "bread": "2024-03-02 21:39:55 +0100",
       "rotten_flesh": "2024-03-02 21:32:36 +0100",
       "cooked_mutton": "2024-03-02 21:58:20 +0100",
-      "potato": "2024-03-02 20:20:07 +0100",
-      "cooked_cod": "2024-03-15 20:13:21 +0100",
       "sweet_berries": "2024-03-03 16:48:03 +0100",
       "cooked_beef": "2024-03-02 19:50:36 +0100",
       "beef": "2024-03-02 19:42:06 +0100",
       "baked_potato": "2024-03-02 19:54:18 +0100",
-      "melon_slice": "2024-03-02 22:13:15 +0100"
+      "melon_slice": "2024-03-02 22:13:15 +0100",
+      "apple": "2024-03-02 22:17:26 +0100",
+      "potato": "2024-03-02 20:20:07 +0100",
+      "cooked_cod": "2024-03-15 20:13:21 +0100"
     },
     "done": false
   },
@@ -1379,6 +1380,7 @@
       "minecraft:pillager": "2024-03-09 15:29:48 +0100",
       "minecraft:skeleton": "2024-03-03 14:15:20 +0100",
       "minecraft:zombified_piglin": "2024-03-05 21:35:27 +0100",
+      "minecraft:silverfish": "2024-03-21 18:05:52 +0100",
       "minecraft:spider": "2024-03-04 21:54:54 +0100",
       "minecraft:zombie": "2024-03-09 12:51:59 +0100",
       "minecraft:creeper": "2024-03-05 21:29:57 +0100",
@@ -2524,6 +2526,72 @@
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_wood_slab": "2024-03-14 20:04:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-03-21 21:29:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_diorite": "2024-03-21 21:29:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab": {
+    "criteria": {
+      "has_diorite": "2024-03-21 21:29:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-03-21 21:29:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2024-03-21 21:29:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-03-21 21:29:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall": {
+    "criteria": {
+      "has_diorite": "2024-03-21 21:29:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-03-21 21:29:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-03-21 21:29:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-03-21 21:29:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2024-03-21 21:29:22 +0100"
     },
     "done": true
   },

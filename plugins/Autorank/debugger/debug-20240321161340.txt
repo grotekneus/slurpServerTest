@@ -1,0 +1,474 @@
+This is a debug file of Autorank. You should give this to an author or ticket manager of Autorank.
+You can go to http://pastebin.com/ and paste this file. Then, give the link and state the problems you're having in a ticket on the Autorank page.
+
+Date created: 2024-03-21 16:13:40
+
+Autorank version: 5.2.2
+
+Server implementation: 4054-Spigot-e9ec548-619936d (MC: 1.20.4)
+
+Server version: 1.20.4-R0.1-SNAPSHOT
+
+Server warning state: DEFAULT
+
+Paths defined: 
+
+ ------------------- Path debug info ------------------- 
+Path: default to member
+Display name: [MEMBER]
+Prerequisites: 
+    1. Be in group default.
+Requirements: 
+    1. Play for at least 2 hours
+    2. Travel at least 10000 by foot
+    3. Kill at least 500 {1} {2}
+Results: 
+    1. Reward you with 1000 $.
+    2. Perform the following command(s): <GRAY>lp user &p promote players<RESET>
+    3. Send you the following message: Congratulations, you have been promoted to Member!
+----------------------------
+Path: member to VIP
+Display name: [VIP]
+Prerequisites: 
+    1. Be in group member.
+Requirements: 
+    1. Play for at least 12 hours
+    2. Have completed path 'Farmer LVL3'. or Lumberjack LVL3'. or Miner LVL3'. or Mobhunter LVL3'.
+Results: 
+    1. Reward you with 10000 $.
+    2. Perform the following command(s): <GRAY>lp user &p promote players<RESET>
+    3. Send you the following message: Congratulations, you have been promoted to VIP!
+----------------------------
+Path: VIP to VIP+
+Display name: [VIP+]
+Prerequisites: 
+    1. Be in group vip.
+Requirements: 
+    1. Play for at least 1 day
+    2. Kill at least 10 warden(s)  
+Results: 
+    1. Reward you with 20000 $.
+    2. Perform the following command(s): <GRAY>lp user &p promote players<RESET>
+    3. Send you the following message: Congratulations, you have been promoted to VIP+!
+----------------------------
+Path: farmer LVL0
+Display name: Farmer LVL0
+Prerequisites: 
+Requirements: 
+    1. Break at least 500 wheat
+Results: 
+    1. Reward you with 1000 $.
+    2. Send you the following message: Congratulations, you are a farmer
+----------------------------
+Path: farmer LVL1
+Display name: Farmer LVL1
+Prerequisites: 
+    1. Have completed path 'Farmer LVL0'.
+Requirements: 
+    1. Break at least 1000 wheat
+    2. Break at least 1000 carrots
+    3. Break at least 1000 potatoes
+Results: 
+    1. Reward you with 7500 $.
+    2. Send you the following message: Congratulations, you are a level1 farmer!
+----------------------------
+Path: farmer LVL2
+Display name: Farmer LVL2
+Prerequisites: 
+    1. Have completed path 'Farmer LVL1'.
+Requirements: 
+    1. Break at least 1500 wheat
+    2. Break at least 1500 carrots
+    3. Break at least 1500 potatoes
+    4. Break at least 1500 beetroots
+Results: 
+    1. Reward you with 10000 $.
+    2. Send you the following message: Congratulations, you are a level2 farmer!
+----------------------------
+Path: farmer LVL3
+Display name: Farmer LVL3
+Prerequisites: 
+    1. Have completed path 'Farmer LVL2'.
+Requirements: 
+    1. Break at least 2000 wheat
+    2. Break at least 2000 carrots
+    3. Break at least 2000 potatoes
+    4. Break at least 2000 beetroots
+Results: 
+    1. Reward you with 10000 $.
+    2. Send you the following message: Congratulations, you are a level3 farmer!
+----------------------------
+Path: farmer LVL4
+Display name: Farmer LVL4
+Prerequisites: 
+    1. Have completed path 'Farmer LVL3'.
+Requirements: 
+    1. Break at least 3000 wheat
+    2. Break at least 3000 carrots
+    3. Break at least 3000 potatoes
+    4. Break at least 3000 beetroots
+Results: 
+    1. Reward you with 10000 $.
+    2. Perform the following command(s): <GRAY>give &p netherite_ingot 2<RESET>
+    3. Send you the following message: Congratulations, you are a level4 farmer!
+----------------------------
+Path: farmer LVL5
+Display name: Farmer LVL5
+Prerequisites: 
+    1. Have completed path 'Farmer LVL4'.
+Requirements: 
+    1. Break at least 5000 wheat
+    2. Break at least 5000 carrots
+    3. Break at least 5000 potatoes
+    4. Break at least 5000 beetroots
+Results: 
+    1. Reward you with 10000 $.
+    2. Perform the following command(s): <GRAY>minecraft:give @p netherite_hoe{display:{Name:'[{"text":"HOLY SLUT","italic":false}]',Lore:['[{"text":"your personal little pocket slut","italic":false}]']},Enchantments:[{id:efficiency,lvl:10},{id:fortune,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:5}]} 1<RESET>
+    3. Send you the following message: Congratulations, you are a level5 farmer!, you have reached the max level, you can now choose an ultimate level with /ar choose farming LVL X, enjoy your holy slut
+----------------------------
+Path: farmer LVLX
+Display name: Farmer LVLX
+Prerequisites: 
+    1. Have completed path 'Farmer LVL5'.
+Requirements: 
+    1. Break at least 5500 wheat
+    2. Break at least 5500 carrots
+    3. Break at least 5500 potatoes
+    4. Break at least 5500 beetroots
+Results: 
+    1. Reward you with 10000 $.
+    2. Perform the following command(s): <GRAY>minecraft:give @p netherite_boots{display:{Name:'[{"text":"Holy Boots","italic":false}]',Lore:['[{"text":"Godly Holy Boots","italic":false}]']},Enchantments:[{id:depth_strider,lvl:4},{id:feather_falling,lvl:5},{id:fire_protection,lvl:5},{id:mending,lvl:1},{id:projectile_protection,lvl:6},{id:protection,lvl:5},{id:soul_speed,lvl:5},{id:thorns,lvl:4},{id:unbreaking,lvl:3}]} 1<RESET>
+    3. Send you the following message: Congratulations, you are a level5 farmer!, you have reached the max level, you can now choose an ultimate level with /ar choose farming LVL X, enjoy your holy slut
+----------------------------
+Path: miner LVL0
+Display name: Miner LVL0
+Prerequisites: 
+Requirements: 
+    1. Break at least 1000 stone or 10000 deepslate
+Results: 
+    1. Reward you with 1000 $.
+    2. Perform the following command(s): <GRAY>give &p diamond 5<RESET>
+    3. Send you the following message: Congratulations, you are a miner
+----------------------------
+Path: miner LVL1
+Display name: Miner LVL1
+Prerequisites: 
+    1. Have completed path 'Miner LVL0'.
+Requirements: 
+    1. Break at least 25000 stone or 25000 deepslate
+Results: 
+    1. Reward you with 2000 $.
+    2. Perform the following command(s): <GRAY>give &p netherite_ingot 1<RESET>
+    3. Send you the following message: Congratulations, you are a lvl1 miner
+----------------------------
+Path: miner LVL2
+Display name: Miner LVL2
+Prerequisites: 
+    1. Have completed path 'Miner LVL1'.
+Requirements: 
+    1. Break at least 50000 stone or 50000 deepslate
+Results: 
+    1. Reward you with 5000 $.
+    2. Perform the following command(s): <GRAY>give &p netherite_ingot 1<RESET>
+    3. Send you the following message: Congratulations, you are a lvl2 miner
+----------------------------
+Path: miner LVL3
+Display name: Miner LVL3
+Prerequisites: 
+    1. Have completed path 'Miner LVL2'.
+Requirements: 
+    1. Break at least 70000 stone or 700000 deepslate
+Results: 
+    1. Reward you with 10000 $.
+    2. Perform the following command(s): <GRAY>give &p netherite_ingot 2<RESET>
+    3. Send you the following message: Congratulations, you are a lvl3 miner
+----------------------------
+Path: miner LVL4
+Display name: Miner LVL4
+Prerequisites: 
+    1. Have completed path 'Miner LVL3'.
+Requirements: 
+    1. Break at least 80000 stone or 80000 deepslate
+Results: 
+    1. Reward you with 15000 $.
+    2. Perform the following command(s): <GRAY>give &p netherite_ingot 2<RESET>
+    3. Send you the following message: Congratulations, you are a lvl4 miner
+----------------------------
+Path: miner LVL5
+Display name: Miner LVL5
+Prerequisites: 
+    1. Have completed path 'Miner LVL4'.
+Requirements: 
+    1. Break at least 100000 stone or 100000 deepslate
+Results: 
+    1. Reward you with 25000 $.
+    2. Perform the following command(s): <GRAY>give &p netherite_pickaxe<RESET>
+    3. Send you the following message: Congratulations, you are a lvl5 miner
+----------------------------
+Path: miner LVL6
+Display name: Miner LVL6
+Prerequisites: 
+    1. Have completed path 'Miner LVL5'.
+Requirements: 
+    1. Break at least 200000 stone or 200000 deepslate
+Results: 
+    1. Reward you with 25000 $.
+    2. Perform the following command(s): <GRAY>mincraft:give @p netherite_pickaxe{display:{Name:'[{"text":"Holy Picaxe","italic":false}]'},Enchantments:[{id:efficiency,lvl:10},{id:fortune,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:3}]} 1<RESET>
+    3. Send you the following message: Congratulations, you are a lvl6 miner, enjoy your broken ass pickaxe
+----------------------------
+Path: miner LVLX
+Display name: Miner LVL X
+Prerequisites: 
+    1. Have completed path 'Miner LVL6'.
+Requirements: 
+    1. Break at least 250000 stone or 250000 deepslate
+Results: 
+    1. Reward you with 25000 $.
+    2. Perform the following command(s): <GRAY>minecraft:give @p minecraft:netherite_helmet{display:{Name:'[{"text":"Holy Helmet","italic":false}]',Lore:['[{"text":"Gods gift of protection","italic":false}]']},Enchantments:[{id:"minecraft:aqua_affinity",lvl:1},{id:"minecraft:blast_protection",lvl:6},{id:"minecraft:fire_protection",lvl:6},{id:"minecraft:mending",lvl:1},{id:"minecraft:projectile_protection",lvl:6},{id:"minecraft:protection",lvl:6},{id:"minecraft:respiration",lvl:4},{id:"minecraft:thorns",lvl:5},{id:"minecraft:unbreaking",lvl:3}]} 1<RESET>
+    3. Send you the following message: Congratulations, you are a lvl6 miner, enjoy your broken ass helmet
+----------------------------
+Path: mobhunter LVL0
+Display name: Mobhunter LVL0
+Prerequisites: 
+Requirements: 
+    1. Kill at least 100 {1} {2}
+Results: 
+    1. Reward you with 1000 $.
+    2. Send you the following message: Congratulations, you are a hunter
+----------------------------
+Path: mobhunter LVL1
+Display name: Mobhunter LVL1
+Prerequisites: 
+    1. Have completed path 'Mobhunter LVL0'.
+Requirements: 
+    1. Kill at least 500 zombie(s)   or 500 spider(s)   or 500 creeper(s)   or 500 skeleton(s)   or 5 warden(s)  
+Results: 
+    1. Reward you with 1000 $.
+    2. Perform the following command(s): <GRAY>give &p diamond 5<RESET>
+    3. Send you the following message: Congratulations, you are a lvl1 hunter
+----------------------------
+Path: mobhunter LVL2
+Display name: Mobhunter LVL2
+Prerequisites: 
+    1. Have completed path 'Mobhunter LVL1'.
+Requirements: 
+    1. Kill at least 700 zombie(s)   or 700 spider(s)   or 700 creeper(s)   or 700 skeleton(s)   or 15 warden(s)  
+Results: 
+    1. Reward you with 1000 $.
+    2. Perform the following command(s): <GRAY>minecraft:give @p wooden_sword{RepairCost:99999,display:{Name:'[{"text":"YEEEEEETTTT","italic":false}]',Lore:['[{"text":"YEEEEEEEETTTTTTTT!!!!","italic":false}]']},Enchantments:[{id:knockback,lvl:15}]} 1<RESET>
+    3. Send you the following message: Congratulations, you are a lvl2 hunter
+----------------------------
+Path: Mobhunter LVL3
+Display name: Mobhunter LVL3
+Prerequisites: 
+    1. Have completed path 'Mobhunter LVL2'.
+Requirements: 
+    1. Kill at least 900 zombie(s)   or 900 spider(s)   or 900 creeper(s)   or 900 skeleton(s)   or 50 warden(s)  
+Results: 
+    1. Reward you with 1000 $.
+    2. Perform the following command(s): <GRAY>give &p diamond 5<RESET>
+    3. Send you the following message: Congratulations, you are a lvl1 hunter
+----------------------------
+Path: Mobhunter LVL4
+Display name: Mobhunter LVL4
+Prerequisites: 
+    1. Have completed path 'Mobhunter LVL3'.
+Requirements: 
+    1. Kill at least 1200 zombie(s)   or 1200 spider(s)   or 1200 creeper(s)   or 1200 skeleton(s)   or 60 warden(s)  
+Results: 
+    1. Reward you with 1000 $.
+    2. Perform the following command(s): <GRAY>give &p diamond 5<RESET>
+    3. Send you the following message: Congratulations, you are a lvl1 hunter
+----------------------------
+Path: Mobhunter LVL5
+Display name: Mobhunter LVL5
+Prerequisites: 
+    1. Have completed path 'Mobhunter LVL4'.
+Requirements: 
+    1. Kill at least 1500 zombie(s)   or 1500 spider(s)   or 1500 creeper(s)   or 1500 skeleton(s)   or 75 warden(s)  
+Results: 
+    1. Reward you with 1000 $.
+    2. Perform the following command(s): <GRAY>minecraft:give @p netherite_sword{display:{Name:'[{"text":"Holy Sword","italic":false}]',Lore:['[{"text":"gods very own sword","italic":false}]']},Enchantments:[{id:bane_of_arthropods,lvl:7},{id:fire_aspect,lvl:2},{id:knockback,lvl:4},{id:looting,lvl:4},{id:mending,lvl:1},{id:sharpness,lvl:9},{id:smite,lvl:9},{id:sweeping,lvl:8},{id:unbreaking,lvl:3}]} 1<RESET>
+    3. Send you the following message: Congratulations, you are a lvl5 hunter
+----------------------------
+Path: Mobhunter LVLX
+Display name: Mobhunter LVLX
+Prerequisites: 
+    1. Have completed path 'Mobhunter LVL5'.
+Requirements: 
+    1. Kill at least 1200 zombie(s)   or 1200 spider(s)   or 1200 creeper(s)   or 1200 skeleton(s)   or 70 warden(s)  
+Results: 
+    1. Reward you with 1000 $.
+    2. Perform the following command(s): <GRAY>minecraft:give @p netherite_chestplate{display:{Name:'[{"text":"Holy Chestplate","italic":false}]'},Enchantments:[{id:blast_protection,lvl:5},{id:fire_protection,lvl:4},{id:mending,lvl:1},{id:projectile_protection,lvl:6},{id:protection,lvl:5},{id:thorns,lvl:4},{id:unbreaking,lvl:3}]} 1<RESET>
+    3. Send you the following message: Congratulations, you are a lvl1 hunter
+----------------------------
+Path: builder LVL0
+Display name: Builder LVL0
+Prerequisites: 
+Requirements: 
+    1. Place at least 500 blocks
+Results: 
+    1. Reward you with 1000 $.
+    2. Send you the following message: Congratulations, you are a builder aprentice
+----------------------------
+Path: builder LVL1
+Display name: Builder LVL1
+Prerequisites: 
+    1. Have completed path 'Builder LVL0'.
+Requirements: 
+    1. Place at least 3000 blocks
+Results: 
+    1. Reward you with 1000 $.
+    2. Perform the following command(s): <GRAY>give &p diamond 1<RESET>
+    3. Send you the following message: Congratulations, you are a lvl1 builder
+----------------------------
+Path: builder LVL2
+Display name: Builder LVL2
+Prerequisites: 
+    1. Have completed path 'Builder LVL0'.
+Requirements: 
+    1. Place at least 10000 blocks
+Results: 
+    1. Reward you with 1000 $.
+    2. Perform the following command(s): <GRAY>give &p diamond 3<RESET>
+    3. Send you the following message: Congratulations, you are a lvl2 builder
+----------------------------
+Path: lumberjack LVL0
+Display name: Lumberjack LVL0
+Prerequisites: 
+Requirements: 
+    1. Break at least 500 oak log or 500 dark oak log or 500 spruce log or 500 acacia log or 500 jungle log or 500 cherry log or 500 mangrove log or 500 birch log
+Results: 
+    1. Reward you with 1000 $.
+    2. Send you the following message: Congratulations, you are a lumberjack aprentice
+----------------------------
+Path: lumberjack LVL1
+Display name: Lumberjack LVL1
+Prerequisites: 
+    1. Have completed path 'Lumberjack LVL0'.
+Requirements: 
+    1. Break at least 1500 oak log or 1500 dark oak log or 1500 spruce log or 1500 acacia log or 1500 jungle log or 1500 cherry log or 1500 mangrove log or 1500 birch log
+Results: 
+    1. Reward you with 1000 $.
+    2. Perform the following command(s): <GRAY>give &p diamond 1<RESET>
+    3. Send you the following message: Congratulations, you are a lvl1 lumberjack
+----------------------------
+Path: lumberjack LVL2
+Display name: Lumberjack LVL2
+Prerequisites: 
+    1. Have completed path 'Lumberjack LVL1'.
+Requirements: 
+    1. Break at least 5500 oak log or 5500 dark oak log or 5500 spruce log or 5500 acacia log or 5500 jungle log or 5500 cherry log or 5500 mangrove log or 5500 birch log
+Results: 
+    1. Reward you with 1000 $.
+    2. Perform the following command(s): <GRAY>minecraft:give @p wooden_axe{RepairCost:9999,display:{Name:'[{"text":"chop chop","italic":false}]',Lore:['[{"text":"get some wood<RESET> and <GRAY>)","italic":false}]']},Enchantments:[{id:efficiency,lvl:12},{id:fortune,lvl:12}]} 1<RESET>
+    3. Send you the following message: Congratulations, you are a lvl2 lumberjack
+----------------------------
+Path: lumberjack LVL3
+Display name: Lumberjack LVL3
+Prerequisites: 
+    1. Have completed path 'Lumberjack LVL2'.
+Requirements: 
+    1. Break at least 7000 oak log or 7000 dark oak log or 7000 spruce log or 7000 acacia log or 7000 jungle log or 7000 cherry log or 7000 mangrove log or 7000 birch log
+Results: 
+    1. Reward you with 1000 $.
+    2. Perform the following command(s): <GRAY>give &p diamond 1<RESET>
+    3. Send you the following message: Congratulations, you are a lvl1 lumberjack
+----------------------------
+
+Using MySQL: false
+
+Java version: 21.0.2
+
+Operating system: Windows 11
+
+OS version: 10.0
+
+OS architecture: amd64
+
+Loaded addons: []
+
+Requirements registered: 
+me.armar.plugins.autorank.pathbuilder.requirement.AnimalsBredRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.InGroupRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.JobsExperienceRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.PlayerKillsRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.AureliumSkillsSkillRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.AureliumSkillsStatRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.TownyHasANationRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.AureliumSkillsXPRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.PlantsPottedRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.TownyNumberOfTownBlocksRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.BentoBoxLevelRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.GamemodeRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.DamageTakenRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.GriefPreventionClaimsCountRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.TownyIsMayorRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.WorldGuardRegionRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.ExpRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.InBiomeRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.LastLoginLogoutRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.MobKillsRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.McRPGPowerLevelRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.McRPGSkillLevelRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.ExpRangeRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.CakeSlicesEatenRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.TradedWithVillagersRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.JavaScriptRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.HasItemRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.FactionsXPowerRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.PlayerPointsPointsRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.PlaceholderapiStringRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.McMMOSkillLevelRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.TownyIsKingRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.QuestsCompleteSpecificQuestRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.BlocksMovedRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.TimesDiedRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.BlocksBrokenRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.GlobalTimeRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.AdvancementRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.JobsLevelRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.QuestsCompletedQuestsRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.ItemsEnchantedRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.WorldRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.TotalTimeRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.FactionPowerRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.GriefPreventionBonusBlocksRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.EssentialsGeoIPRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.GriefPreventionRemainingBlocksRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.QuestsActiveQuestsRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.AureliumSkillsManaRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.BlocksPlacedRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.FoodEatenRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.ItemsCraftedRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.ItemThrownRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.TownyHasATownRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.McMMOPowerLevelRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.NotInGroupRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.PermissionRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.TimeMonthlyRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.AutorankCompletedPathsRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.QuestsQuestPointsRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.JobsTotalPointsRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.JobsCurrentPointsRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.MoneyRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.TimeWeeklyRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.AutorankActivePathsRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.GriefPreventionClaimedBlocksRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.TimeDailyRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.LocationRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.TotalVotesRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.LastLoginLoginRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.TimeRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.TimesShearedRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.PlaceholderapiIntegerRequirement
+me.armar.plugins.autorank.pathbuilder.requirement.FishCaughtRequirement
+
+Results registered: 
+me.armar.plugins.autorank.pathbuilder.result.SpawnFireworkResult
+me.armar.plugins.autorank.pathbuilder.result.MoneyResult
+me.armar.plugins.autorank.pathbuilder.result.EffectResult
+me.armar.plugins.autorank.pathbuilder.result.MessageResult
+me.armar.plugins.autorank.pathbuilder.result.TeleportResult
+me.armar.plugins.autorank.pathbuilder.result.CommandResult
+
