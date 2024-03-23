@@ -7,8 +7,6 @@ ac59ab29-63a9-4865-912e-ab25be6efa08:
   active paths:
     mob hunter LVL2:
       started: 1710515667100
-    builder LVL2:
-      started: 1710516473901
     member to shut-it-nerd:
       started: 1710516787281
     Mobhunter LVL3:
@@ -84,6 +82,9 @@ ac59ab29-63a9-4865-912e-ab25be6efa08:
     lumberjack LVL1:
       completed: 1
       completed at: 1711113058387
+    builder LVL2:
+      completed: 1
+      completed at: 1711146184901
   progress on paths:
     default to member:
       completed requirements:
@@ -130,7 +131,8 @@ ac59ab29-63a9-4865-912e-ab25be6efa08:
       - 0
       completed prerequisites: []
     builder LVL2:
-      completed requirements: []
+      completed requirements:
+      - 0
       completed prerequisites: []
     member to shut-it-nerd:
       completed requirements: []
