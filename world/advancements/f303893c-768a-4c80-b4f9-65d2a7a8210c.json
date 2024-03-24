@@ -15,6 +15,7 @@
       "minecraft:deep_ocean": "2024-02-28 18:45:22 +0100",
       "minecraft:lush_caves": "2024-03-04 18:52:00 +0100",
       "minecraft:deep_cold_ocean": "2024-02-28 18:45:49 +0100",
+      "minecraft:ice_spikes": "2024-03-24 21:20:56 +0100",
       "minecraft:frozen_ocean": "2024-03-08 15:15:41 +0100",
       "minecraft:eroded_badlands": "2024-03-12 21:44:30 +0100",
       "minecraft:desert": "2024-03-05 20:13:20 +0100",
@@ -4339,6 +4340,30 @@
   "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
       "has_snowball": "2024-03-22 15:19:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2024-03-24 22:03:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2024-03-24 22:14:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2024-03-24 22:14:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2024-03-24 22:14:53 +0100"
     },
     "done": true
   },

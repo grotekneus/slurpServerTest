@@ -19,6 +19,7 @@
       "minecraft:deep_dark": "2024-03-08 14:41:40 +0100",
       "minecraft:ocean": "2024-03-11 20:23:11 +0100",
       "minecraft:cherry_grove": "2024-03-08 13:53:43 +0100",
+      "minecraft:sunflower_plains": "2024-03-24 22:15:11 +0100",
       "minecraft:grove": "2024-03-10 23:47:46 +0100",
       "minecraft:meadow": "2024-03-08 14:19:42 +0100",
       "minecraft:birch_forest": "2024-03-08 14:03:31 +0100",
@@ -2398,6 +2399,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate_slab": "2024-03-13 20:54:25 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/magma_cream": {
     "criteria": {
       "has_blaze_powder": "2024-03-13 21:06:37 +0100"
@@ -2410,15 +2417,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_deepslate": {
-    "criteria": {
-      "has_cobbled_deepslate_slab": "2024-03-13 20:54:25 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/fire_charge": {
     "criteria": {
       "has_blaze_powder": "2024-03-13 21:06:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2024-03-24 22:45:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2024-03-24 22:15:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2024-03-24 22:15:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2024-03-24 22:19:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2024-03-24 22:15:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2024-03-24 22:19:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2024-03-24 22:19:46 +0100"
     },
     "done": true
   },
