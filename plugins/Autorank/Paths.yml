@@ -32,7 +32,7 @@ member to VIP:
     time:
       value: 12h
     completed paths:
-      value: farmer LVL3, lumberjack LVL3, miner LVL3, mobhunter LVL3
+      value: farmer LVL3, lumberjack LVL3, miner LVL3, mobhunter LVL3, builder LVL3
   results:
     money:
       value: 10000
@@ -569,7 +569,7 @@ builder LVL1:
 builder LVL2:
   prerequisites:
     completed paths:
-      value: builder LVL0
+      value: builder LVL1
   requirements:
     blocks placed:
       value: 10000
@@ -582,6 +582,25 @@ builder LVL2:
       value: Congratulations, you are a lvl2 builder
   options:
     display name: Builder LVL2
+    auto choose: true
+    show based on prerequisites: true
+
+builder LVL3:
+  prerequisites:
+    completed paths:
+      value: builder LVL2
+  requirements:
+    blocks placed:
+      value: 15000
+  results:
+    money:
+      value: 1000
+    command:
+      value: give &p diamond 3
+    message:
+      value: Congratulations, you are a lvl3 builder
+  options:
+    display name: Builder LVL3
     auto choose: true
     show based on prerequisites: true
 

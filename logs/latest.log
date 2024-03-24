@@ -1,116 +1,937 @@
-[00:01:42] [Server thread/INFO]: TomosChlausorius issued server command: /ac
-[00:01:46] [Server thread/INFO]: TomosChlausorius issued server command: /ec
-[00:03:44] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
-[00:06:51] [Server thread/INFO]: TomosChlausorius issued server command: /ec
-[00:07:10] [Craft Scheduler Thread - 73/INFO]: [Autorank] A new day has arrived! All daily times have been reset.
-[00:07:10] [Craft Scheduler Thread - 73/INFO]: [Autorank] A new week has arrived! All weekly times have been reset.
-[00:07:14] [Server thread/INFO]: TomosChlausorius issued server command: /home iron
-[00:09:34] [Server thread/INFO]: TomosChlausorius issued server command: /ar track 3 Miner LVL3
-[00:09:47] [Server thread/INFO]: TomosChlausorius issued server command: /ar track 3 Lumberjack LVL2
-[00:12:01] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
-[00:14:17] [Server thread/INFO]: TomosChlausorius has reached the goal [Zombie Doctor]
-[00:18:04] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
-[00:19:43] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
-[00:19:43] [Server thread/WARN]: TomosChlausorius moved too quickly! 2.386663776064779,140.0,-280.7311497890246
-[00:22:06] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Ferre > Ahzo
-[00:22:15] [User Authenticator #4/INFO]: UUID of player JMBoy is eb6f06a3-c143-4f22-ac6b-f7afc112344b
-[00:22:24] [Server thread/INFO]: JMBoy[/10.147.19.129:56831] logged in with entity id 61082 at ([world]-5406.7955637174555, 63.0, 1628.8151290131677)
-[00:22:25] [Server thread/INFO]: [MEMBER] ~Janine has blessed you with his presence
-[00:22:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Ferre > Ahzo x2
-[00:22:40] [Server thread/INFO]: TomosChlausorius issued server command: /home onderwatertemple
-[00:24:57] [Server thread/INFO]: JMBoy has reached the goal [Beaconator]
-[00:24:57] [Server thread/INFO]: JMBoy has made the advancement [Bring Home the Beacon]
-[00:25:29] [Server thread/INFO]: JMBoy issued server command: /home watertemple
-[00:25:40] [Server thread/INFO]: TomosChlausorius issued server command: /home whitherskull
-[00:25:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2984ms or 59 ticks behind
-[00:27:27] [Server thread/INFO]: CONSOLE issued server command: /give JMBoy diamond 5
-[00:27:27] [Server thread/INFO]: Giving 5 of diamond to [MEMBER] ~Janine.
-[00:29:11] [Server thread/INFO]: TomosChlausorius was doomed to fall
-[00:29:16] [Server thread/INFO]: TomosChlausorius issued server command: /back
-[00:29:43] [Server thread/INFO]: JMBoy lost connection: Disconnected
-[00:29:43] [Server thread/INFO]: JMBoy left the game
-[00:30:05] [User Authenticator #5/INFO]: UUID of player JMBoy is eb6f06a3-c143-4f22-ac6b-f7afc112344b
-[00:30:06] [Server thread/INFO]: TomosChlausorius issued server command: /home afkwither
-[00:30:12] [Server thread/INFO]: JMBoy[/10.147.19.129:57149] logged in with entity id 64995 at ([world]-5406.9170658509165, 63.0, 1627.272769410712)
-[00:30:12] [Server thread/INFO]: [MEMBER] ~Janine has blessed you with his presence
-[00:30:20] [Server thread/INFO]: JMBoy issued server command: /tp TomosChlausorius
-[00:30:38] [Server thread/INFO]: TomosChlausorius issued server command: /home whitherskull
-[00:36:47] [User Authenticator #6/INFO]: UUID of player C2gl is ac59ab29-63a9-4865-912e-ab25be6efa08
-[00:36:48] [Server thread/INFO]: C2gl[/127.0.0.1:61120] logged in with entity id 66840 at ([world]-3177.5, 72.92159999847412, -220.5)
-[00:36:48] [Server thread/INFO]: [VIP+] C2gl has blessed you with his presence
-[00:36:57] [Async Chat Thread - #18/INFO]: <[VIP] TomosChlausorius> jow
-[00:37:01] [Async Chat Thread - #19/INFO]: <[VIP+] C2gl> hey xd
-[00:37:33] [Async Chat Thread - #19/INFO]: <[VIP+] C2gl> oh hey pex :)
-[00:37:43] [Server thread/INFO]: C2gl issued server command: /ar info JMBoy
-[00:41:29] [Server thread/INFO]: C2gl issued server command: /tab reload
-[00:41:36] [Server thread/INFO]: Made C2gl a server operator
-[00:41:43] [Server thread/INFO]: C2gl issued server command: /tab reload
-[00:41:43] [Server thread/INFO]: [TAB] Disabled in 1ms
-[00:41:43] [Server thread/INFO]: [TAB] [Hint] Refresh interval of %server_unique_joins% is same as default interval, therefore there is no need to override it.
-[00:41:43] [Server thread/INFO]: [TAB] Enabled in 40ms
-[00:44:35] [Server thread/INFO]: C2gl issued server command: /workbench
-[00:44:48] [Server thread/INFO]: C2gl issued server command: /stonecutter
-[00:45:26] [Server thread/INFO]: C2gl issued server command: /carft
-[00:45:30] [Server thread/INFO]: C2gl issued server command: /craft
-[00:47:33] [Server thread/INFO]: C2gl issued server command: /top
-[00:47:33] [Server thread/WARN]: C2gl moved too quickly! -0.07293377108999266,14.0,0.2058070840539017
-[00:48:47] [Server thread/INFO]: C2gl issued server command: /craft
-[00:49:20] [Server thread/INFO]: C2gl issued server command: /craft
-[00:50:16] [Server thread/INFO]: C2gl issued server command: /craft
-[01:00:00] [Async Chat Thread - #21/INFO]: <[VIP+] C2gl> pex? kun je de host overpakken? dan kan ik mijn pc afsluiten ?
-[01:00:03] [Server thread/INFO]: C2gl issued server command: /deop C2gl
-[01:00:03] [Server thread/INFO]: [C2gl: Made C2gl no longer a server operator]
-[01:01:06] [Async Chat Thread - #23/INFO]: <[VIP] TomosChlausorius> dan zullen we wel zo afsluiten
-[01:01:27] [Async Chat Thread - #22/INFO]: <[VIP+] C2gl> ja, of als pex niet kan overnemen laat ik mijn pc wel gwn draaien hoor xd
-[01:01:40] [Async Chat Thread - #23/INFO]: <[VIP+] C2gl> hangt er van af van wat jullie willen xd
-[01:02:38] [Async Chat Thread - #22/INFO]: <[VIP] TomosChlausorius> pak 5 min
-[01:03:10] [Async Chat Thread - #23/INFO]: <[VIP+] C2gl> voor mij goed xd
-[01:03:16] [Async Chat Thread - #23/INFO]: <[VIP+] C2gl> laat maar weten xd
-[01:03:43] [Server thread/INFO]: C2gl issued server command: /ar leaderboard
-[01:04:44] [Server thread/INFO]: TomosChlausorius issued server command: /ec
-[01:05:15] [Server thread/INFO]: JMBoy lost connection: Disconnected
-[01:05:15] [Server thread/INFO]: JMBoy left the game
-[01:05:26] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
-[01:06:09] [Server thread/INFO]: C2gl lost connection: Disconnected
-[01:06:09] [Server thread/INFO]: C2gl left the game
-[01:06:14] [Server thread/INFO]: TomosChlausorius lost connection: Disconnected
-[01:06:14] [Server thread/INFO]: TomosChlausorius left the game
-[01:06:20] [Server thread/INFO]: Stopping the server
-[01:06:20] [Server thread/INFO]: Stopping server
-[01:06:20] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.4.4
-[01:06:20] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
-[01:06:20] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 388ms
-[01:06:20] [Server thread/INFO]: [Dynmap-Essentials] Disabling Dynmap-Essentials v0.91-SNAPSHOT
-[01:06:20] [Server thread/INFO]: [TAB] Disabling TAB v4.1.2
-[01:06:20] [Server thread/INFO]: [TAB] Disabled in 0ms
-[01:06:20] [Server thread/INFO]: [Autorank] Disabling Autorank v5.2.2
-[01:06:20] [Server thread/INFO]: [Autorank] Autorank 5.2.2 has been disabled!
-[01:06:20] [Server thread/INFO]: [FlyTime] Disabling FlyTime v1.2
-[01:06:20] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
-[01:06:20] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+68-993d7ed
-[01:06:20] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[01:06:20] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-4-935
-[01:06:20] [Server thread/INFO]: [dynmap] Unloaded 11 components.
-[01:06:20] [Server thread/INFO]: [dynmap] Stopping map renderer...
-[01:06:21] [Server thread/INFO]: [dynmap] Saved 8 pending tile renders in world 'world'
-[01:06:21] [Server thread/INFO]: [dynmap] Disabled
-[01:06:21] [Server thread/INFO]: [concrete_powder_modifier] Disabling concrete_powder_modifier v${version}
-[01:06:21] [Server thread/INFO]: [Playtimes] Disabling Playtimes v1.6
-[01:06:21] [Server thread/INFO]: [Playtimes] PlayTimes shutting down
-[01:06:21] [Server thread/INFO]: [PlayerShopGUIPlus] Disabling PlayerShopGUIPlus v1.33.1
-[01:06:21] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[01:06:21] [Server thread/INFO]: [Sleeper] Disabling Sleeper v1.5.1
-[01:06:21] [Server thread/INFO]: [Sleeper] Sleeper Has Been Disabled!
-[01:06:21] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.120
-[01:06:21] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[01:06:21] [Server thread/INFO]: [LuckPerms] Closing storage...
-[01:06:21] [Server thread/INFO]: [LuckPerms] Goodbye!
-[01:06:21] [Server thread/INFO]: Saving players
-[01:06:22] [Server thread/INFO]: Saving worlds
-[01:06:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:06:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:06:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:06:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:06:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:06:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:06:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:50:16] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[10:50:16] [ServerMain/WARN]: resource-pack-id missing, using default of 63861cdf-9763-32fb-b8d0-f7389d5f75f9
+[10:50:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:50:18] [ServerMain/INFO]: Loaded 7 recipes
+[10:50:20] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[10:50:20] [Server thread/INFO]: Loading properties
+[10:50:20] [Server thread/INFO]: This server is running CraftBukkit version 4054-Spigot-e9ec548-619936d (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
+[10:50:21] [Server thread/INFO]: Debug logging is disabled
+[10:50:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:50:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:50:21] [Server thread/INFO]: Default game type: SURVIVAL
+[10:50:21] [Server thread/INFO]: Generating keypair
+[10:50:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:50:21] [Server thread/INFO]: Using default channel type
+[10:50:21] [Server thread/ERROR]: Could not load 'plugins\ImageFrame-1.7.7.0.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown dependency ProtocolLib. Please download and install ProtocolLib to run this plugin.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:269) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:430) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:219) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1000) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:50:21] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[10:50:24] [Server thread/WARN]: Legacy plugin Playtimes v1.6 does not specify an api-version.
+[10:50:24] [Server thread/WARN]: Legacy plugin FlyTime v1.2 does not specify an api-version.
+[10:50:24] [Server thread/WARN]: Legacy plugin Dynmap-Essentials v0.91-SNAPSHOT does not specify an api-version.
+[10:50:24] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.120
+[10:50:25] [Server thread/INFO]: [Sleeper] Loading Sleeper v1.5.1
+[10:50:25] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[10:50:25] [Server thread/INFO]: [PlayerShopGUIPlus] Loading PlayerShopGUIPlus v1.33.1
+[10:50:25] [Server thread/INFO]: [Playtimes] Loading Playtimes v1.6
+[10:50:25] [Server thread/INFO]: [concrete_powder_modifier] Loading concrete_powder_modifier v${version}
+[10:50:25] [Server thread/INFO]: [dynmap] Loading dynmap v3.7-beta-4-935
+[10:50:25] [Server thread/INFO]: [dynmap] version=4054-Spigot-e9ec548-619936d (MC: 1.20.4)
+[10:50:25] [Server thread/INFO]: [dynmap] Mod Support API available
+[10:50:25] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+68-993d7ed
+[10:50:25] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
+[10:50:25] [Server thread/INFO]: [FlyTime] Loading FlyTime v1.2
+[10:50:25] [Server thread/INFO]: [Autorank] Loading Autorank v5.2.2
+[10:50:25] [Server thread/INFO]: [TAB] Loading TAB v4.1.2
+[10:50:25] [Server thread/INFO]: [Dynmap-Essentials] Loading Dynmap-Essentials v0.91-SNAPSHOT
+[10:50:25] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.27.0
+[10:50:25] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.4.4
+[10:50:25] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.120
+[10:50:25] [Server thread/INFO]:         __    
+[10:50:25] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.120
+[10:50:25] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
+[10:50:25] [Server thread/INFO]: 
+[10:50:25] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[10:50:25] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[10:50:26] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[10:50:26] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[10:50:26] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1552ms)
+[10:50:26] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[10:50:26] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.0-dev+68-993d7ed which is not a depend or softdepend of this plugin.
+[10:50:26] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[10:50:26] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[10:50:26] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[10:50:26] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[10:50:26] [Server thread/INFO]: Preparing level "world"
+[10:50:26] [Server thread/INFO]: -------- World Settings For [world] --------
+[10:50:26] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:50:26] [Server thread/INFO]: View Distance: 15
+[10:50:26] [Server thread/INFO]: Simulation Distance: 10
+[10:50:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:50:26] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:50:26] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:50:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[10:50:26] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:50:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:50:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:50:26] [Server thread/INFO]: Mob Spawn Range: 6
+[10:50:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:50:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:50:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:50:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[10:50:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[10:50:26] [Server thread/INFO]: Max TNT Explosions: 100
+[10:50:27] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[10:50:27] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:50:27] [Server thread/INFO]: View Distance: 15
+[10:50:27] [Server thread/INFO]: Simulation Distance: 10
+[10:50:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:50:27] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:50:27] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:50:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[10:50:27] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:50:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:50:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:50:27] [Server thread/INFO]: Mob Spawn Range: 6
+[10:50:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:50:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:50:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:50:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[10:50:27] [Server thread/INFO]: Max TNT Explosions: 100
+[10:50:27] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[10:50:27] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:50:27] [Server thread/INFO]: View Distance: 15
+[10:50:27] [Server thread/INFO]: Simulation Distance: 10
+[10:50:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:50:27] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:50:27] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:50:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[10:50:27] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:50:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:50:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:50:27] [Server thread/INFO]: Mob Spawn Range: 6
+[10:50:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:50:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:50:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:50:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[10:50:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[10:50:27] [Server thread/INFO]: Max TNT Explosions: 100
+[10:50:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:50:30] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[10:50:30] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[10:50:30] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[10:50:30] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[10:50:30] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[10:50:30] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[10:50:30] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[10:50:31] [Worker-Main-6/INFO]: Preparing spawn area: 79%
+[10:50:31] [Server thread/INFO]: Time elapsed: 3608 ms
+[10:50:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:50:33] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[10:50:33] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[10:50:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:50:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:50:33] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[10:50:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[10:50:34] [Worker-Main-10/INFO]: Preparing spawn area: 83%
+[10:50:34] [Server thread/INFO]: Time elapsed: 3155 ms
+[10:50:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:50:36] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[10:50:36] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[10:50:36] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[10:50:36] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[10:50:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[10:50:37] [Worker-Main-7/INFO]: Preparing spawn area: 4%
+[10:50:37] [Server thread/INFO]: Time elapsed: 2995 ms
+[10:50:37] [Server thread/INFO]: [Sleeper] Enabling Sleeper v1.5.1
+[10:50:37] [Server thread/INFO]: [Sleeper] Sleeper Version 1.5.1 Has Been Enabled!
+[10:50:37] [Server thread/INFO]: [PlayerShopGUIPlus] Enabling PlayerShopGUIPlus v1.33.1
+[10:50:38] [Server thread/WARN]: [PlayerShopGUIPlus] Invalid item specified for item 3 > 84 (categories.yml), item not loaded: Invalid or no material name specified
+[10:50:38] [Server thread/INFO]: [PlayerShopGUIPlus] ================================[ PlayerShopGUI+ 1.33.1 ]================================
+[10:50:38] [Server thread/INFO]: [PlayerShopGUIPlus]  
+[10:50:38] [Server thread/INFO]: [PlayerShopGUIPlus] No external spawner plugins registered, using built-in spawners support.
+[10:50:38] [Server thread/INFO]: [PlayerShopGUIPlus] Vault economy registered.
+[10:50:38] [Server thread/INFO]: [PlayerShopGUIPlus] Using Vault as economy provider.
+[10:50:38] [Server thread/INFO]: [PlayerShopGUIPlus]  
+[10:50:38] [Server thread/INFO]: [PlayerShopGUIPlus] ==========================================================================================
+[10:50:38] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.6
+[10:50:38] [Server thread/INFO]: [Playtimes] Successfully loaded.
+[10:50:38] [Server thread/INFO]: [concrete_powder_modifier] Enabling concrete_powder_modifier v${version}
+[10:50:38] [Server thread/INFO]: Concrete powder modifier starting...
+[10:50:38] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-beta-4-935
+[10:50:38] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
+[10:50:38] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.120 for access control
+[10:50:38] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[10:50:41] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[10:50:41] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[10:50:41] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[10:50:41] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[10:50:41] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[10:50:41] [Server thread/INFO]: [dynmap] version 3.7-beta-4-935 is enabled - core version 3.7-beta-4-935
+[10:50:41] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[10:50:41] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[10:50:41] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[10:50:41] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[10:50:41] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[10:50:41] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[10:50:41] [Server thread/INFO]: [dynmap] Loaded 8 pending tile renders for world 'world'
+[10:50:41] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[10:50:41] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[10:50:41] [Server thread/INFO]: [dynmap] Enabled
+[10:50:41] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+68-993d7ed
+[10:50:41] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[10:50:41] [Server thread/WARN]: §4Version mismatch! Please update EssentialsChat to the same version.
+[10:50:41] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[10:50:41] [Server thread/INFO]: No kits found to migrate.
+[10:50:42] [Server thread/WARN]: File plugins\Essentials\items.json has been modified by user and file version differs, please update the file manually.
+[10:50:42] [Server thread/INFO]: Loaded 39094 items from items.json.
+[10:50:42] [Server thread/INFO]: Using locale en_US
+[10:50:42] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[10:50:42] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[10:50:42] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[10:50:42] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[10:50:42] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
+[10:50:42] [Server thread/ERROR]: Error occurred while enabling EssentialsChat v2.17.0.0 (Is it up to date?)
+java.lang.NoSuchMethodError: 'java.lang.String com.earth2me.essentials.I18n.tl(java.lang.String, java.lang.Object[])'
+	at com.earth2me.essentials.chat.EssentialsChat.onEnable(EssentialsChat.java:26) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:541) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:455) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:623) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:409) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1000) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:50:42] [Server thread/INFO]: [FlyTime] Enabling FlyTime v1.2
+[10:50:42] [Server thread/INFO]: [FlyTime] Config.yml found, loading!
+[10:50:42] [Server thread/INFO]: [Autorank] Enabling Autorank v5.2.2
+[10:50:42] [Server thread/INFO]: [Autorank] mainclass getHumanPluginName = Autorank v5.2.2
+[10:50:42] [Server thread/INFO]: [Autorank] mainclass getInternalPluginName = Autorank v5.2.2
+[10:50:42] [Server thread/INFO]: [Autorank] mainclass isPluginAvailable = true
+[10:50:42] [Server thread/INFO]: [Autorank] Generated new log file: log-2024-03-24.txt
+[10:50:42] [Server thread/INFO]: [Autorank] The settings.yml is up-to-date
+[10:50:42] [Server thread/INFO]: [Autorank] Generating new PluginLibrary instance
+[10:50:42] [Server thread/INFO]: [PluginLibrary] ***== Loading libraries ==***
+[10:50:42] [Server thread/INFO]: [PluginLibrary] ***== Loaded 3 libraries! ==***
+[10:50:42] [Server thread/INFO]: [PluginLibrary] Loaded libraries: Autorank (by Staartvin), EssentialsX (by drtshock) and Vault (by Kainzo)
+[10:50:42] [Server thread/INFO]: [PluginLibrary] *** Ready for plugins to send/retrieve data. ***
+[10:50:42] [Server thread/INFO]: [Autorank] Interval check every 5 minutes.
+[10:50:42] [Server thread/INFO]: [Autorank] Registered requirement service for adding custom requirements!
+[10:50:42] [Server thread/INFO]: [Autorank] Registered result service for adding custom results!
+[10:50:42] [Server thread/INFO]: [Autorank] Autorank 5.2.2 has been enabled!
+[10:50:42] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
+[10:50:42] [Server thread/INFO]: [TAB] [Hint] Refresh interval of %server_unique_joins% is same as default interval, therefore there is no need to override it.
+[10:50:43] [Server thread/INFO]: [TAB] Enabled in 157ms
+[10:50:43] [Server thread/INFO]: [Dynmap-Essentials] Enabling Dynmap-Essentials v0.91-SNAPSHOT
+[10:50:43] [Server thread/INFO]: [Dynmap-Essentials] initializing
+[10:50:43] [Server thread/INFO]: [Dynmap-Essentials] version 0.91-SNAPSHOT is activated
+[10:50:43] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
+[10:50:43] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.4.4
+[10:50:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
+[10:50:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[10:50:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[10:50:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[10:50:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault
+[10:50:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[10:50:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.20.4...
+[10:50:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[10:50:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[10:50:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[10:50:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[10:50:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[10:50:43] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Cannot load item 'page1.items.45' from section Miscellaneous because it is out of range for page size 45
+[10:50:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 537ms to complete
+[10:50:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:50:43] [Server thread/INFO]: Done (16.893s)! For help, type "help"
+[10:50:43] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[10:50:43] [Craft Scheduler Thread - 3/INFO]: [Autorank] Loading UUID storage files...
+[10:50:43] [Craft Scheduler Thread - 1/INFO]: §6Fetching version information...
+[10:50:43] [Craft Scheduler Thread - 4/INFO]: [Autorank] Primary storage provider of Autorank: FlatFileStorageProvider
+[10:50:43] [Server thread/INFO]: [Autorank] Registering statistics of vanilla Minecraft!
+[10:50:43] [Server thread/INFO]: [Autorank] Loaded libraries and dependencies
+[10:50:43] [Craft Scheduler Thread - 3/INFO]: [Autorank] Loaded UUID storage in 0 seconds.
+[10:50:43] [Craft Scheduler Thread - 6/INFO]: [Autorank] Removed 0 old storage entries from database!
+[10:50:43] [Craft Scheduler Thread - 10/INFO]: [EconomyShopGUI] [INFO]: There is an update available for EconomyShopGUI, you are running v6.4.4 but found v6.4.5.
+[10:50:43] [Craft Scheduler Thread - 10/INFO]: [EconomyShopGUI] [INFO]: Download at: https://www.spigotmc.org/resources/economyshopgui.69927/
+[10:50:43] [Craft Scheduler Thread - 10/INFO]: [Vault] Checking for Updates ... 
+[10:50:43] [Craft Scheduler Thread - 0/WARN]: [Playtimes] You are using an older version of PlayTimes!
+[10:50:43] [Craft Scheduler Thread - 0/INFO]: [Playtimes] Download the newest version here:
+[10:50:43] [Craft Scheduler Thread - 0/INFO]: [Playtimes] https://www.spigotmc.org/resources/58858/
+[10:50:43] [Craft Scheduler Thread - 10/INFO]: [Vault] No new version available
+[10:50:44] [Craft Scheduler Thread - 1/WARN]: §4You're §c5 §4EssentialsX dev build(s) out of date!
+[10:50:44] [Craft Scheduler Thread - 1/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[10:50:44] [pool-17-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
+[10:50:44] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[10:50:44] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[10:50:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[10:50:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[10:50:45] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:doet de server aanstaan?(1216754477324046377)
+[10:50:45] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:pings(1216754478376550494)
+[10:50:45] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:commands(1219937179061456896)
+[10:50:45] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:commands-available-by-role(1219939920068481044)
+[10:50:45] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mc-chat(1216758720558792734)
+[10:50:45] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:eh(1216754658098548857)
+[10:50:45] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:serv-logs(1217438082266304594)
+[10:50:45] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
+[10:50:45] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
+[10:50:45] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling dynmap hook
+[10:50:45] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
+[10:50:45] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[10:51:53] [Server thread/INFO]: /dynmap - Control execution of dynmap.
+[10:51:53] [Server thread/INFO]:  Valid subcommands:  add-id-for-ip cancelrender del-id-for-ip dumpmemory fullrender hide ids-for-ip ips-for-id pause purgemap purgequeue purgeworld quiet radiusrender render resetstats sendtoweb show stats triggerstats updaterender url version webregister
+[10:52:30] [Server thread/INFO]: Command require <world> <x> <z> <radius> if issued from console.
+[10:53:25] [Server thread/INFO]: World 'world_the_end:surface' not defined/loaded
+[10:53:41] [Server thread/INFO]: Made C2gl a server operator
+[10:54:24] [User Authenticator #1/INFO]: UUID of player C2gl is ac59ab29-63a9-4865-912e-ab25be6efa08
+[10:54:25] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:54:25] [Server thread/INFO]: C2gl[/127.0.0.1:62442] logged in with entity id 217 at ([world]-3179.5, 72.92159999847412, -222.5)
+[10:54:26] [Server thread/INFO]: [VIP+] C2gl has blessed you with his presence
+[10:54:33] [Server thread/INFO]: C2gl issued server command: /lp editor
+[10:55:07] [Server thread/INFO]: C2gl issued server command: /lp applyedits Pzq5JPbSdS
+[10:55:07] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [G] (vip+)
+[10:55:07] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add essentials.world true
+[10:55:49] [Server thread/INFO]: C2gl issued server command: /world world_the_end
+[10:56:04] [Server thread/INFO]: C2gl issued server command: /warp spawn
+[10:56:04] [Server thread/WARN]: C2gl moved too quickly! 197.4586405167961,67.0,487.12583345323935
+[10:56:10] [Server thread/INFO]: C2gl issued server command: /world world_the_end
+[10:56:17] [Server thread/INFO]: C2gl issued server command: /fly
+[10:56:23] [Server thread/INFO]: C2gl issued server command: /world world_the_end
+[10:56:36] [Server thread/INFO]: C2gl issued server command: /tp C2gl world_the_end
+[10:56:49] [Server thread/INFO]: C2gl issued server command: /lp editor
+[10:57:19] [Server thread/INFO]: C2gl issued server command: /lp applyedits hrFpv67za7
+[10:57:19] [luckperms-command-executor/INFO]: [LP] LOG > (C2gl) [U] (c2gl)
+[10:57:19] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add dynmap.* true
+[10:57:37] [Server thread/INFO]: C2gl issued server command: /fly
+[10:57:37] [Server thread/WARN]: C2gl moved too quickly! 0.0,-16.0,0.0
+[10:57:39] [Server thread/INFO]: C2gl issued server command: /deop C2gl
+[10:57:39] [Server thread/INFO]: [C2gl: Made C2gl no longer a server operator]
+[10:57:41] [Server thread/INFO]: C2gl issued server command: /home sav
+[10:57:53] [Server thread/INFO]: C2gl issued server command: /fly
+[10:58:00] [Server thread/INFO]: C2gl issued server command: /fly
+[10:58:17] [Server thread/INFO]: C2gl lost connection: Disconnected
+[10:58:17] [Server thread/INFO]: C2gl left the game
+[12:05:17] [User Authenticator #2/INFO]: UUID of player C2gl is ac59ab29-63a9-4865-912e-ab25be6efa08
+[12:05:17] [Server thread/INFO]: C2gl[/127.0.0.1:65075] logged in with entity id 1959 at ([world]-3182.366630957236, 72.0, -218.68467347021243)
+[12:05:18] [Server thread/INFO]: [VIP+] C2gl has blessed you with his presence
+[12:06:29] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_20_R3! Trying to find NMS support
+[12:06:29] [Server thread/WARN]: [NBTAPI] This Server-Version(v1_20_R3) is not supported by this NBT-API Version(2.12.0) located in PlayerShopGUIPlus. The NBT-API will try to work as good as it can! Some functions may not work!
+[12:06:29] [Server thread/INFO]: [NBTAPI] Using the plugin 'PlayerShopGUIPlus' to create a bStats instance!
+[12:11:01] [Server thread/INFO]: C2gl issued server command: /lag
+[12:11:01] [Server thread/INFO]: §cC2gl §4was denied access to command.
+[12:12:20] [Server thread/INFO]: C2gl issued server command: /top
+[12:14:42] [User Authenticator #3/INFO]: UUID of player kleinekneus is d369188e-acdb-4f5c-92cb-6012e961125a
+[12:14:48] [Server thread/INFO]: kleinekneus[/10.147.19.120:55225] logged in with entity id 4323 at ([world]-6785.714135802069, 89.0, 2740.903402496359)
+[12:14:49] [Server thread/INFO]: [MEMBER] ~favoriet has blessed you with his presence
+[12:14:56] [Async Chat Thread - #2/INFO]: <[VIP+] C2gl> ahoi xd
+[12:15:02] [Async Chat Thread - #3/INFO]: <[MEMBER] ~favoriet> hola
+[12:15:03] [Server thread/INFO]: C2gl issued server command: /ar info kleinekneus
+[12:15:22] [Server thread/INFO]: kleinekneus issued server command: /ender
+[12:15:26] [Server thread/INFO]: kleinekneus issued server command: /enderchest
+[12:16:05] [Server thread/INFO]: kleinekneus issued server command: /home home
+[12:16:32] [Server thread/INFO]: C2gl issued server command: /ar check
+[12:16:32] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
+[12:16:41] [Server thread/INFO]: C2gl issued server command: /ar reload
+[12:16:43] [Server thread/INFO]: C2gl issued server command: /ar check
+[12:16:43] [Server thread/INFO]: MessageSender <GOLD>To view the progress of a specific path, use /ar check <path name>. MessageSender
+[12:17:17] [Server thread/INFO]: C2gl issued server command: /ar fcheck kleinekneus
+[12:17:17] [Server thread/INFO]: CONSOLE issued server command: /give kleinekneus diamond 3
+[12:17:17] [Server thread/INFO]: Giving 3 of diamond to [MEMBER] ~favoriet.
+[12:17:23] [Server thread/INFO]: C2gl issued server command: /ar info kleinekneus
+[12:17:23] [Async Chat Thread - #5/INFO]: <[MEMBER] ~favoriet> oh
+[12:17:32] [Async Chat Thread - #4/INFO]: <[VIP+] C2gl> noice xd
+[12:17:36] [Async Chat Thread - #5/INFO]: <[MEMBER] ~favoriet> wat nu
+[12:17:39] [Async Chat Thread - #5/INFO]: <[VIP+] C2gl> ik zit er een paar toe te voegen
+[12:17:41] [Async Chat Thread - #5/INFO]: <[VIP+] C2gl> nog niets xd
+[12:18:00] [Server thread/INFO]: C2gl lost connection: Disconnected
+[12:18:00] [Server thread/INFO]: C2gl left the game
+[12:18:07] [Async Chat Thread - #4/INFO]: <[MEMBER] ~favoriet> doeii
+[12:18:10] [Server thread/INFO]: kleinekneus issued server command: /home home
+[12:19:41] [User Authenticator #4/INFO]: UUID of player C2gl is ac59ab29-63a9-4865-912e-ab25be6efa08
+[12:19:41] [Server thread/INFO]: C2gl[/127.0.0.1:63461] logged in with entity id 5592 at ([world]-3219.591740693414, 62.0, -192.0580859273192)
+[12:19:41] [Server thread/INFO]: [VIP+] C2gl has blessed you with his presence
+[12:19:46] [Async Chat Thread - #6/INFO]: <[MEMBER] ~favoriet> weba
+[12:19:49] [Async Chat Thread - #6/INFO]: <[VIP+] C2gl> thx
+[12:19:52] [Server thread/INFO]: C2gl issued server command: /ar reload
+[12:19:55] [Server thread/INFO]: C2gl issued server command: /ar fcheck kleinekneus
+[12:19:55] [luckperms-command-executor/INFO]: [LP] Promoting kleinekneus along track players from member to vip in context global.
+[12:19:55] [luckperms-command-executor/INFO]: [LP] default ---> member ---> vip ---> vip+ ---> shut-it-nerd ---> nolifer
+[12:20:21] [Async Chat Thread - #6/INFO]: <[VIP+] C2gl> oh xd, welcom bij vip xd
+[12:20:27] [Async Chat Thread - #6/INFO]: <[VIP] ~favoriet> oh
+[12:20:29] [Async Chat Thread - #6/INFO]: <[VIP] ~favoriet> OH
+[12:20:35] [Async Chat Thread - #6/INFO]: <[VIP] ~favoriet> OMG KAN IK VLIEGEN NU
+[12:20:35] [Async Chat Thread - #6/INFO]: <[VIP+] C2gl> ah yeah, makes sense met jou kasteel xd
+[12:20:37] [Async Chat Thread - #6/INFO]: <[VIP+] C2gl> yes xd
+[12:20:48] [Async Chat Thread - #6/INFO]: <[VIP] ~favoriet> woooooooooooo
+[12:20:49] [Async Chat Thread - #7/INFO]: <[VIP+] C2gl> om vip te zijn moest je een job lvl 3 hebben xd
+[12:20:58] [Async Chat Thread - #6/INFO]: <[VIP+] C2gl> en je hebt wel lvl 3 xd
+[12:21:02] [Async Chat Thread - #7/INFO]: <[VIP+] C2gl> als builder xd
+[12:22:07] [Async Chat Thread - #9/INFO]: <[VIP] ~favoriet> hoe vlieg ik?
+[12:22:11] [Async Chat Thread - #8/INFO]: <[VIP+] C2gl> ./fly
+[12:22:16] [Server thread/INFO]: kleinekneus issued server command: /fly
+[12:22:30] [Async Chat Thread - #8/INFO]: <[VIP] ~favoriet> omg yes
+[12:22:32] [Async Chat Thread - #9/INFO]: <[VIP+] C2gl> vergeet het niet uit te zetten wnr je er mee klaar bent
+[12:22:44] [Async Chat Thread - #9/INFO]: <[VIP+] C2gl> want anders blijft je half uur verder aftellen xd
+[12:22:55] [Async Chat Thread - #8/INFO]: <[VIP+] C2gl> hahaha, dat moet wrs wat helpen in je build xd
+[12:23:00] [Async Chat Thread - #8/INFO]: <[VIP] ~favoriet> ja amai
+[12:23:05] [Async Chat Thread - #9/INFO]: <[VIP+] C2gl> xd
+[12:23:07] [Async Chat Thread - #8/INFO]: <[VIP] ~favoriet> en hoe zet je het uit?
+[12:23:12] [Async Chat Thread - #9/INFO]: <[VIP+] C2gl> ./fly xd
+[12:23:19] [Async Chat Thread - #8/INFO]: <[VIP] ~favoriet> ah xd
+[12:23:34] [Async Chat Thread - #9/INFO]: <[VIP+] C2gl> ez he xd?
+[12:23:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Ferre > lvl3 builder?
+[12:23:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Ferre > is da nieuw
+[12:23:57] [Async Chat Thread - #8/INFO]: <[VIP+] C2gl> yes,
+[12:23:59] [Async Chat Thread - #9/INFO]: <[VIP+] C2gl> yes xd
+[12:23:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | VIP +] JGames > was da?
+[12:24:05] [Async Chat Thread - #8/INFO]: <[VIP+] C2gl> je hebt het sws ook xd
+[12:24:15] [Async Chat Thread - #9/INFO]: <[VIP+] C2gl> place 15K blocks
+[12:24:24] [Server thread/INFO]: C2gl issued server command: /craft
+[12:26:52] [Server thread/INFO]: C2gl issued server command: /top
+[12:27:56] [Server thread/INFO]: C2gl issued server command: /craft
+[12:28:18] [Server thread/INFO]: C2gl issued server command: /top
+[12:29:39] [Server thread/INFO]: C2gl issued server command: /top
+[12:29:51] [Server thread/INFO]: C2gl issued server command: /craft
+[12:31:00] [Async Chat Thread - #11/INFO]: <[VIP+] C2gl> hey megge, kun je me effe een mening komen geven?
+[12:31:11] [Server thread/INFO]: kleinekneus issued server command: /fly
+[12:31:15] [Async Chat Thread - #11/INFO]: <[VIP] ~favoriet> is goed
+[12:31:20] [Server thread/INFO]: kleinekneus issued server command: /tpa c2gl
+[12:31:25] [Server thread/INFO]: C2gl issued server command: /tpyes
+[12:31:44] [Async Chat Thread - #10/INFO]: <[VIP] ~favoriet> wtf is dit
+[12:31:51] [Async Chat Thread - #11/INFO]: <[VIP+] C2gl> de voorkant (muren van dit huis) het voelt te monotoon
+[12:31:54] [Async Chat Thread - #10/INFO]: <[VIP+] C2gl> mijn huis.... xd
+[12:32:00] [Async Chat Thread - #11/INFO]: <[VIP] ~favoriet> nee nee dit
+[12:32:02] [Async Chat Thread - #10/INFO]: <[VIP+] C2gl> ahhh de planten xd
+[12:32:08] [Async Chat Thread - #11/INFO]: <[VIP+] C2gl> dat zijn de planten van de sniffers
+[12:32:12] [Async Chat Thread - #11/INFO]: <[VIP] ~favoriet> ahhh
+[12:32:27] [Async Chat Thread - #11/INFO]: <[VIP] ~favoriet> vreemd
+[12:32:29] [Async Chat Thread - #11/INFO]: <[VIP+] C2gl> xd
+[12:32:40] [Async Chat Thread - #10/INFO]: <[VIP] ~favoriet> ik begrijp wat je bedoelt
+[12:32:47] [Async Chat Thread - #11/INFO]: <[VIP+] C2gl> yeah he xd
+[12:33:19] [Async Chat Thread - #10/INFO]: <[VIP] ~favoriet> mss bloemetjes of andere stenen fzo incorpereren
+[12:33:25] [Async Chat Thread - #11/INFO]: <[VIP+] C2gl> aha, das een idee
+[12:33:29] [Async Chat Thread - #11/INFO]: <[VIP] ~favoriet> of mss zelfs stairs ofzo??
+[12:33:33] [Async Chat Thread - #10/INFO]: <[VIP] ~favoriet> voor het dak
+[12:33:49] [Async Chat Thread - #11/INFO]: <[VIP+] C2gl> ah ja, das een goei idee ^^
+[12:34:01] [Async Chat Thread - #11/INFO]: <[VIP] ~favoriet> heb je hier toevallig een nether portal
+[12:34:06] [Async Chat Thread - #10/INFO]: <[VIP+] C2gl> nope :'(
+[12:34:14] [Async Chat Thread - #10/INFO]: <[VIP] ~favoriet> ah kk dw
+[12:34:36] [Server thread/INFO]: kleinekneus issued server command: /home home
+[12:35:14] [Server thread/INFO]: C2gl issued server command: /home sav
+[12:35:14] [Server thread/WARN]: C2gl moved too quickly! 9.801843563571765,-2.0,119.63063803782813
+[12:35:43] [Server thread/INFO]: kleinekneus issued server command: /fly
+[12:36:37] [Server thread/INFO]: C2gl lost connection: Disconnected
+[12:36:37] [Server thread/INFO]: C2gl left the game
+[12:43:30] [Server thread/INFO]: kleinekneus issued server command: /fly
+[12:43:32] [Server thread/INFO]: kleinekneus lost connection: Disconnected
+[12:43:32] [Server thread/INFO]: kleinekneus left the game
+[12:56:20] [User Authenticator #5/INFO]: UUID of player C2gl is ac59ab29-63a9-4865-912e-ab25be6efa08
+[12:56:21] [Server thread/INFO]: C2gl[/127.0.0.1:63526] logged in with entity id 12297 at ([world]-3157.327043672442, 70.85909999847412, -215.69322751857513)
+[12:56:21] [Server thread/INFO]: [VIP+] C2gl has blessed you with his presence
+[12:58:54] [Server thread/INFO]: C2gl issued server command: /fly
+[12:58:58] [Server thread/INFO]: C2gl issued server command: /fly
+[13:07:24] [Server thread/INFO]: C2gl lost connection: Disconnected
+[13:07:24] [Server thread/INFO]: C2gl left the game
+[13:35:28] [User Authenticator #6/INFO]: UUID of player kleinekneus is d369188e-acdb-4f5c-92cb-6012e961125a
+[13:35:38] [Server thread/INFO]: kleinekneus[/10.147.19.120:56559] logged in with entity id 15403 at ([world]-6776.384520774297, 89.0, 2706.038703385248)
+[13:35:39] [Server thread/INFO]: [VIP] ~favoriet has blessed you with his presence
+[13:37:43] [Server thread/INFO]: kleinekneus issued server command: /fly
+[13:39:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | bonk] C2gl > Wb
+[13:42:00] [Server thread/INFO]: kleinekneus issued server command: /fly
+[13:45:22] [Server thread/INFO]: kleinekneus issued server command: /home ferre
+[13:45:29] [Server thread/INFO]: kleinekneus issued server command: /fly
+[13:45:40] [Server thread/INFO]: kleinekneus issued server command: /fly
+[13:45:54] [Server thread/INFO]: kleinekneus has made the advancement [We Need to Go Deeper]
+[13:48:06] [Server thread/INFO]: kleinekneus issued server command: /home home
+[13:58:42] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[13:58:42] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[13:58:42] [Server thread/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[13:58:42] [Server thread/WARN]: resource-pack-id missing, using default of 63861cdf-9763-32fb-b8d0-f7389d5f75f9
+[13:58:42] [Server thread/INFO]: Debug logging is disabled
+[13:58:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:58:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:58:42] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:58:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:58:42] [Server thread/INFO]: View Distance: 15
+[13:58:42] [Server thread/INFO]: Simulation Distance: 10
+[13:58:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:58:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[13:58:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:58:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[13:58:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:58:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:58:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:58:42] [Server thread/INFO]: Mob Spawn Range: 6
+[13:58:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[13:58:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:58:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[13:58:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[13:58:42] [Server thread/INFO]: Max TNT Explosions: 100
+[13:58:42] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:58:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:58:42] [Server thread/INFO]: View Distance: 15
+[13:58:42] [Server thread/INFO]: Simulation Distance: 10
+[13:58:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:58:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[13:58:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:58:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[13:58:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:58:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:58:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:58:42] [Server thread/INFO]: Mob Spawn Range: 6
+[13:58:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[13:58:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:58:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[13:58:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[13:58:42] [Server thread/INFO]: Max TNT Explosions: 100
+[13:58:42] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:58:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:58:42] [Server thread/INFO]: View Distance: 15
+[13:58:42] [Server thread/INFO]: Simulation Distance: 10
+[13:58:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:58:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[13:58:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:58:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[13:58:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:58:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:58:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:58:42] [Server thread/INFO]: Mob Spawn Range: 6
+[13:58:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[13:58:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:58:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[13:58:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Potato Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[13:58:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[13:58:42] [Server thread/INFO]: Max TNT Explosions: 100
+[13:58:42] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.4.4
+[13:58:42] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
+[13:58:42] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 523ms
+[13:58:42] [Server thread/INFO]: [Dynmap-Essentials] Disabling Dynmap-Essentials v0.91-SNAPSHOT
+[13:58:42] [Server thread/INFO]: [TAB] Disabling TAB v4.1.2
+[13:58:42] [Server thread/INFO]: [TAB] Disabled in 1ms
+[13:58:42] [Server thread/INFO]: [Autorank] Disabling Autorank v5.2.2
+[13:58:42] [Server thread/INFO]: [Autorank] Autorank 5.2.2 has been disabled!
+[13:58:42] [Server thread/INFO]: [FlyTime] Disabling FlyTime v1.2
+[13:58:42] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[13:58:42] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+68-993d7ed
+[13:58:42] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[13:58:42] [Server thread/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[13:58:42] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-4-935
+[13:58:42] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[13:58:42] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[13:58:43] [Server thread/INFO]: [dynmap] Disabled
+[13:58:43] [Server thread/INFO]: [concrete_powder_modifier] Disabling concrete_powder_modifier v${version}
+[13:58:43] [Server thread/INFO]: [Playtimes] Disabling Playtimes v1.6
+[13:58:43] [Server thread/INFO]: [Playtimes] PlayTimes shutting down
+[13:58:43] [Server thread/INFO]: [PlayerShopGUIPlus] Disabling PlayerShopGUIPlus v1.33.1
+[13:58:43] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[13:58:43] [Server thread/INFO]: [Sleeper] Disabling Sleeper v1.5.1
+[13:58:43] [Server thread/INFO]: [Sleeper] Sleeper Has Been Disabled!
+[13:58:43] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.120
+[13:58:43] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[13:58:43] [Server thread/INFO]: [LuckPerms] Closing storage...
+[13:58:43] [Server thread/INFO]: [LuckPerms] Goodbye!
+[13:58:44] [Server thread/INFO]: Loaded 7 recipes
+[13:58:45] [Server thread/ERROR]: Could not load 'plugins\ImageFrame-1.7.7.0.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown dependency ProtocolLib. Please download and install ProtocolLib to run this plugin.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:269) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:430) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.reload(CraftServer.java:976) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at org.bukkit.Bukkit.reload(Bukkit.java:864) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:887) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:872) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.dedicated.DedicatedServer.bk(DedicatedServer.java:412) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:388) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1242) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1054) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:58:45] [Server thread/WARN]: Legacy plugin Playtimes v1.6 does not specify an api-version.
+[13:58:45] [Server thread/WARN]: Legacy plugin FlyTime v1.2 does not specify an api-version.
+[13:58:45] [Server thread/WARN]: Legacy plugin Dynmap-Essentials v0.91-SNAPSHOT does not specify an api-version.
+[13:58:45] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.120
+[13:58:45] [Server thread/INFO]: [Sleeper] Loading Sleeper v1.5.1
+[13:58:45] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[13:58:45] [Server thread/INFO]: [PlayerShopGUIPlus] Loading PlayerShopGUIPlus v1.33.1
+[13:58:45] [Server thread/INFO]: [Playtimes] Loading Playtimes v1.6
+[13:58:45] [Server thread/INFO]: [concrete_powder_modifier] Loading concrete_powder_modifier v${version}
+[13:58:45] [Server thread/INFO]: [dynmap] Loading dynmap v3.7-beta-4-935
+[13:58:45] [Server thread/INFO]: [dynmap] version=4054-Spigot-e9ec548-619936d (MC: 1.20.4)
+[13:58:45] [Server thread/INFO]: [dynmap] Mod Support API available
+[13:58:45] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+68-993d7ed
+[13:58:45] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
+[13:58:45] [Server thread/INFO]: [FlyTime] Loading FlyTime v1.2
+[13:58:45] [Server thread/INFO]: [Autorank] Loading Autorank v5.2.2
+[13:58:45] [Server thread/INFO]: [TAB] Loading TAB v4.1.2
+[13:58:45] [Server thread/INFO]: [Dynmap-Essentials] Loading Dynmap-Essentials v0.91-SNAPSHOT
+[13:58:45] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.27.0
+[13:58:45] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.4.4
+[13:58:45] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.120
+[13:58:46] [Server thread/INFO]:         __    
+[13:58:46] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.120
+[13:58:46] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
+[13:58:46] [Server thread/INFO]: 
+[13:58:46] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[13:58:46] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[13:58:46] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[13:58:46] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[13:58:47] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1033ms)
+[13:58:47] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[13:58:47] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.0-dev+68-993d7ed which is not a depend or softdepend of this plugin.
+[13:58:47] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[13:58:47] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[13:58:47] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[13:58:47] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[13:58:47] [Server thread/INFO]: [Sleeper] Enabling Sleeper v1.5.1
+[13:58:47] [Server thread/INFO]: [Sleeper] Sleeper Version 1.5.1 Has Been Enabled!
+[13:58:47] [Server thread/INFO]: [PlayerShopGUIPlus] Enabling PlayerShopGUIPlus v1.33.1
+[13:58:47] [Server thread/WARN]: [PlayerShopGUIPlus] Invalid item specified for item 3 > 84 (categories.yml), item not loaded: Invalid or no material name specified
+[13:58:47] [Server thread/INFO]: [PlayerShopGUIPlus] ================================[ PlayerShopGUI+ 1.33.1 ]================================
+[13:58:47] [Server thread/INFO]: [PlayerShopGUIPlus]  
+[13:58:47] [Server thread/INFO]: [PlayerShopGUIPlus] No external spawner plugins registered, using built-in spawners support.
+[13:58:47] [Server thread/INFO]: [PlayerShopGUIPlus] Vault economy registered.
+[13:58:47] [Server thread/INFO]: [PlayerShopGUIPlus] Using Vault as economy provider.
+[13:58:47] [Server thread/INFO]: [PlayerShopGUIPlus]  
+[13:58:47] [Server thread/INFO]: [PlayerShopGUIPlus] ==========================================================================================
+[13:58:47] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.6
+[13:58:47] [Server thread/INFO]: [Playtimes] Successfully loaded.
+[13:58:47] [Server thread/INFO]: [concrete_powder_modifier] Enabling concrete_powder_modifier v${version}
+[13:58:47] [Server thread/INFO]: Concrete powder modifier starting...
+[13:58:47] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-beta-4-935
+[13:58:47] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
+[13:58:47] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.120 for access control
+[13:58:48] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[13:58:50] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[13:58:50] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[13:58:50] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[13:58:50] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[13:58:50] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[13:58:50] [Server thread/INFO]: [dynmap] version 3.7-beta-4-935 is enabled - core version 3.7-beta-4-935
+[13:58:50] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[13:58:50] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[13:58:50] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[13:58:50] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[13:58:50] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[13:58:50] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[13:58:50] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[13:58:50] [Server thread/INFO]: [dynmap] Enabled
+[13:58:50] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+68-993d7ed
+[13:58:50] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[13:58:50] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[13:58:50] [Server thread/WARN]: §4Version mismatch! Please update EssentialsChat to the same version.
+[13:58:50] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[13:58:50] [Server thread/INFO]: No kits found to migrate.
+[13:58:50] [Server thread/WARN]: File plugins\Essentials\items.json has been modified by user and file version differs, please update the file manually.
+[13:58:50] [Server thread/INFO]: Loaded 39094 items from items.json.
+[13:58:50] [Server thread/INFO]: Using locale en_US
+[13:58:50] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[13:58:50] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[13:58:50] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[13:58:50] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[13:58:50] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
+[13:58:50] [Server thread/ERROR]: Error occurred while enabling EssentialsChat v2.17.0.0 (Is it up to date?)
+java.lang.NoSuchMethodError: 'java.lang.String com.earth2me.essentials.I18n.tl(java.lang.String, java.lang.Object[])'
+	at com.earth2me.essentials.chat.EssentialsChat.onEnable(EssentialsChat.java:26) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugin(CraftServer.java:541) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.enablePlugins(CraftServer.java:455) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.reload(CraftServer.java:978) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at org.bukkit.Bukkit.reload(Bukkit.java:864) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:887) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:872) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.dedicated.DedicatedServer.bk(DedicatedServer.java:412) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:388) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1242) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1054) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13:58:50] [Server thread/INFO]: [FlyTime] Enabling FlyTime v1.2
+[13:58:50] [Server thread/INFO]: [FlyTime] Config.yml found, loading!
+[13:58:51] [Server thread/INFO]: [Autorank] Enabling Autorank v5.2.2
+[13:58:51] [Server thread/INFO]: [Autorank] mainclass getHumanPluginName = Autorank v5.2.2
+[13:58:51] [Server thread/INFO]: [Autorank] mainclass getInternalPluginName = Autorank v5.2.2
+[13:58:51] [Server thread/INFO]: [Autorank] mainclass isPluginAvailable = true
+[13:58:51] [Server thread/INFO]: [Autorank] Generated new log file: log-2024-03-24.txt
+[13:58:51] [Server thread/INFO]: [Autorank] The settings.yml is up-to-date
+[13:58:51] [Server thread/INFO]: [Autorank] Generating new PluginLibrary instance
+[13:58:51] [Server thread/INFO]: [PluginLibrary] ***== Loading libraries ==***
+[13:58:51] [Server thread/INFO]: [PluginLibrary] ***== Loaded 3 libraries! ==***
+[13:58:51] [Server thread/INFO]: [PluginLibrary] Loaded libraries: Autorank (by Staartvin), EssentialsX (by drtshock) and Vault (by Kainzo)
+[13:58:51] [Server thread/INFO]: [PluginLibrary] *** Ready for plugins to send/retrieve data. ***
+[13:58:51] [Server thread/INFO]: [Autorank] Interval check every 5 minutes.
+[13:58:51] [Server thread/INFO]: [Autorank] Registered requirement service for adding custom requirements!
+[13:58:51] [Server thread/INFO]: [Autorank] Registered result service for adding custom results!
+[13:58:51] [Server thread/INFO]: [Autorank] Autorank 5.2.2 has been enabled!
+[13:58:51] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
+[13:58:51] [Server thread/INFO]: [TAB] [Hint] Refresh interval of %server_unique_joins% is same as default interval, therefore there is no need to override it.
+[13:58:51] [Server thread/INFO]: [TAB] Enabled in 222ms
+[13:58:51] [Server thread/INFO]: [Dynmap-Essentials] Enabling Dynmap-Essentials v0.91-SNAPSHOT
+[13:58:51] [Server thread/INFO]: [Dynmap-Essentials] initializing
+[13:58:51] [Server thread/INFO]: [Dynmap-Essentials] version 0.91-SNAPSHOT is activated
+[13:58:51] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
+[13:58:51] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.4.4
+[13:58:51] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
+[13:58:51] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[13:58:51] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[13:58:51] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[13:58:51] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault
+[13:58:51] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[13:58:51] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.20.4...
+[13:58:51] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[13:58:51] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[13:58:51] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[13:58:51] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[13:58:51] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[13:58:51] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Cannot load item 'page1.items.45' from section Miscellaneous because it is out of range for page size 45
+[13:58:51] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 223ms to complete
+[13:58:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:58:51] [Server thread/INFO]: CONSOLE: Reload complete.
+[13:58:51] [Server thread/WARN]: kleinekneus moved too quickly! -5.828530200950809,0.49520087700592796,-19.103345206963695
+[13:58:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9840ms or 196 ticks behind
+[13:58:51] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[13:58:51] [Craft Scheduler Thread - 97/INFO]: [Autorank] Loading UUID storage files...
+[13:58:51] [Craft Scheduler Thread - 95/INFO]: §6Fetching version information...
+[13:58:51] [Craft Scheduler Thread - 98/INFO]: [Autorank] Primary storage provider of Autorank: FlatFileStorageProvider
+[13:58:51] [Server thread/INFO]: [Autorank] Registering statistics of vanilla Minecraft!
+[13:58:51] [Server thread/INFO]: [Autorank] Loaded libraries and dependencies
+[13:58:51] [Craft Scheduler Thread - 100/INFO]: [Autorank] Removed 0 old storage entries from database!
+[13:58:51] [Craft Scheduler Thread - 97/INFO]: [Autorank] Loaded UUID storage in 0 seconds.
+[13:58:51] [Craft Scheduler Thread - 93/WARN]: [Playtimes] You are using an older version of PlayTimes!
+[13:58:51] [Craft Scheduler Thread - 93/INFO]: [Playtimes] Download the newest version here:
+[13:58:51] [Craft Scheduler Thread - 93/INFO]: [Playtimes] https://www.spigotmc.org/resources/58858/
+[13:58:52] [Craft Scheduler Thread - 94/INFO]: [Vault] Checking for Updates ... 
+[13:58:52] [Craft Scheduler Thread - 103/INFO]: [EconomyShopGUI] [INFO]: There is an update available for EconomyShopGUI, you are running v6.4.4 but found v6.4.5.
+[13:58:52] [Craft Scheduler Thread - 103/INFO]: [EconomyShopGUI] [INFO]: Download at: https://www.spigotmc.org/resources/economyshopgui.69927/
+[13:58:52] [Craft Scheduler Thread - 94/INFO]: [Vault] No new version available
+[13:58:52] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[13:58:52] [Craft Scheduler Thread - 95/WARN]: §4You're §c5 §4EssentialsX dev build(s) out of date!
+[13:58:52] [Craft Scheduler Thread - 95/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[13:58:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[13:58:53] [pool-32-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
+[13:58:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[13:58:53] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:doet de server aanstaan?(1216754477324046377)
+[13:58:53] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:pings(1216754478376550494)
+[13:58:53] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:commands(1219937179061456896)
+[13:58:53] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:commands-available-by-role(1219939920068481044)
+[13:58:53] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mc-chat(1216758720558792734)
+[13:58:53] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:eh(1216754658098548857)
+[13:58:53] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:serv-logs(1217438082266304594)
+[13:58:53] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
+[13:58:53] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
+[13:58:53] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling dynmap hook
+[13:58:53] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
+[13:58:53] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[13:58:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Ferre > :octagonal_sign: Server has stopped
+[13:58:59] [Async Chat Thread - #15/INFO]: <[VIP] ~favoriet> nou
+[13:59:05] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Ferre > :octagonal_sign: Server has :white_check_mark: Server has started on ip:10.147.19.82, dyn:http://10.147.19.82:8123/
+[13:59:06] [Async Chat Thread - #14/INFO]: <[VIP] ~favoriet> say sike rn
+[13:59:12] [User Authenticator #7/INFO]: UUID of player C2gl is ac59ab29-63a9-4865-912e-ab25be6efa08
+[13:59:12] [Server thread/INFO]: C2gl[/127.0.0.1:58264] logged in with entity id 19531 at ([world]-3189.812642121964, 72.0, -219.0107433767851)
+[13:59:13] [Server thread/INFO]: [VIP+] C2gl has blessed you with his presence
+[13:59:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | bonk] C2gl (replying to Ferre) > Xd
+[13:59:56] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[14:00:02] [Async Chat Thread - #15/INFO]: <[VIP+] C2gl> het was gwn om een server icon toe te voegen
+[14:00:04] [Async Chat Thread - #14/INFO]: <[VIP+] C2gl> xd
+[14:00:07] [Server thread/INFO]: C2gl lost connection: Disconnected
+[14:00:07] [Server thread/INFO]: C2gl left the game
+[14:00:17] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_20_R3! Trying to find NMS support
+[14:00:17] [Server thread/WARN]: [NBTAPI] This Server-Version(v1_20_R3) is not supported by this NBT-API Version(2.12.0) located in PlayerShopGUIPlus. The NBT-API will try to work as good as it can! Some functions may not work!
+[14:00:17] [Server thread/INFO]: [NBTAPI] Using the plugin 'PlayerShopGUIPlus' to create a bStats instance!
+[14:00:24] [User Authenticator #8/INFO]: UUID of player C2gl is ac59ab29-63a9-4865-912e-ab25be6efa08
+[14:00:25] [Server thread/INFO]: C2gl[/127.0.0.1:60535] logged in with entity id 20208 at ([world]-3189.812642121964, 72.0, -219.0107433767851)
+[14:00:25] [Server thread/INFO]: [VIP+] C2gl has blessed you with his presence
+[14:00:30] [Server thread/INFO]: kleinekneus issued server command: /fly
+[14:00:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | bonk] C2gl > https://cdn.discordapp.com/attachments/1216758720558792734/1221443561111687238/image.png?ex=661298f6&is=660023f6&hm=f9df3b14b1712ca72d80192578f5d9fd711881c73cc6de67d8e170b00e8d3998&
+[14:01:07] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Ferre > slurp
+[14:01:12] [Async Chat Thread - #16/INFO]: <[VIP+] C2gl> slurp xd
+[14:01:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Ferre > weet ge wa jules eerst als logo had
+[14:01:20] [Async Chat Thread - #14/INFO]: <[VIP+] C2gl> nee xd?
+[14:01:25] [Async Chat Thread - #14/INFO]: <[VIP+] C2gl> wat was het ? xd
+[14:02:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Ferre > wacht
+[14:02:09] [Async Chat Thread - #14/INFO]: <[VIP+] C2gl> okay xd
+[14:02:28] [Server thread/INFO]: C2gl issued server command: /ec
+[14:03:02] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Ferre > https://cdn.discordapp.com/attachments/1216758720558792734/1221444170678272091/solar_olympics_bs.png?ex=66129987&is=66002487&hm=3de4ac5fccf7ca2400ee87d01e960707a937d6d3e505f45ae5df56b72b56bd62&
+[14:03:05] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Ferre > de dieee
+[14:04:53] [Server thread/INFO]: C2gl issued server command: /ec
+[14:05:46] [Server thread/INFO]: kleinekneus issued server command: /fly
+[14:05:52] [Server thread/INFO]: C2gl issued server command: /ec
+[14:08:06] [Server thread/INFO]: C2gl lost connection: Disconnected
+[14:08:06] [Server thread/INFO]: C2gl left the game
+[14:09:26] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | bonk] C2gl > omfg
+[14:09:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | bonk] C2gl > KILL ME PLEASE
+[14:09:36] [Async Chat Thread - #18/INFO]: <[VIP] ~favoriet> ?
+[14:10:07] [User Authenticator #9/INFO]: UUID of player C2gl is ac59ab29-63a9-4865-912e-ab25be6efa08
+[14:10:07] [Server thread/INFO]: C2gl[/127.0.0.1:50166] logged in with entity id 24360 at ([world]-3157.7262861972927, 70.85909999847412, -214.7378628687534)
+[14:10:08] [Server thread/INFO]: [VIP+] C2gl has blessed you with his presence
+[14:10:15] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Member] Rein3003 > https://cdn.discordapp.com/attachments/1216758720558792734/1221445985419661312/solar_olympics_bs.png?ex=66129b38&is=66002638&hm=b9dfe34c5e4964511cd554652630007fc8448d93fab94e4ce2e5470b6fddabb9&
+[14:14:32] [Server thread/INFO]: C2gl issued server command: /ec
+[14:15:36] [Server thread/INFO]: C2gl issued server command: /ec
+[14:15:56] [Server thread/INFO]: C2gl issued server command: /ec
+[14:19:48] [Server thread/INFO]: C2gl issued server command: /ec
+[14:21:17] [Server thread/INFO]: C2gl issued server command: /anvil
+[14:21:17] [Server thread/INFO]: §cC2gl §4was denied access to command.
+[14:21:22] [Server thread/INFO]: C2gl issued server command: /home sav
+[14:21:22] [Server thread/WARN]: C2gl moved too quickly! 12.202275213710436,10.0,-26.596061107632096
+[14:22:44] [Server thread/INFO]: kleinekneus issued server command: /home home
+[14:24:28] [Server thread/INFO]: kleinekneus issued server command: /fly
+[14:29:42] [Server thread/INFO]: kleinekneus lost connection: Disconnected
+[14:29:42] [Server thread/INFO]: kleinekneus left the game
+[14:30:43] [Server thread/INFO]: C2gl issued server command: /top
+[14:30:43] [Server thread/WARN]: C2gl moved too quickly! -0.13971846092545093,10.0,0.216266952579673
+[14:35:15] [Server thread/INFO]: C2gl issued server command: /fly
+[14:36:51] [Server thread/INFO]: C2gl issued server command: /fly
+[14:36:56] [Server thread/INFO]: C2gl issued server command: /fly
+[14:37:29] [Server thread/INFO]: C2gl lost connection: Disconnected
+[14:37:29] [Server thread/INFO]: C2gl left the game
+[14:37:39] [Server thread/INFO]: Stopping the server
+[14:37:39] [Server thread/INFO]: Stopping server
+[14:37:39] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.4.4
+[14:37:39] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
+[14:37:40] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 411ms
+[14:37:40] [Server thread/INFO]: [Dynmap-Essentials] Disabling Dynmap-Essentials v0.91-SNAPSHOT
+[14:37:40] [Server thread/INFO]: [TAB] Disabling TAB v4.1.2
+[14:37:40] [Server thread/INFO]: [TAB] Disabled in 0ms
+[14:37:40] [Server thread/INFO]: [Autorank] Disabling Autorank v5.2.2
+[14:37:40] [Server thread/INFO]: [Autorank] Autorank 5.2.2 has been disabled!
+[14:37:40] [Server thread/INFO]: [FlyTime] Disabling FlyTime v1.2
+[14:37:40] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[14:37:40] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+68-993d7ed
+[14:37:40] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[14:37:40] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-4-935
+[14:37:40] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[14:37:40] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[14:37:41] [Server thread/INFO]: [dynmap] Saved 22 pending tile renders in world 'world'
+[14:37:41] [Server thread/INFO]: [dynmap] Disabled
+[14:37:41] [Server thread/INFO]: [concrete_powder_modifier] Disabling concrete_powder_modifier v${version}
+[14:37:41] [Server thread/INFO]: [Playtimes] Disabling Playtimes v1.6
+[14:37:41] [Server thread/INFO]: [Playtimes] PlayTimes shutting down
+[14:37:41] [Server thread/INFO]: [PlayerShopGUIPlus] Disabling PlayerShopGUIPlus v1.33.1
+[14:37:41] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[14:37:41] [Server thread/INFO]: [Sleeper] Disabling Sleeper v1.5.1
+[14:37:41] [Server thread/INFO]: [Sleeper] Sleeper Has Been Disabled!
+[14:37:41] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.120
+[14:37:41] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[14:37:41] [Server thread/INFO]: [LuckPerms] Closing storage...
+[14:37:41] [Server thread/INFO]: [LuckPerms] Goodbye!
+[14:37:41] [Server thread/INFO]: Saving players
+[14:37:41] [Server thread/INFO]: Saving worlds
+[14:37:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:37:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:37:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:37:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:37:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:37:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:37:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
