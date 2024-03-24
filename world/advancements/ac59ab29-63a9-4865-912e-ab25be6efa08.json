@@ -646,6 +646,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-03-11 16:11:16 +0100",
+      "minecraft:blaze": "2024-03-23 22:53:08 +0100",
       "minecraft:skeleton": "2024-03-10 14:57:32 +0100",
       "minecraft:witch": "2024-03-11 16:27:03 +0100",
       "minecraft:wither_skeleton": "2024-03-22 15:06:33 +0100",
@@ -1053,6 +1054,7 @@
       "apple": "2024-03-16 12:53:07 +0100",
       "cooked_rabbit": "2024-03-12 19:43:28 +0100",
       "cooked_chicken": "2024-03-12 19:45:05 +0100",
+      "honey_bottle": "2024-03-23 22:49:05 +0100",
       "cooked_mutton": "2024-03-10 14:44:11 +0100",
       "potato": "2024-03-16 18:40:09 +0100",
       "cooked_beef": "2024-03-10 14:52:49 +0100",
@@ -3461,6 +3463,30 @@
   "minecraft:recipes/food/cooked_salmon": {
     "criteria": {
       "has_salmon": "2024-03-23 16:59:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab": {
+    "criteria": {
+      "has_polished_diorite": "2024-03-24 00:45:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs": {
+    "criteria": {
+      "has_polished_diorite": "2024-03-24 00:45:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2024-03-24 00:45:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2024-03-24 00:45:51 +0100"
     },
     "done": true
   },

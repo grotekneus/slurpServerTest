@@ -419,8 +419,6 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
       started: 1710519250747
     miner LVL3:
       started: 1710519914775
-    Mobhunter LVL4:
-      started: 1711068190187
     VIP to VIP+:
       started: 1711101730206
   completed paths:
@@ -475,6 +473,15 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
     member to VIP:
       completed: 1
       completed at: 1711101430609
+    Mobhunter LVL4:
+      completed: 1
+      completed at: 1711232632146
+    Mobhunter LVL5:
+      completed: 1
+      completed at: 1711233177337
+    Mobhunter LVLX:
+      completed: 1
+      completed at: 1711233232116
   progress on paths:
     default to member:
       completed requirements:
@@ -561,9 +568,18 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
       - 0
       completed prerequisites: []
     Mobhunter LVL4:
-      completed requirements: []
+      completed requirements:
+      - 0
       completed prerequisites: []
     VIP to VIP+:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    Mobhunter LVL5:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    Mobhunter LVLX:
       completed requirements:
       - 0
       completed prerequisites: []
@@ -588,6 +604,8 @@ eb6f06a3-c143-4f22-ac6b-f7afc112344b:
       started: 1710519919616
     member to VIP:
       started: 1710583391604
+    mobhunter LVL2:
+      started: 1711236447217
   completed paths:
     farmer LVL0:
       completed: 1
@@ -616,6 +634,12 @@ eb6f06a3-c143-4f22-ac6b-f7afc112344b:
     default to member:
       completed: 1
       completed at: 1710531079866
+    mobhunter LVL0:
+      completed: 1
+      completed at: 1711236144364
+    mobhunter LVL1:
+      completed: 1
+      completed at: 1711236447216
   progress on paths:
     default to member:
       completed requirements:
@@ -675,6 +699,18 @@ eb6f06a3-c143-4f22-ac6b-f7afc112344b:
       completed requirements: []
       completed prerequisites: []
     member to VIP:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    mobhunter LVL0:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    mobhunter LVL1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    mobhunter LVL2:
       completed requirements: []
       completed prerequisites: []
 d369188e-acdb-4f5c-92cb-6012e961125a:

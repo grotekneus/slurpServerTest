@@ -38,7 +38,7 @@ scoreboard-teams:
   invisible-nametags: false
   anti-override: true
   sorting-types:
-  - GROUPS:owner,admin,mod,helper,builder,vip,default
+  - GROUPS:owner,admin,mod,helper,builder,vip+,vip,member,default
   - PLACEHOLDER_A_TO_Z:%player%
   case-sensitive-sorting: true
   can-see-friendly-invisibles: false
