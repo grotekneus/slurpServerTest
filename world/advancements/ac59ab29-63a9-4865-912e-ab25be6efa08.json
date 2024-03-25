@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:cold_ocean": "2024-03-21 16:34:01 +0100",
       "minecraft:snowy_slopes": "2024-03-19 13:52:58 +0100",
+      "minecraft:old_growth_pine_taiga": "2024-03-25 15:32:39 +0100",
       "minecraft:forest": "2024-03-09 15:40:23 +0100",
       "minecraft:taiga": "2024-03-11 16:10:47 +0100",
       "minecraft:deep_ocean": "2024-03-21 16:33:58 +0100",
@@ -21,7 +22,10 @@
       "minecraft:cherry_grove": "2024-03-09 15:30:17 +0100",
       "minecraft:sunflower_plains": "2024-03-21 16:35:36 +0100",
       "minecraft:birch_forest": "2024-03-10 14:46:05 +0100",
+      "minecraft:windswept_hills": "2024-03-25 15:32:52 +0100",
+      "minecraft:old_growth_spruce_taiga": "2024-03-25 15:32:35 +0100",
       "minecraft:wooded_badlands": "2024-03-23 01:01:44 +0100",
+      "minecraft:bamboo_jungle": "2024-03-25 15:52:02 +0100",
       "minecraft:warm_ocean": "2024-03-23 00:59:05 +0100",
       "minecraft:deep_lukewarm_ocean": "2024-03-23 00:59:17 +0100",
       "minecraft:badlands": "2024-03-21 01:58:14 +0100",
@@ -36,6 +40,7 @@
       "minecraft:old_growth_birch_forest": "2024-03-10 18:30:59 +0100",
       "minecraft:deep_dark": "2024-03-10 18:27:46 +0100",
       "minecraft:grove": "2024-03-21 02:02:02 +0100",
+      "minecraft:swamp": "2024-03-25 15:32:54 +0100",
       "minecraft:meadow": "2024-03-09 15:36:26 +0100",
       "minecraft:savanna": "2024-03-12 15:59:48 +0100",
       "minecraft:plains": "2024-03-09 15:33:00 +0100",
@@ -651,6 +656,7 @@
       "minecraft:witch": "2024-03-11 16:27:03 +0100",
       "minecraft:wither_skeleton": "2024-03-22 15:06:33 +0100",
       "minecraft:cave_spider": "2024-03-10 18:18:12 +0100",
+      "minecraft:piglin": "2024-03-25 13:08:47 +0100",
       "minecraft:vindicator": "2024-03-11 16:38:02 +0100",
       "minecraft:silverfish": "2024-03-10 14:39:20 +0100",
       "minecraft:enderman": "2024-03-14 10:53:28 +0100",
@@ -3487,6 +3493,66 @@
   "minecraft:recipes/building_blocks/polished_diorite_slab_from_polished_diorite_stonecutting": {
     "criteria": {
       "has_polished_diorite": "2024-03-24 00:45:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2024-03-25 13:01:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2024-03-25 13:12:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_hyphae": {
+    "criteria": {
+      "has_log": "2024-03-25 13:12:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2024-03-25 13:12:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2024-03-25 15:23:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2024-03-25 15:44:36 +0100"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-03-25 15:44:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-03-25 15:52:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-03-25 15:52:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-03-25 15:52:08 +0100"
     },
     "done": true
   },

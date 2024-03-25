@@ -115,7 +115,7 @@ world-settings:
     dragon-death-sound-radius: 0
     ticks-per:
       hopper-transfer: 8
-      hopper-check: 1
+      hopper-check: 7
     hopper-amount: 1
     hopper-can-load-chunks: false
     hunger:
