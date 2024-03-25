@@ -52,8 +52,8 @@ VIP to VIP+:
   requirements:
     time:
       value: 24h
-    mobs killed:
-      value: 10;warden
+    completed paths:
+      value: farmer LVL5, lumberjack LVL5, miner LVL5, mobhunter LVL5
   results:
     money:
       value: 20000
@@ -94,6 +94,14 @@ farmer LVL1:
       value: CARROTS;1000
     blocks broken 3:
       value: POTATOES;1000
+    has item:
+      value: BEETROOT;500
+    has item:
+      value: Wheat;500
+    has item:
+      value: carrots;500
+    has item:
+      value: potato;500
   results:
     money:
       value: 7500
@@ -117,6 +125,14 @@ farmer LVL2:
       value: POTATOES;1500
     blocks broken 4:
       value: BEETROOTs;1500
+    has item:
+      value: BEETROOT;1000
+    has item:
+      value: Wheat;1000
+    has item:
+      value: carrots;1000
+    has item:
+      value: potato;1000
   results:
     money:
       value: 10000
@@ -140,6 +156,14 @@ farmer LVL3:
       value: POTATOES;2000
     blocks broken 4:
       value: BEETROOTs;2000
+    has item:
+      value: BEETROOT;1500
+    has item:
+      value: Wheat;1500
+    has item:
+      value: carrots;1500
+    has item:
+      value: potato;1500
   results:
     money:
       value: 10000
@@ -163,6 +187,14 @@ farmer LVL4:
       value: POTATOES;3000
     blocks broken 4:
       value: BEETROOTs;3000
+    has item:
+      value: BEETROOT;2000
+    has item:
+      value: Wheat;2000
+    has item:
+      value: carrots;2000
+    has item:
+      value: potato;2000
   results:
     money:
       value: 10000
@@ -190,6 +222,14 @@ farmer LVL5:
       value: POTATOES;5000
     blocks broken 4:
       value: BEETROOTs;5000
+    has item:
+      value: BEETROOT;3000
+    has item:
+      value: Wheat;3000
+    has item:
+      value: carrots;3000
+    has item:
+      value: potato;3000
   results:
     money:
       value: 10000
@@ -219,6 +259,14 @@ farmer LVLX:
       value: POTATOES;5500
     blocks broken 4:
       value: BEETROOTs;5500
+    has item:
+      value: BEETROOT;500
+    has item:
+      value: Wheat;500
+    has item:
+      value: carrots;500
+    has item:
+      value: potato;500
   results:
     money:
       value: 10000
@@ -644,7 +692,7 @@ lumberjack LVL2:
       value: lumberjack LVL1
   requirements:
     blocks broken:
-      value: OAK_LOG;5500, DARK_OAK_LOG;5500, SPRUCE_LOG;5500, ACACIA_LOG;5500, jungle_log;5500, CHERRY_LOG;5500, MANGROVE_LOG;5500, BIRCH_LOG;5500
+      value: OAK_LOG;3000, DARK_OAK_LOG;3000, SPRUCE_LOG;3000, ACACIA_LOG;3000, jungle_log;3000, CHERRY_LOG;3000, MANGROVE_LOG;3000, BIRCH_LOG;3000
   results:
     money:
       value: 1000
@@ -665,16 +713,56 @@ lumberjack LVL3:
       value: lumberjack LVL2
   requirements:
     blocks broken:
-      value: OAK_LOG;7000, DARK_OAK_LOG;7000, SPRUCE_LOG;7000, ACACIA_LOG;7000, jungle_log;7000, CHERRY_LOG;7000, MANGROVE_LOG;7000, BIRCH_LOG;7000
+      value: OAK_LOG;7000, DARK_OAK_LOG;4000, SPRUCE_LOG;4000, ACACIA_LOG;4000, jungle_log;4000, CHERRY_LOG;4000, MANGROVE_LOG;4000, BIRCH_LOG;4000
   results:
     money:
       value: 1000
     command:
-      value: give &p diamond 1
+      value: give &p diamond 10
     message:
       value: Congratulations, you are a lvl1 lumberjack
   options:
     display name: Lumberjack LVL3
+    auto choose: true
+    show based on prerequisites: true
+
+lumberjack LVL4:
+  prerequisites:
+    completed paths:
+      value: lumberjack LVL3
+  requirements:
+    blocks broken:
+      value: OAK_LOG;5000, DARK_OAK_LOG;5000, SPRUCE_LOG;5000, ACACIA_LOG;5000, jungle_log;5000, CHERRY_LOG;5000, MANGROVE_LOG;5000, BIRCH_LOG;5000
+  results:
+    money:
+      value: 1000
+    command:
+      value: give &p diamond 15
+    message:
+      value: Congratulations, you are a lvl1 lumberjack
+  options:
+    display name: Lumberjack LVL4
+    auto choose: true
+    show based on prerequisites: true
+
+lumberjack LVL5:
+  prerequisites:
+    completed paths:
+      value: lumberjack LVL4
+  requirements:
+    blocks broken:
+      value: OAK_LOG;6500, DARK_OAK_LOG;6500, SPRUCE_LOG;6500, ACACIA_LOG;6500, jungle_log;6500, CHERRY_LOG;6500, MANGROVE_LOG;6500, BIRCH_LOG;6500
+  results:
+    money:
+      value: 1000
+    command:
+      value: give &p diamond 15
+    command:
+      value: minecraft:give @p netherite_axe{display:{Name:'[{"text":"Holy Axe","italic":false}]'},Enchantments:[{id:bane_of_arthropods,lvl:5},{id:efficiency,lvl:10},{id:fortune,lvl:6},{id:mending,lvl:1},{id:sharpness,lvl:5},{id:silk_touch,lvl:1},{id:smite,lvl:5},{id:unbreaking,lvl:3}]} 1
+    message:
+      value: Congratulations, you are a lvl1 lumberjack
+  options:
+    display name: Lumberjack LVL5
     auto choose: true
     show based on prerequisites: true
 #suicide fanatic 

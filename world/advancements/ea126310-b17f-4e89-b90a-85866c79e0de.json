@@ -4390,5 +4390,35 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blue_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2024-03-25 21:30:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2024-03-25 20:19:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2024-03-25 20:48:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2024-03-25 21:42:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tadpole_in_a_bucket": {
+    "criteria": {
+      "tadpole_bucket": "2024-03-25 21:42:42 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3700
 }

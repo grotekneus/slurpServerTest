@@ -4367,5 +4367,17 @@
     },
     "done": true
   },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-03-25 22:32:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2024-03-25 22:47:25 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3700
 }

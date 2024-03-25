@@ -25,6 +25,7 @@
       "minecraft:cherry_grove": "2024-02-28 18:39:13 +0100",
       "minecraft:sunflower_plains": "2024-02-28 23:17:50 +0100",
       "minecraft:birch_forest": "2024-02-29 11:10:54 +0100",
+      "minecraft:old_growth_spruce_taiga": "2024-03-25 19:55:40 +0100",
       "minecraft:snowy_beach": "2024-03-14 20:25:15 +0100",
       "minecraft:warm_ocean": "2024-02-28 19:20:39 +0100",
       "minecraft:deep_lukewarm_ocean": "2024-02-28 19:00:55 +0100",
@@ -46,7 +47,8 @@
       "minecraft:grove": "2024-03-14 20:21:27 +0100",
       "minecraft:meadow": "2024-02-28 18:42:15 +0100",
       "minecraft:savanna": "2024-02-28 18:44:26 +0100",
-      "minecraft:plains": "2024-02-28 18:40:51 +0100"
+      "minecraft:plains": "2024-02-28 18:40:51 +0100",
+      "minecraft:jagged_peaks": "2024-03-25 16:50:31 +0100"
     },
     "done": false
   },
@@ -252,15 +254,19 @@
     "criteria": {
       "cooked_porkchop": "2024-03-08 21:13:03 +0100",
       "mutton": "2024-02-28 19:08:13 +0100",
-      "apple": "2024-02-28 18:56:27 +0100",
       "bread": "2024-02-28 18:51:50 +0100",
-      "cooked_chicken": "2024-03-10 16:25:07 +0100",
       "suspicious_stew": "2024-03-11 22:11:54 +0100",
       "cooked_mutton": "2024-03-07 11:45:21 +0100",
       "salmon": "2024-02-28 19:09:37 +0100",
       "cooked_beef": "2024-02-29 13:47:53 +0100",
+      "chorus_fruit": "2024-03-25 18:29:05 +0100",
       "baked_potato": "2024-03-13 15:17:02 +0100",
-      "cooked_salmon": "2024-03-10 15:37:50 +0100"
+      "apple": "2024-02-28 18:56:27 +0100",
+      "cooked_chicken": "2024-03-10 16:25:07 +0100",
+      "potato": "2024-03-25 20:01:29 +0100",
+      "cooked_cod": "2024-03-25 18:02:16 +0100",
+      "cooked_salmon": "2024-03-10 15:37:50 +0100",
+      "carrot": "2024-03-25 19:43:29 +0100"
     },
     "done": false
   },
@@ -764,6 +770,7 @@
       "minecraft:piglin": "2024-03-07 10:06:25 +0100",
       "minecraft:vindicator": "2024-03-08 21:11:33 +0100",
       "minecraft:enderman": "2024-03-10 14:30:47 +0100",
+      "minecraft:silverfish": "2024-03-25 20:46:52 +0100",
       "minecraft:spider": "2024-02-29 11:08:31 +0100",
       "minecraft:piglin_brute": "2024-03-13 14:07:46 +0100",
       "minecraft:zombie": "2024-02-28 22:44:48 +0100",
@@ -3655,6 +3662,78 @@
   "minecraft:recipes/decorations/red_bed": {
     "criteria": {
       "has_red_wool": "2024-03-14 20:54:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-03-25 16:29:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2024-03-25 16:29:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-03-25 18:22:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2024-03-25 18:23:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2024-03-25 18:28:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2024-03-25 19:01:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-03-25 19:01:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2024-03-25 20:58:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2024-03-25 21:03:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2024-03-25 21:28:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2024-03-26 00:04:26 +0100"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-03-26 00:04:26 +0100"
     },
     "done": true
   },

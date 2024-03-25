@@ -2,7 +2,7 @@ teleportenabled: true
 teleportauto: false
 godmode: false
 muted: false
-jailed: false
+jailed: true
 ip-address: 10.147.19.83
 afk: false
 socialspy: false
@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710271344661
+  lastteleport: 1711397420623
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1711380205179
-  login: 1711379927863
-money: '5450.530000000000005'
+  logout: 1711397827109
+  login: 1711390312470
+money: '46886.530000000000005'
 last-account-name: Lavapro123
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -6464.202641434706
-  y: 70.0
-  z: 3195.4425641189387
-  yaw: 14.37744140625
-  pitch: 8.115147590637207
+  x: -5454.300000011921
+  y: 79.0
+  z: 2360.79125075297
+  yaw: -108.1990966796875
+  pitch: 19.256072998046875
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -69,12 +69,21 @@ homes:
     z: 899.5451076014037
     yaw: 54.089111328125
     pitch: 19.87381935119629
+  creeper:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -3193.8501949537654
+    y: 190.0
+    z: 1041.928045430313
+    yaw: -138.309814453125
+    pitch: 21.713598251342773
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -1458.4377082742205
-  y: 65.9375
-  z: 958.649851201779
-  yaw: 94.505126953125
-  pitch: 51.92704391479492
+  x: -1455.1721591377589
+  y: 63.0
+  z: 905.0836460683824
+  yaw: 21.98211669921875
+  pitch: 0.0
 nickname: baby
+jail: bed

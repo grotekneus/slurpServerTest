@@ -653,8 +653,10 @@
       "minecraft:pillager": "2024-03-11 16:11:16 +0100",
       "minecraft:blaze": "2024-03-23 22:53:08 +0100",
       "minecraft:skeleton": "2024-03-10 14:57:32 +0100",
+      "minecraft:phantom": "2024-03-25 18:56:13 +0100",
       "minecraft:witch": "2024-03-11 16:27:03 +0100",
       "minecraft:wither_skeleton": "2024-03-22 15:06:33 +0100",
+      "minecraft:shulker": "2024-03-25 18:58:35 +0100",
       "minecraft:cave_spider": "2024-03-10 18:18:12 +0100",
       "minecraft:piglin": "2024-03-25 13:08:47 +0100",
       "minecraft:vindicator": "2024-03-11 16:38:02 +0100",
@@ -1057,15 +1059,17 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-03-11 16:13:20 +0100",
+      "bread": "2024-03-25 23:08:28 +0100",
+      "honey_bottle": "2024-03-23 22:49:05 +0100",
+      "cooked_mutton": "2024-03-10 14:44:11 +0100",
+      "cooked_beef": "2024-03-10 14:52:49 +0100",
+      "chorus_fruit": "2024-03-25 19:46:04 +0100",
+      "baked_potato": "2024-03-13 11:23:10 +0100",
+      "beetroot": "2024-03-13 16:30:30 +0100",
       "apple": "2024-03-16 12:53:07 +0100",
       "cooked_rabbit": "2024-03-12 19:43:28 +0100",
       "cooked_chicken": "2024-03-12 19:45:05 +0100",
-      "honey_bottle": "2024-03-23 22:49:05 +0100",
-      "cooked_mutton": "2024-03-10 14:44:11 +0100",
       "potato": "2024-03-16 18:40:09 +0100",
-      "cooked_beef": "2024-03-10 14:52:49 +0100",
-      "baked_potato": "2024-03-13 11:23:10 +0100",
-      "beetroot": "2024-03-13 16:30:30 +0100",
       "carrot": "2024-03-15 15:20:56 +0100"
     },
     "done": false
@@ -3553,6 +3557,84 @@
   "minecraft:recipes/decorations/scaffolding": {
     "criteria": {
       "has_bamboo": "2024-03-25 15:52:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-03-25 18:32:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-03-25 18:32:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2024-03-25 18:58:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-03-25 18:58:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2024-03-25 19:02:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-03-25 19:02:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2024-03-25 19:02:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-03-25 19:02:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-03-25 19:02:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-03-25 19:02:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2024-03-25 22:16:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_block": {
+    "criteria": {
+      "has_chorus_fruit_popped": "2024-03-25 22:17:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_rod": {
+    "criteria": {
+      "has_chorus_fruit_popped": "2024-03-25 22:17:04 +0100"
     },
     "done": true
   },

@@ -24,6 +24,7 @@
       "minecraft:sunflower_plains": "2024-03-12 20:17:40 +0100",
       "minecraft:birch_forest": "2024-03-06 14:31:47 +0100",
       "minecraft:windswept_hills": "2024-03-04 16:11:17 +0100",
+      "minecraft:old_growth_spruce_taiga": "2024-03-25 19:55:55 +0100",
       "minecraft:snowy_beach": "2024-03-06 15:07:28 +0100",
       "minecraft:bamboo_jungle": "2024-03-05 19:40:14 +0100",
       "minecraft:deep_lukewarm_ocean": "2024-03-06 14:50:14 +0100",
@@ -327,12 +328,13 @@
       "minecraft:blaze": "2024-03-06 16:40:51 +0100",
       "minecraft:pillager": "2024-03-07 16:09:55 +0100",
       "minecraft:skeleton": "2024-03-05 19:19:58 +0100",
+      "minecraft:wither_skeleton": "2024-03-06 16:34:33 +0100",
       "minecraft:piglin": "2024-03-06 17:21:51 +0100",
       "minecraft:enderman": "2024-03-07 16:38:12 +0100",
       "minecraft:magma_cube": "2024-03-06 16:34:37 +0100",
       "minecraft:spider": "2024-03-04 20:25:51 +0100",
-      "minecraft:wither_skeleton": "2024-03-06 16:34:33 +0100",
       "minecraft:zombie": "2024-03-04 17:18:44 +0100",
+      "minecraft:creeper": "2024-03-25 19:27:24 +0100",
       "minecraft:drowned": "2024-03-05 20:43:16 +0100",
       "minecraft:zombie_villager": "2024-03-05 21:07:14 +0100",
       "minecraft:slime": "2024-03-04 16:10:04 +0100"
@@ -2830,6 +2832,48 @@
   "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
     "criteria": {
       "has_copper_ore": "2024-03-11 20:37:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2024-03-25 16:30:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-03-25 16:30:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2024-03-25 16:30:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2024-03-25 21:06:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2024-03-25 20:58:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2024-03-25 19:13:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-03-25 19:13:47 +0100"
     },
     "done": true
   },
