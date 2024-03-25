@@ -1172,8 +1172,6 @@ c30b0862-27ff-460d-8843-23cd3487ff71:
   results not performed:
     completed requirements: {}
   active paths:
-    default to member:
-      started: 1711379082844
     miner LVL0:
       started: 1711379082847
     farmer LVL1:
@@ -1184,6 +1182,8 @@ c30b0862-27ff-460d-8843-23cd3487ff71:
       started: 1711379082858
     lumberjack LVL1:
       started: 1711379082861
+    member to VIP:
+      started: 1711379952071
   completed paths:
     farmer LVL0:
       completed: 1
@@ -1197,11 +1197,15 @@ c30b0862-27ff-460d-8843-23cd3487ff71:
     lumberjack LVL0:
       completed: 1
       completed at: 1711379082860
+    default to member:
+      completed: 1
+      completed at: 1711379927868
   progress on paths:
     default to member:
       completed requirements:
       - 1
       - 2
+      - 0
       completed prerequisites: []
     farmer LVL0:
       completed requirements:
@@ -1233,6 +1237,10 @@ c30b0862-27ff-460d-8843-23cd3487ff71:
       completed prerequisites: []
     lumberjack LVL1:
       completed requirements: []
+      completed prerequisites: []
+    member to VIP:
+      completed requirements:
+      - 0
       completed prerequisites: []
 fb8b22a9-7f5f-4cfb-94cf-fc0bfd20a670:
   exempt leaderboard: false
@@ -1249,10 +1257,10 @@ fb8b22a9-7f5f-4cfb-94cf-fc0bfd20a670:
       started: 1711379374559
     miner LVL1:
       started: 1711379374567
-    mobhunter LVL1:
-      started: 1711379374608
-    builder LVL1:
-      started: 1711379374632
+    Mobhunter LVL3:
+      started: 1711379875576
+    builder LVL3:
+      started: 1711379875584
   completed paths:
     miner LVL0:
       completed: 1
@@ -1263,6 +1271,18 @@ fb8b22a9-7f5f-4cfb-94cf-fc0bfd20a670:
     builder LVL0:
       completed: 1
       completed at: 1711379374624
+    mobhunter LVL1:
+      completed: 1
+      completed at: 1711379845271
+    builder LVL1:
+      completed: 1
+      completed at: 1711379845325
+    mobhunter LVL2:
+      completed: 1
+      completed at: 1711379875574
+    builder LVL2:
+      completed: 1
+      completed at: 1711379875582
   progress on paths:
     default to member:
       completed requirements:
@@ -1291,8 +1311,24 @@ fb8b22a9-7f5f-4cfb-94cf-fc0bfd20a670:
       completed requirements: []
       completed prerequisites: []
     mobhunter LVL1:
-      completed requirements: []
+      completed requirements:
+      - 0
       completed prerequisites: []
     builder LVL1:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    mobhunter LVL2:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    builder LVL2:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    Mobhunter LVL3:
+      completed requirements: []
+      completed prerequisites: []
+    builder LVL3:
       completed requirements: []
       completed prerequisites: []
