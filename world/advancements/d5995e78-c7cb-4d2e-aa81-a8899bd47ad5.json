@@ -18,6 +18,7 @@
       "minecraft:frozen_ocean": "2024-03-07 20:09:24 +0100",
       "minecraft:desert": "2024-02-28 16:22:15 +0100",
       "minecraft:frozen_river": "2024-03-03 17:50:58 +0100",
+      "minecraft:windswept_forest": "2024-03-26 21:41:03 +0100",
       "minecraft:ocean": "2024-03-05 20:43:13 +0100",
       "minecraft:jungle": "2024-03-12 10:44:12 +0100",
       "minecraft:cherry_grove": "2024-02-28 16:38:57 +0100",
@@ -36,6 +37,7 @@
       "minecraft:river": "2024-02-28 18:46:33 +0100",
       "minecraft:snowy_plains": "2024-03-03 17:50:20 +0100",
       "minecraft:dripstone_caves": "2024-02-29 18:50:23 +0100",
+      "minecraft:snowy_taiga": "2024-03-26 21:40:44 +0100",
       "minecraft:frozen_peaks": "2024-03-04 21:22:30 +0100",
       "minecraft:old_growth_birch_forest": "2024-02-28 18:55:20 +0100",
       "minecraft:deep_dark": "2024-03-07 18:42:29 +0100",
@@ -881,6 +883,7 @@
       "cooked_beef": "2024-03-02 15:33:20 +0100",
       "beef": "2024-02-28 18:56:42 +0100",
       "porkchop": "2024-03-02 15:51:42 +0100",
+      "beetroot": "2024-03-26 21:49:14 +0100",
       "apple": "2024-03-03 12:30:45 +0100",
       "cooked_chicken": "2024-03-11 16:23:40 +0100",
       "cod": "2024-03-05 20:56:22 +0100",
@@ -4720,6 +4723,18 @@
   "minecraft:end/levitate": {
     "criteria": {
       "levitated": "2024-03-25 18:52:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2024-03-26 21:49:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-03-26 21:49:03 +0100"
     },
     "done": true
   },

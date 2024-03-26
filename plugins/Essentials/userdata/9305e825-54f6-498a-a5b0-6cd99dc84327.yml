@@ -2,7 +2,7 @@ teleportenabled: true
 teleportauto: false
 godmode: false
 muted: false
-jailed: true
+jailed: false
 ip-address: 10.147.19.83
 afk: false
 socialspy: false
@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1711397827109
-  login: 1711390312470
+  logout: 1711477389258
+  login: 1711476484474
 money: '46886.530000000000005'
 last-account-name: Lavapro123
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -5454.300000011921
-  y: 79.0
-  z: 2360.79125075297
-  yaw: -108.1990966796875
-  pitch: 19.256072998046875
+  x: -2939.59179630532
+  y: 135.0
+  z: 259.69999998807907
+  yaw: -3.5157620906829834
+  pitch: 9.502664566040039
 homes:
   home:
     world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
@@ -80,10 +80,9 @@ homes:
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -1455.1721591377589
-  y: 63.0
-  z: 905.0836460683824
-  yaw: 21.98211669921875
-  pitch: 0.0
+  x: -2939.3730320355003
+  y: 135.0
+  z: 258.98342713764623
+  yaw: -53.734375
+  pitch: 41.55603790283203
 nickname: baby
-jail: bed

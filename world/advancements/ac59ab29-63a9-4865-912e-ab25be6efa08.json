@@ -654,6 +654,7 @@
       "minecraft:blaze": "2024-03-23 22:53:08 +0100",
       "minecraft:skeleton": "2024-03-10 14:57:32 +0100",
       "minecraft:phantom": "2024-03-25 18:56:13 +0100",
+      "minecraft:zombified_piglin": "2024-03-26 20:47:19 +0100",
       "minecraft:witch": "2024-03-11 16:27:03 +0100",
       "minecraft:wither_skeleton": "2024-03-22 15:06:33 +0100",
       "minecraft:shulker": "2024-03-25 18:58:35 +0100",
@@ -2408,6 +2409,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2024-03-26 21:04:30 +0100",
       "minecraft:nether_wastes": "2024-03-13 22:23:35 +0100",
       "minecraft:basalt_deltas": "2024-03-13 22:25:14 +0100",
       "minecraft:warped_forest": "2024-03-13 22:25:43 +0100"
@@ -3635,6 +3637,48 @@
   "minecraft:recipes/decorations/end_rod": {
     "criteria": {
       "has_chorus_fruit_popped": "2024-03-25 22:17:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2024-03-26 12:57:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-03-26 12:57:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-03-26 12:57:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2024-03-26 12:57:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2024-03-26 12:57:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2024-03-26 12:57:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2024-03-26 12:57:38 +0100"
     },
     "done": true
   },

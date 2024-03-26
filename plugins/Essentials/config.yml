@@ -978,7 +978,7 @@ protect:
     creeper-explosion: false
     creeper-playerdamage: false
     creeper-itemdamage: false
-    creeper-blockdamage: true
+    creeper-blockdamage: false
     ender-crystal-explosion: false
     enderdragon-blockdamage: true
     enderman-pickup: false

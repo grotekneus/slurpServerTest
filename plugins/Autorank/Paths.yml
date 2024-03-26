@@ -223,13 +223,13 @@ farmer LVL5:
     blocks broken 4:
       value: BEETROOTs;5000
     has item:
-      value: BEETROOT;3000
+      value: BEETROOT;2500
     has item:
-      value: Wheat;3000
+      value: Wheat;2500
     has item:
-      value: carrots;3000
+      value: carrots;2500
     has item:
-      value: potato;3000
+      value: potato;2500
   results:
     money:
       value: 10000
@@ -419,7 +419,7 @@ miner LVL6:
     command:
       value: give &p diamond 20
     command:
-      value: mincraft:give @p netherite_pickaxe{display:{Name:'[{"text":"Holy Picaxe","italic":false}]'},Enchantments:[{id:efficiency,lvl:10},{id:fortune,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:3}]} 1
+      value: mincraft:/give @p netherite_pickaxe{display:{Name:'[{"text":"Holy pickaxe","italic":false}]'},Enchantments:[{id:efficiency,lvl:10},{id:fortune,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:5}]} 1give @p netherite_pickaxe{display:{Name:'[{"text":"Holy pickaxe","italic":false}]'},Enchantments:[{id:efficiency,lvl:10},{id:fortune,lvl:5},{id:mending,lvl:1},{id:unbreaking,lvl:5}]} 1
     message:
       value: Congratulations, you are a lvl6 miner, enjoy your broken ass pickaxe
   options:
@@ -713,7 +713,7 @@ lumberjack LVL3:
       value: lumberjack LVL2
   requirements:
     blocks broken:
-      value: OAK_LOG;7000, DARK_OAK_LOG;4000, SPRUCE_LOG;4000, ACACIA_LOG;4000, jungle_log;4000, CHERRY_LOG;4000, MANGROVE_LOG;4000, BIRCH_LOG;4000
+      value: OAK_LOG;4000, DARK_OAK_LOG;4000, SPRUCE_LOG;4000, ACACIA_LOG;4000, jungle_log;4000, CHERRY_LOG;4000, MANGROVE_LOG;4000, BIRCH_LOG;4000
   results:
     money:
       value: 1000
@@ -765,4 +765,41 @@ lumberjack LVL5:
     display name: Lumberjack LVL5
     auto choose: true
     show based on prerequisites: true
+
+#terraformer 
+Terraformer LVL0:
+  requirements:
+    blocks broken:
+      value: dirt;1000
+  results:
+    money:
+      value: 1000
+    message:
+      value: Congratulations, you are a terraformer, go and shape the world to your likings 
+  options:
+    display name: Terraformer LVL0
+    auto choose: false
+    show based on prerequisites: true
+
+terraformer LVL1:
+  prerequisites:
+    completed paths:
+      value: terraformer LVL0
+  requirements:
+    blocks broken:
+      value: dirt;5000
+  results:
+    money:
+      value: 1000
+    command:
+      value: give &p diamond 5
+    message:
+      value: Congratulations, you are a lvl1 terraformer 
+  options:
+    display name: Terraformer LVL1
+    auto choose: true
+    show based on prerequisites: true
+
+
+# /give @p netherite_shovel{display:{Name:'[{"text":"Holy Gravedigger","italic":false}]'},Enchantments:[{id:efficiency,lvl:10},{id:fortune,lvl:5},{id:mending,lvl:1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:5}]} 1
 #suicide fanatic 
