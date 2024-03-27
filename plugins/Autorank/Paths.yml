@@ -223,13 +223,13 @@ farmer LVL5:
     blocks broken 4:
       value: BEETROOTs;5000
     has item:
-      value: BEETROOT;2500
+      value: BEETROOT;2000
     has item:
-      value: Wheat;2500
+      value: Wheat;2000
     has item:
-      value: carrots;2500
+      value: carrots;2000
     has item:
-      value: potato;2500
+      value: potato;2000
   results:
     money:
       value: 10000
@@ -260,13 +260,13 @@ farmer LVLX:
     blocks broken 4:
       value: BEETROOTs;5500
     has item:
-      value: BEETROOT;500
+      value: BEETROOT;2100
     has item:
-      value: Wheat;500
+      value: Wheat;2100
     has item:
-      value: carrots;500
+      value: carrots;2100
     has item:
-      value: potato;500
+      value: potato;2100
   results:
     money:
       value: 10000
@@ -788,6 +788,8 @@ terraformer LVL1:
   requirements:
     blocks broken:
       value: dirt;5000
+    blocks broken:
+      value: grass_block;2000
   results:
     money:
       value: 1000
@@ -800,6 +802,28 @@ terraformer LVL1:
     auto choose: true
     show based on prerequisites: true
 
+terraformer LVL2:
+  prerequisites:
+    completed paths:
+      value: terraformer LVL1
+  requirements:
+    blocks broken:
+      value: dirt;7500
+    blocks broken:
+      value: grass_block;3000
+  results:
+    money:
+      value: 1000
+    command:
+      value: give &p diamond 9
+    command:
+      value: give &p netherite_ingot 1
+    message:
+      value: Congratulations, you are a lvl2 terraformer 
+  options:
+    display name: Terraformer LVL2
+    auto choose: true
+    show based on prerequisites: true
 
 # /give @p netherite_shovel{display:{Name:'[{"text":"Holy Gravedigger","italic":false}]'},Enchantments:[{id:efficiency,lvl:10},{id:fortune,lvl:5},{id:mending,lvl:1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:5}]} 1
 #suicide fanatic 
