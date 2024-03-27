@@ -1014,8 +1014,8 @@ d5995e78-c7cb-4d2e-aa81-a8899bd47ad5:
       started: 1710870874511
     mob hunter LVL1:
       started: 1710870874522
-    lumberjack LVL2:
-      started: 1710871032200
+    lumberjack LVL3:
+      started: 1711568997444
   completed paths:
     farmer LVL0:
       completed: 1
@@ -1101,6 +1101,9 @@ d5995e78-c7cb-4d2e-aa81-a8899bd47ad5:
     farmer LVLX:
       completed: 1
       completed at: 1711548368421
+    lumberjack LVL2:
+      completed: 1
+      completed at: 1711568997442
   progress on paths:
     default to member:
       completed requirements:
@@ -1159,7 +1162,8 @@ d5995e78-c7cb-4d2e-aa81-a8899bd47ad5:
       - 1
       completed prerequisites: []
     lumberjack LVL2:
-      completed requirements: []
+      completed requirements:
+      - 0
       completed prerequisites: []
     mobhunter LVL0:
       completed requirements:
@@ -1249,6 +1253,9 @@ d5995e78-c7cb-4d2e-aa81-a8899bd47ad5:
       - 3
       - 0
       - 2
+      completed prerequisites: []
+    lumberjack LVL3:
+      completed requirements: []
       completed prerequisites: []
 ea126310-b17f-4e89-b90a-85866c79e0de:
   exempt leaderboard: false
