@@ -60,7 +60,7 @@ playerlist-objective:
   fancy-value: '&7Ping: %ping%'
   disable-condition: '%world%=disabledworld'
 belowname-objective:
-  enabled: false
+  enabled: true
   number: '%health%'
   text: '&cHealth'
   fancy-display-players: '&c%health%'

@@ -3837,12 +3837,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
-    "criteria": {
-      "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2024-03-26 20:54:42 +0100"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/jungle_wood": {
     "criteria": {
       "has_log": "2024-03-26 19:03:29 +0100"
@@ -3855,9 +3849,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
-      "has_end_stone": "2024-03-26 21:00:25 +0100"
+      "has_smithing_trim_template": "2024-03-26 19:13:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
+    "criteria": {
+      "has_vex_armor_trim_smithing_template": "2024-03-26 19:13:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
+    "criteria": {
+      "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2024-03-26 20:54:42 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2024-03-26 20:54:42 +0100"
     },
     "done": true
   },
@@ -3867,15 +3879,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
+  "minecraft:recipes/misc/skull_banner_pattern": {
     "criteria": {
-      "has_smithing_trim_template": "2024-03-26 19:13:15 +0100"
+      "has_wither_skeleton_skull": "2024-03-26 20:57:02 +0100"
     },
     "done": true
   },
   "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
       "blaze_rod": "2024-03-26 20:57:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2024-03-26 20:57:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2024-03-26 20:57:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-03-26 21:00:25 +0100"
     },
     "done": true
   },
@@ -3891,9 +3921,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/blaze_powder": {
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
     "criteria": {
-      "has_blaze_rod": "2024-03-26 20:57:27 +0100"
+      "has_end_stone": "2024-03-26 21:00:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-03-26 21:00:25 +0100"
     },
     "done": true
   },
@@ -3909,39 +3945,129 @@
     },
     "done": true
   },
-  "minecraft:adventure/trim_with_any_armor_pattern": {
+  "minecraft:recipes/decorations/brick_wall": {
     "criteria": {
-      "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2024-03-26 20:54:42 +0100"
+      "has_bricks": "2024-03-28 12:09:48 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+  "minecraft:recipes/building_blocks/brick_stairs": {
     "criteria": {
-      "has_end_stone": "2024-03-26 21:00:25 +0100"
+      "has_bricks": "2024-03-28 12:09:48 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+  "minecraft:recipes/building_blocks/brick_slab": {
     "criteria": {
-      "has_end_stone": "2024-03-26 21:00:25 +0100"
+      "has_bricks": "2024-03-28 12:09:48 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/misc/skull_banner_pattern": {
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
     "criteria": {
-      "has_wither_skeleton_skull": "2024-03-26 20:57:02 +0100"
+      "has_bricks": "2024-03-28 12:09:48 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/brewing_stand": {
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
     "criteria": {
-      "has_blaze_rod": "2024-03-26 20:57:27 +0100"
+      "has_bricks": "2024-03-28 12:09:48 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
+  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
     "criteria": {
-      "has_vex_armor_trim_smithing_template": "2024-03-26 19:13:15 +0100"
+      "has_bricks": "2024-03-28 12:09:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_any_sniffer_seed": {
+    "criteria": {
+      "pitcher_pod": "2024-03-28 14:21:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye_from_pitcher_plant": {
+    "criteria": {
+      "has_pitcher_plant": "2024-03-28 14:40:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-28 18:33:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-28 18:33:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-28 18:33:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-28 18:33:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-28 18:33:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2024-03-28 18:43:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-28 18:33:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-28 18:33:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-28 18:33:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-28 18:33:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_copper": {
+    "criteria": {
+      "has_raw_copper_block": "2024-03-28 19:01:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-28 18:33:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-03-28 18:33:55 +0100"
     },
     "done": true
   },

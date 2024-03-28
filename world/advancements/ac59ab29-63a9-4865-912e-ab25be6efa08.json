@@ -657,6 +657,7 @@
       "minecraft:zombified_piglin": "2024-03-26 20:47:19 +0100",
       "minecraft:witch": "2024-03-11 16:27:03 +0100",
       "minecraft:wither_skeleton": "2024-03-22 15:06:33 +0100",
+      "minecraft:ghast": "2024-03-28 17:37:30 +0100",
       "minecraft:shulker": "2024-03-25 18:58:35 +0100",
       "minecraft:cave_spider": "2024-03-10 18:18:12 +0100",
       "minecraft:piglin": "2024-03-25 13:08:47 +0100",
@@ -3727,6 +3728,60 @@
   "minecraft:recipes/building_blocks/dye_red_carpet": {
     "criteria": {
       "has_needed_dye": "2024-03-27 11:40:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2024-03-28 13:16:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2024-03-28 13:16:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/wax_on": {
+    "criteria": {
+      "wax_on": "2024-03-28 13:16:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2024-03-28 13:17:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-03-28 14:41:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2024-03-28 17:22:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-03-28 17:22:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2024-03-28 17:46:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2024-03-28 17:48:17 +0100"
     },
     "done": true
   },

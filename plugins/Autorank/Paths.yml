@@ -766,6 +766,27 @@ lumberjack LVL5:
     auto choose: true
     show based on prerequisites: true
 
+Lumberjack LVLX:
+  prerequisites:
+    completed paths:
+      value: lumberjack LVL5
+  requirements:
+    blocks broken:
+      value: OAK_LOG;9000, DARK_OAK_LOG;9000, SPRUCE_LOG;9000, ACACIA_LOG;9000, jungle_log;9000, CHERRY_LOG;9000, MANGROVE_LOG;9000, BIRCH_LOG;9000
+  results:
+    money:
+      value: 1000
+    command:
+      value: give &p diamond 50
+    command:
+      value: minecraft:give @p netherite_leggings{display:{Name:'[{"text":"Holy Lumberpants","italic":false}]'},Enchantments:[{id:blast_protection,lvl:5},{id:fire_protection,lvl:5},{id:mending,lvl:1},{id:projectile_protection,lvl:5},{id:protection,lvl:4},{id:swift_sneak,lvl:4},{id:thorns,lvl:5},{id:unbreaking,lvl:4}]} 1
+    message:
+      value: Congratulats mate
+  options:
+    display name: Lumberjack LVLX
+    auto choose: true
+    show based on prerequisites: true
+
 #terraformer 
 Terraformer LVL0:
   requirements:

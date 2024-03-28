@@ -13,6 +13,8 @@ ac59ab29-63a9-4865-912e-ab25be6efa08:
       started: 1711051484049
     builder LVL3:
       started: 1711279003583
+    Lumberjack LVLX:
+      started: 1711619959995
   completed paths:
     farmer LVL0:
       completed: 2
@@ -279,6 +281,9 @@ ac59ab29-63a9-4865-912e-ab25be6efa08:
     terraformer LVL2:
       completed requirements:
       - 0
+      completed prerequisites: []
+    Lumberjack LVLX:
+      completed requirements: []
       completed prerequisites: []
 f303893c-768a-4c80-b4f9-65d2a7a8210c:
   active paths:
@@ -1627,10 +1632,10 @@ fb8b22a9-7f5f-4cfb-94cf-fc0bfd20a670:
   results not performed:
     completed requirements: {}
   active paths:
-    miner LVL1:
-      started: 1711379374567
     farmer LVL4:
       started: 1711482116656
+    miner LVL3:
+      started: 1711647235129
   completed paths:
     miner LVL0:
       completed: 1
@@ -1707,6 +1712,15 @@ fb8b22a9-7f5f-4cfb-94cf-fc0bfd20a670:
     farmer LVL3:
       completed: 1
       completed at: 1711482116653
+    miner LVL1:
+      completed: 1
+      completed at: 1711621020880
+    Lumberjack LVLX:
+      completed: 1
+      completed at: 1711623034555
+    miner LVL2:
+      completed: 1
+      completed at: 1711647235126
   progress on paths:
     default to member:
       completed requirements:
@@ -1735,7 +1749,8 @@ fb8b22a9-7f5f-4cfb-94cf-fc0bfd20a670:
       - 0
       completed prerequisites: []
     miner LVL1:
-      completed requirements: []
+      completed requirements:
+      - 0
       completed prerequisites: []
     mobhunter LVL1:
       completed requirements:
@@ -1827,6 +1842,17 @@ fb8b22a9-7f5f-4cfb-94cf-fc0bfd20a670:
       - 1
       completed prerequisites: []
     farmer LVL4:
+      completed requirements: []
+      completed prerequisites: []
+    Lumberjack LVLX:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    miner LVL2:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    miner LVL3:
       completed requirements: []
       completed prerequisites: []
 e749343c-575b-4ebd-b76f-746ff3ffdd5b:

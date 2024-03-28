@@ -11,29 +11,29 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1711537251897
+  lastteleport: 1711644598245
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1711537910990
-  login: 1711534981959
-money: '166698.24000000000001'
+  logout: 1711647987217
+  login: 1711647778755
+money: '168111.16000000000001'
 lastlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -3187.34808897306
-  y: 72.0
-  z: -197.24262430825613
-  yaw: 59.68819046020508
-  pitch: 27.385385513305664
+  x: -3376.37680437439
+  y: -27.0
+  z: -121.78399946681165
+  yaw: -144.9359130859375
+  pitch: -6.887789249420166
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -3221.7303791041854
-  y: 62.0
-  z: -191.41949442659487
-  yaw: 65.05282592773438
+  x: -3187.0959742477653
+  y: 73.0
+  z: -207.45357935656858
+  yaw: 142.56307983398438
   pitch: 0.0
 last-account-name: C2gl
 homes:
@@ -141,4 +141,20 @@ homes:
     z: 1358.1012840772746
     yaw: 89.84231567382812
     pitch: 18.422080993652344
+  sh:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -2507.2241103685396
+    y: -22.0
+    z: 1.2399653677090612
+    yaw: 1.9842529296875
+    pitch: 39.99482727050781
+  x:
+    world: f0cd1446-651e-4287-bc0c-efbe4e20d588
+    world-name: world_the_end
+    x: 5875.130305130861
+    y: 56.0
+    z: -6250.285845055005
+    yaw: -133.768310546875
+    pitch: 12.852426528930664
 nickname: guigui
