@@ -1,0 +1,17 @@
+barbietown:
+  loc1:
+    ==: org.bukkit.Location
+    world: world
+    x: -5400.0
+    y: 100.0
+    z: 2800.0
+    pitch: 0.0
+    yaw: 0.0
+  loc2:
+    ==: org.bukkit.Location
+    world: world
+    x: -5250.0
+    y: 120.0
+    z: 2700.0
+    pitch: 0.0
+    yaw: 0.0

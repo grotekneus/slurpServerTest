@@ -1,0 +1,13 @@
+# This file allows you to change the default behavior of a path. 
+# For example, if you change 'ALLOW_INFINITE_PATHING' to true, all paths will by default allow infinite pathing, unless specified otherwise by setting it to false for a path.
+# If you're unsure about the option, please consult the wiki about what they mean. 
+# Moreover, be careful with changing defaults: it can ruin your Autorank setup!
+
+AUTO_CHOOSE_PATH: true
+PRIORITY_PATH: 1
+SHOW_PATH_BASED_ON_PREREQUISITES: false
+AUTO_COMPLETE_REQUIREMENT: true
+IS_OPTIONAL_REQUIREMENT: false
+ALLOW_INFINITE_PATHING: false
+ALLOW_PARTIAL_COMPLETION: true
+STORE_PROGRESS_ON_DEACTIVATION: false

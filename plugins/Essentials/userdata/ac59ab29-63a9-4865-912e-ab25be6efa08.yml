@@ -1,0 +1,160 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1711711862506
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1711711914203
+  login: 1711710822320
+money: '168111.16000000000001'
+lastlocation:
+  world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+  world-name: world
+  x: -3202.675840016629
+  y: 62.0
+  z: -196.58799685896398
+  yaw: -163.9498748779297
+  pitch: -2.6036527156829834
+logoutlocation:
+  world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+  world-name: world
+  x: -3209.8357133308614
+  y: 62.0
+  z: -191.41968288438525
+  yaw: -99.88662719726562
+  pitch: 0.0
+last-account-name: C2gl
+homes:
+  sav:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -3177.5
+    y: 72.0
+    z: -220.5
+    yaw: -180.0
+    pitch: 0.0
+  trans:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -4705.949802187411
+    y: 93.0
+    z: 3140.0910527559276
+    yaw: 47.3892822265625
+    pitch: 39.54587173461914
+  t:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -3696.9038287569024
+    y: 64.0
+    z: 440.14257807159396
+    yaw: -145.99191284179688
+    pitch: 45.47783660888672
+  jgames:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -1444.4854068017441
+    y: 91.0
+    z: 910.825561326656
+    yaw: 157.777587890625
+    pitch: 22.338459014892578
+  mobf:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -3194.1207543140517
+    y: 190.0
+    z: 1041.2234771503274
+    yaw: -82.31539154052734
+    pitch: -3.0625922679901123
+  lava:
+    world: c116a7a4-4cc4-434f-8a30-535ce385984e
+    world-name: world_nether
+    x: -407.30000001192093
+    y: 33.0
+    z: -51.48492555596337
+    yaw: 65.58068084716797
+    pitch: 20.102645874023438
+  grrrrr:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -4638.300000011921
+    y: 79.0
+    z: 3148.699999988079
+    yaw: 102.29214477539062
+    pitch: 20.432016372680664
+  meg:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -6788.4492130668405
+    y: 75.0
+    z: 2668.423714640743
+    yaw: 14.110488891601562
+    pitch: -3.246124744415283
+  wither:
+    world: c116a7a4-4cc4-434f-8a30-535ce385984e
+    world-name: world_nether
+    x: 5309.880835486448
+    y: 213.0
+    z: 898.241850974578
+    yaw: -144.31336975097656
+    pitch: -4.644549369812012
+  afkw:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: 42490.58038940345
+    y: 221.0
+    z: 7159.470827253351
+    yaw: 48.11430358886719
+    pitch: 36.58006286621094
+  guardians:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -735.460240057645
+    y: 71.0
+    z: -2369.4783506516255
+    yaw: 37.800994873046875
+    pitch: 89.8499984741211
+  frog:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -1893.8559108792856
+    y: 69.0
+    z: 2085.5716257817585
+    yaw: -86.07806396484375
+    pitch: 19.443458557128906
+  mobf2:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -324.8262004668292
+    y: 63.0
+    z: 1358.1012840772746
+    yaw: 89.84231567382812
+    pitch: 18.422080993652344
+  sh:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -2507.2241103685396
+    y: -22.0
+    z: 1.2399653677090612
+    yaw: 1.9842529296875
+    pitch: 39.99482727050781
+  x:
+    world: f0cd1446-651e-4287-bc0c-efbe4e20d588
+    world-name: world_the_end
+    x: 5875.130305130861
+    y: 56.0
+    z: -6250.285845055005
+    yaw: -133.768310546875
+    pitch: 12.852426528930664
+nickname: guigui
