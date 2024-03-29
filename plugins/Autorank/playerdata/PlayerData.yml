@@ -1493,6 +1493,9 @@ c30b0862-27ff-460d-8843-23cd3487ff71:
     miner LVL0:
       completed: 1
       completed at: 1711544871636
+    Lumberjack LVLX:
+      completed: 1
+      completed at: 1711742741710
   progress on paths:
     default to member:
       completed requirements:
@@ -1624,6 +1627,10 @@ c30b0862-27ff-460d-8843-23cd3487ff71:
       completed prerequisites: []
     miner LVL1:
       completed requirements: []
+      completed prerequisites: []
+    Lumberjack LVLX:
+      completed requirements:
+      - 0
       completed prerequisites: []
 fb8b22a9-7f5f-4cfb-94cf-fc0bfd20a670:
   exempt leaderboard: false
