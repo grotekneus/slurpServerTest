@@ -1,0 +1,88 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 10.147.19.120
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+<<<<<<< HEAD
+  lastteleport: 1711660899042
+=======
+  lastteleport: 1711747506440
+>>>>>>> main
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+<<<<<<< HEAD
+  logout: 1711661631722
+  login: 1711660629633
+=======
+  logout: 1711748737329
+  login: 1711738600963
+>>>>>>> main
+money: '68232.0'
+last-account-name: kleinekneus
+logoutlocation:
+  world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+  world-name: world
+<<<<<<< HEAD
+  x: -6807.588896022021
+  y: 103.0
+  z: 2709.313469823955
+  yaw: 5.7003173828125
+=======
+  x: -6814.9234957563085
+  y: 96.0
+  z: 2697.5053976821
+  yaw: 59.340789794921875
+>>>>>>> main
+  pitch: 0.0
+lastlocation:
+  world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+  world-name: world
+<<<<<<< HEAD
+  x: -6791.2346570256705
+  y: 103.0
+  z: 2719.6728655763045
+  yaw: -175.6442413330078
+  pitch: 1.0098133087158203
+=======
+  x: -6777.723811431356
+  y: 96.0
+  z: 2722.9587223614485
+  yaw: -83.5311279296875
+  pitch: 6.713749885559082
+>>>>>>> main
+homes:
+  home:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -6790.893693908707
+    y: 75.0
+    z: 2680.187105023255
+    yaw: 75.67684936523438
+    pitch: 12.536989212036133
+  end:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -6764.01726514701
+    y: -33.0
+    z: 3881.6469247863047
+    yaw: 2.493135690689087
+    pitch: -4.812596797943115
+  ferre:
+    world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+    world-name: world
+    x: -4705.887104362356
+    y: 93.0
+    z: 3140.0312226544293
+    yaw: 13.765130996704102
+    pitch: 9.514581680297852
+nickname: favoriet
