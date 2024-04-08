@@ -11,20 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1712606921449
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1711830366427
-  login: 1711830313068
+  logout: 1712606972808
+  login: 1712603965951
 money: '0'
 last-account-name: JGamesSP
 logoutlocation:
   world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
   world-name: world
-  x: -1446.300000011921
-  y: 71.0
-  z: 827.3000000119209
-  yaw: -151.240478515625
+  x: -3242.0859794521903
+  y: 109.0
+  z: 498.3442734852984
+  yaw: 48.05511474609375
   pitch: 0.0
+lastlocation:
+  world: a1e7cff0-60a2-4841-a2af-c1452e2a83eb
+  world-name: world
+  x: -2966.300000011921
+  y: 127.0
+  z: 271.67876899032825
+  yaw: -93.66541290283203
+  pitch: -82.92587280273438

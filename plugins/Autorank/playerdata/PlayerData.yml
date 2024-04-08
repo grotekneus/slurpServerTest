@@ -400,6 +400,9 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
     terraformer LVL2:
       completed: 1
       completed at: 1711536077632
+    Lumberjack LVLX:
+      completed: 1
+      completed at: 1712604900749
   exempt leaderboard: false
   exempted from checking: false
   exempted from time addition: false
@@ -561,6 +564,10 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
       - 0
       completed prerequisites: []
     terraformer LVL2:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    Lumberjack LVLX:
       completed requirements:
       - 0
       completed prerequisites: []
