@@ -390,8 +390,10 @@
       "minecraft:snowy_plains": "2024-04-01 20:38:16 +0200",
       "minecraft:dripstone_caves": "2024-03-31 21:31:54 +0200",
       "minecraft:snowy_taiga": "2024-04-01 20:37:01 +0200",
+      "minecraft:frozen_peaks": "2024-04-10 21:38:43 +0200",
       "minecraft:old_growth_birch_forest": "2024-03-31 20:44:26 +0200",
       "minecraft:swamp": "2024-04-01 20:11:52 +0200",
+      "minecraft:grove": "2024-04-10 21:38:41 +0200",
       "minecraft:meadow": "2024-03-31 19:46:12 +0200",
       "minecraft:savanna": "2024-03-30 21:38:26 +0100",
       "minecraft:plains": "2024-03-30 14:48:17 +0100"
@@ -407,7 +409,8 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-03-31 21:01:48 +0200",
-      "minecraft:zombie": "2024-03-30 21:20:22 +0100"
+      "minecraft:zombie": "2024-03-30 21:20:22 +0100",
+      "minecraft:zombie_villager": "2024-04-10 22:21:05 +0200"
     },
     "done": false
   },
@@ -2279,39 +2282,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/dried_kelp_from_smoking": {
+  "minecraft:recipes/transportation/activator_rail": {
     "criteria": {
-      "has_kelp": "2024-04-01 20:53:20 +0200"
+      "has_rail": "2024-04-01 19:38:47 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/food/dried_kelp_from_smelting": {
+  "minecraft:recipes/transportation/powered_rail": {
     "criteria": {
-      "has_kelp": "2024-04-01 20:53:20 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
-    "criteria": {
-      "has_chicken": "2024-04-01 20:17:33 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
-    "criteria": {
-      "has_kelp": "2024-04-01 20:53:20 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken": {
-    "criteria": {
-      "has_chicken": "2024-04-01 20:17:33 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken_from_smoking": {
-    "criteria": {
-      "has_chicken": "2024-04-01 20:17:33 +0200"
+      "has_rail": "2024-04-01 19:38:47 +0200"
     },
     "done": true
   },
@@ -2327,33 +2306,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
-    "criteria": {
-      "has_coast_armor_trim_smithing_template": "2024-04-01 21:09:33 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2024-04-01 19:39:03 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
-    "criteria": {
-      "has_mangrove_roots": "2024-04-01 20:11:13 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2024-04-01 19:39:03 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2024-04-01 21:09:33 +0200"
     },
     "done": true
   },
@@ -2369,27 +2330,75 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/activator_rail": {
-    "criteria": {
-      "has_rail": "2024-04-01 19:38:47 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2024-04-01 19:39:03 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/powered_rail": {
-    "criteria": {
-      "has_rail": "2024-04-01 19:38:47 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2024-04-01 19:39:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2024-04-01 20:11:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2024-04-01 20:17:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2024-04-01 20:17:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2024-04-01 20:17:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2024-04-01 20:53:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2024-04-01 20:53:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2024-04-01 20:53:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2024-04-01 21:09:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-04-01 21:09:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2024-04-10 22:06:01 +0200"
     },
     "done": true
   },

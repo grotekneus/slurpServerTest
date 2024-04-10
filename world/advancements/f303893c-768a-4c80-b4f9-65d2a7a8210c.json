@@ -1219,27 +1219,28 @@
       "minecraft:blaze": "2024-03-02 18:31:43 +0100",
       "minecraft:pillager": "2024-03-06 11:47:58 +0100",
       "minecraft:skeleton": "2024-02-29 10:24:01 +0100",
+      "minecraft:ghast": "2024-03-07 17:10:31 +0100",
+      "minecraft:hoglin": "2024-03-03 12:25:55 +0100",
+      "minecraft:vindicator": "2024-03-06 15:41:23 +0100",
+      "minecraft:magma_cube": "2024-03-02 19:56:42 +0100",
+      "minecraft:spider": "2024-02-29 10:29:51 +0100",
+      "minecraft:piglin_brute": "2024-03-03 12:23:14 +0100",
+      "minecraft:creeper": "2024-02-29 10:27:16 +0100",
+      "minecraft:wither": "2024-03-03 19:42:27 +0100",
+      "minecraft:slime": "2024-02-29 10:56:24 +0100",
       "minecraft:phantom": "2024-03-06 18:46:33 +0100",
       "minecraft:zombified_piglin": "2024-03-02 18:54:23 +0100",
       "minecraft:witch": "2024-02-29 11:04:55 +0100",
       "minecraft:wither_skeleton": "2024-03-03 13:24:33 +0100",
-      "minecraft:ghast": "2024-03-07 17:10:31 +0100",
+      "minecraft:husk": "2024-04-10 22:48:31 +0200",
       "minecraft:ender_dragon": "2024-03-07 18:07:05 +0100",
-      "minecraft:hoglin": "2024-03-03 12:25:55 +0100",
       "minecraft:shulker": "2024-03-10 18:16:06 +0100",
       "minecraft:piglin": "2024-03-02 15:44:48 +0100",
-      "minecraft:vindicator": "2024-03-06 15:41:23 +0100",
       "minecraft:enderman": "2024-03-07 18:07:30 +0100",
       "minecraft:silverfish": "2024-03-20 14:30:27 +0100",
-      "minecraft:magma_cube": "2024-03-02 19:56:42 +0100",
-      "minecraft:spider": "2024-02-29 10:29:51 +0100",
-      "minecraft:piglin_brute": "2024-03-03 12:23:14 +0100",
       "minecraft:zombie": "2024-02-29 10:26:13 +0100",
-      "minecraft:creeper": "2024-02-29 10:27:16 +0100",
       "minecraft:drowned": "2024-03-12 20:41:31 +0100",
-      "minecraft:wither": "2024-03-03 19:42:27 +0100",
-      "minecraft:zombie_villager": "2024-03-03 22:29:58 +0100",
-      "minecraft:slime": "2024-02-29 10:56:24 +0100"
+      "minecraft:zombie_villager": "2024-03-03 22:29:58 +0100"
     },
     "done": false
   },
@@ -4376,6 +4377,42 @@
   "minecraft:recipes/misc/red_dye_from_tulip": {
     "criteria": {
       "has_red_flower": "2024-03-25 22:47:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_green_dye": "2024-04-10 22:54:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-04-10 22:54:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2024-04-10 22:43:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-04-10 22:54:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_candle": {
+    "criteria": {
+      "has_green_dye": "2024-04-10 22:54:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-04-10 22:54:03 +0200"
     },
     "done": true
   },
