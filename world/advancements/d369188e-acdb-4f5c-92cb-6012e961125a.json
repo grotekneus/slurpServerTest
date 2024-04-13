@@ -371,6 +371,7 @@
       "minecraft:cherry_grove": "2024-03-31 21:32:18 +0200",
       "minecraft:sunflower_plains": "2024-03-31 20:46:53 +0200",
       "minecraft:birch_forest": "2024-03-31 21:23:59 +0200",
+      "minecraft:windswept_hills": "2024-04-13 22:50:25 +0200",
       "minecraft:old_growth_spruce_taiga": "2024-04-01 20:33:40 +0200",
       "minecraft:wooded_badlands": "2024-04-01 19:30:41 +0200",
       "minecraft:windswept_savanna": "2024-04-01 21:13:41 +0200",
@@ -2399,6 +2400,60 @@
   "minecraft:recipes/decorations/orange_glazed_terracotta": {
     "criteria": {
       "has_orange_terracotta": "2024-04-10 22:06:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall": {
+    "criteria": {
+      "has_bricks": "2024-04-13 22:40:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template": {
+    "criteria": {
+      "has_dune_armor_trim_smithing_template": "2024-04-13 22:17:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_bricks": "2024-04-13 22:40:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-04-13 22:17:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_bricks": "2024-04-13 22:40:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2024-04-13 22:40:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2024-04-13 22:40:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2024-04-13 22:26:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2024-04-13 22:40:22 +0200"
     },
     "done": true
   },
