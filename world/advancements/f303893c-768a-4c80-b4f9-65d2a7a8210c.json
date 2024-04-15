@@ -4380,6 +4380,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2024-04-10 22:43:19 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/cyan_dye": {
     "criteria": {
       "has_green_dye": "2024-04-10 22:54:03 +0200"
@@ -4389,12 +4395,6 @@
   "minecraft:recipes/building_blocks/dye_green_bed": {
     "criteria": {
       "has_needed_dye": "2024-04-10 22:54:03 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/green_dye": {
-    "criteria": {
-      "has_cactus": "2024-04-10 22:43:19 +0200"
     },
     "done": true
   },

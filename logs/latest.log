@@ -1,18 +1,18 @@
-[17:28:31] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[17:28:31] [ServerMain/WARN]: resource-pack-id missing, using default of 63861cdf-9763-32fb-b8d0-f7389d5f75f9
-[17:28:31] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:28:32] [ServerMain/INFO]: Loaded 7 recipes
-[17:28:33] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[17:28:33] [Server thread/INFO]: Loading properties
-[17:28:33] [Server thread/INFO]: This server is running CraftBukkit version 4054-Spigot-e9ec548-619936d (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
-[17:28:34] [Server thread/INFO]: Debug logging is disabled
-[17:28:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:28:34] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:28:34] [Server thread/INFO]: Default game type: SURVIVAL
-[17:28:34] [Server thread/INFO]: Generating keypair
-[17:28:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:28:34] [Server thread/INFO]: Using default channel type
-[17:28:34] [Server thread/ERROR]: Could not load 'plugins\ImageFrame-1.7.7.0.jar' in folder 'plugins'
+[21:24:41] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[21:24:41] [ServerMain/WARN]: resource-pack-id missing, using default of 63861cdf-9763-32fb-b8d0-f7389d5f75f9
+[21:24:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:24:42] [ServerMain/INFO]: Loaded 7 recipes
+[21:24:43] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[21:24:43] [Server thread/INFO]: Loading properties
+[21:24:43] [Server thread/INFO]: This server is running CraftBukkit version 4054-Spigot-e9ec548-619936d (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
+[21:24:43] [Server thread/INFO]: Debug logging is disabled
+[21:24:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:24:43] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:24:43] [Server thread/INFO]: Default game type: SURVIVAL
+[21:24:43] [Server thread/INFO]: Generating keypair
+[21:24:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:24:44] [Server thread/INFO]: Using default channel type
+[21:24:44] [Server thread/ERROR]: Could not load 'plugins\ImageFrame-1.7.7.0.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: Unknown dependency ProtocolLib. Please download and install ProtocolLib to run this plugin.
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:269) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:430) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
@@ -20,221 +20,221 @@ org.bukkit.plugin.UnknownDependencyException: Unknown dependency ProtocolLib. Pl
 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1000) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
 	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[17:28:34] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[17:28:36] [Server thread/WARN]: Legacy plugin Playtimes v1.6 does not specify an api-version.
-[17:28:36] [Server thread/WARN]: Legacy plugin FlyTime v1.2 does not specify an api-version.
-[17:28:36] [Server thread/WARN]: Legacy plugin Dynmap-Essentials v0.91-SNAPSHOT does not specify an api-version.
-[17:28:36] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.120
-[17:28:36] [Server thread/INFO]: [Sleeper] Loading Sleeper v1.5.1
-[17:28:36] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[17:28:36] [Server thread/INFO]: [PlayerShopGUIPlus] Loading PlayerShopGUIPlus v1.33.1
-[17:28:36] [Server thread/INFO]: [Playtimes] Loading Playtimes v1.6
-[17:28:36] [Server thread/INFO]: [concrete_powder_modifier] Loading concrete_powder_modifier v${version}
-[17:28:36] [Server thread/INFO]: [dynmap] Loading dynmap v3.7-beta-4-935
-[17:28:36] [Server thread/INFO]: [dynmap] version=4054-Spigot-e9ec548-619936d (MC: 1.20.4)
-[17:28:36] [Server thread/INFO]: [dynmap] Mod Support API available
-[17:28:36] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+68-993d7ed
-[17:28:36] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
-[17:28:36] [Server thread/INFO]: [VeinMiner] Loading VeinMiner v2.2.4
-[17:28:36] [Server thread/INFO]: [FlyTime] Loading FlyTime v1.2
-[17:28:36] [Server thread/INFO]: [Autorank] Loading Autorank v5.2.2
-[17:28:36] [Server thread/INFO]: [TAB] Loading TAB v4.1.2
-[17:28:36] [Server thread/INFO]: [Dynmap-Essentials] Loading Dynmap-Essentials v0.91-SNAPSHOT
-[17:28:36] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.27.0
-[17:28:36] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.4.4
-[17:28:37] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.120
-[17:28:37] [Server thread/INFO]:         __    
-[17:28:37] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.120
-[17:28:37] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
-[17:28:37] [Server thread/INFO]: 
-[17:28:37] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[17:28:37] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[17:28:37] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[17:28:37] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[17:28:37] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 884ms)
-[17:28:37] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[17:28:37] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.0-dev+68-993d7ed which is not a depend or softdepend of this plugin.
-[17:28:37] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[17:28:37] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[17:28:38] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[17:28:38] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[17:28:38] [Server thread/INFO]: Preparing level "world"
-[17:28:38] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:28:38] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:28:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:28:38] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:28:38] [Server thread/INFO]: View Distance: 15
-[17:28:38] [Server thread/INFO]: Simulation Distance: 10
-[17:28:38] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:28:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:28:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:28:38] [Server thread/INFO]: Mob Spawn Range: 6
-[17:28:38] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:28:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 7 Hopper Amount: 1 Hopper Can Load Chunks: false
-[17:28:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[17:28:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:28:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Max TNT Explosions: 100
-[17:28:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[17:28:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:28:38] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:28:38] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:28:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:28:38] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:28:38] [Server thread/INFO]: View Distance: 15
-[17:28:38] [Server thread/INFO]: Simulation Distance: 10
-[17:28:38] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:28:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:28:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:28:38] [Server thread/INFO]: Mob Spawn Range: 6
-[17:28:38] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:28:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 7 Hopper Amount: 1 Hopper Can Load Chunks: false
-[17:28:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[17:28:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:28:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Max TNT Explosions: 100
-[17:28:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[17:28:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:28:38] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:28:38] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:28:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:28:38] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:28:38] [Server thread/INFO]: View Distance: 15
-[17:28:38] [Server thread/INFO]: Simulation Distance: 10
-[17:28:38] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:28:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:28:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:28:38] [Server thread/INFO]: Mob Spawn Range: 6
-[17:28:38] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:28:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 7 Hopper Amount: 1 Hopper Can Load Chunks: false
-[17:28:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[17:28:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:28:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[17:28:38] [Server thread/INFO]: Max TNT Explosions: 100
-[17:28:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[17:28:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:28:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:28:39] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[17:28:39] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[17:28:39] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[17:28:40] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[17:28:40] [Worker-Main-7/INFO]: Preparing spawn area: 13%
-[17:28:40] [Server thread/INFO]: Time elapsed: 2175 ms
-[17:28:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:28:42] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[17:28:42] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[17:28:42] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[17:28:42] [Worker-Main-10/INFO]: Preparing spawn area: 6%
-[17:28:42] [Server thread/INFO]: Time elapsed: 1696 ms
-[17:28:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:28:43] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[17:28:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:28:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:28:44] [Worker-Main-14/INFO]: Preparing spawn area: 72%
-[17:28:44] [Server thread/INFO]: Time elapsed: 1551 ms
-[17:28:44] [Server thread/INFO]: [Sleeper] Enabling Sleeper v1.5.1
-[17:28:44] [Server thread/INFO]: [Sleeper] Sleeper Version 1.5.1 Has Been Enabled!
-[17:28:44] [Server thread/INFO]: [PlayerShopGUIPlus] Enabling PlayerShopGUIPlus v1.33.1
-[17:28:44] [Server thread/WARN]: [PlayerShopGUIPlus] Invalid item specified for item 3 > 84 (categories.yml), item not loaded: Invalid or no material name specified
-[17:28:44] [Server thread/INFO]: [PlayerShopGUIPlus] ================================[ PlayerShopGUI+ 1.33.1 ]================================
-[17:28:44] [Server thread/INFO]: [PlayerShopGUIPlus]  
-[17:28:44] [Server thread/INFO]: [PlayerShopGUIPlus] No external spawner plugins registered, using built-in spawners support.
-[17:28:45] [Server thread/INFO]: [PlayerShopGUIPlus] Vault economy registered.
-[17:28:45] [Server thread/INFO]: [PlayerShopGUIPlus] Using Vault as economy provider.
-[17:28:45] [Server thread/INFO]: [PlayerShopGUIPlus]  
-[17:28:45] [Server thread/INFO]: [PlayerShopGUIPlus] ==========================================================================================
-[17:28:45] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.6
-[17:28:45] [Server thread/INFO]: [Playtimes] Successfully loaded.
-[17:28:45] [Server thread/INFO]: [concrete_powder_modifier] Enabling concrete_powder_modifier v${version}
-[17:28:45] [Server thread/INFO]: Concrete powder modifier starting...
-[17:28:45] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-beta-4-935
-[17:28:45] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
-[17:28:45] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.120 for access control
-[17:28:46] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[17:28:47] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
-[17:28:47] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
-[17:28:47] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[17:28:47] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[17:28:47] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[17:28:47] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
-[17:28:47] [Server thread/INFO]: [dynmap] version 3.7-beta-4-935 is enabled - core version 3.7-beta-4-935
-[17:28:47] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
-[17:28:47] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
-[17:28:47] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[17:28:47] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[17:28:47] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
-[17:28:47] [Server thread/INFO]: [dynmap] Loaded 477065 pending tile renders for world 'world'
-[17:28:47] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
-[17:28:47] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
-[17:28:47] [Server thread/INFO]: [dynmap] Enabled
-[17:28:47] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+68-993d7ed
-[17:28:47] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[17:28:47] [Server thread/WARN]: §4Version mismatch! Please update EssentialsChat to the same version.
-[17:28:47] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[17:28:47] [Server thread/INFO]: No kits found to migrate.
-[17:28:47] [Server thread/WARN]: File plugins\Essentials\items.json has been modified by user and file version differs, please update the file manually.
-[17:28:48] [Server thread/INFO]: Loaded 39094 items from items.json.
-[17:28:48] [Server thread/INFO]: Using locale en_GB
-[17:28:48] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[17:28:48] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[17:28:48] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[17:28:48] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
-[17:28:48] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
-[17:28:48] [Server thread/ERROR]: Error occurred while enabling EssentialsChat v2.17.0.0 (Is it up to date?)
+[21:24:44] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[21:24:45] [Server thread/WARN]: Legacy plugin Playtimes v1.6 does not specify an api-version.
+[21:24:45] [Server thread/WARN]: Legacy plugin FlyTime v1.2 does not specify an api-version.
+[21:24:45] [Server thread/WARN]: Legacy plugin Dynmap-Essentials v0.91-SNAPSHOT does not specify an api-version.
+[21:24:46] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.120
+[21:24:46] [Server thread/INFO]: [Sleeper] Loading Sleeper v1.5.1
+[21:24:46] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[21:24:46] [Server thread/INFO]: [PlayerShopGUIPlus] Loading PlayerShopGUIPlus v1.33.1
+[21:24:46] [Server thread/INFO]: [Playtimes] Loading Playtimes v1.6
+[21:24:46] [Server thread/INFO]: [concrete_powder_modifier] Loading concrete_powder_modifier v${version}
+[21:24:46] [Server thread/INFO]: [dynmap] Loading dynmap v3.7-beta-4-935
+[21:24:46] [Server thread/INFO]: [dynmap] version=4054-Spigot-e9ec548-619936d (MC: 1.20.4)
+[21:24:46] [Server thread/INFO]: [dynmap] Mod Support API available
+[21:24:46] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+68-993d7ed
+[21:24:46] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
+[21:24:46] [Server thread/INFO]: [VeinMiner] Loading VeinMiner v2.2.4
+[21:24:46] [Server thread/INFO]: [FlyTime] Loading FlyTime v1.2
+[21:24:46] [Server thread/INFO]: [Autorank] Loading Autorank v5.2.2
+[21:24:46] [Server thread/INFO]: [TAB] Loading TAB v4.1.2
+[21:24:46] [Server thread/INFO]: [Dynmap-Essentials] Loading Dynmap-Essentials v0.91-SNAPSHOT
+[21:24:46] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.27.0
+[21:24:46] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.4.4
+[21:24:46] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.120
+[21:24:46] [Server thread/INFO]:         __    
+[21:24:46] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.120
+[21:24:46] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
+[21:24:46] [Server thread/INFO]: 
+[21:24:46] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:24:46] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:24:47] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:24:47] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:24:47] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 831ms)
+[21:24:47] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[21:24:47] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.0-dev+68-993d7ed which is not a depend or softdepend of this plugin.
+[21:24:47] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:24:47] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:24:47] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[21:24:47] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[21:24:47] [Server thread/INFO]: Preparing level "world"
+[21:24:47] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:24:47] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:24:47] [Server thread/INFO]: View Distance: 15
+[21:24:47] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:24:47] [Server thread/INFO]: Simulation Distance: 10
+[21:24:47] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:24:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:24:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:24:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:24:47] [Server thread/INFO]: Mob Spawn Range: 6
+[21:24:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:24:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[21:24:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:24:47] [Server thread/INFO]: Max TNT Explosions: 100
+[21:24:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:24:47] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:24:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 7 Hopper Amount: 1 Hopper Can Load Chunks: false
+[21:24:47] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[21:24:47] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:24:47] [Server thread/INFO]: View Distance: 15
+[21:24:47] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:24:47] [Server thread/INFO]: Simulation Distance: 10
+[21:24:47] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:24:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:24:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:24:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:24:47] [Server thread/INFO]: Mob Spawn Range: 6
+[21:24:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[21:24:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:24:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[21:24:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:24:47] [Server thread/INFO]: Max TNT Explosions: 100
+[21:24:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:24:47] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:24:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 7 Hopper Amount: 1 Hopper Can Load Chunks: false
+[21:24:48] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[21:24:48] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:24:48] [Server thread/INFO]: View Distance: 15
+[21:24:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:24:48] [Server thread/INFO]: Simulation Distance: 10
+[21:24:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:24:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:24:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:24:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:24:48] [Server thread/INFO]: Mob Spawn Range: 6
+[21:24:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[21:24:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:24:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[21:24:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:24:48] [Server thread/INFO]: Max TNT Explosions: 100
+[21:24:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:24:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:24:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 7 Hopper Amount: 1 Hopper Can Load Chunks: false
+[21:24:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:24:49] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:24:49] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:24:49] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[21:24:49] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:24:50] [Worker-Main-5/INFO]: Preparing spawn area: 2%
+[21:24:50] [Server thread/INFO]: Time elapsed: 2330 ms
+[21:24:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:24:51] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[21:24:51] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[21:24:51] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[21:24:52] [Worker-Main-14/INFO]: Preparing spawn area: 19%
+[21:24:52] [Server thread/INFO]: Time elapsed: 1695 ms
+[21:24:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:24:53] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[21:24:53] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:24:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:24:53] [Worker-Main-10/INFO]: Preparing spawn area: 57%
+[21:24:53] [Server thread/INFO]: Time elapsed: 1587 ms
+[21:24:53] [Server thread/INFO]: [Sleeper] Enabling Sleeper v1.5.1
+[21:24:53] [Server thread/INFO]: [Sleeper] Sleeper Version 1.5.1 Has Been Enabled!
+[21:24:53] [Server thread/INFO]: [PlayerShopGUIPlus] Enabling PlayerShopGUIPlus v1.33.1
+[21:24:54] [Server thread/WARN]: [PlayerShopGUIPlus] Invalid item specified for item 3 > 84 (categories.yml), item not loaded: Invalid or no material name specified
+[21:24:54] [Server thread/INFO]: [PlayerShopGUIPlus] ================================[ PlayerShopGUI+ 1.33.1 ]================================
+[21:24:54] [Server thread/INFO]: [PlayerShopGUIPlus]  
+[21:24:54] [Server thread/INFO]: [PlayerShopGUIPlus] No external spawner plugins registered, using built-in spawners support.
+[21:24:54] [Server thread/INFO]: [PlayerShopGUIPlus] Vault economy registered.
+[21:24:54] [Server thread/INFO]: [PlayerShopGUIPlus] Using Vault as economy provider.
+[21:24:54] [Server thread/INFO]: [PlayerShopGUIPlus]  
+[21:24:54] [Server thread/INFO]: [PlayerShopGUIPlus] ==========================================================================================
+[21:24:54] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.6
+[21:24:54] [Server thread/INFO]: [Playtimes] Successfully loaded.
+[21:24:54] [Server thread/INFO]: [concrete_powder_modifier] Enabling concrete_powder_modifier v${version}
+[21:24:54] [Server thread/INFO]: Concrete powder modifier starting...
+[21:24:54] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-beta-4-935
+[21:24:54] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
+[21:24:54] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.120 for access control
+[21:24:54] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[21:24:56] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[21:24:56] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[21:24:56] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[21:24:56] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[21:24:56] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[21:24:56] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[21:24:56] [Server thread/INFO]: [dynmap] version 3.7-beta-4-935 is enabled - core version 3.7-beta-4-935
+[21:24:56] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[21:24:56] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[21:24:56] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[21:24:56] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[21:24:56] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[21:24:56] [Server thread/INFO]: [dynmap] Loaded 445012 pending tile renders for world 'world'
+[21:24:56] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[21:24:56] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[21:24:56] [Server thread/INFO]: [dynmap] Enabled
+[21:24:56] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+68-993d7ed
+[21:24:56] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[21:24:56] [Server thread/WARN]: §4Version mismatch! Please update EssentialsChat to the same version.
+[21:24:56] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[21:24:56] [Server thread/INFO]: No kits found to migrate.
+[21:24:56] [Server thread/WARN]: File plugins\Essentials\items.json has been modified by user and file version differs, please update the file manually.
+[21:24:56] [Server thread/INFO]: Loaded 39094 items from items.json.
+[21:24:56] [Server thread/INFO]: Using locale en_GB
+[21:24:56] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[21:24:56] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[21:24:56] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[21:24:56] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[21:24:56] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
+[21:24:56] [Server thread/ERROR]: Error occurred while enabling EssentialsChat v2.17.0.0 (Is it up to date?)
 java.lang.NoSuchMethodError: 'java.lang.String com.earth2me.essentials.I18n.tl(java.lang.String, java.lang.Object[])'
 	at com.earth2me.essentials.chat.EssentialsChat.onEnable(EssentialsChat.java:26) ~[?:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.20.4-R0.1-SNAPSHOT.jar:?]
@@ -248,178 +248,152 @@ java.lang.NoSuchMethodError: 'java.lang.String com.earth2me.essentials.I18n.tl(j
 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1000) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.4-R0.1-SNAPSHOT.jar:4054-Spigot-e9ec548-619936d]
 	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[17:28:48] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.2.4
-[17:28:48] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
-[17:28:48] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] Using SQLITE for persistent storage.
-[17:28:48] [Server thread/INFO]: [VeinMiner] Added 13 aliases.
-[17:28:48] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 26 unique blocks.
-[17:28:48] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 10 unique blocks.
-[17:28:48] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 24 unique blocks.
-[17:28:48] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 27 unique blocks.
-[17:28:48] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 10 unique blocks.
-[17:28:48] [Server thread/WARN]: [VeinMiner] No block list configured for category with id "Hand"! Is this intentional?
-[17:28:48] [Server thread/INFO]: [VeinMiner] Registered category with id "Hand" holding 0 unique items and 0 unique blocks.
-[17:28:48] [Server thread/INFO]: [VeinMiner] Performing an update check!
-[17:28:48] [Server thread/INFO]: [VeinMiner] Registering commands
-[17:28:48] [Server thread/INFO]: [VeinMiner] Registering events
-[17:28:48] [Server thread/INFO]: [VeinMiner] Vault found. Attempting to enable economy support...
-[17:28:48] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
-[17:28:48] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
-[17:28:48] [Server thread/INFO]: [FlyTime] Enabling FlyTime v1.2
-[17:28:48] [Server thread/INFO]: [FlyTime] Config.yml found, loading!
-[17:28:48] [Server thread/INFO]: [Autorank] Enabling Autorank v5.2.2
-[17:28:48] [Server thread/INFO]: [Autorank] mainclass getHumanPluginName = Autorank v5.2.2
-[17:28:48] [Server thread/INFO]: [Autorank] mainclass getInternalPluginName = Autorank v5.2.2
-[17:28:48] [Server thread/INFO]: [Autorank] mainclass isPluginAvailable = true
-[17:28:48] [Server thread/INFO]: [Autorank] Generated new log file: log-2024-04-15.txt
-[17:28:48] [Server thread/INFO]: [Autorank] The settings.yml is up-to-date
-[17:28:48] [Server thread/INFO]: [Autorank] Generating new PluginLibrary instance
-[17:28:48] [Server thread/INFO]: [PluginLibrary] ***== Loading libraries ==***
-[17:28:48] [Server thread/INFO]: [PluginLibrary] ***== Loaded 3 libraries! ==***
-[17:28:48] [Server thread/INFO]: [PluginLibrary] Loaded libraries: Autorank (by Staartvin), EssentialsX (by drtshock) and Vault (by Kainzo)
-[17:28:48] [Server thread/INFO]: [PluginLibrary] *** Ready for plugins to send/retrieve data. ***
-[17:28:48] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] You are on the latest version of VeinMiner.
-[17:28:48] [Server thread/INFO]: [Autorank] Interval check every 5 minutes.
-[17:28:48] [Server thread/INFO]: [Autorank] Registered requirement service for adding custom requirements!
-[17:28:48] [Server thread/INFO]: [Autorank] Registered result service for adding custom results!
-[17:28:48] [Server thread/INFO]: [Autorank] Autorank 5.2.2 has been enabled!
-[17:28:48] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
-[17:28:48] [Server thread/INFO]: [TAB] [Hint] Refresh interval of %server_unique_joins% is same as default interval, therefore there is no need to override it.
-[17:28:48] [Server thread/INFO]: [TAB] Enabled in 110ms
-[17:28:48] [Server thread/INFO]: [Dynmap-Essentials] Enabling Dynmap-Essentials v0.91-SNAPSHOT
-[17:28:48] [Server thread/INFO]: [Dynmap-Essentials] initializing
-[17:28:48] [Server thread/INFO]: [Dynmap-Essentials] version 0.91-SNAPSHOT is activated
-[17:28:48] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
-[17:28:48] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.4.4
-[17:28:48] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
-[17:28:48] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
-[17:28:48] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
-[17:28:48] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
-[17:28:48] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault
-[17:28:48] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
-[17:28:48] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.20.4...
-[17:28:48] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
-[17:28:48] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[17:28:48] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[17:28:48] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
-[17:28:48] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
-[17:28:48] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Cannot load item 'page1.items.45' from section Miscellaneous because it is out of range for page size 45
-[17:28:48] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 272ms to complete
-[17:28:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:28:49] [Server thread/INFO]: Done (10.992s)! For help, type "help"
-[17:28:49] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[17:28:49] [Craft Scheduler Thread - 3/INFO]: [Autorank] Loading UUID storage files...
-[17:28:49] [Craft Scheduler Thread - 1/INFO]: §6Fetching version information...
-[17:28:49] [Craft Scheduler Thread - 4/INFO]: [Autorank] Primary storage provider of Autorank: FlatFileStorageProvider
-[17:28:49] [Server thread/INFO]: [Autorank] Registering statistics of vanilla Minecraft!
-[17:28:49] [Server thread/INFO]: [Autorank] Loaded libraries and dependencies
-[17:28:49] [Craft Scheduler Thread - 3/INFO]: [Autorank] Loaded UUID storage in 0 seconds.
-[17:28:49] [Craft Scheduler Thread - 6/INFO]: [Autorank] Removed 0 old storage entries from database!
-[17:28:49] [Craft Scheduler Thread - 7/INFO]: [Vault] Checking for Updates ... 
-[17:28:49] [Craft Scheduler Thread - 9/INFO]: [EconomyShopGUI] [INFO]: There is an update available for EconomyShopGUI, you are running v6.4.4 but found v6.5.1.
-[17:28:49] [Craft Scheduler Thread - 9/INFO]: [EconomyShopGUI] [INFO]: Download at: https://www.spigotmc.org/resources/economyshopgui.69927/
-[17:28:49] [Craft Scheduler Thread - 0/WARN]: [Playtimes] You are using an older version of PlayTimes!
-[17:28:49] [Craft Scheduler Thread - 0/INFO]: [Playtimes] Download the newest version here:
-[17:28:49] [Craft Scheduler Thread - 0/INFO]: [Playtimes] https://www.spigotmc.org/resources/58858/
-[17:28:49] [Craft Scheduler Thread - 7/INFO]: [Vault] No new version available
-[17:28:49] [Craft Scheduler Thread - 1/WARN]: §4You're §c10 §4EssentialsX dev build(s) out of date!
-[17:28:49] [Craft Scheduler Thread - 1/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
-[17:28:49] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[17:28:49] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
-[17:28:49] [pool-17-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
-[17:28:49] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[17:28:50] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[17:28:50] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:doet de server aanstaan?(1216754477324046377)
-[17:28:50] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:pings(1216754478376550494)
-[17:28:50] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:commands(1219937179061456896)
-[17:28:50] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:commands-available-by-role(1219939920068481044)
-[17:28:50] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mc-chat(1216758720558792734)
-[17:28:50] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:eh(1216754658098548857)
-[17:28:50] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:serv-logs(1217438082266304594)
-[17:28:50] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💾host(1222838468691099648)
-[17:28:50] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
-[17:28:50] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
-[17:28:50] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling dynmap hook
-[17:28:50] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
-[17:28:51] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
-[17:29:07] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | VIP +] JGames > HIJ STAAT AAN
-[17:29:49] [Craft Scheduler Thread - 7/INFO]: [Autorank] A new day has arrived! All daily times have been reset.
-[17:29:49] [Craft Scheduler Thread - 7/INFO]: [Autorank] A new week has arrived! All weekly times have been reset.
-[17:31:11] [User Authenticator #1/INFO]: UUID of player TomosChlausorius is 873bc772-4a98-4d04-9c9c-9f1e6c18ea3a
-[17:31:15] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:31:15] [Server thread/INFO]: TomosChlausorius[/10.147.19.189:52914] logged in with entity id 194 at ([world]-5274.568930734762, 111.0, 2758.2282664241625)
-[17:31:16] [Server thread/INFO]: [VIP] TomosChlausorius has blessed you with his presence
-[17:31:16] [Server thread/INFO]: CONSOLE issued server command: /give TomosChlausorius diamond 3
-[17:31:16] [luckperms-command-executor/INFO]: [LP] Promoting tomoschlausorius along track players from vip to vip+ in context global.
-[17:31:16] [luckperms-command-executor/INFO]: [LP] default ---> member ---> vip ---> vip+ ---> shut-it-nerd ---> nolifer
-[17:31:16] [Server thread/INFO]: Giving 3 of diamond to [VIP] TomosChlausorius.
-[17:31:56] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_20_R3! Trying to find NMS support
-[17:31:56] [Server thread/WARN]: [NBTAPI] This Server-Version(v1_20_R3) is not supported by this NBT-API Version(2.12.0) located in PlayerShopGUIPlus. The NBT-API will try to work as good as it can! Some functions may not work!
-[17:31:56] [Server thread/INFO]: [NBTAPI] Using the plugin 'PlayerShopGUIPlus' to create a bStats instance!
-[17:39:29] [Server thread/INFO]: TomosChlausorius lost connection: Disconnected
-[17:39:29] [Server thread/INFO]: TomosChlausorius left the game
-[17:39:41] [User Authenticator #2/INFO]: UUID of player TomosChlausorius is 873bc772-4a98-4d04-9c9c-9f1e6c18ea3a
-[17:39:45] [Server thread/INFO]: TomosChlausorius[/10.147.19.189:53425] logged in with entity id 4447 at ([world_nether]-653.8072807029896, 31.0, 387.4053345200925)
-[17:39:45] [Server thread/INFO]: [VIP+] TomosChlausorius has blessed you with his presence
-[17:50:20] [Server thread/INFO]: TomosChlausorius burned to death
-[17:50:24] [Server thread/INFO]: TomosChlausorius issued server command: /back
-[17:52:53] [Server thread/INFO]: TomosChlausorius has made the advancement [War Pigs]
-[17:57:18] [Server thread/INFO]: TomosChlausorius was slain by Piglin Brute
-[17:57:21] [Server thread/INFO]: TomosChlausorius issued server command: /back
-[17:57:23] [Server thread/INFO]: TomosChlausorius was slain by Piglin Brute
-[17:57:26] [Server thread/INFO]: TomosChlausorius issued server command: /back
-[17:57:28] [Server thread/INFO]: TomosChlausorius was slain by Piglin Brute
-[17:57:32] [Server thread/INFO]: TomosChlausorius issued server command: /back
-[17:57:33] [Server thread/INFO]: TomosChlausorius was slain by Piglin
-[17:57:36] [Server thread/INFO]: TomosChlausorius issued server command: /back
-[17:57:38] [Server thread/INFO]: TomosChlausorius was slain by Piglin
-[17:57:41] [Server thread/INFO]: TomosChlausorius issued server command: /back
-[17:57:43] [Server thread/INFO]: TomosChlausorius was slain by Piglin
-[17:57:46] [Server thread/INFO]: TomosChlausorius issued server command: /back
-[18:05:31] [Server thread/INFO]: TomosChlausorius issued server command: /home
-[18:05:40] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
-[18:05:42] [Server thread/INFO]: TomosChlausorius lost connection: Disconnected
-[18:05:42] [Server thread/INFO]: TomosChlausorius left the game
-[18:07:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | VIP +] ferre > HIJ STAAT AAN
-[18:07:40] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | VIP +] ferre > Shit ik ben vergeten te pullen op schoolwifi
-[18:42:43] [Server thread/INFO]: Stopping the server
-[18:42:43] [Server thread/INFO]: Stopping server
-[18:42:43] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.4.4
-[18:42:43] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
-[18:42:44] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 545ms
-[18:42:44] [Server thread/INFO]: [Dynmap-Essentials] Disabling Dynmap-Essentials v0.91-SNAPSHOT
-[18:42:44] [Server thread/INFO]: [TAB] Disabling TAB v4.1.2
-[18:42:44] [Server thread/INFO]: [TAB] Disabled in 0ms
-[18:42:44] [Server thread/INFO]: [Autorank] Disabling Autorank v5.2.2
-[18:42:44] [Server thread/INFO]: [Autorank] Autorank 5.2.2 has been disabled!
-[18:42:44] [Server thread/INFO]: [FlyTime] Disabling FlyTime v1.2
-[18:42:44] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v2.2.4
-[18:42:44] [Server thread/INFO]: [VeinMiner] Clearing localized data
-[18:42:44] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
-[18:42:44] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+68-993d7ed
-[18:42:44] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[18:42:44] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-4-935
-[18:42:44] [Server thread/INFO]: [dynmap] Unloaded 11 components.
-[18:42:44] [Server thread/INFO]: [dynmap] Stopping map renderer...
-[18:42:45] [Server thread/INFO]: [dynmap] Saved 456033 pending tile renders in world 'world'
-[18:42:50] [Server thread/INFO]: [dynmap] Disabled
-[18:42:50] [Server thread/INFO]: [concrete_powder_modifier] Disabling concrete_powder_modifier v${version}
-[18:42:50] [Server thread/INFO]: [Playtimes] Disabling Playtimes v1.6
-[18:42:50] [Server thread/INFO]: [Playtimes] PlayTimes shutting down
-[18:42:50] [Server thread/INFO]: [PlayerShopGUIPlus] Disabling PlayerShopGUIPlus v1.33.1
-[18:42:50] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[18:42:50] [Server thread/INFO]: [Sleeper] Disabling Sleeper v1.5.1
-[18:42:50] [Server thread/INFO]: [Sleeper] Sleeper Has Been Disabled!
-[18:42:50] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.120
-[18:42:50] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[18:42:50] [Server thread/INFO]: [LuckPerms] Closing storage...
-[18:42:50] [Server thread/INFO]: [LuckPerms] Goodbye!
-[18:42:50] [Server thread/INFO]: Saving players
-[18:42:50] [Server thread/INFO]: Saving worlds
-[18:42:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:42:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:42:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:42:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:42:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:42:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:42:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:24:56] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.2.4
+[21:24:56] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[21:24:56] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] Using SQLITE for persistent storage.
+[21:24:56] [Server thread/INFO]: [VeinMiner] Added 13 aliases.
+[21:24:56] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 26 unique blocks.
+[21:24:57] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 10 unique blocks.
+[21:24:57] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 24 unique blocks.
+[21:24:57] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 27 unique blocks.
+[21:24:57] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 10 unique blocks.
+[21:24:57] [Server thread/WARN]: [VeinMiner] No block list configured for category with id "Hand"! Is this intentional?
+[21:24:57] [Server thread/INFO]: [VeinMiner] Registered category with id "Hand" holding 0 unique items and 0 unique blocks.
+[21:24:57] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[21:24:57] [Server thread/INFO]: [VeinMiner] Registering commands
+[21:24:57] [Server thread/INFO]: [VeinMiner] Registering events
+[21:24:57] [Server thread/INFO]: [VeinMiner] Vault found. Attempting to enable economy support...
+[21:24:57] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[21:24:57] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
+[21:24:57] [Server thread/INFO]: [FlyTime] Enabling FlyTime v1.2
+[21:24:57] [Server thread/INFO]: [FlyTime] Config.yml found, loading!
+[21:24:57] [Server thread/INFO]: [Autorank] Enabling Autorank v5.2.2
+[21:24:57] [Server thread/INFO]: [Autorank] mainclass getHumanPluginName = Autorank v5.2.2
+[21:24:57] [Server thread/INFO]: [Autorank] mainclass getInternalPluginName = Autorank v5.2.2
+[21:24:57] [Server thread/INFO]: [Autorank] mainclass isPluginAvailable = true
+[21:24:57] [Server thread/INFO]: [Autorank] Generated new log file: log-2024-04-15.txt
+[21:24:57] [Server thread/INFO]: [Autorank] The settings.yml is up-to-date
+[21:24:57] [Server thread/INFO]: [Autorank] Generating new PluginLibrary instance
+[21:24:57] [Server thread/INFO]: [PluginLibrary] ***== Loading libraries ==***
+[21:24:57] [Server thread/INFO]: [PluginLibrary] ***== Loaded 3 libraries! ==***
+[21:24:57] [Server thread/INFO]: [PluginLibrary] Loaded libraries: Autorank (by Staartvin), EssentialsX (by drtshock) and Vault (by Kainzo)
+[21:24:57] [Server thread/INFO]: [PluginLibrary] *** Ready for plugins to send/retrieve data. ***
+[21:24:57] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] You are on the latest version of VeinMiner.
+[21:24:57] [Server thread/INFO]: [Autorank] Interval check every 5 minutes.
+[21:24:57] [Server thread/INFO]: [Autorank] Registered requirement service for adding custom requirements!
+[21:24:57] [Server thread/INFO]: [Autorank] Registered result service for adding custom results!
+[21:24:57] [Server thread/INFO]: [Autorank] Autorank 5.2.2 has been enabled!
+[21:24:57] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
+[21:24:57] [Server thread/INFO]: [TAB] [Hint] Refresh interval of %server_unique_joins% is same as default interval, therefore there is no need to override it.
+[21:24:57] [Server thread/INFO]: [TAB] Enabled in 93ms
+[21:24:57] [Server thread/INFO]: [Dynmap-Essentials] Enabling Dynmap-Essentials v0.91-SNAPSHOT
+[21:24:57] [Server thread/INFO]: [Dynmap-Essentials] initializing
+[21:24:57] [Server thread/INFO]: [Dynmap-Essentials] version 0.91-SNAPSHOT is activated
+[21:24:57] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
+[21:24:57] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.4.4
+[21:24:57] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
+[21:24:57] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[21:24:57] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[21:24:57] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[21:24:57] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault
+[21:24:57] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[21:24:57] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.20.4...
+[21:24:57] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[21:24:57] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[21:24:57] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[21:24:57] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[21:24:57] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[21:24:57] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Cannot load item 'page1.items.45' from section Miscellaneous because it is out of range for page size 45
+[21:24:57] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 224ms to complete
+[21:24:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:24:57] [Server thread/INFO]: Done (10.367s)! For help, type "help"
+[21:24:57] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[21:24:57] [Craft Scheduler Thread - 3/INFO]: [Autorank] Loading UUID storage files...
+[21:24:57] [Craft Scheduler Thread - 1/INFO]: §6Fetching version information...
+[21:24:57] [Craft Scheduler Thread - 4/INFO]: [Autorank] Primary storage provider of Autorank: FlatFileStorageProvider
+[21:24:57] [Server thread/INFO]: [Autorank] Registering statistics of vanilla Minecraft!
+[21:24:57] [Server thread/INFO]: [Autorank] Loaded libraries and dependencies
+[21:24:57] [Craft Scheduler Thread - 3/INFO]: [Autorank] Loaded UUID storage in 0 seconds.
+[21:24:57] [Craft Scheduler Thread - 6/INFO]: [Autorank] Removed 0 old storage entries from database!
+[21:24:57] [Craft Scheduler Thread - 2/INFO]: [Vault] Checking for Updates ... 
+[21:24:57] [Craft Scheduler Thread - 0/WARN]: [Playtimes] You are using an older version of PlayTimes!
+[21:24:57] [Craft Scheduler Thread - 0/INFO]: [Playtimes] Download the newest version here:
+[21:24:57] [Craft Scheduler Thread - 0/INFO]: [Playtimes] https://www.spigotmc.org/resources/58858/
+[21:24:57] [Craft Scheduler Thread - 9/INFO]: [EconomyShopGUI] [INFO]: There is an update available for EconomyShopGUI, you are running v6.4.4 but found v6.5.1.
+[21:24:57] [Craft Scheduler Thread - 9/INFO]: [EconomyShopGUI] [INFO]: Download at: https://www.spigotmc.org/resources/economyshopgui.69927/
+[21:24:57] [Craft Scheduler Thread - 2/INFO]: [Vault] No new version available
+[21:24:58] [Craft Scheduler Thread - 1/WARN]: §4You're §c10 §4EssentialsX dev build(s) out of date!
+[21:24:58] [Craft Scheduler Thread - 1/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[21:24:58] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[21:24:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[21:24:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[21:24:58] [pool-17-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
+[21:24:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[21:24:59] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:doet de server aanstaan?(1216754477324046377)
+[21:24:59] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:pings(1216754478376550494)
+[21:24:59] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:commands(1219937179061456896)
+[21:24:59] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:commands-available-by-role(1219939920068481044)
+[21:24:59] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mc-chat(1216758720558792734)
+[21:24:59] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:eh(1216754658098548857)
+[21:24:59] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:serv-logs(1217438082266304594)
+[21:24:59] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💾host(1222838468691099648)
+[21:24:59] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
+[21:24:59] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
+[21:24:59] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling dynmap hook
+[21:24:59] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
+[21:24:59] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[21:25:07] [User Authenticator #1/INFO]: UUID of player TomosChlausorius is 873bc772-4a98-4d04-9c9c-9f1e6c18ea3a
+[21:25:11] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:25:11] [Server thread/INFO]: TomosChlausorius[/10.147.19.189:51845] logged in with entity id 200 at ([world]-5461.965813656906, 79.0, 3288.3872102012742)
+[21:25:12] [Server thread/INFO]: [VIP+] TomosChlausorius has blessed you with his presence
+[21:26:50] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_20_R3! Trying to find NMS support
+[21:26:50] [Server thread/WARN]: [NBTAPI] This Server-Version(v1_20_R3) is not supported by this NBT-API Version(2.12.0) located in PlayerShopGUIPlus. The NBT-API will try to work as good as it can! Some functions may not work!
+[21:26:50] [Server thread/INFO]: [NBTAPI] Using the plugin 'PlayerShopGUIPlus' to create a bStats instance!
+[21:29:36] [Server thread/INFO]: TomosChlausorius issued server command: /home eten
+[21:41:26] [Server thread/INFO]: TomosChlausorius issued server command: /home roos
+[21:44:00] [Server thread/INFO]: TomosChlausorius issued server command: /back
+[21:44:08] [Server thread/INFO]: TomosChlausorius issued server command: /back
+[21:47:20] [Server thread/INFO]: TomosChlausorius issued server command: /back
+[21:47:52] [Server thread/INFO]: TomosChlausorius lost connection: Disconnected
+[21:47:53] [Server thread/INFO]: TomosChlausorius left the game
+[22:41:34] [Server thread/INFO]: Stopping the server
+[22:41:34] [Server thread/INFO]: Stopping server
+[22:41:34] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.4.4
+[22:41:34] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
+[22:41:35] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 518ms
+[22:41:35] [Server thread/INFO]: [Dynmap-Essentials] Disabling Dynmap-Essentials v0.91-SNAPSHOT
+[22:41:35] [Server thread/INFO]: [TAB] Disabling TAB v4.1.2
+[22:41:35] [Server thread/INFO]: [TAB] Disabled in 0ms
+[22:41:35] [Server thread/INFO]: [Autorank] Disabling Autorank v5.2.2
+[22:41:35] [Server thread/INFO]: [Autorank] Autorank 5.2.2 has been disabled!
+[22:41:35] [Server thread/INFO]: [FlyTime] Disabling FlyTime v1.2
+[22:41:35] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v2.2.4
+[22:41:35] [Server thread/INFO]: [VeinMiner] Clearing localized data
+[22:41:35] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[22:41:35] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+68-993d7ed
+[22:41:35] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[22:41:35] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-4-935
+[22:41:35] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[22:41:35] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[22:41:36] [Server thread/INFO]: [dynmap] Saved 422250 pending tile renders in world 'world'
+[22:41:41] [Server thread/INFO]: [dynmap] Disabled
+[22:41:41] [Server thread/INFO]: [concrete_powder_modifier] Disabling concrete_powder_modifier v${version}
+[22:41:41] [Server thread/INFO]: [Playtimes] Disabling Playtimes v1.6
+[22:41:41] [Server thread/INFO]: [Playtimes] PlayTimes shutting down
+[22:41:41] [Server thread/INFO]: [PlayerShopGUIPlus] Disabling PlayerShopGUIPlus v1.33.1
+[22:41:41] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[22:41:41] [Server thread/INFO]: [Sleeper] Disabling Sleeper v1.5.1
+[22:41:41] [Server thread/INFO]: [Sleeper] Sleeper Has Been Disabled!
+[22:41:41] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.120
+[22:41:41] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[22:41:41] [Server thread/INFO]: [LuckPerms] Closing storage...
+[22:41:41] [Server thread/INFO]: [LuckPerms] Goodbye!
+[22:41:41] [Server thread/INFO]: Saving players
+[22:41:41] [Server thread/INFO]: Saving worlds
+[22:41:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:41:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:41:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:41:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:41:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:41:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:41:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
