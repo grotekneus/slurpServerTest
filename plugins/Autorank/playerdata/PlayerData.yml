@@ -586,8 +586,6 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
       started: 1710519250747
     miner LVL3:
       started: 1710519914775
-    VIP to VIP+:
-      started: 1711101730206
   completed paths:
     mob hunter LVL0:
       completed: 1
@@ -649,6 +647,12 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
     Mobhunter LVLX:
       completed: 1
       completed at: 1711233232116
+    VIP to VIP+:
+      completed: 1
+      completed at: 1713195075837
+    builder LVL3:
+      completed: 1
+      completed at: 1713195075846
   progress on paths:
     default to member:
       completed requirements:
@@ -741,12 +745,17 @@ f303893c-768a-4c80-b4f9-65d2a7a8210c:
     VIP to VIP+:
       completed requirements:
       - 0
+      - 1
       completed prerequisites: []
     Mobhunter LVL5:
       completed requirements:
       - 0
       completed prerequisites: []
     Mobhunter LVLX:
+      completed requirements:
+      - 0
+      completed prerequisites: []
+    builder LVL3:
       completed requirements:
       - 0
       completed prerequisites: []
