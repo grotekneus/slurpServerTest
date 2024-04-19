@@ -363,9 +363,11 @@
       "minecraft:deep_ocean": "2024-03-31 20:33:50 +0200",
       "minecraft:deep_cold_ocean": "2024-03-31 20:33:53 +0200",
       "minecraft:ice_spikes": "2024-04-01 20:43:40 +0200",
+      "minecraft:frozen_ocean": "2024-04-19 22:09:30 +0200",
       "minecraft:eroded_badlands": "2024-04-01 19:37:20 +0200",
       "minecraft:desert": "2024-04-01 19:31:56 +0200",
       "minecraft:frozen_river": "2024-04-01 20:38:19 +0200",
+      "minecraft:deep_frozen_ocean": "2024-04-19 22:09:36 +0200",
       "minecraft:ocean": "2024-03-31 20:32:45 +0200",
       "minecraft:jungle": "2024-03-31 21:11:34 +0200",
       "minecraft:cherry_grove": "2024-03-31 21:32:18 +0200",
@@ -373,7 +375,9 @@
       "minecraft:birch_forest": "2024-03-31 21:23:59 +0200",
       "minecraft:windswept_hills": "2024-04-13 22:50:25 +0200",
       "minecraft:old_growth_spruce_taiga": "2024-04-01 20:33:40 +0200",
+      "minecraft:snowy_beach": "2024-04-19 22:11:15 +0200",
       "minecraft:wooded_badlands": "2024-04-01 19:30:41 +0200",
+      "minecraft:bamboo_jungle": "2024-04-19 21:48:49 +0200",
       "minecraft:windswept_savanna": "2024-04-01 21:13:41 +0200",
       "minecraft:warm_ocean": "2024-04-01 19:30:53 +0200",
       "minecraft:deep_lukewarm_ocean": "2024-03-31 21:12:51 +0200",
@@ -411,7 +415,8 @@
     "criteria": {
       "minecraft:skeleton": "2024-03-31 21:01:48 +0200",
       "minecraft:zombie": "2024-03-30 21:20:22 +0100",
-      "minecraft:zombie_villager": "2024-04-10 22:21:05 +0200"
+      "minecraft:zombie_villager": "2024-04-10 22:21:05 +0200",
+      "minecraft:husk": "2024-04-19 22:17:37 +0200"
     },
     "done": false
   },
@@ -2403,27 +2408,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brick_wall": {
-    "criteria": {
-      "has_bricks": "2024-04-13 22:40:22 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/dune_armor_trim_smithing_template": {
     "criteria": {
       "has_dune_armor_trim_smithing_template": "2024-04-13 22:17:51 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/brick_stairs": {
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-04-13 22:17:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2024-04-13 22:26:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall": {
     "criteria": {
       "has_bricks": "2024-04-13 22:40:22 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/dune_armor_trim_smithing_template_smithing_trim": {
+  "minecraft:recipes/building_blocks/brick_stairs": {
     "criteria": {
-      "has_smithing_trim_template": "2024-04-13 22:17:51 +0200"
+      "has_bricks": "2024-04-13 22:40:22 +0200"
     },
     "done": true
   },
@@ -2445,15 +2456,147 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
-    "criteria": {
-      "has_sunflower": "2024-04-13 22:26:15 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
     "criteria": {
       "has_bricks": "2024-04-13 22:40:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2024-04-19 22:39:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2024-04-19 22:39:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2024-04-19 22:39:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_green_dye": "2024-04-19 21:43:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2024-04-19 22:39:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template": {
+    "criteria": {
+      "has_sentry_armor_trim_smithing_template": "2024-04-19 21:41:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-04-19 21:41:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2024-04-19 22:39:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2024-04-19 22:40:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2024-04-19 21:46:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2024-04-19 21:46:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2024-04-19 22:39:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-04-19 21:43:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2024-04-19 22:18:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2024-04-19 21:43:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-04-19 21:41:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-04-19 21:43:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-04-19 21:41:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2024-04-19 22:39:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_candle": {
+    "criteria": {
+      "has_green_dye": "2024-04-19 21:43:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-04-19 21:43:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2024-04-19 22:39:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2024-04-19 22:39:26 +0200"
     },
     "done": true
   },
